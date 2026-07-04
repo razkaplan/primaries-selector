@@ -1,0 +1,36 @@
+{
+  "id": "29459",
+  "name": "אוליביה עמנואל דה לם",
+  "axes": {
+    "peace_diplomacy": 1,
+    "religion_state": 0,
+    "socioeconomic": 0,
+    "democracy_law": 1,
+    "arab_jewish": 1,
+    "climate_env": 0,
+    "periphery": 0,
+    "security": 0,
+    "gender_lgbtq": 0,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "other",
+    "origin": "new",
+    "region": "center",
+    "experience": "professional",
+    "age": null
+  },
+  "summary_he": "מועמד שמציג את עצמו כ\"שונא שנאה\" ומתמודד בגישה הצהרתית-סמלית: בביו הרשמי הוא מזמין להצביע למועמדים אחרים ומצהיר שאינו רואה עצמו כחבר כנסת. הביו שלו כתוב בעברית ובערבית, ברוח של השתתפות אזרחית וסובלנות.",
+  "highlights_he": [
+    "מתמודד ברשימת 51 המועמדים בפריימריז של הדמוקרטים",
+    "ביו דו-לשוני בעברית ובערבית - מסר של סובלנות ושותפות",
+    "מגדיר את עצמו \"שונא שנאה\"",
+    "מועמדות ברוח \"לא הניצחון חשוב אלא ההשתתפות\" (פייר דה קוברטן)"
+  ],
+  "sources": [
+    "https://democrats.org.il/ (ביו רשמי)",
+    "https://www.ynet.co.il/news/article/r1djolazge",
+    "https://www.davar1.co.il/686369/"
+  ]
+}

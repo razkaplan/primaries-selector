@@ -1,0 +1,40 @@
+{
+  "id": "29303",
+  "name": "דני אלגרט",
+  "axes": {
+    "peace_diplomacy": 2,
+    "religion_state": 0,
+    "socioeconomic": 1,
+    "democracy_law": 4,
+    "arab_jewish": 1,
+    "climate_env": 0,
+    "periphery": 1,
+    "security": 3,
+    "gender_lgbtq": 0,
+    "education_health": 2
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "center",
+    "experience": "activist",
+    "age": 65
+  },
+  "summary_he": "סגן ניצב בדימוס, מורה ומחנך, מהדמויות הבולטות במאבק משפחות החטופים - אחיו איציק אלגרט ז\"ל וגיסו אלכס דנציג ז\"ל נחטפו מניר עוז ונרצחו בשבי. ממקימי שער בגין, שבת רעב 170 יום מול הכנסת, והצטרף לדמוקרטים כדי להביא את המאבק על החטופים ועל המדינה לכנסת - נגד השחיתות ולמען שלטון החוק וועדת חקירה ממלכתית.",
+  "highlights_he": [
+    "אחיו של איציק אלגרט ז\"ל שנחטף מניר עוז ונרצח בשבי חמאס",
+    "170 יום של שביתת רעב מול הכנסת למען שחרור כל החטופים",
+    "ממקימי \"שער בגין\" - מוקד המאבק לשחרור החטופים",
+    "כ-30 שנה במשטרת ישראל: מפקד תחנת אשדוד, ממייסדי מערך החבלה, בעל עיטור המופת",
+    "מורה ומחנך בתיכון; מזרחן ומשפטן בהשכלתו",
+    "מבקר חריף של הממשלה ודורש ועדת חקירה ממלכתית ל-7.10"
+  ],
+  "sources": [
+    "https://www.elgarat.com/",
+    "https://www.kan.org.il/content/kan-news/politic/987442/",
+    "https://www.ynet.co.il/news/article/symrfiosa",
+    "https://www.haaretz.co.il/news/politics/kolkore/2024-10-16/ty-article/00000192-897c-d569-a3be-dffd35620000",
+    "https://www.maariv.co.il/news/israel/article-1211434"
+  ]
+}

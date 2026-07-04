@@ -1,0 +1,39 @@
+{
+  "id": "29291",
+  "name": "ערן ניסן",
+  "axes": {
+    "peace_diplomacy": 5,
+    "religion_state": 1,
+    "socioeconomic": 2,
+    "democracy_law": 4,
+    "arab_jewish": 3,
+    "climate_env": 0,
+    "periphery": 0,
+    "security": 1,
+    "gender_lgbtq": 1,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "center",
+    "experience": "activist",
+    "age": 35
+  },
+  "summary_he": "מנכ\"ל תנועת \"מחזקים למען השלום והדמוקרטיה\" ופעיל שלום מזה עשור, בן 35 מיפו. הוביל תנועה דיגיטלית המגיעה ליותר ממיליון ישראלים בחודש, נאם באו\"ם בז'נבה והוביל קמפיינים נגד פורום קהלת וההפיכה המשטרית. מתמצב כנציג \"דור חדש בפוליטיקה\" עם אג'נדה של שלום, דמוקרטיה, שוויון ושותפות יהודית-ערבית.",
+  "highlights_he": [
+    "מנכ\"ל תנועת \"מחזקים\" - תנועה דיגיטלית המגיעה למעל מיליון ישראלים בחודש",
+    "יותר מעשור של עבודה פוליטית וציבורית במחנה השלום והדמוקרטיה",
+    "נאם בבניין האו\"ם בז'נבה לרגל יום השלום הבינלאומי",
+    "הוביל קמפיינים לחשיפת פורום קהלת ונגד ההפיכה המשטרית",
+    "חובש ונהג אמבולנס מתנדב במד\"א 11 שנים; טיפל בפצועים ב-7.10 בסורוקה ובפיגוע ביפו",
+    "תואר שני בניהול מצבי חירום ואסון"
+  ],
+  "sources": [
+    "https://www.erannissan.co.il/",
+    "https://open.spotify.com/episode/2ELQ9YamTLoUpXAzZKefuc",
+    "https://www.haaretz.co.il/ty-WRITER/0000017f-da5b-dea8-a77f-de7b11980000",
+    "https://www.maariv.co.il/news/politics/article-1338352"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "29722",
+  "name": "משה רדמן",
+  "axes": {
+    "peace_diplomacy": 0,
+    "religion_state": 1,
+    "socioeconomic": 1,
+    "democracy_law": 5,
+    "arab_jewish": 0,
+    "climate_env": 0,
+    "periphery": 1,
+    "security": 2,
+    "gender_lgbtq": 0,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "center",
+    "experience": "activist",
+    "age": 41
+  },
+  "summary_he": "משה רדמן אבוטבול, יליד לוד, יזם היי-טק וקצין מחקר באמ\"ן במילואים, ממנהיגיה הבולטים של מחאת קפלן נגד ההפיכה המשפטית. הקים תשתיות מחאה ובלט ברחובות ובבמות, והצטרף לדמוקרטים כנציג דור המחאה שמבקש להמשיך את המאבק על הדמוקרטיה מתוך הכנסת.",
+  "highlights_he": [
+    "ממנהיגי מחאת קפלן נגד ההפיכה המשפטית וממשלת נתניהו",
+    "יזם היי-טק: הקים וניהל את iGroup, יעץ לחברות בינלאומיות בתחום ה-AI",
+    "קצין מחקר באמ\"ן; בוגר כלכלה וחשבונאות באוניברסיטת תל אביב",
+    "דירקטור לשעבר בחברת הנדל\"ן הבינלאומית ג'י סיטי",
+    "מוביל שיח על פריימריז אזוריים ודמוקרטיזציה של הפוליטיקה"
+  ],
+  "sources": [
+    "https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%94_%D7%A8%D7%93%D7%9E%D7%9F_%D7%90%D7%91%D7%95%D7%98%D7%91%D7%95%D7%9C",
+    "https://www.kan.org.il/content/kan-news/politic/987442/",
+    "https://www.kikar.co.il/political-news/democrats-party-primaries-controversy",
+    "https://www.haaretz.co.il/news/elections/2026-07-03/ty-article/.premium/0000019f-12eb-d342-a9ff-53ffded10000",
+    "https://radmandemocrats.com"
+  ]
+}

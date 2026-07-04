@@ -1,0 +1,39 @@
+{
+ "id": "29327",
+ "name": "ענבל וורטמן שהם",
+ "axes": {
+  "peace_diplomacy": 2,
+  "religion_state": 0,
+  "socioeconomic": 5,
+  "democracy_law": 2,
+  "arab_jewish": 2,
+  "climate_env": 0,
+  "periphery": 5,
+  "security": 1,
+  "gender_lgbtq": 1,
+  "education_health": 3
+ },
+ "attrs": {
+  "gender": "f",
+  "sector": "jewish",
+  "origin": "new",
+  "region": "north",
+  "experience": "activist",
+  "age": null
+ },
+ "summary_he": "יזמית חברתית מהגליל העליון (כחל), מייסדת ומנכ\"לית עמותת \"אבני דרך לחיים\" לעצמאות אנשים עם מוגבלות, זוכת פרס ZERO PROJECT באו\"ם. רצה תחת הסיסמה \"להפוך תקווה למדיניות\": רווחה כזכות יסוד, ביטחון חברתי, שיקום הצפון והפריפריה, והחברה האזרחית כשותפה סביב שולחן ההחלטות.",
+ "highlights_he": [
+  "ייסדה בגיל 29 את עמותת \"אבני דרך לחיים\" בקריית שמונה, עצמאות ואוטונומיה לאנשים עם מוגבלות",
+  "פרס ZERO PROJECT באו\"ם (2017) ומעמד יועץ לזכויות אדם באו\"ם",
+  "הובילה את הפינוי הגדול ביותר של אנשים עם מוגבלות במלחמה והגבירה שירות כשהצפון הושבת",
+  "כתבה תוכנית מקיפה לפיתוח השירותים החברתיים; מציעה חוק יסוד: זכויות חברתיות ו\"חדרי מיון חברתיים\"",
+  "מתנדבת ב\"נוכחות מגינה\" ותומכת בשותפות ערבית-יהודית ובהסכמים כאופק מדיני"
+ ],
+ "sources": [
+  "https://democrats.org.il (ביו רשמי)",
+  "https://inbals.co.il/",
+  "https://www.facebook.com/shohaminbal/",
+  "https://e.democrats.org.il/Democrats_OpenHouses/266771",
+  "https://www.ynet.co.il/news/article/r1djolazge"
+ ]
+}

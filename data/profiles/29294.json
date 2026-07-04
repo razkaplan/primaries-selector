@@ -1,0 +1,39 @@
+{
+  "id": "29294",
+  "name": "סומיה בשיר",
+  "axes": {
+    "peace_diplomacy": 3,
+    "religion_state": 1,
+    "socioeconomic": 2,
+    "democracy_law": 3,
+    "arab_jewish": 5,
+    "climate_env": 0,
+    "periphery": 1,
+    "security": 1,
+    "gender_lgbtq": 3,
+    "education_health": 2
+  },
+  "attrs": {
+    "gender": "f",
+    "sector": "muslim",
+    "origin": "new",
+    "region": "north",
+    "experience": "activist",
+    "age": 52
+  },
+  "summary_he": "פעילה חברתית ערבייה-מוסלמית מג'ת שבמשולש, מטפלת רגשית ואשת חינוך 27 שנים, מייסדת תנועת \"אין לנו ארץ אחרת\" לשותפות יהודית-ערבית. ממובילות המאבק בפשיעה בחברה הערבית ורכזת החברה הערבית ב\"נשים עושות שלום\"; מתמודדת כדי להיות המועמדת הערבייה הראשונה במפלגת שמאל ציונית.",
+  "highlights_he": [
+    "מייסדת וראש תנועת \"אין לנו ארץ אחרת\" לשותפות יהודית-ערבית",
+    "ממייסדות הפורום העממי למאבק בפשיעה בחברה הערבית",
+    "רכזת החברה הערבית בתנועת \"נשים עושות שלום\"",
+    "מטפלת באמצעות אומנויות ואשת חינוך מזה 27 שנים; לשעבר יועצת לענייני נשים בג'ת",
+    "דוברת בולטת במחאות הדמוקרטיה והשיאה משואה בטקס העצמאות האלטרנטיבי 2026",
+    "מעודדת שירות לאומי בחברה הערבית - עמדה אמיצה ושנויה במחלוקת"
+  ],
+  "sources": [
+    "https://he.wikipedia.org/wiki/סומיה_בשיר",
+    "https://www.haaretz.co.il/magazine/2026-04-30/ty-article-magazine/.premium/0000019d-d80e-db1b-a9ff-ff9eea270000",
+    "https://www.timesofisrael.com/activist-somaya-bashir-to-run-for-democrats-slate-calls-for-arab-jewish-partnership/",
+    "https://www.labor.org.il/havoda/primary-2022/24200-somaya-bashir-reomves.html"
+  ]
+}

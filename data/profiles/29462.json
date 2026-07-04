@@ -1,0 +1,40 @@
+{
+  "id": "29462",
+  "name": "עו\"ד נאווה רוזוליו",
+  "axes": {
+    "peace_diplomacy": 2,
+    "religion_state": 1,
+    "socioeconomic": 3,
+    "democracy_law": 5,
+    "arab_jewish": 2,
+    "climate_env": 0,
+    "periphery": 0,
+    "security": 0,
+    "gender_lgbtq": 1,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "f",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "center",
+    "experience": "activist",
+    "age": 40
+  },
+  "summary_he": "עורכת דין ורואת חשבון, מהפנים הבולטות והמזוהות ביותר של המחאה נגד הממשלה - מבלפור דרך קפלן ועד \"משמרות הבושה\" שהקימה והובילה. צברה מאות שעות בוועדות הכנסת (בעיקר ועדת חוקה) ומתמודדת כדי להביא לכנסת את המאבק לביצור הדמוקרטיה, שינוי סדר העדיפויות הכלכלי-חברתי, שותפות יהודית-ערבית וחתירה לשלום.",
+  "highlights_he": [
+    "ממובילות המאבק להחלפת הממשלה ומהדמויות הבולטות במחאות מאז 2020",
+    "מייסדת ומובילת \"משמרות הבושה\" וקבוצות המעקב אחר חברי הקואליציה",
+    "מאות שעות בוועדות הכנסת, בייחוד ועדת החוקה, במהלך ההפיכה המשטרית",
+    "עורכת דין ורואת חשבון בהשכלתה ובמקצועה",
+    "בת למשפחה ימנית-דתית שהפכה לסמל מחאה - סיפור פוליטי יוצא דופן",
+    "מגילת העצמאות כמצפן ערכי מוצהר"
+  ],
+  "sources": [
+    "https://linktr.ee/navarozolyo",
+    "https://he.wikipedia.org/wiki/נאווה_רוזוליו",
+    "https://www.haaretz.co.il/magazine/2025-04-23/ty-article-magazine/.highlight/00000196-62bb-d98c-a79e-feff65a70000",
+    "https://restart-israel.co.il/nava-rozolyo/",
+    "https://mekomonrishon.co.il/2026/06/23/"
+  ]
+}

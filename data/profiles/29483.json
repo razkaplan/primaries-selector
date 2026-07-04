@@ -1,0 +1,40 @@
+{
+ "id": "29483",
+ "name": "עו\"ד גבי לסקי",
+ "axes": {
+  "peace_diplomacy": 4,
+  "religion_state": 2,
+  "socioeconomic": 1,
+  "democracy_law": 5,
+  "arab_jewish": 3,
+  "climate_env": 0,
+  "periphery": 0,
+  "security": 0,
+  "gender_lgbtq": 3,
+  "education_health": 0
+ },
+ "attrs": {
+  "gender": "f",
+  "sector": "jewish",
+  "origin": "meretz",
+  "region": "center",
+  "experience": "mk_former",
+  "age": 59
+ },
+ "summary_he": "עורכת דין לזכויות אדם ואזרח, חברת כנסת לשעבר ממרצ ומזכ\"לית שלום עכשיו לשעבר. ממקימות \"מערך עוטף העצורים\" שנתן גב משפטי לאלפי מפגינים למען הדמוקרטיה, החזרת החטופים וסיום המלחמה, שלטון החוק, זכויות המחאה וזכויות האדם הם ליבת דרכה הציבורית.",
+ "highlights_he": [
+  "ממקימות מערך עוטף העצורים, שחרור אלפי מפגינים ממעצר וגב משפטי למחאה",
+  "חברת כנסת לשעבר מטעם מרצ",
+  "מזכ\"לית שלום עכשיו לשעבר",
+  "עו\"ד ותיקה לזכויות אדם, כולל ייצוג פעילים פלסטינים (מוקד לביקורת מימין)",
+  "חברת מועצת העיר תל אביב-יפו לשעבר",
+  "פמיניסטית, עולה ותיקה ממקסיקו, בזוגיות שלא דרך הרבנות"
+ ],
+ "sources": [
+  "https://democrats.org.il (ביו רשמי)",
+  "https://he.wikipedia.org/wiki/גבי_לסקי",
+  "https://www.facebook.com/gaby.lasky/videos/2020206548916511/",
+  "https://www.zman.co.il/live/698690/",
+  "https://democrats.org.il/events/130725c/"
+ ]
+}

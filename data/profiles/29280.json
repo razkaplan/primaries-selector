@@ -1,0 +1,38 @@
+{
+  "id": "29280",
+  "name": "עו\"ד מאלכ בדר",
+  "axes": {
+    "peace_diplomacy": 1,
+    "religion_state": 1,
+    "socioeconomic": 2,
+    "democracy_law": 3,
+    "arab_jewish": 4,
+    "climate_env": 0,
+    "periphery": 3,
+    "security": 1,
+    "gender_lgbtq": 0,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "druze",
+    "origin": "new",
+    "region": "north",
+    "experience": "local_gov",
+    "age": 65
+  },
+  "summary_he": "עורך דין ופוליטיקאי דרוזי חילוני מחורפיש שבגליל, ראש המועצה המקומית חורפיש לשעבר ויו\"ר פורום ראשי הרשויות הדרוזיות והצ'רקסיות לשעבר. פעיל חברתי מזה שנים רבות שקורא לשוויון למגזר הדרוזי ולשיקום המדינה \"אחרי ההרס שהותירה ממשלת ההסתה\".",
+  "highlights_he": [
+    "ראש המועצה המקומית חורפיש לשעבר",
+    "יו\"ר פורום ראשי הרשויות הדרוזיות והצ'רקסיות לשעבר",
+    "עורך דין ופעיל פוליטי וחברתי מעל 20 שנה",
+    "כתב בגלובס ביקורת חריפה על יחס הממשלה למגזר הדרוזי",
+    "מקיים חוגי בית ופעילות שטח מטעם הדמוקרטים"
+  ],
+  "sources": [
+    "https://he.wikipedia.org/wiki/מאלכ_בדר",
+    "https://www.globes.co.il/news/article.aspx?did=1001393906",
+    "http://www.karmel.co.il/פוליטיקה/מאלכ-בדר-4-במפלגת-ישר",
+    "https://e.democrats.org.il/Democrats_OpenHouses/261832"
+  ]
+}

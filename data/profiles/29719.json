@@ -1,0 +1,39 @@
+{
+  "id": "29719",
+  "name": "אלוף במיל. נמרוד שפר",
+  "axes": {
+    "peace_diplomacy": 4,
+    "religion_state": 1,
+    "socioeconomic": 2,
+    "democracy_law": 4,
+    "arab_jewish": 1,
+    "climate_env": 0,
+    "periphery": 0,
+    "security": 5,
+    "gender_lgbtq": 0,
+    "education_health": 1
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "jerusalem",
+    "experience": "professional",
+    "age": 65
+  },
+  "summary_he": "אלוף בדימוס, טייס קרב, לשעבר ראש אגף התכנון בצה\"ל, ראש מטה חיל האוויר ומנכ\"ל התעשייה האווירית. הצטרף למחאה נגד ההפיכה המשטרית בינואר 2023 ולדמוקרטים במאי 2025, מתוך תפיסה שכוח צבאי חייב להיתרגם להישגים מדיניים. מציג עצמו כמנהיגות ביטחונית-ליברלית שתחתור לשלום ולא למלחמת נצח.",
+  "highlights_he": [
+    "כ-40 שנה במערכת הביטחון: ראש אג\"ת, ראש מטה חיל האוויר, טייס קרב",
+    "מנכ\"ל התעשייה האווירית לשעבר",
+    "מהבולטים במועמדי הפריימריז; מסייר באירועי מפלגה בכל הארץ",
+    "קו מדיני: תרגום הכרעות צבאיות להסדרים מדיניים ושלום",
+    "התבטא בחריפות נגד טרור מתנחלים (\"הם מחבלים ממש\")",
+    "היה במוקד פרשת המסרונים שקדמה לפרישת היועץ רונן צור מהמפלגה (יוני 2026)"
+  ],
+  "sources": [
+    "https://nimrodsheffer.com/",
+    "https://he.wikipedia.org/wiki/נמרוד_שפר",
+    "https://www.kan.org.il/content/kan-news/politic/911041/",
+    "https://www.mako.co.il/news-politics/2026_q2/Article-9ecb114f0b5fe91026.htm"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "25372",
+  "name": "ד\"ר אחסאן חלאילה",
+  "axes": {
+    "peace_diplomacy": 1,
+    "religion_state": 0,
+    "socioeconomic": 1,
+    "democracy_law": 1,
+    "arab_jewish": 4,
+    "climate_env": 0,
+    "periphery": 3,
+    "security": 0,
+    "gender_lgbtq": 0,
+    "education_health": 4
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "muslim",
+    "origin": "new",
+    "region": "north",
+    "experience": "professional",
+    "age": 50
+  },
+  "summary_he": "ד\"ר אחסאן חלאילה, איש חינוך יליד סחנין ותושב כרמיאל, מנהל את מכללת משגב לחינוך וספורט משנת 2008. דוקטור למינהל חינוכי, פעיל חברתי ותיק שמשימת חייו היא שותפות יהודית-ערבית, אותה הוא מקדם דרך חינוך וספורט בגליל.",
+  "highlights_he": [
+    "מנהל מכללת משגב לחינוך ולספורט מ-2008, בה הוכשרו אלפי סטודנטים יהודים וערבים",
+    "דוקטור למינהל חינוכי ובעל תואר שני במדעי המדינה ומינהל ציבורי",
+    "פעיל מגיל 17 לחיזוק השותפות היהודית-ערבית בגליל",
+    "פעיל בעמותות ספורט קהילתיות בהפועל משגב-סכנין",
+    "יועץ תקשורת ללשכת עורכי הדין"
+  ],
+  "sources": [
+    "https://www.deot.co.il/about/members/author/%D7%90%D7%97%D7%A1%D7%90%D7%9F%20%D7%97%D7%9C%D7%99%D7%90%D7%9C%D7%94.html",
+    "https://www.facebook.com/ehsan.khlaily/",
+    "https://www.instagram.com/p/C8-GTVnCtCQ/",
+    "https://www.maariv.co.il/news/politics/article-1338352"
+  ]
+}

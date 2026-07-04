@@ -1,0 +1,41 @@
+{
+ "id": "29318",
+ "name": "מוסי רז",
+ "axes": {
+  "peace_diplomacy": 5,
+  "religion_state": 2,
+  "socioeconomic": 1,
+  "democracy_law": 3,
+  "arab_jewish": 4,
+  "climate_env": 3,
+  "periphery": 0,
+  "security": 0,
+  "gender_lgbtq": 2,
+  "education_health": 0
+ },
+ "attrs": {
+  "gender": "m",
+  "sector": "jewish",
+  "origin": "meretz",
+  "region": "center",
+  "experience": "mk_former",
+  "age": 60
+ },
+ "summary_he": "איש שמאל ותיק, ח\"כ לשעבר ממרצ ומזכ\"ל שלום עכשיו לשעבר, שמגדיר את המאבק לשלום ונגד הכיבוש כמשימת חייו. מהדוברים הבולטים של השותפות היהודית-ערבית ופעיל סביבה וזכויות אדם; דורג על ידי \"שקוף\" כח\"כ החרוץ ביותר. ועדת הבחירות של המפלגה קבעה שלא יוכל להתמודד על המשבצת המשוריינת של מרצ, והוא ממשיך להתמודד בפריימריז הכלליים.",
+ "highlights_he": [
+  "כ-6 שנים במצטבר כח\"כ מטעם מרצ; נבחר ראשון בפריימריז של מרצ",
+  "מזכ\"ל שלום עכשיו לשעבר, המאבק לשלום ונגד הכיבוש כמשימת חיים",
+  "דורג על ידי \"שקוף\" כח\"כ החרוץ ביותר",
+  "מהדוברים העקביים של השותפות היהודית-ערבית",
+  "פעיל סביבה וזכויות אדם, סוציאל-דמוקרט וטבעוני",
+  "נפסל מהתמודדות במשבצת מרצ בפריימריז 2026 (אי-עמידה בתנאי הסכם האיחוד), סערה פנימית במפלגה"
+ ],
+ "sources": [
+  "https://democrats.org.il (ביו רשמי)",
+  "https://he.wikipedia.org/wiki/מוסי_רז",
+  "https://meretz.org.il/מוסי-רז/",
+  "https://www.haaretz.co.il/news/elections/2026-06-30/ty-article/.premium/0000019f-19d5-dc51-afbf-dbf7c5360000",
+  "https://www.srugim.co.il/101005368",
+  "https://www.knesset.tv/knesset-members/mossi-raz/"
+ ]
+}

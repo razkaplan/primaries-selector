@@ -1,0 +1,40 @@
+{
+  "id": "29709",
+  "name": "בנימין דניאל מיניץ",
+  "axes": {
+    "peace_diplomacy": 1,
+    "religion_state": 5,
+    "socioeconomic": 1,
+    "democracy_law": 2,
+    "arab_jewish": 1,
+    "climate_env": 0,
+    "periphery": 0,
+    "security": 1,
+    "gender_lgbtq": 2,
+    "education_health": 1
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "sharon",
+    "experience": "professional",
+    "age": 40
+  },
+  "summary_he": "רב רפורמי, יו\"ר מר\"ם - מועצת הרבנות הרפורמית בישראל ורב קהילת דניאל ביפו. עלה מאוקראינה במסגרת נעל\"ה, שירת בגדוד קרקל, והפך לאחת הדמויות המובילות ביהדות המתקדמת בישראל. אג'נדה של פלורליזם יהודי, חופש דת ומאבק בכפייה הדתית.",
+  "highlights_he": [
+    "יו\"ר מועצת הרבנות הרפורמית בישראל (מר\"ם) מקיץ 2025",
+    "רב קהילת דניאל ביפו מ-2020",
+    "הוסמך לרבנות בהיברו יוניון קולג' ירושלים (2019)",
+    "עלה מאוקראינה ב-2002 במסגרת נעל\"ה ושירת בגדוד קרקל",
+    "דוקטורנט לפילוסופיה פוליטית ועמית במכון הרטמן",
+    "נבחרת המנהיגות '40 עד 40' של האוניברסיטה העברית"
+  ],
+  "sources": [
+    "https://democrats.org.il/",
+    "https://www.facebook.com/rabbibenny/",
+    "https://reform.org.il/communities/משכנות-רות-דניאל-יפו/",
+    "https://alumhub.huji.ac.il/40under40/binyamin_minich/",
+    "https://heb.hartman.org.il/person/binyamin-minich/"
+  ]
+}

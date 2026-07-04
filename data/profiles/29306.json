@@ -1,0 +1,40 @@
+{
+  "id": "29306",
+  "name": "ענבר בזק",
+  "axes": {
+    "peace_diplomacy": 0,
+    "religion_state": 1,
+    "socioeconomic": 4,
+    "democracy_law": 2,
+    "arab_jewish": 0,
+    "climate_env": 0,
+    "periphery": 5,
+    "security": 2,
+    "gender_lgbtq": 1,
+    "education_health": 1
+  },
+  "attrs": {
+    "gender": "f",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "north",
+    "experience": "mk_former",
+    "age": 52
+  },
+  "summary_he": "חברת כנסת לשעבר (יש עתיד, הכנסת ה-24) וילידת קיבוץ דן, שממצבת עצמה כ\"נציגת הצפון בכנסת\". כמנכ\"לית החברה הכלכלית גליל עליון הובילה את הרחבת מיגון הצפון והפיצויים לעסקים במלחמה, ומובילה את מחאת העצמאים. מתמודדת כקול ביצועי ומנוסה לפריפריה ולעצמאים.",
+  "highlights_he": [
+    "חברת הכנסת ה-24 מטעם יש עתיד",
+    "מנכ\"לית החברה הכלכלית לפיתוח הגליל העליון 2022-2025",
+    "הובילה את הרחבת תוכנית מיגון הצפון לכלל יישובי קו העימות",
+    "הביאה להרחבת הפיצויים לעסקים בזמן המלחמה",
+    "מובילת מחאת העצמאים ומייסדת \"עצמאים עושים שינוי\"",
+    "ילידת קיבוץ דן ותושבת יובלים שבגליל - כל חייה בצפון"
+  ],
+  "sources": [
+    "https://he.wikipedia.org/wiki/ענבר_בזק",
+    "https://main.knesset.gov.il/mk/pages/mkpersonaldetails.aspx?mkid=1084",
+    "https://www.maariv.co.il/news/politics/article-1197890",
+    "https://news.walla.co.il/item/3815010",
+    "https://inbarbezek.com/"
+  ]
+}

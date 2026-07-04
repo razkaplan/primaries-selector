@@ -1,0 +1,38 @@
+{
+  "id": "29282",
+  "name": "יואב אגמי",
+  "axes": {
+    "peace_diplomacy": 3,
+    "religion_state": 1,
+    "socioeconomic": 3,
+    "democracy_law": 4,
+    "arab_jewish": 1,
+    "climate_env": 0,
+    "periphery": 0,
+    "security": 0,
+    "gender_lgbtq": 0,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "labor",
+    "region": "jerusalem",
+    "experience": "activist",
+    "age": 31
+  },
+  "summary_he": "פעיל פוליטי צעיר מירושלים, סטודנט לתואר שני באוניברסיטה העברית ועובד בארגון לניקיון כפיים במגזר הציבורי. סוציאל-דמוקרט שהתמודד בעבר בפריימריז של מפלגת העבודה, ומקדם שלטון החוק, מדינת רווחה והסדר מדיני עם הפלסטינים.",
+  "highlights_he": [
+    "עובד בארגון חברתי למאבק בשחיתות ולניקיון כפיים במגזר הציבורי",
+    "התמודד בפריימריז של מפלגת העבודה לכנסת ה-24 וה-25",
+    "פעיל שטח אקטיבי של מפלגת הדמוקרטים",
+    "סטודנט לתואר שני באוניברסיטה העברית",
+    "אג'נדה: שלטון החוק, מדינת רווחה ושלום עם הפלסטינים"
+  ],
+  "sources": [
+    "https://democrats.org.il/",
+    "https://www.labor.org.il/proflles/75-havode-members/145-יואב-אגמי.html",
+    "https://www.maariv.co.il/elections-2022/article-936150",
+    "https://www.facebook.com/HademocratimIL/posts/599194771568433/"
+  ]
+}

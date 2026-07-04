@@ -1,0 +1,38 @@
+{
+  "id": "29493",
+  "name": "אדר' אבישי ליכטנשטיין",
+  "axes": {
+    "peace_diplomacy": 0,
+    "religion_state": 0,
+    "socioeconomic": 2,
+    "democracy_law": 1,
+    "arab_jewish": 0,
+    "climate_env": 4,
+    "periphery": 3,
+    "security": 2,
+    "gender_lgbtq": 0,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "new",
+    "region": "center",
+    "experience": "professional",
+    "age": 48
+  },
+  "summary_he": "אדריכל וחוקר יחסי צבא-חברה באדריכלות הישראלית מזה יותר משני עשורים, לוחם ומפקד לשעבר ופעיל ציבור. מתמודד כדי לקדם פיתוח בר-קיימא, תכנון עם השלכות חברתיות-סביבתיות וחיזוק הפריפריה החברתית והגאוגרפית.",
+  "highlights_he": [
+    "אדריכל בעל ותק של יותר משני עשורים",
+    "חוקר יחסי צבא-חברה באדריכלות הישראלית",
+    "התמודד ב-2022 על תפקיד יו\"ר עמותת אדריכלים ישראל",
+    "שירת כלוחם וכמפקד ופעיל ציבור מאז שירותו",
+    "אג'נדה תכנונית: פיתוח בר-קיימא וחיזוק הפריפריה"
+  ],
+  "sources": [
+    "https://democrats.org.il/",
+    "https://www.funder.co.il/article/138985",
+    "https://www.isra-arch.org.il/אדריכל-אבישי-ליכטנשטיין/",
+    "https://www.maariv.co.il/news/politics/article-1338352"
+  ]
+}

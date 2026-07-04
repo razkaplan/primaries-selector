@@ -1,0 +1,41 @@
+{
+ "id": "29486",
+ "name": "אמילי מואטי",
+ "axes": {
+  "peace_diplomacy": 5,
+  "religion_state": 1,
+  "socioeconomic": 2,
+  "democracy_law": 2,
+  "arab_jewish": 2,
+  "climate_env": 0,
+  "periphery": 0,
+  "security": 1,
+  "gender_lgbtq": 3,
+  "education_health": 1
+ },
+ "attrs": {
+  "gender": "f",
+  "sector": "jewish",
+  "origin": "labor",
+  "region": "center",
+  "experience": "mk_former",
+  "age": 46
+ },
+ "summary_he": "חברת כנסת לשעבר מטעם העבודה וסגנית יו\"ר הכנסת בכנסת ה-24, סופרת זוכת פרס משרד התרבות. אשת שלום ופמיניסטית שהאג'נדה המרכזית שלה מדינית-דיפלומטית: יזמה את חוק חלופות מדיניות, חברה בקבוצת היוזמה המדינית האירופית, ואחרי ה-7.10 פעלה במחלקה הדיפלומטית של מטה משפחות החטופים.",
+ "highlights_he": [
+  "חברת הכנסת ה-24 מטעם העבודה וסגנית יו\"ר הכנסת",
+  "יזמה את חוק חלופות מדיניות, חובת בחינת חלופות מדיניות לפני מבצע צבאי",
+  "פעלה במחלקה הדיפלומטית של מטה משפחות החטופים אחרי ה-7.10",
+  "חברה בקבוצת היוזמה המדינית האירופית ופעילה בארגוני קידום נשים",
+  "סופרת זוכת פרס משרד התרבות 2018 על \"סימנים כחולים\"",
+  "קוראת לאופוזיציה \"להפסיק להתנצל\" על שותפות עם ערבים בממשלה"
+ ],
+ "sources": [
+  "https://democrats.org.il (ביו רשמי)",
+  "https://emiliemoatti.co.il/",
+  "https://he.wikipedia.org/wiki/אמילי_מואטי",
+  "https://main.knesset.gov.il/mk/pages/mkpersonaldetails.aspx?mkid=1062",
+  "https://www.maariv.co.il/news/politics/article-1336102",
+  "https://www.zman.co.il/live/697504/"
+ ]
+}

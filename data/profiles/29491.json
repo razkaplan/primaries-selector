@@ -1,0 +1,39 @@
+{
+  "id": "29491",
+  "name": "איתי לשם",
+  "axes": {
+    "peace_diplomacy": 0,
+    "religion_state": 0,
+    "socioeconomic": 0,
+    "democracy_law": 5,
+    "arab_jewish": 0,
+    "climate_env": 0,
+    "periphery": 0,
+    "security": 0,
+    "gender_lgbtq": 0,
+    "education_health": 0
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "jewish",
+    "origin": "labor",
+    "region": "center",
+    "experience": "activist",
+    "age": 54
+  },
+  "summary_he": "עו\"ד איתי לשם, לשעבר שותף במשרד שבלת ושות', הקדיש את שמונה השנים האחרונות לחשיפת פרשת קטארגייט, פייק ניוז ומנגנוני השפעה סביב שלטון נתניהו. נתבע על ידי נתניהו בתביעת דיבה של חצי מיליון ש\"ח שהוא מגדיר תביעת השתקה. מתמודד כדי להביא לכנסת מאבק בלתי מתפשר בשחיתות השלטונית ולמען טוהר הבחירות.",
+  "highlights_he": [
+    "חשף ופרסם את פרשת קטארגייט וקשרי נתניהו-קטאר-פייסבוק",
+    "נתבע על ידי נתניהו בתביעת דיבה של חצי מיליון ש\"ח ומנהל את הגנתו בציבור",
+    "לדבריו שימש מקור של השב\"כ בפרשה עד פיטורי רונן בר",
+    "עו\"ד ולשעבר שותף במשרד שבלת ושות'",
+    "בעבר התמודד על ראשות מפלגת העבודה"
+  ],
+  "sources": [
+    "https://beactive.co.il/project/85272",
+    "https://www.the7eye.org.il/547609",
+    "https://www.the7eye.org.il/554208",
+    "https://www.maariv.co.il/news/law/article-1183261",
+    "https://www.ynet.co.il/news/article/yokra14814812"
+  ]
+}

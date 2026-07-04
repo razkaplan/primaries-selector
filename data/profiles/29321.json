@@ -1,0 +1,41 @@
+{
+  "id": "29321",
+  "name": "עאיד בדיר",
+  "axes": {
+    "peace_diplomacy": 3,
+    "religion_state": 0,
+    "socioeconomic": 2,
+    "democracy_law": 3,
+    "arab_jewish": 5,
+    "climate_env": 2,
+    "periphery": 2,
+    "security": 0,
+    "gender_lgbtq": 0,
+    "education_health": 1
+  },
+  "attrs": {
+    "gender": "m",
+    "sector": "muslim",
+    "origin": "meretz",
+    "region": "center",
+    "experience": "local_gov",
+    "age": 45
+  },
+  "summary_he": "פעיל ציבורי מכפר קאסם וותיק מרצ מזה כ-20 שנה: יועץ פרלמנטרי של זהבה גלאון ושל השר עיסאווי פריג', מנהל המטה הערבי של מרצ לשעבר, וסגן ראש עיריית כפר קאסם שהחזיק בתיק איכות הסביבה. מתמודד כדי לחזק את הקול הערבי במפלגה ולקדם שוויון, שותפות יהודית-ערבית אמיתית, דמוקרטיה ושלום.",
+  "highlights_he": [
+    "סגן ראש עיריית כפר קאסם לשעבר ומחזיק תיק איכות הסביבה",
+    "יועץ פרלמנטרי של יו\"ר מרצ זהבה גלאון ושל השר עיסאווי פריג'",
+    "ניהל את המטה הערבי של מרצ; חבר המפלגה כ-20 שנה",
+    "זכה לתמיכה פומבית של זהבה גלאון בפריימריז",
+    "תואר שני במדיניות ציבורית מאוניברסיטת תל אביב; פעילות במכון זולת",
+    "התמודד בפריימריז של מרצ ב-2022 על ייצוג החברה הערבית"
+  ],
+  "sources": [
+    "https://linktr.ee/AaedBader",
+    "https://meretz.org.il/עאיד-בדיר/",
+    "https://zulat.org.il/-%20staff/עאיד-בדיר/",
+    "https://www.maariv.co.il/elections-2022/article-939439",
+    "https://x.com/zehavagalon/status/2069443081611379083",
+    "https://www.facebook.com/Aedbadir/posts/992345543568365"
+  ]
+}
