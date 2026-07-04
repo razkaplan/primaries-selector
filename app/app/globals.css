@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Brand tokens from the official party Elementor kit (democrats.org.il) */
+:root {
+  --brand-primary: #2a38d7;
+  --brand-deep: #101caa;
+  --brand-accent: #d92731;
+  --ink: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--brand-primary);
+  color: #ffffff;
+}
