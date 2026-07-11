@@ -1,0 +1,26 @@
+{
+  "id": "29324",
+  "name": "מיכל רוזין",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "מיכל_רוזין",
+      "monthly_views_avg": 609
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 3490,
+      "x": null,
+      "tiktok": 1139,
+      "total_known": 4629
+    },
+    "news_presence": {
+      "major_domains_top20": 1,
+      "domains": [
+        "haaretz.co.il"
+      ]
+    },
+    "prior_national_list": true
+  },
+  "notes_he": "ח\"כ לשעברת ויו\"ר סיעת מרצ עם מוכרות ממסדית רחבה ונוכחות דיגיטלית בינונית."
+}

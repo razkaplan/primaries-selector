@@ -1,0 +1,27 @@
+{
+  "id": "29477",
+  "name": "יריב אופנהיימר",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "יריב_אופנהיימר",
+      "monthly_views_avg": 1056
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 5194,
+      "x": null,
+      "tiktok": 16500,
+      "total_known": 21694
+    },
+    "news_presence": {
+      "major_domains_top20": 2,
+      "domains": [
+        "ynet.co.il",
+        "kan.org.il"
+      ]
+    },
+    "prior_national_list": false
+  },
+  "notes_he": "פעיל שלום ואיש תקשורת ותיק עם קהל טיקטוק גדול יחסית ונוכחות קבועה בתקשורת."
+}

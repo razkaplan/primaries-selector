@@ -1,0 +1,26 @@
+{
+  "id": "29488",
+  "name": "הדס רגולסקי",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "הדס_רגולסקי",
+      "monthly_views_avg": 302
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 2092,
+      "x": null,
+      "tiktok": 1551,
+      "total_known": 3643
+    },
+    "news_presence": {
+      "major_domains_top20": 1,
+      "domains": [
+        "haaretz.co.il"
+      ]
+    },
+    "prior_national_list": false
+  },
+  "notes_he": "חברת מועצת תל אביב ואשת תקשורת עם קהל דיגיטלי קטן וסיקור ארצי מוגבל."
+}

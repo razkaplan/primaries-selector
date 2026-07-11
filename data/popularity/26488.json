@@ -1,0 +1,24 @@
+{
+  "id": "26488",
+  "name": "גלעד קריב",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "גלעד_קריב",
+      "monthly_views_avg": 3338
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 21475,
+      "x": null,
+      "tiktok": 15400,
+      "total_known": 36875
+    },
+    "news_presence": {
+      "major_domains_top20": 0,
+      "domains": []
+    },
+    "prior_national_list": true
+  },
+  "notes_he": "ח\"כ מכהן עם ערך ויקיפדיה נצפה מאוד וכ-37 אלף עוקבים באינסטגרם ובטיקטוק."
+}

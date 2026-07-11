@@ -1,0 +1,26 @@
+{
+  "id": "29318",
+  "name": "מוסי רז",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "מוסי_רז",
+      "monthly_views_avg": 1139
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 2327,
+      "x": null,
+      "tiktok": null,
+      "total_known": 2327
+    },
+    "news_presence": {
+      "major_domains_top20": 1,
+      "domains": [
+        "kan.org.il"
+      ]
+    },
+    "prior_national_list": true
+  },
+  "notes_he": "ח\"כ לשעבר מוכר עם ערך ויקיפדיה פעיל, אך קהל אינסטגרם קטן יחסית."
+}

@@ -24,6 +24,18 @@
    "gender_lgbtq": 0,
    "education_health": 2
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.95,
+   "religion_state": 0.55,
+   "socioeconomic": 0.92,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.64,
+   "climate_env": 0.84,
+   "periphery": 0.98,
+   "security": 0.52,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.74
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -31,6 +43,14 @@
    "region": "south",
    "experience": "activist",
    "age": 50
+  },
+  "electability": 3.04,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1309,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "פעיל חברתי, סביבתי ופוליטי מוותיקי מרצ, מנכ\"ל קול רבני לזכויות אדם ויו\"ר משותף של מטה הפריפריות בדמוקרטים. גדל באשקלון במשפחה דתית-מזרחית, שרד את טבח 7 באוקטובר בקיבוץ נירים, ומאז מוביל מאבק להשבת החטופים, לוועדת חקירה ממלכתית ולשיקום הנגב המערבי. סדר יומו: שלום והסדרים מדיניים, צדק חברתי לפריפריה ודמוקרטיה.",
   "highlights_he": [
@@ -73,6 +93,18 @@
    "gender_lgbtq": 0,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.17,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.04,
+   "arab_jewish": 0.12,
+   "climate_env": 0.94,
+   "periphery": 0.91,
+   "security": 0.78,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -80,6 +112,14 @@
    "region": "south",
    "experience": "professional",
    "age": 35
+  },
+  "electability": 1.25,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": 110,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "איש נגב צעיר, חקלאי ולוחם יהל\"ם במילואים, המנהל משק חקלאי-תיירותי ליד מדרשת בן גוריון. הוביל את בית ספר השדה עין גדי מסף סגירה לשנתו הטובה ביותר, ומציג עצמו כמועמד חדש ונקי מאינטרסים שבא \"לעבוד, לשרת, לבנות\", עם דגש על שמירת הטבע, הנגשתו ופיתוח הנגב.",
   "highlights_he": [
@@ -117,6 +157,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.17,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.04,
+   "arab_jewish": 0.12,
+   "climate_env": 0.94,
+   "periphery": 0.8,
+   "security": 0.78,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -124,6 +176,14 @@
    "region": "center",
    "experience": "professional",
    "age": 48
+  },
+  "electability": 0.65,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "אדריכל וחוקר יחסי צבא-חברה באדריכלות הישראלית מזה יותר משני עשורים, לוחם ומפקד לשעבר ופעיל ציבור. מתמודד כדי לקדם פיתוח בר-קיימא, תכנון עם השלכות חברתיות-סביבתיות וחיזוק הפריפריה החברתית והגאוגרפית.",
   "highlights_he": [
@@ -160,6 +220,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.17,
+   "socioeconomic": 0.01,
+   "democracy_law": 0.04,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "other",
@@ -167,6 +239,14 @@
    "region": "center",
    "experience": "professional",
    "age": null
+  },
+  "electability": 0.65,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "מועמד שמציג את עצמו כ\"שונא שנאה\" ומתמודד בגישה הצהרתית-סמלית: בביו הרשמי הוא מזמין להצביע למועמדים אחרים ומצהיר שאינו רואה עצמו כחבר כנסת. הביו שלו כתוב בעברית ובערבית, ברוח של השתתפות אזרחית וסובלנות.",
   "highlights_he": [
@@ -208,6 +288,18 @@
    "gender_lgbtq": 0,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.55,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.95,
+   "climate_env": 0.36,
+   "periphery": 0.8,
+   "security": 0.97,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "christian",
@@ -215,6 +307,14 @@
    "region": "north",
    "experience": "activist",
    "age": 45
+  },
+  "electability": 2.05,
+  "electability_signals": {
+   "wikipedia_monthly_views": 400,
+   "followers_total": 30492,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "סא\"ל (מיל') איהאב שליאן מנוף הגליל הוא הקצין הנוצרי הראשון בצה\"ל שהגיע לדרגת סגן-אלוף, לאחר 24 שנות שירות בתפקידי לחימה, תקשוב וסייבר. כיום יו\"ר עמותת \"הקול הנוצרי\" וסמנכ\"ל בחברת סייבר, והוא מקדיש את פעילותו הציבורית לשילוב העדה הנוצרית והמיעוטים בחברה הישראלית. הצטרף לדמוקרטים מתוך חזון של ישראל חזקה, בטוחה, שוויונית ומאוחדת לכל אזרחיה.",
   "highlights_he": [
@@ -257,6 +357,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.17,
+   "socioeconomic": 0.01,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.12,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -264,6 +376,14 @@
    "region": "center",
    "experience": "activist",
    "age": 54
+  },
+  "electability": 2.38,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עו\"ד איתי לשם, לשעבר שותף במשרד שבלת ושות', הקדיש את שמונה השנים האחרונות לחשיפת פרשת קטארגייט, פייק ניוז ומנגנוני השפעה סביב שלטון נתניהו. נתבע על ידי נתניהו בתביעת דיבה של חצי מיליון ש\"ח שהוא מגדיר תביעת השתקה. מתמודד כדי להביא לכנסת מאבק בלתי מתפשר בשחיתות השלטונית ולמען טוהר הבחירות.",
   "highlights_he": [
@@ -306,6 +426,18 @@
    "gender_lgbtq": 0,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.86,
+   "religion_state": 0.55,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 1.0,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -313,6 +445,14 @@
    "region": "jerusalem",
    "experience": "professional",
    "age": 65
+  },
+  "electability": 4.84,
+  "electability_signals": {
+   "wikipedia_monthly_views": 3414,
+   "followers_total": null,
+   "news_domains": 3,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "אלוף בדימוס, טייס קרב, לשעבר ראש אגף התכנון בצה\"ל, ראש מטה חיל האוויר ומנכ\"ל התעשייה האווירית. הצטרף למחאה נגד ההפיכה המשטרית בינואר 2023 ולדמוקרטים במאי 2025, מתוך תפיסה שכוח צבאי חייב להיתרגם להישגים מדיניים. מציג עצמו כמנהיגות ביטחונית-ליברלית שתחתור לשלום ולא למלחמת נצח.",
   "highlights_he": [
@@ -355,6 +495,18 @@
    "gender_lgbtq": 3,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.95,
+   "religion_state": 0.55,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.52,
+   "gender_lgbtq": 0.84,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -362,6 +514,14 @@
    "region": "center",
    "experience": "mk_former",
    "age": 46
+  },
+  "electability": 4.16,
+  "electability_signals": {
+   "wikipedia_monthly_views": 809,
+   "followers_total": 16491,
+   "news_domains": 2,
+   "prior_national_list": true,
+   "coverage": 3
   },
   "summary_he": "חברת כנסת לשעבר מטעם העבודה וסגנית יו\"ר הכנסת בכנסת ה-24, סופרת זוכת פרס משרד התרבות. אשת שלום ופמיניסטית שהאג'נדה המרכזית שלה מדינית-דיפלומטית: יזמה את חוק חלופות מדיניות, חברה בקבוצת היוזמה המדינית האירופית, ואחרי ה-7.10 פעלה במחלקה הדיפלומטית של מטה משפחות החטופים.",
   "highlights_he": [
@@ -406,6 +566,18 @@
    "gender_lgbtq": 2,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.95,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.52,
+   "gender_lgbtq": 0.71,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -413,6 +585,14 @@
    "region": "sharon",
    "experience": "professional",
    "age": 40
+  },
+  "electability": 0.65,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "רב רפורמי, יו\"ר מר\"ם - מועצת הרבנות הרפורמית בישראל ורב קהילת דניאל ביפו. עלה מאוקראינה במסגרת נעל\"ה, שירת בגדוד קרקל, והפך לאחת הדמויות המובילות ביהדות המתקדמת בישראל. אג'נדה של פלורליזם יהודי, חופש דת ומאבק בכפייה הדתית.",
   "highlights_he": [
@@ -455,6 +635,18 @@
    "gender_lgbtq": 2,
    "education_health": 3
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.76,
+   "religion_state": 0.17,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.9,
+   "gender_lgbtq": 0.71,
+   "education_health": 0.86
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -462,6 +654,14 @@
    "region": "center",
    "experience": "professional",
    "age": 50
+  },
+  "electability": 0.65,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "איש תקשורת וחוקר תקשורת פוליטית, בנו של השר לשעבר יוסי ביילין ומחבר הספר \"המנהיג הבא\". יו\"ר נוער העבודה לשעבר, התמודד לראשות מפלגת העבודה ב-2021 ונמצא ברשימות העבודה/הדמוקרטים מאז הכנסת ה-21. אג'נדה: \"מדיני. בטחוני. דמוקרטי\" - פתרון מדיני-בטחוני, צמצום פערים, חינוך ובטיחות בדרכים.",
   "highlights_he": [
@@ -504,6 +704,18 @@
    "gender_lgbtq": 3,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.76,
+   "religion_state": 0.95,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.52,
+   "gender_lgbtq": 0.84,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -511,6 +723,14 @@
    "region": "center",
    "experience": "mk_current",
    "age": 52
+  },
+  "electability": 4.18,
+  "electability_signals": {
+   "wikipedia_monthly_views": 3338,
+   "followers_total": 36875,
+   "news_domains": 1,
+   "prior_national_list": true,
+   "coverage": 3
   },
   "summary_he": "ח\"כ הרב גלעד קריב, רב רפורמי ומשפטן, הוא חבר כנסת מכהן מטעם העבודה/הדמוקרטים, יו\"ר ועדת העלייה, הקליטה והתפוצות ולשעבר יו\"ר ועדת חוקה, חוק ומשפט. ממובילי המאבק נגד המהפכה המשטרית בכנסת וברחובות, וממנהיגי היהדות הליברלית בישראל לאחר עשור כמנכ\"ל התנועה הרפורמית. מוביל סדר יום של דת ומדינה, שלטון החוק ואופק מדיני-ביטחוני אזורי.",
   "highlights_he": [
@@ -553,6 +773,18 @@
    "gender_lgbtq": 0,
    "education_health": 4
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.17,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.04,
+   "arab_jewish": 0.85,
+   "climate_env": 0.36,
+   "periphery": 0.8,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.92
+  },
   "attrs": {
    "gender": "m",
    "sector": "muslim",
@@ -560,6 +792,14 @@
    "region": "north",
    "experience": "professional",
    "age": 50
+  },
+  "electability": 2.38,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "ד\"ר אחסאן חלאילה, איש חינוך יליד סחנין ותושב כרמיאל, מנהל את מכללת משגב לחינוך וספורט משנת 2008. דוקטור למינהל חינוכי, פעיל חברתי ותיק שמשימת חייו היא שותפות יהודית-ערבית, אותה הוא מקדם דרך חינוך וספורט בגליל.",
   "highlights_he": [
@@ -598,6 +838,18 @@
    "gender_lgbtq": 0,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.76,
+   "religion_state": 0.17,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.95,
+   "climate_env": 0.36,
+   "periphery": 0.68,
+   "security": 0.9,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "druze",
@@ -605,6 +857,14 @@
    "region": "north",
    "experience": "activist",
    "age": 51
+  },
+  "electability": 2.25,
+  "electability_signals": {
+   "wikipedia_monthly_views": 373,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "חוקר יחסים בין-לאומיים (LSE, ג'ורג'טאון), יו\"ר המרכז הישראלי-הדרוזי והתנועה הדרוזית לדמוקרטיה ושוויון, וממובילי המחאה בעדה הדרוזית. נכדו של חבר הכנסת הדרוזי הראשון, בעברו מס' 10 ברשימת מפלגת העבודה. משימתו המוצהרת הראשונה: ביטול חוק הלאום ומעבר מ\"ברית דמים\" ל\"ברית חיים\" של שוויון אזרחי מלא.",
   "highlights_he": [
@@ -648,6 +908,18 @@
    "gender_lgbtq": 2,
    "education_health": 5
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.86,
+   "religion_state": 0.17,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.12,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.9,
+   "gender_lgbtq": 0.71,
+   "education_health": 0.97
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -655,6 +927,14 @@
    "region": "north",
    "experience": "activist",
    "age": 50
+  },
+  "electability": 1.45,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": 2281,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "רופאה בכירה, מצנתרת מוח ומנהלת מכון הדימות בבי\"ח מאיר, ממקימות ומובילות תנועת \"אמא ערה\" של אימהות הלוחמים. נכנסה לפוליטיקה תחת הסיסמה \"מרפאים את ישראל\": חיזוק הרפואה הציבורית כליבת האג'נדה, לצד דרישה לאחריות ואסטרטגיה מדינית, הסכמים שיביאו ביטחון וועדת חקירה ממלכתית.",
   "highlights_he": [
@@ -700,6 +980,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.76,
+   "religion_state": 0.55,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.91,
+   "security": 0.52,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -707,6 +999,14 @@
    "region": "north",
    "experience": "activist",
    "age": 58
+  },
+  "electability": 2.38,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "פעיל שטח ותיק של מרצ והדמוקרטים מיקנעם עילית, מייסד קש\"ב (קבוצת שינוי במרצ) ורכז צפון לשעבר בדגלים השחורים. איש הייטק יליד ברה\"מ שמציג עצמו כקול של הפריפריה, הצפון והקהילה דוברת הרוסית, תומך בהקמת מדינה פלסטינית ובדמוקרטיה פנימית במפלגה.",
   "highlights_he": [
@@ -749,6 +1049,18 @@
    "gender_lgbtq": 0,
    "education_health": 2
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.17,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.9,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.74
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -756,6 +1068,14 @@
    "region": "center",
    "experience": "activist",
    "age": 65
+  },
+  "electability": 2.38,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "סגן ניצב בדימוס, מורה ומחנך, מהדמויות הבולטות במאבק משפחות החטופים - אחיו איציק אלגרט ז\"ל וגיסו אלכס דנציג ז\"ל נחטפו מניר עוז ונרצחו בשבי. ממקימי שער בגין, שבת רעב 170 יום מול הכנסת, והצטרף לדמוקרטים כדי להביא את המאבק על החטופים ועל המדינה לכנסת - נגד השחיתות ולמען שלטון החוק וועדת חקירה ממלכתית.",
   "highlights_he": [
@@ -801,6 +1121,18 @@
    "gender_lgbtq": 5,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.95,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.78,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.16,
+   "gender_lgbtq": 0.97,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -808,6 +1140,14 @@
    "region": "center",
    "experience": "local_gov",
    "age": 52
+  },
+  "electability": 3.05,
+  "electability_signals": {
+   "wikipedia_monthly_views": 302,
+   "followers_total": 3643,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "הדס רגולסקי, בת מושב נתיב העשרה, היא עיתונאית ואשת תקשורת כ-30 שנה, משפטנית וזוכת פרס אמי, שהפכה אחרי ה-7 באוקטובר לפעילה פוליטית: ממייסדות \"בונות אלטרנטיבה\", מנכ\"לית \"חוזה חדש\", חברת מועצת העיר תל אביב-יפו וראש מטה הדמוקרטיות במפלגה. סדר יומה: הפרדת דת ממדינה, שוויון מגדרי ומנהיגות נשית, שותפות יהודית-ערבית ודמוקרטיה שמתחילה באחריות אזרחית.",
   "highlights_he": [
@@ -851,6 +1191,18 @@
    "gender_lgbtq": 5,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.55,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.97,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -858,6 +1210,14 @@
    "region": "center",
    "experience": "local_gov",
    "age": 47
+  },
+  "electability": 3.26,
+  "electability_signals": {
+   "wikipedia_monthly_views": 458,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "חן אריאלי, סגנית ראש עיריית תל אביב-יפו ומחזיקת תיק התרבות, יו\"ר איגי ולשעבר יו\"ר האגודה למען הלהט\"ב. הובילה את שביתת הלהט\"ב הגדולה ב-2018 ואת מחאת הנשים, וכמחזיקת תיק הרווחה קידמה דיור קבע לדרי רחוב ותקציבים מגדריים. אם תיבחר תהיה חברת הכנסת הלסבית המוצהרת הראשונה.",
   "highlights_he": [
@@ -900,6 +1260,18 @@
    "gender_lgbtq": 1,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.95,
+   "socioeconomic": 0.92,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.78,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -907,6 +1279,14 @@
    "region": "north",
    "experience": "activist",
    "age": 42
+  },
+  "electability": 3.37,
+  "electability_signals": {
+   "wikipedia_monthly_views": 3267,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "יזם חברתי ופוליטי דתי-ליברלי, רס\"ן במיל' ותושב יקנעם, ממובילי המאבק נגד ההפיכה המשטרית וחוקי ההשתמטות. מייסד לובי 99, דמוקרטTV ועלון השבת הליברלי, לשעבר ראש המטה של שלי יחימוביץ' ומנכ\"ל דרכנו. רץ תחת הסיסמה \"זאת היהדות שלי\", יהדות של קדושת חיים, צדק חברתי ולא של כפייה דתית.",
   "highlights_he": [
@@ -949,6 +1329,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.95,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.12,
+   "climate_env": 0.94,
+   "periphery": 0.51,
+   "security": 0.78,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -956,6 +1348,14 @@
    "region": "sharon",
    "experience": "professional",
    "age": 52
+  },
+  "electability": 0.65,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": 119,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "מנהל בכיר בתחום האנרגיה, יליד ירושלים 1973 ותושב גבעת עדה, קצין גולני לשעבר ומ\"פ במילואים. מנהל את מטה דת ומדינה של הדמוקרטים, ומציב במרכז האג'נדה את הפרדת הדת מהמדינה לצד אנרגיה ואקלים, מתוך חזון ליברלי-הומניסטי וייצוג לבנימינה-גבעת עדה.",
   "highlights_he": [
@@ -995,6 +1395,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.76,
+   "religion_state": 0.55,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -1002,6 +1414,14 @@
    "region": "jerusalem",
    "experience": "activist",
    "age": 31
+  },
+  "electability": 2.82,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 3,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "פעיל פוליטי צעיר מירושלים, סטודנט לתואר שני באוניברסיטה העברית ועובד בארגון לניקיון כפיים במגזר הציבורי. סוציאל-דמוקרט שהתמודד בעבר בפריימריז של מפלגת העבודה, ומקדם שלטון החוק, מדינת רווחה והסדר מדיני עם הפלסטינים.",
   "highlights_he": [
@@ -1044,6 +1464,18 @@
    "gender_lgbtq": 1,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.17,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.12,
+   "climate_env": 0.99,
+   "periphery": 0.51,
+   "security": 0.52,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1051,6 +1483,14 @@
    "region": "sharon",
    "experience": "mk_former",
    "age": 52
+  },
+  "electability": 2.16,
+  "electability_signals": {
+   "wikipedia_monthly_views": 302,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "חברת כנסת לשעבר מטעם המחנה הציוני ומנהיגה סביבתית מזה 30 שנה: מייסדת מגמה ירוקה, מקימת הפורום הישראלי לאנרגיה ויו\"ר משותפת של התנועה הירוקה. בכנסת הובילה את ההחלטות על סגירת מיכל האמוניה בחיפה ותחנות הכוח המזהמות בחדרה, וכיום מתמודדת בדמוקרטים במטרה לכהן כשרה להגנת הסביבה ולהוביל מהפכה של אנרגיות מתחדשות.",
   "highlights_he": [
@@ -1095,6 +1535,18 @@
    "gender_lgbtq": 1,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.95,
+   "religion_state": 0.55,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.52,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -1102,6 +1554,14 @@
    "region": "center",
    "experience": "activist",
    "age": 49
+  },
+  "electability": 3.77,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1056,
+   "followers_total": 21694,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "יריב אופנהיימר, מראשי מחנה השלום בישראל, כיהן כ-13 שנים כמזכ\"ל ומנכ\"ל תנועת \"שלום עכשיו\" והוא פעיל מרכזי ותיק במרצ. אקטיביסט, פובליציסט ואיש תקשורת, המתמודד בפריימריז על המקומות השמורים למרצ עם סדר יום ממוקד: מיגור הטרור היהודי ואלימות המתנחלים, עצירת הסיפוח, קידום פתרון שתי המדינות והגנה על זכויות האדם והדמוקרטיה.",
   "highlights_he": [
@@ -1146,6 +1606,18 @@
    "gender_lgbtq": 1,
    "education_health": 3
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.55,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.16,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.86
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1153,6 +1625,14 @@
    "region": "sharon",
    "experience": "activist",
    "age": 38
+  },
+  "electability": 1.47,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "לי הופמן אגיב, בת 38 מהוד השרון, אקטיביסטית חברתית שעזבה קריירה יזמית בתחום היין לטובת הובלת מאבקים למען הדמוקרטיה והחינוך. ממובילות המחאה שהצטרפו לדמוקרטים, עם תכנית \"100 ימים ו-20 חוקים\" שבמרכזה ביטול חוקי ההפיכה המשטרית וחקיקת חוק יסוד: שוויון.",
   "highlights_he": [
@@ -1193,6 +1673,18 @@
    "gender_lgbtq": 3,
    "education_health": 2
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.55,
+   "socioeconomic": 0.92,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.16,
+   "gender_lgbtq": 0.84,
+   "education_health": 0.74
+  },
   "attrs": {
    "gender": "f",
    "sector": "ethiopian_israeli",
@@ -1200,6 +1692,14 @@
    "region": "center",
    "experience": "local_gov",
    "age": 51
+  },
+  "electability": 2.41,
+  "electability_signals": {
+   "wikipedia_monthly_views": 539,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "סגנית ראש עיריית תל אביב-יפו לשעבר מטעם מרצ ומחזיקת תיק הרווחה, יוצאת אתיופיה הראשונה שנבחרה למועצת העיר ולתפקיד סגנית ראש העיר. עלתה לישראל ברגל דרך סודן במבצע משה, גדלה בפנימיות והפכה למנהיגה חברתית, מרצה ואשת תקשורת. סדר יומה: מאבק בגזענות, שוויון הזדמנויות, רווחה וייצוג נשים.",
   "highlights_he": [
@@ -1242,6 +1742,18 @@
    "gender_lgbtq": 2,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.95,
+   "religion_state": 0.8,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.85,
+   "climate_env": 0.9,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.71,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -1249,6 +1761,14 @@
    "region": "center",
    "experience": "mk_former",
    "age": 60
+  },
+  "electability": 3.22,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1139,
+   "followers_total": 2327,
+   "news_domains": 1,
+   "prior_national_list": true,
+   "coverage": 3
   },
   "summary_he": "איש שמאל ותיק, ח\"כ לשעבר ממרצ ומזכ\"ל שלום עכשיו לשעבר, שמגדיר את המאבק לשלום ונגד הכיבוש כמשימת חייו. מהדוברים הבולטים של השותפות היהודית-ערבית ופעיל סביבה וזכויות אדם; דורג על ידי \"שקוף\" כח\"כ החרוץ ביותר. ועדת הבחירות של המפלגה קבעה שלא יוכל להתמודד על המשבצת המשוריינת של מרצ, והוא ממשיך להתמודד בפריימריז הכלליים.",
   "highlights_he": [
@@ -1295,6 +1815,18 @@
    "gender_lgbtq": 5,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.55,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.78,
+   "gender_lgbtq": 0.97,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1302,6 +1834,14 @@
    "region": "center",
    "experience": "activist",
    "age": 43
+  },
+  "electability": 3.2,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1606,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "מייסדת \"בונות אלטרנטיבה\" - תנועת שטח הנשים הגדולה בישראל - ומנהיגת \"מחאת השפחות\" נגד המהפכה המשפטית. קצינה לשעבר, יוצאת שב\"כ ומנהלת בכירה בגוגל ובקוקה-קולה, שאחרי 7.10 הובילה את המטה הבינלאומי להכרה בפשעי המין של חמאס. מתמודדת להבטחת ישראל ליברלית ושוויונית.",
   "highlights_he": [
@@ -1344,6 +1884,18 @@
    "gender_lgbtq": 4,
    "education_health": 3
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.87,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.68,
+   "security": 0.52,
+   "gender_lgbtq": 0.92,
+   "education_health": 0.86
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1351,6 +1903,14 @@
    "region": "sharon",
    "experience": "activist",
    "age": 47
+  },
+  "electability": 2.64,
+  "electability_signals": {
+   "wikipedia_monthly_views": 778,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "ממובילות המחאה למען הדמוקרטיה ואקטיביסטית שלושה עשורים: מיוזמות הצעדות לירושלים ובמות המחאה, מייסדת ומנכ\"לית לשעבר של הסתדרות העצמאים וממקימות תנועת \"עוגן לעתיד\". נכנסת לפוליטיקה עם תכנית עבודה כתובה שבמרכזה ביצור הדמוקרטיה, שוויון מגדרי (אג'נדת 5050), עצירת הכפייה הדתית, שיקום החינוך הממלכתי וזכויות העצמאים.",
   "highlights_he": [
@@ -1393,6 +1953,18 @@
    "gender_lgbtq": 5,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.8,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.64,
+   "climate_env": 0.76,
+   "periphery": 0.19,
+   "security": 0.52,
+   "gender_lgbtq": 0.97,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1400,6 +1972,14 @@
    "region": "center",
    "experience": "mk_former",
    "age": 57
+  },
+  "electability": 3.93,
+  "electability_signals": {
+   "wikipedia_monthly_views": 609,
+   "followers_total": 4629,
+   "news_domains": 2,
+   "prior_national_list": true,
+   "coverage": 3
   },
   "summary_he": "מיכל רוזין היא חברת כנסת לשעבר מטעם מרצ ויו\"ר הסיעה, שכיהנה בארבע כנסות והייתה שותפה ליותר מ-70 חוקים, ובהם חקיקה מרכזית בזכויות נשים, מאבק בהטרדה מינית והגנה על נפגעי עבירה. לפני הכנסת ניהלה את איגוד מרכזי הסיוע לנפגעות תקיפה מינית, ואחרי כהונתה הקימה עמותה לחינוך לדמוקרטיה. מתמודדת במסגרת הבטחת הייצוג של מרצ עם מסר של ניסיון, יציבות קואליציונית וחקיקה שתגן על הדמוקרטיה.",
   "highlights_he": [
@@ -1444,6 +2024,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.55,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.12,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.78,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -1451,6 +2043,14 @@
    "region": "center",
    "experience": "activist",
    "age": 41
+  },
+  "electability": 3.32,
+  "electability_signals": {
+   "wikipedia_monthly_views": 2673,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "משה רדמן אבוטבול, יליד לוד, יזם היי-טק וקצין מחקר באמ\"ן במילואים, ממנהיגיה הבולטים של מחאת קפלן נגד ההפיכה המשפטית. הקים תשתיות מחאה ובלט ברחובות ובבמות, והצטרף לדמוקרטים כנציג דור המחאה שמבקש להמשיך את המאבק על הדמוקרטיה מתוך הכנסת.",
   "highlights_he": [
@@ -1494,6 +2094,18 @@
    "gender_lgbtq": 2,
    "education_health": 2
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.95,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.12,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.52,
+   "gender_lgbtq": 0.71,
+   "education_health": 0.74
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -1501,6 +2113,14 @@
    "region": "center",
    "experience": "activist",
    "age": 37
+  },
+  "electability": 2.77,
+  "electability_signals": {
+   "wikipedia_monthly_views": 9618,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "יזם ואקטיביסט חילוני, יוזם מחאת המילקי ומייסד \"חוזרים בתבונה\" שסייעה לאלפי חרדים לעזוב את החברה החרדית. רץ תחת הסיסמה \"הפרדת כת ממדינה, הפרדת דת ממזומן\" ורואה בסוגיות דת ומדינה את שורש כל בעיות ישראל. מתגורר בתל אביב עם בן זוגו ומציג עצמו כקול חילוני גאה בכנסת.",
   "highlights_he": [
@@ -1544,6 +2164,18 @@
    "gender_lgbtq": 3,
    "education_health": 3
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.8,
+   "socioeconomic": 0.99,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.64,
+   "climate_env": 0.84,
+   "periphery": 0.8,
+   "security": 0.52,
+   "gender_lgbtq": 0.84,
+   "education_health": 0.86
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1551,6 +2183,14 @@
    "region": "north",
    "experience": "mk_current",
    "age": 40
+  },
+  "electability": 4.33,
+  "electability_signals": {
+   "wikipedia_monthly_views": 4412,
+   "followers_total": 81915,
+   "news_domains": 1,
+   "prior_national_list": true,
+   "coverage": 3
   },
   "summary_he": "חברת כנסת מכהנת (העבודה/הדמוקרטים), יו\"ר ועדת הצעירים וחברה בוועדות הכספים והחינוך. סוציאל-דמוקרטית ופמיניסטית שמובילה מאבקים חברתיים, יוקר מחיה, דיור ציבורי, עובדים ופריפריה, לצד מאבק דמוקרטי עיקש: עתירות בג\"ץ תקדימיות על שקיפות תקציבית, מאבק באלימות משטרתית ונוכחות קבועה בהפגנות.",
   "highlights_he": [
@@ -1595,6 +2235,18 @@
    "gender_lgbtq": 3,
    "education_health": 2
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.76,
+   "religion_state": 0.55,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.95,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.52,
+   "gender_lgbtq": 0.84,
+   "education_health": 0.74
+  },
   "attrs": {
    "gender": "f",
    "sector": "muslim",
@@ -1602,6 +2254,14 @@
    "region": "north",
    "experience": "activist",
    "age": 52
+  },
+  "electability": 3.99,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1402,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "פעילה חברתית ערבייה-מוסלמית מג'ת שבמשולש, מטפלת רגשית ואשת חינוך 27 שנים, מייסדת תנועת \"אין לנו ארץ אחרת\" לשותפות יהודית-ערבית. ממובילות המאבק בפשיעה בחברה הערבית ורכזת החברה הערבית ב\"נשים עושות שלום\"; מתמודדת כדי להיות המועמדת הערבייה הראשונה במפלגת שמאל ציונית.",
   "highlights_he": [
@@ -1639,6 +2299,18 @@
    "gender_lgbtq": 0,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.76,
+   "religion_state": 0.17,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.95,
+   "climate_env": 0.84,
+   "periphery": 0.68,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "muslim",
@@ -1646,6 +2318,14 @@
    "region": "center",
    "experience": "local_gov",
    "age": 45
+  },
+  "electability": 2.38,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "פעיל ציבורי מכפר קאסם וותיק מרצ מזה כ-20 שנה: יועץ פרלמנטרי של זהבה גלאון ושל השר עיסאווי פריג', מנהל המטה הערבי של מרצ לשעבר, וסגן ראש עיריית כפר קאסם שהחזיק בתיק איכות הסביבה. מתמודד כדי לחזק את הקול הערבי במפלגה ולקדם שוויון, שותפות יהודית-ערבית אמיתית, דמוקרטיה ושלום.",
   "highlights_he": [
@@ -1687,6 +2367,18 @@
    "gender_lgbtq": 1,
    "education_health": 2
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.17,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.12,
+   "climate_env": 0.99,
+   "periphery": 0.91,
+   "security": 0.16,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.74
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1694,6 +2386,14 @@
    "region": "north",
    "experience": "activist",
    "age": 58
+  },
+  "electability": 2.52,
+  "electability_signals": {
+   "wikipedia_monthly_views": 164,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": true,
+   "coverage": 2
   },
   "summary_he": "עו\"ד אליס גולדמן מנשר היא מהפעילות הסביבתיות והחברתיות הבולטות במטרופולין חיפה והצפון: שנים של מאבקים נגד זיהום מפרץ חיפה, למען בריאות הציבור, תכנון אחראי ופיתוח בר-קיימא. ותיקת מפלגת העבודה, יו\"ר ועדות איכות הסביבה של העבודה, תנועת אומ\"ץ ולשכת עורכי הדין מחוז חיפה. מתמודדת בדמוקרטים כדי לתת לתושבי חיפה והצפון קול בכנסת, בסדר יום המחבר צדק חברתי, סביבה ופיתוח כלכלי של הצפון.",
   "highlights_he": [
@@ -1736,6 +2436,18 @@
    "gender_lgbtq": 2,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.55,
+   "socioeconomic": 0.92,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.52,
+   "gender_lgbtq": 0.71,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1743,6 +2455,14 @@
    "region": "center",
    "experience": "mk_current",
    "age": 54
+  },
+  "electability": 3.26,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1997,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עו\"ד אפרת רייטן-מרום, חברת כנסת מכהנת ויו\"ר סיעת הדמוקרטים בכנסת ה-25. עורכת דין שהייתה שותפה בגולדפרב-זליגמן וייצגה את משפחות אסון נחל צפית, נבחרה לכנסת מטעם העבודה ב-2021 וכיהנה כיו\"ר ועדת העבודה והרווחה. מובילה את מאבקי הבלימה נגד ההפיכה המשטרית בכנסת, בבתי המשפט ובכיכרות.",
   "highlights_he": [
@@ -1786,6 +2506,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.17,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.95,
+   "climate_env": 0.36,
+   "periphery": 0.68,
+   "security": 0.52,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "muslim",
@@ -1793,6 +2525,14 @@
    "region": "north",
    "experience": "activist",
    "age": 32
+  },
+  "electability": 1.47,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עורך דין בן 32 מכעביה שבגליל התחתון, ערבי, מוסלמי ובדואי שהתנדב לצה\"ל, אב לארבעה. פעיל במערך \"עוטף עצורים\" המלווה משפטית מפגיני מחאה, ורכז המיעוטים של הדמוקרטים הצעירים. מאמין בשותפות יהודית-ערבית אמיצה ובשינוי דרך השפעה מבפנים, ומבקש להביא קול צעיר ומחבר לכנסת.",
   "highlights_he": [
@@ -1834,6 +2574,18 @@
    "gender_lgbtq": 3,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.86,
+   "religion_state": 0.8,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.78,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.84,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1841,6 +2593,14 @@
    "region": "center",
    "experience": "mk_former",
    "age": 59
+  },
+  "electability": 3.01,
+  "electability_signals": {
+   "wikipedia_monthly_views": 609,
+   "followers_total": 3137,
+   "news_domains": 1,
+   "prior_national_list": true,
+   "coverage": 3
   },
   "summary_he": "עורכת דין לזכויות אדם ואזרח, חברת כנסת לשעבר ממרצ ומזכ\"לית שלום עכשיו לשעבר. ממקימות \"מערך עוטף העצורים\" שנתן גב משפטי לאלפי מפגינים למען הדמוקרטיה, החזרת החטופים וסיום המלחמה, שלטון החוק, זכויות המחאה וזכויות האדם הם ליבת דרכה הציבורית.",
   "highlights_he": [
@@ -1881,6 +2641,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.55,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.85,
+   "climate_env": 0.36,
+   "periphery": 0.8,
+   "security": 0.52,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "druze",
@@ -1888,6 +2660,14 @@
    "region": "north",
    "experience": "local_gov",
    "age": 65
+  },
+  "electability": 1.08,
+  "electability_signals": {
+   "wikipedia_monthly_views": 22,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עורך דין ופוליטיקאי דרוזי חילוני מחורפיש שבגליל, ראש המועצה המקומית חורפיש לשעבר ויו\"ר פורום ראשי הרשויות הדרוזיות והצ'רקסיות לשעבר. פעיל חברתי מזה שנים רבות שקורא לשוויון למגזר הדרוזי ולשיקום המדינה \"אחרי ההרס שהותירה ממשלת ההסתה\".",
   "highlights_he": [
@@ -1931,6 +2711,18 @@
    "gender_lgbtq": 1,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.55,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -1938,6 +2730,14 @@
    "region": "center",
    "experience": "activist",
    "age": 40
+  },
+  "electability": 2.92,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1132,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עורכת דין ורואת חשבון, מהפנים הבולטות והמזוהות ביותר של המחאה נגד הממשלה - מבלפור דרך קפלן ועד \"משמרות הבושה\" שהקימה והובילה. צברה מאות שעות בוועדות הכנסת (בעיקר ועדת חוקה) ומתמודדת כדי להביא לכנסת את המאבק לביצור הדמוקרטיה, שינוי סדר העדיפויות הכלכלי-חברתי, שותפות יהודית-ערבית וחתירה לשלום.",
   "highlights_he": [
@@ -1980,6 +2780,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.17,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.95,
+   "climate_env": 0.36,
+   "periphery": 0.8,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "muslim",
@@ -1987,6 +2799,14 @@
    "region": "north",
    "experience": "local_gov",
    "age": null
+  },
+  "electability": 0.52,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": 57,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "עו\"ד נדאל מסאלחה, עורך דין וכלכלן מכפר קרע, בעל יותר מ-20 שנות ניסיון בשלטון המקומי ובשירות הציבורי: 13 שנים גזבר מועצת כפר קרע (זוכה פרס ניהול תקין), וכיום פרויקטור ממשלתי לפיתוח היישובים הבדואיים בדרום. פועל לקידום שותפות יהודית-ערבית, חיזוק הדמוקרטיה ושלטון החוק, ולמאבק בפשיעה ובאלימות בחברה הערבית.",
   "highlights_he": [
@@ -2028,6 +2848,18 @@
    "gender_lgbtq": 0,
    "education_health": 5
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.17,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.85,
+   "climate_env": 0.76,
+   "periphery": 0.91,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.97
+  },
   "attrs": {
    "gender": "m",
    "sector": "druze",
@@ -2035,6 +2867,14 @@
    "region": "north",
    "experience": "mk_former",
    "age": 74
+  },
+  "electability": 2.98,
+  "electability_signals": {
+   "wikipedia_monthly_views": 209,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עלי סלאלחה מבית ג'ן, איש חינוך וחבר כנסת לשעבר ממרצ. כמנהל תיכון מקיף בית ג'ן במשך שני עשורים חולל את \"הנס של בית ג'ן\" והוביל את בית הספר למקום הראשון בארץ בזכאות לבגרות. בכנסת ה-24 עמד בראש השדולה לקידום ושוויון החברה הדרוזית, נאבק נגד חוק הלאום וקידם בריאות ותשתיות לפריפריה הצפונית.",
   "highlights_he": [
@@ -2078,6 +2918,18 @@
    "gender_lgbtq": 0,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.55,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.12,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.9,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -2085,6 +2937,14 @@
    "region": "center",
    "experience": "activist",
    "age": 34
+  },
+  "electability": 3.2,
+  "electability_signals": {
+   "wikipedia_monthly_views": 17,
+   "followers_total": null,
+   "news_domains": 3,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עורך דין ופעיל חברתי בן 34, לשעבר בפרקליטות וממובילי מחאת \"אחים ואחיות לנשק\" נגד ההפיכה המשטרית. סרן במיל' וקצין מגלן שנלחם בניר עוז ב-7 באוקטובר ושירת 230 ימי מילואים במלחמה. הצטרף לדמוקרטים בפברואר 2026 כדי לייצג את הציבור הצעיר, המשרת, הציוני והליברלי.",
   "highlights_he": [
@@ -2127,6 +2987,18 @@
    "gender_lgbtq": 1,
    "education_health": 3
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.17,
+   "socioeconomic": 0.99,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.64,
+   "climate_env": 0.36,
+   "periphery": 0.98,
+   "security": 0.52,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.86
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -2134,6 +3006,14 @@
    "region": "north",
    "experience": "activist",
    "age": null
+  },
+  "electability": 0.72,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": 184,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "יזמית חברתית מהגליל העליון (כחל), מייסדת ומנכ\"לית עמותת \"אבני דרך לחיים\" לעצמאות אנשים עם מוגבלות, זוכת פרס ZERO PROJECT באו\"ם. רצה תחת הסיסמה \"להפוך תקווה למדיניות\": רווחה כזכות יסוד, ביטחון חברתי, שיקום הצפון והפריפריה, והחברה האזרחית כשותפה סביב שולחן ההחלטות.",
   "highlights_he": [
@@ -2178,6 +3058,18 @@
    "gender_lgbtq": 1,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.55,
+   "socioeconomic": 0.92,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.12,
+   "climate_env": 0.36,
+   "periphery": 0.98,
+   "security": 0.78,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -2185,6 +3077,14 @@
    "region": "north",
    "experience": "mk_former",
    "age": 52
+  },
+  "electability": 3.6,
+  "electability_signals": {
+   "wikipedia_monthly_views": 791,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "חברת כנסת לשעבר (יש עתיד, הכנסת ה-24) וילידת קיבוץ דן, שממצבת עצמה כ\"נציגת הצפון בכנסת\". כמנכ\"לית החברה הכלכלית גליל עליון הובילה את הרחבת מיגון הצפון והפיצויים לעסקים במלחמה, ומובילה את מחאת העצמאים. מתמודדת כקול ביצועי ומנוסה לפריפריה ולעצמאים.",
   "highlights_he": [
@@ -2229,6 +3129,18 @@
    "gender_lgbtq": 1,
    "education_health": 0
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.95,
+   "religion_state": 0.55,
+   "socioeconomic": 0.53,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.78,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.52,
+   "gender_lgbtq": 0.56,
+   "education_health": 0.16
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -2236,6 +3148,14 @@
    "region": "center",
    "experience": "activist",
    "age": 35
+  },
+  "electability": 1.47,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 1,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "מנכ\"ל תנועת \"מחזקים למען השלום והדמוקרטיה\" ופעיל שלום מזה עשור, בן 35 מיפו. הוביל תנועה דיגיטלית המגיעה ליותר ממיליון ישראלים בחודש, נאם באו\"ם בז'נבה והוביל קמפיינים נגד פורום קהלת וההפיכה המשטרית. מתמצב כנציג \"דור חדש בפוליטיקה\" עם אג'נדה של שלום, דמוקרטיה, שוויון ושותפות יהודית-ערבית.",
   "highlights_he": [
@@ -2278,6 +3198,18 @@
    "gender_lgbtq": 0,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.95,
+   "religion_state": 0.17,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.67,
+   "arab_jewish": 0.39,
+   "climate_env": 0.36,
+   "periphery": 0.19,
+   "security": 0.97,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -2285,6 +3217,14 @@
    "region": "center",
    "experience": "professional",
    "age": 59
+  },
+  "electability": 3.64,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1604,
+   "followers_total": 2485,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 3
   },
   "summary_he": "ערן עציון הוא דיפלומט בכיר לשעבר ומומחה לתכנון אסטרטגי: סגן ראש המועצה לביטחון לאומי, ראש החטיבה לתכנון מדיני במשרד החוץ וקונסול ישראל בסן פרנסיסקו, עם שלושה עשורים של עיצוב מדיניות חוץ וביטחון. מתמודד כ\"בחירה המדינית\" של הדמוקרטים: כינוס ועידת ריאד להסדר אזורי כולל, סיום הסכסוך הישראלי-פלסטיני, בלימת האיום האיראני, שיקום הברית עם ארה\"ב ועצירת ההפיכה המשטרית.",
   "highlights_he": [
@@ -2325,6 +3265,18 @@
    "gender_lgbtq": 0,
    "education_health": 5
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.17,
+   "socioeconomic": 0.22,
+   "democracy_law": 0.04,
+   "arab_jewish": 0.12,
+   "climate_env": 0.36,
+   "periphery": 0.51,
+   "security": 0.52,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.97
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -2332,6 +3284,14 @@
    "region": "center",
    "experience": "professional",
    "age": 76
+  },
+  "electability": 1.14,
+  "electability_signals": {
+   "wikipedia_monthly_views": 36,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "פרופ' ירון ניב, גסטרואנטרולוג בכיר ומבכירי מערכת הבריאות בישראל. הקים את מערך הרפואה ב-8200, ניהל מכוני גסטרו בזיו, סורוקה ורבין, כיהן כסמנכ\"ל בית חולים רבין ולאחרונה כסמנכ\"ל בכיר במשרד הבריאות האחראי על איכות ובטיחות הטיפול. מתמודד כאיש מקצוע שמביא לכנסת מומחיות עמוקה במערכת הבריאות.",
   "highlights_he": [
@@ -2376,6 +3336,18 @@
    "gender_lgbtq": 3,
    "education_health": 1
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.08,
+   "religion_state": 0.87,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.41,
+   "arab_jewish": 0.12,
+   "climate_env": 0.84,
+   "periphery": 0.68,
+   "security": 0.16,
+   "gender_lgbtq": 0.84,
+   "education_health": 0.5
+  },
   "attrs": {
    "gender": "f",
    "sector": "jewish",
@@ -2383,6 +3355,14 @@
    "region": "center",
    "experience": "local_gov",
    "age": 42
+  },
+  "electability": 2.38,
+  "electability_signals": {
+   "wikipedia_monthly_views": null,
+   "followers_total": null,
+   "news_domains": 2,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "סגנית ראש עיריית בת ים וחברת מועצה כ-13 שנים, בעברה פעילת מרצ שהובילה את רשימת \"בת ים חופשית ודמוקרטית\". מחזיקה בתיקי הרווחה, התחבורה, איכות הסביבה, מעמד האישה והקהילה הגאה, והובילה את המחאה נגד ההפיכה המשטרית בעירה. רצה תחת הסיסמה \"שינוי עושים איפה שקשה\", הבאת הערכים הליברליים לקהלים חדשים.",
   "highlights_he": [
@@ -2425,6 +3405,18 @@
    "gender_lgbtq": 0,
    "education_health": 5
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.35,
+   "religion_state": 0.8,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.19,
+   "arab_jewish": 0.39,
+   "climate_env": 0.76,
+   "periphery": 0.8,
+   "security": 0.52,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.97
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -2432,6 +3424,14 @@
    "region": "sharon",
    "experience": "mk_former",
    "age": 41
+  },
+  "electability": 3.01,
+  "electability_signals": {
+   "wikipedia_monthly_views": 581,
+   "followers_total": 3639,
+   "news_domains": 1,
+   "prior_national_list": true,
+   "coverage": 3
   },
   "summary_he": "ח\"כ לשעבר מהעבודה, איש חינוך וחבר קיבוץ גבעת חיים איחוד. כיהן כיו\"ר ועדת החינוך וכיו\"ר סיעת העבודה בממשלת השינוי, ולפני כן כיו\"ר התאחדות הסטודנטים. מאז ה-7.10 שימש פרויקטור השיקום של קיבוצי הנגב המערבי מטעם התנועה הקיבוצית, וכיום מוביל את מטה החינוך ומטה המרחב הכפרי של הדמוקרטים.",
   "highlights_he": [
@@ -2478,6 +3478,18 @@
    "gender_lgbtq": 0,
    "education_health": 2
   },
+  "axes_pct": {
+   "peace_diplomacy": 0.61,
+   "religion_state": 0.55,
+   "socioeconomic": 0.76,
+   "democracy_law": 0.91,
+   "arab_jewish": 0.39,
+   "climate_env": 0.84,
+   "periphery": 0.19,
+   "security": 0.16,
+   "gender_lgbtq": 0.23,
+   "education_health": 0.74
+  },
   "attrs": {
    "gender": "m",
    "sector": "jewish",
@@ -2485,6 +3497,14 @@
    "region": "center",
    "experience": "activist",
    "age": 43
+  },
+  "electability": 2.04,
+  "electability_signals": {
+   "wikipedia_monthly_views": 1067,
+   "followers_total": null,
+   "news_domains": 0,
+   "prior_national_list": false,
+   "coverage": 2
   },
   "summary_he": "עיתונאי ואקטיביסט עם 17 שנות ניסיון במאבק בשחיתות, מייסד מיזם התקשורת \"שקוף\" וממייסדי \"לובי 99\" ו\"עוגן לעתיד\". רץ לכנסת כדי \"לשבור את השיטה מבפנים\": שקיפות שלטונית, מאבק בכסף הגדול בפוליטיקה, מלחמה בפייק והוזלת יוקר המחיה - בקמפיין ממומן המונים ושקוף לחלוטין.",
   "highlights_he": [

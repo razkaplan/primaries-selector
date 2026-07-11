@@ -1,0 +1,27 @@
+{
+  "id": "29486",
+  "name": "אמילי מואטי",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "אמילי_מואטי",
+      "monthly_views_avg": 809
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 16491,
+      "x": null,
+      "tiktok": null,
+      "total_known": 16491
+    },
+    "news_presence": {
+      "major_domains_top20": 2,
+      "domains": [
+        "kan.org.il",
+        "haaretz.co.il"
+      ]
+    },
+    "prior_national_list": true
+  },
+  "notes_he": "ח\"כ לשעברת עם קהל אינסטגרם של כ-16 אלף עוקבים ונוכחות בתקשורת הממוסדת."
+}

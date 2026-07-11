@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Answers, AxisKey, RepKey } from "@/lib/types";
 import {
   AXIS_LABELS,
+  ELECTABILITY_OPTIONS,
   EXPERIENCE_OPTIONS,
   ORIGIN_OPTIONS,
   REP_LABELS,
@@ -18,8 +19,9 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
   const [experience, setExperience] = useState<Answers["experience"] | null>(null);
   const [reps, setReps] = useState<RepKey[]>([]);
   const [origin, setOrigin] = useState<Answers["origin"] | null>(null);
+  const [electability, setElectability] = useState<Answers["electability"] | null>(null);
 
-  const steps = 4;
+  const steps = 5;
 
   function toggleIssue(k: AxisKey) {
     setIssues((prev) =>
@@ -31,7 +33,15 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
   }
 
   const canNext =
-    step === 0 ? issues.length > 0 : step === 1 ? experience !== null : step === 2 ? true : origin !== null;
+    step === 0
+      ? issues.length > 0
+      : step === 1
+        ? experience !== null
+        : step === 2
+          ? true
+          : step === 3
+            ? origin !== null
+            : electability !== null;
 
   function next() {
     if (step < steps - 1) setStep(step + 1);
@@ -41,6 +51,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
         experience: experience ?? "any",
         reps,
         origin: origin ?? "any",
+        electability: electability ?? "none",
       });
   }
 
@@ -158,6 +169,36 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
               </button>
             ))}
           </div>
+        </section>
+      )}
+
+
+      {step === 4 && (
+        <section>
+          <h2 className="text-2xl font-bold">כוח משיכה אלקטורלי</h2>
+          <p className="mt-1 text-neutral-500">
+            עד כמה חשוב לכם שהמועמדים יוכלו למשוך קולות למפלגה גם מחוץ למחנה?
+          </p>
+          <div className="mt-6 space-y-2">
+            {ELECTABILITY_OPTIONS.map((o) => (
+              <button
+                key={o.value}
+                onClick={() => setElectability(o.value)}
+                className={`w-full rounded-xl border px-4 py-3 text-right transition-colors ${
+                  electability === o.value
+                    ? "border-[#2A38D7] bg-[#2A38D7]/10"
+                    : "border-neutral-200 bg-white hover:border-neutral-400"
+                }`}
+              >
+                <div className="font-bold">{o.label}</div>
+                <div className="text-sm text-neutral-500">{o.desc}</div>
+              </button>
+            ))}
+          </div>
+          <p className="mt-3 text-xs text-neutral-400">
+            מדד הנוכחות הציבורית מחושב מנתונים מדידים בלבד: צפיות בוויקיפדיה, עוקבים
+            ברשתות ונוכחות בחדשות. הוא איננו סקר ואיננו תחזית.
+          </p>
         </section>
       )}
 

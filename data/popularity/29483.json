@@ -1,0 +1,26 @@
+{
+  "id": "29483",
+  "name": "גבי לסקי",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "גבי_לסקי",
+      "monthly_views_avg": 609
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 3137,
+      "x": null,
+      "tiktok": null,
+      "total_known": 3137
+    },
+    "news_presence": {
+      "major_domains_top20": 1,
+      "domains": [
+        "kan.org.il"
+      ]
+    },
+    "prior_national_list": true
+  },
+  "notes_he": "ח\"כ לשעברת ועו\"ד זכויות אדם מוכרת, עם קהל דיגיטלי צנוע וסיקור תקשורתי מתון."
+}

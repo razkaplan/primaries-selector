@@ -1,0 +1,26 @@
+{
+  "id": "29703",
+  "name": "רם שפע",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "רם_שפע",
+      "monthly_views_avg": 581
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 3639,
+      "x": null,
+      "tiktok": null,
+      "total_known": 3639
+    },
+    "news_presence": {
+      "major_domains_top20": 1,
+      "domains": [
+        "kan.org.il"
+      ]
+    },
+    "prior_national_list": true
+  },
+  "notes_he": "ח\"כ לשעבר ופרויקטור שיקום העוטף עם מוכרות ציבורית, אך קהל דיגיטלי מתון."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "29327",
+  "name": "ענבל וורטמן שהם",
+  "signals": {
+    "wikipedia": {
+      "exists": false,
+      "title": null,
+      "monthly_views_avg": null
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 184,
+      "x": null,
+      "tiktok": null,
+      "total_known": 184
+    },
+    "news_presence": {
+      "major_domains_top20": 0,
+      "domains": []
+    },
+    "prior_national_list": false
+  },
+  "notes_he": "יזמית חברתית מהצפון ללא ערך ויקיפדיה ועם נוכחות דיגיטלית קטנה מאוד."
+}

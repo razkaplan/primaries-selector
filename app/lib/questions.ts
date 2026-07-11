@@ -52,6 +52,24 @@ export const EXPERIENCE_OPTIONS = [
   },
 ];
 
+export const ELECTABILITY_OPTIONS = [
+  {
+    value: "high" as const,
+    label: "חשוב לי מאוד",
+    desc: "אעדיף מועמדים עם נוכחות ציבורית רחבה שיכולים למשוך קולות חדשים למפלגה",
+  },
+  {
+    value: "some" as const,
+    label: "שיקול אחד מיני רבים",
+    desc: "כוח משיכה אלקטורלי הוא בונוס, אבל לא על חשבון התאמה בנושאים",
+  },
+  {
+    value: "none" as const,
+    label: "לא רלוונטי עבורי",
+    desc: "אבחר לפי עמדות ועשייה בלבד, בלי שיקולי מוניטין",
+  },
+];
+
 export const ORIGIN_OPTIONS = [
   { value: "meretz" as const, label: "השורשים של מרצ", desc: "קרוב לבי המחנה של מרצ" },
   { value: "labor" as const, label: "השורשים של העבודה", desc: "קרוב לבי המחנה של מפלגת העבודה" },

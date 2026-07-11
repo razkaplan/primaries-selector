@@ -1,0 +1,24 @@
+{
+  "id": "29315",
+  "name": "ערן עציון",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "ערן_עציון",
+      "monthly_views_avg": 1604
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 2485,
+      "x": null,
+      "tiktok": null,
+      "total_known": 2485
+    },
+    "news_presence": {
+      "major_domains_top20": 0,
+      "domains": []
+    },
+    "prior_national_list": false
+  },
+  "notes_he": "דיפלומט בכיר לשעבר עם ערך ויקיפדיה נצפה, אך קהל דיגיטלי קטן יחסית."
+}

@@ -160,6 +160,17 @@ export default function CandidateCard({
               </a>
             ))}
           </div>
+          {c.electability_signals && (
+            <p className="mt-3 text-xs text-neutral-400">
+              נוכחות ציבורית (נתונים גולמיים):{" "}
+              {c.electability_signals.wikipedia_monthly_views !== null &&
+                `ויקיפדיה ~${c.electability_signals.wikipedia_monthly_views.toLocaleString()} צפיות/חודש · `}
+              {c.electability_signals.followers_total !== null &&
+                `${c.electability_signals.followers_total.toLocaleString()} עוקבים ידועים · `}
+              {c.electability_signals.news_domains !== null &&
+                `${c.electability_signals.news_domains} אתרי חדשות מרכזיים`}
+            </p>
+          )}
           {c.sources?.length > 0 && (
             <details className="mt-3 text-xs text-neutral-400">
               <summary className="cursor-pointer hover:text-neutral-600">

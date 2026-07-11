@@ -1,0 +1,24 @@
+{
+  "id": "29274",
+  "name": "רתם סיון",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "רתם_סיון-הופמן",
+      "monthly_views_avg": 297
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 2281,
+      "x": null,
+      "tiktok": null,
+      "total_known": 2281
+    },
+    "news_presence": {
+      "major_domains_top20": 0,
+      "domains": []
+    },
+    "prior_national_list": false
+  },
+  "notes_he": "רופאה ופעילת מחאה מוכרת בעיקר בזירה האזרחית, עם נוכחות דיגיטלית צנועה."
+}

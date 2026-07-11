@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Answers, Candidate } from "@/lib/types";
 import { rankCandidates, shuffle } from "@/lib/scoring";
+import { ballotComposition, smartBallot } from "@/lib/ballot";
 import CandidateCard from "./CandidateCard";
 
 export const MAX_PICKS = 10;
@@ -21,6 +22,13 @@ export default function Results({
   const [view, setView] = useState<"ranked" | "all">("ranked");
   const [ballot, setBallot] = useState<string[]>([]);
   const [copied, setCopied] = useState(false);
+  const [smartNote, setSmartNote] = useState<string | null>(null);
+
+  function fillSmartBallot() {
+    const picked = smartBallot(ranked, MAX_PICKS);
+    setBallot(picked.map((p) => p.candidate.id));
+    setSmartNote(ballotComposition(picked, answers));
+  }
 
   const byId = useMemo(() => new Map(candidates.map((c) => [c.id, c])), [candidates]);
 
@@ -74,22 +82,50 @@ export default function Results({
           </p>
           <ul className="list-disc space-y-1 pr-5">
             <li>
-              <b>60%</b> - עד כמה הנושאים שבחרתם מרכזיים באג'נדה המוצהרת ובעשייה של
+              <b>55%</b> - עד כמה הנושאים שבחרתם מרכזיים באג'נדה המוצהרת ובעשייה של
               המועמד/ת (ציון 0-5 לכל נושא, שנקבע מראש לכל המועמדים באותו תהליך: הביו הרשמי,
-              אתר המועמד/ת, קורות החיים וסיקור חדשותי)
+              אתר המועמד/ת, קורות החיים וסיקור חדשותי; הציון משוקלל עם דירוג אחוזוני
+              יחסית לשאר המועמדים באותו נושא, כדי שלכל נושא יהיה כוח הבחנה דומה)
             </li>
             <li><b>15%</b> - התאמה להעדפת הניסיון שציינתם</li>
             <li><b>15%</b> - התאמה להעדפות הייצוג שסימנתם</li>
             <li><b>10%</b> - זיקה מפלגתית (מרצ / העבודה / חדשים), אם בחרתם כזו</li>
+            <li>
+              <b>נוכחות ציבורית (אופציונלי)</b> - רק אם בחרתם שזה חשוב לכם, מתווסף מדד
+              כוח משיכה אלקטורלי (עד 13% מהציון) המחושב מנתונים מדידים בלבד: צפיות
+              בוויקיפדיה, עוקבים ברשתות חברתיות ונוכחות בחדשות, באחוזונים יחסית לשאר
+              המועמדים. מועמדים ללא נתונים מקבלים ציון ניטרלי, לא אפס. אם בחרתם "לא
+              רלוונטי", המדד לא משפיע כלל.
+            </li>
           </ul>
           <p>
             מועמדים עם ציון זהה מוצגים בסדר אקראי שמתחלף בכל ביקור. מועמדים עם מעט מידע
             פומבי מסומנים בתגית "מידע מוגבל" כי ייתכן שציונם מוטה כלפי מטה. המקורות המלאים
-            של כל מועמד/ת מופיעים תחת "עוד פרטים". הכלי אינו ממליץ, אינו מקדם אף מועמד,
-            ואינו שומר את תשובותיכם.
+            של כל מועמד/ת מופיעים תחת "עוד פרטים". המודל נבדק בסימולציית 30 פרסונות
+            מגוונות לאיתור הטיה מבנית: בקרב פרסונות ניטרליות, החשיפה של כל הקבוצות
+            (נשים, החברה הערבית, מכהנים, כוחות חדשים) קרובה לחלקן היחסי ברשימה. הכלי
+            אינו ממליץ, אינו מקדם אף מועמד, ואינו שומר את תשובותיכם.
           </p>
         </div>
       </details>
+
+      <div className="mt-4 flex flex-wrap items-center gap-2">
+        <button
+          onClick={fillSmartBallot}
+          className="rounded-xl bg-[#101CAA] px-4 py-2 text-sm font-bold text-white hover:bg-[#2A38D7]"
+        >
+          הרכיבו לי פתק מאוזן
+        </button>
+        <span className="text-xs text-neutral-500">
+          10 מועמדים עם התאמה גבוהה אליכם אבל מגוונים זה מזה (אלגוריתם MMR), אפשר לערוך
+          אחר כך
+        </span>
+      </div>
+      {smartNote && (
+        <p className="mt-2 rounded-xl bg-[#2A38D7]/5 px-3 py-2 text-sm text-neutral-700">
+          הרכב הפתק: {smartNote}
+        </p>
+      )}
 
       <div className="mt-6 space-y-3">
         {view === "ranked"

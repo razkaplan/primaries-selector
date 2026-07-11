@@ -1,17 +1,53 @@
-import type { Answers, AxisKey, Candidate, RankedCandidate, RepKey } from "./types";
+import type {
+  Answers,
+  AxisKey,
+  Candidate,
+  RankedCandidate,
+  RepKey,
+  Weights,
+} from "./types";
 import { AXIS_SHORT, REP_LABELS } from "./questions";
 
-const W_ISSUES = 0.6;
-const W_EXPERIENCE = 0.15;
-const W_REPS = 0.15;
-const W_ORIGIN = 0.1;
+/**
+ * Base weights. Electability only participates when the voter opts in
+ * (pref "high" = full base weight, "some" = half, "none" = 0); the active
+ * weights are then normalized to sum to 1, so opting out redistributes
+ * proportionally instead of penalizing anyone.
+ */
+/**
+ * Weights follow the literature review (docs/political-science-review.md):
+ * issue congruence stays dominant (55%); electability enters opt-in at a
+ * modest base (10%) because closed-list evidence shows only modest party-level
+ * returns to individual popularity.
+ */
+export const DEFAULT_WEIGHTS: Weights = {
+  issues: 0.55,
+  experience: 0.15,
+  reps: 0.15,
+  origin: 0.1,
+  electability: 0.1,
+};
+
+/**
+ * Blended issue score: 50% absolute centrality (axis/5) + 50% percentile rank
+ * within the roster on that axis. The percentile half equalizes discriminative
+ * power across axes: on a crowded axis like democracy_law (roster mean 3.3)
+ * raw scores barely separate candidates, while on a sparse axis like
+ * religion_state (mean 1.3) they separate a lot. Pure raw scoring would make
+ * the same "4" mean very different things depending on the axis chosen.
+ */
+function axisValue(c: Candidate, k: AxisKey): number {
+  const raw = (c.axes[k] ?? 0) / 5;
+  const pct = c.axes_pct?.[k];
+  return pct === undefined ? raw : 0.8 * raw + 0.2 * pct;
+}
 
 function issueScore(c: Candidate, issues: AxisKey[]): number {
   if (issues.length === 0) {
-    const all = Object.values(c.axes);
-    return all.reduce((a, b) => a + b, 0) / all.length / 5;
+    const all = (Object.keys(c.axes) as AxisKey[]).map((k) => axisValue(c, k));
+    return all.reduce((a, b) => a + b, 0) / all.length;
   }
-  return issues.reduce((sum, k) => sum + (c.axes[k] ?? 0) / 5, 0) / issues.length;
+  return issues.reduce((sum, k) => sum + axisValue(c, k), 0) / issues.length;
 }
 
 function experienceScore(c: Candidate, pref: Answers["experience"]): number {
@@ -28,7 +64,7 @@ function experienceScore(c: Candidate, pref: Answers["experience"]): number {
   return pref === "experienced" ? r : 1 - r * 0.85;
 }
 
-function repMatch(c: Candidate, rep: RepKey): boolean {
+export function repMatch(c: Candidate, rep: RepKey): boolean {
   switch (rep) {
     case "women":
       return c.attrs.gender === "f";
@@ -50,7 +86,6 @@ function repMatch(c: Candidate, rep: RepKey): boolean {
 function repsScore(c: Candidate, reps: RepKey[]): number {
   if (reps.length === 0) return 1;
   const matched = reps.filter((r) => repMatch(c, r)).length;
-  // Any match counts a lot; full neutrality (0.35) if none matched
   return matched > 0 ? 0.6 + 0.4 * (matched / reps.length) : 0.35;
 }
 
@@ -59,17 +94,62 @@ function originScore(c: Candidate, pref: Answers["origin"]): number {
   return c.attrs.origin === pref ? 1 : 0.4;
 }
 
-export function rankCandidates(candidates: Candidate[], answers: Answers): RankedCandidate[] {
+function electabilityScore(c: Candidate): number {
+  // null (no data) scores neutral 0.5 rather than 0, so thin data
+  // doesn't bury a candidate when the voter opts into electability.
+  if (c.electability === null || c.electability === undefined) return 0.5;
+  // Shrink 30% toward the neutral midpoint: public-reach metrics are inflated
+  // by incumbency (coverage begets coverage), so raw percentile gaps would
+  // over-reward already-famous candidates (see docs/political-science-review.md).
+  return 0.5 + (c.electability / 5 - 0.5) * 0.7;
+}
+
+/** Compute the effective, normalized weights for a given answer set. */
+export function effectiveWeights(answers: Answers, base: Weights = DEFAULT_WEIGHTS): Weights {
+  const electFactor = answers.electability === "high" ? 1 : answers.electability === "some" ? 0.5 : 0;
+  const raw = {
+    issues: base.issues,
+    experience: base.experience,
+    reps: base.reps,
+    origin: base.origin,
+    electability: base.electability * electFactor,
+  };
+  const sum = raw.issues + raw.experience + raw.reps + raw.origin + raw.electability;
+  return {
+    issues: raw.issues / sum,
+    experience: raw.experience / sum,
+    reps: raw.reps / sum,
+    origin: raw.origin / sum,
+    electability: raw.electability / sum,
+  };
+}
+
+/** Pure per-candidate score in 0..100 for a given answer set. Deterministic. */
+export function scoreCandidate(
+  c: Candidate,
+  answers: Answers,
+  base: Weights = DEFAULT_WEIGHTS
+): number {
+  const w = effectiveWeights(answers, base);
+  return (
+    (issueScore(c, answers.issues) * w.issues +
+      experienceScore(c, answers.experience) * w.experience +
+      repsScore(c, answers.reps) * w.reps +
+      originScore(c, answers.origin) * w.origin +
+      electabilityScore(c) * w.electability) *
+    100
+  );
+}
+
+export function rankCandidates(
+  candidates: Candidate[],
+  answers: Answers,
+  base: Weights = DEFAULT_WEIGHTS
+): RankedCandidate[] {
   // Shuffle before scoring so candidates with identical scores appear in a
   // random relative order on every visit, instead of roster order winning ties.
   const ranked = shuffle(candidates).map((c) => {
-    const sIssues = issueScore(c, answers.issues);
-    const sExp = experienceScore(c, answers.experience);
-    const sReps = repsScore(c, answers.reps);
-    const sOrigin = originScore(c, answers.origin);
-    const score =
-      (sIssues * W_ISSUES + sExp * W_EXPERIENCE + sReps * W_REPS + sOrigin * W_ORIGIN) * 100;
-
+    const score = scoreCandidate(c, answers, base);
     const reasons: string[] = [];
     for (const k of answers.issues) {
       if ((c.axes[k] ?? 0) >= 4) reasons.push(AXIS_SHORT[k]);
@@ -77,15 +157,24 @@ export function rankCandidates(candidates: Candidate[], answers: Answers): Ranke
     for (const r of answers.reps) {
       if (repMatch(c, r)) reasons.push(`ייצוג: ${REP_LABELS[r]}`);
     }
-    if (answers.experience === "experienced" && (c.attrs.experience === "mk_current" || c.attrs.experience === "mk_former")) {
+    if (
+      answers.experience === "experienced" &&
+      (c.attrs.experience === "mk_current" || c.attrs.experience === "mk_former")
+    ) {
       reasons.push("ניסיון פרלמנטרי");
     }
-    if (answers.experience === "fresh" && (c.attrs.experience === "activist" || c.attrs.experience === "professional")) {
+    if (
+      answers.experience === "fresh" &&
+      (c.attrs.experience === "activist" || c.attrs.experience === "professional")
+    ) {
       reasons.push("כוח חדש");
     }
     if (answers.origin !== "any" && c.attrs.origin === answers.origin) {
       const originLabel = { meretz: "מרצ", labor: "העבודה", new: "דור חדש" }[answers.origin];
       reasons.push(originLabel);
+    }
+    if (answers.electability !== "none" && (c.electability ?? 0) >= 4) {
+      reasons.push("נוכחות ציבורית רחבה");
     }
     return { candidate: c, score, reasons: reasons.slice(0, 4) };
   });
@@ -93,7 +182,7 @@ export function rankCandidates(candidates: Candidate[], answers: Answers): Ranke
   return ranked.sort((a, b) => b.score - a.score);
 }
 
-/** Deterministic-per-visit shuffle for fair "all candidates" browsing */
+/** Fisher-Yates shuffle used for fair tie-breaking and random browsing order */
 export function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {

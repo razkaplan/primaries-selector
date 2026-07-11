@@ -1,0 +1,24 @@
+{
+  "id": "29336",
+  "name": "איהאב שליאן",
+  "signals": {
+    "wikipedia": {
+      "exists": true,
+      "title": "איהאב_שליאן",
+      "monthly_views_avg": 400
+    },
+    "followers": {
+      "facebook": null,
+      "instagram": 20625,
+      "x": null,
+      "tiktok": 9867,
+      "total_known": 30492
+    },
+    "news_presence": {
+      "major_domains_top20": 0,
+      "domains": []
+    },
+    "prior_national_list": false
+  },
+  "notes_he": "בולט ברשתות דרך עמוד הקול הנוצרי עם כ-30 אלף עוקבים, אך כמעט ללא סיקור בתקשורת הארצית הגדולה."
+}
