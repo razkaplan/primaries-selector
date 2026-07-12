@@ -63,12 +63,20 @@ export function trackRecord(c: Candidate): number {
   return t;
 }
 
+/** Selection order matters: 1st/2nd/3rd issue weighted 50/30/20 (or 60/40, or 100). */
+const ISSUE_RANK_WEIGHTS: Record<number, number[]> = {
+  1: [1],
+  2: [0.6, 0.4],
+  3: [0.5, 0.3, 0.2],
+};
+
 function issueScore(c: Candidate, issues: AxisKey[]): number {
   if (issues.length === 0) {
     const all = (Object.keys(c.axes) as AxisKey[]).map((k) => axisValue(c, k));
     return all.reduce((a, b) => a + b, 0) / all.length;
   }
-  return issues.reduce((sum, k) => sum + axisValue(c, k), 0) / issues.length;
+  const rw = ISSUE_RANK_WEIGHTS[issues.length] ?? issues.map(() => 1 / issues.length);
+  return issues.reduce((sum, k, i) => sum + axisValue(c, k) * rw[i], 0);
 }
 
 function experienceScore(c: Candidate, pref: Answers["experience"]): number {
@@ -128,11 +136,15 @@ function electabilityScore(c: Candidate): number {
 /** Compute the effective, normalized weights for a given answer set. */
 export function effectiveWeights(answers: Answers, base: Weights = DEFAULT_WEIGHTS): Weights {
   const electFactor = answers.electability === "high" ? 1 : answers.electability === "some" ? 0.5 : 0;
+  // A component the voter is indifferent about scores every candidate
+  // identically, so keeping it in the mix only compresses the displayed
+  // range (the "everyone lands at 60-80%" effect). Indifferent components
+  // are removed and their weight redistributed to what the voter DID answer.
   const raw = {
     issues: base.issues,
-    experience: base.experience,
-    reps: base.reps,
-    origin: base.origin,
+    experience: answers.experience === "any" ? 0 : base.experience,
+    reps: answers.reps.length === 0 ? 0 : base.reps,
+    origin: answers.origin === "any" ? 0 : base.origin,
     electability: base.electability * electFactor,
   };
   const sum = raw.issues + raw.experience + raw.reps + raw.origin + raw.electability;

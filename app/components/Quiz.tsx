@@ -77,7 +77,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
       {step === 0 && (
         <section>
           <h2 className="text-2xl font-bold">אילו נושאים הכי חשובים לכם?</h2>
-          <p className="mt-1 text-neutral-500">בחרו עד שלושה נושאים ({issues.length}/3)</p>
+          <p className="mt-1 text-neutral-500">בחרו עד שלושה נושאים לפי סדר חשיבות, הראשון מקבל את המשקל הגבוה ביותר ({issues.length}/3)</p>
           <div className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2">
             {AXIS_KEYS.map((k) => {
               const active = issues.includes(k);
@@ -91,6 +91,11 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
                       : "border-neutral-200 bg-white hover:border-neutral-400"
                   } ${!active && issues.length >= 3 ? "opacity-50" : ""}`}
                 >
+                  {active && (
+                    <span className="ml-2 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#2A38D7] text-xs font-bold text-white">
+                      {issues.indexOf(k) + 1}
+                    </span>
+                  )}
                   {AXIS_LABELS[k]}
                 </button>
               );

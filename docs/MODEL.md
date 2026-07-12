@@ -106,8 +106,30 @@ him.
 - Coverage bias survives partially: well-documented candidates have richer
   evidence. Disclosed in-app; conservative scoring plus the neutral-0.5 rule
   bound the damage.
-- Followers were scraped for only 17/51 candidates (collection interrupted);
-  treated as missing-at-random.
+- Followers are scraped for 42/51 candidates; the remaining 9 have no public
+  social profiles (itself treated as low-salience evidence via the wiki/news
+  components, while the follower component is excluded as missing).
 - Electability proxies salience, not affection: high pageviews can reflect
   controversy. The literature review is explicit that these are noisy
   predictors; hence small opt-in weight + shrinkage.
+
+## 6. Score discrimination (data-scientist feedback, 2026-07-12)
+
+External feedback: 20-30 candidates landing in one 60-80% match band means the
+questionnaire under-discriminates. Diagnosis confirmed by measurement: a
+3-issue voter with no other preferences had 32/51 candidates in the 60-80%
+band. Root cause: components answered "don't care" contributed a constant 1.0
+to every candidate (up to 45% of total weight), compressing the range.
+
+Fixes:
+1. Indifferent components (experience "any", no representation picks, origin
+   "any") are now removed from the weight mix entirely, like opted-out
+   electability always was. Only answered questions discriminate.
+2. Issue selection order now carries information: rank weights 50/30/20
+   (60/40 for two, 100 for one). Same question, more signal.
+
+After: the same 3-issue voter has 9 candidates in the 60-80% band and a
+32-point top-20 spread (was 20). Bias audit unchanged on the neutral subset
+and slightly improved overall (Gini 0.373 to 0.354). The residual truth in
+the critique stands and is disclosed in-app: these are 51 candidates of one
+party; some genuinely are similar.
