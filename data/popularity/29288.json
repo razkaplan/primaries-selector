@@ -1,0 +1,24 @@
+{
+ "id": "29288",
+ "name": "עו\"ד אפרת רייטן",
+ "signals": {
+  "wikipedia": {
+   "exists": null,
+   "title": null,
+   "monthly_views_avg": null
+  },
+  "followers": {
+   "facebook": null,
+   "instagram": 15685,
+   "x": null,
+   "tiktok": 2710,
+   "total_known": 18395
+  },
+  "news_presence": {
+   "major_domains_top20": null,
+   "domains": []
+  },
+  "prior_national_list": null
+ },
+ "notes_he": ""
+}

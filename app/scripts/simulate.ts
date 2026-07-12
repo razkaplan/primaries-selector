@@ -38,6 +38,7 @@ export function buildPersonas(): Answers[] {
       reps: [],
       origin: "any",
       electability: "none",
+      credibility: false,
     });
   }
   // Block B: adjacent-axis pairs + experience pref
@@ -48,6 +49,7 @@ export function buildPersonas(): Answers[] {
       reps: [],
       origin: "any",
       electability: elect(i + 1),
+      credibility: i % 2 === 0,
     });
   }
   // Block C: triples + representation + origin
@@ -64,6 +66,7 @@ export function buildPersonas(): Answers[] {
       reps: repSets[i],
       origin: origins[i],
       electability: elect(i + 2),
+      credibility: false,
     });
   }
   return personas;

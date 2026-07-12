@@ -83,6 +83,17 @@ export default function Home() {
           האתר הרשמי
         </a>
         , מאתרי המועמדים וממקורות פומביים
+        <span className="mt-1 block" dir="ltr">
+          Made with &lt;3 by{" "}
+          <a
+            href="https://il.linkedin.com/in/razkaplan"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Raz Kaplan
+          </a>
+        </span>
       </footer>
     </main>
   );

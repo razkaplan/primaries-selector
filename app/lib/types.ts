@@ -63,6 +63,8 @@ export interface Answers {
   reps: RepKey[]; // 0..n
   origin: Origin | "any";
   electability: ElectabilityPref;
+  /** discount declared agendas by verified public track record */
+  credibility: boolean;
 }
 
 export interface Weights {

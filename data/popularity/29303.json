@@ -1,0 +1,24 @@
+{
+ "id": "29303",
+ "name": "דני אלגרט",
+ "signals": {
+  "wikipedia": {
+   "exists": null,
+   "title": null,
+   "monthly_views_avg": null
+  },
+  "followers": {
+   "facebook": null,
+   "instagram": 2113,
+   "x": null,
+   "tiktok": 1235,
+   "total_known": 3348
+  },
+  "news_presence": {
+   "major_domains_top20": null,
+   "domains": []
+  },
+  "prior_national_list": null
+ },
+ "notes_he": ""
+}

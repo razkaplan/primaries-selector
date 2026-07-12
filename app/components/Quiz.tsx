@@ -20,6 +20,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
   const [reps, setReps] = useState<RepKey[]>([]);
   const [origin, setOrigin] = useState<Answers["origin"] | null>(null);
   const [electability, setElectability] = useState<Answers["electability"] | null>(null);
+  const [credibility, setCredibility] = useState(false);
 
   const steps = 5;
 
@@ -52,6 +53,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
         reps,
         origin: origin ?? "any",
         electability: electability ?? "none",
+        credibility,
       });
   }
 
@@ -117,6 +119,19 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
               </button>
             ))}
           </div>
+          <label className="mt-4 flex cursor-pointer items-start gap-2 rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm">
+            <input
+              type="checkbox"
+              checked={credibility}
+              onChange={(e) => setCredibility(e.target.checked)}
+              className="mt-0.5 accent-[#2A38D7]"
+            />
+            <span>
+              <span className="font-bold">תוספת רצינות:</span> תנו משקל גבוה יותר להצהרות
+              שמגובות ברקורד ביצוע ציבורי מוכח (כנסת, שלטון מקומי, הובלת ארגונים), כי קל
+              להצהיר וקשה לממש
+            </span>
+          </label>
         </section>
       )}
 

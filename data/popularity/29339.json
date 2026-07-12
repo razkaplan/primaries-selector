@@ -1,0 +1,24 @@
+{
+ "id": "29339",
+ "name": "עמרי רונן",
+ "signals": {
+  "wikipedia": {
+   "exists": null,
+   "title": null,
+   "monthly_views_avg": null
+  },
+  "followers": {
+   "facebook": null,
+   "instagram": 12601,
+   "x": null,
+   "tiktok": 3076,
+   "total_known": 15677
+  },
+  "news_presence": {
+   "major_domains_top20": null,
+   "domains": []
+  },
+  "prior_national_list": null
+ },
+ "notes_he": ""
+}

@@ -42,6 +42,27 @@ function axisValue(c: Candidate, k: AxisKey): number {
   return pct === undefined ? raw : 0.8 * raw + 0.2 * pct;
 }
 
+/**
+ * Track-record coefficient ("תוספת רצינות"): how much verifiable public
+ * delivery backs the candidate's declared agenda. Knesset service and NGO /
+ * civil-society leadership both count as public track record (the categories
+ * come from the candidate's documented roles, not self-description). Applied
+ * only when the voter opts in, as a partial discount on the issue component:
+ * declared-but-unverified agendas keep at least 75% of their weight.
+ */
+export function trackRecord(c: Candidate): number {
+  const base: Record<string, number> = {
+    mk_current: 1.0,
+    mk_former: 0.95,
+    local_gov: 0.8,
+    activist: 0.7,
+    professional: 0.5,
+  };
+  let t = base[c.attrs.experience] ?? 0.6;
+  if (c.electability_signals?.prior_national_list) t = Math.min(1, t + 0.05);
+  return t;
+}
+
 function issueScore(c: Candidate, issues: AxisKey[]): number {
   if (issues.length === 0) {
     const all = (Object.keys(c.axes) as AxisKey[]).map((k) => axisValue(c, k));
@@ -131,8 +152,9 @@ export function scoreCandidate(
   base: Weights = DEFAULT_WEIGHTS
 ): number {
   const w = effectiveWeights(answers, base);
+  const cred = answers.credibility ? 0.75 + 0.25 * trackRecord(c) : 1;
   return (
-    (issueScore(c, answers.issues) * w.issues +
+    (issueScore(c, answers.issues) * cred * w.issues +
       experienceScore(c, answers.experience) * w.experience +
       repsScore(c, answers.reps) * w.reps +
       originScore(c, answers.origin) * w.origin +
@@ -175,6 +197,9 @@ export function rankCandidates(
     }
     if (answers.electability !== "none" && (c.electability ?? 0) >= 4) {
       reasons.push("נוכחות ציבורית רחבה");
+    }
+    if (answers.credibility && trackRecord(c) >= 0.9) {
+      reasons.push("רקורד ביצוע מוכח");
     }
     return { candidate: c, score, reasons: reasons.slice(0, 4) };
   });

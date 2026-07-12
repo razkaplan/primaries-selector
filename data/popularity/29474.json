@@ -1,0 +1,24 @@
+{
+ "id": "29474",
+ "name": "מורן זר קצנשטיין",
+ "signals": {
+  "wikipedia": {
+   "exists": null,
+   "title": null,
+   "monthly_views_avg": null
+  },
+  "followers": {
+   "facebook": null,
+   "instagram": 12404,
+   "x": null,
+   "tiktok": 3059,
+   "total_known": 15463
+  },
+  "news_presence": {
+   "major_domains_top20": null,
+   "domains": []
+  },
+  "prior_national_list": null
+ },
+ "notes_he": ""
+}

@@ -1,0 +1,24 @@
+{
+ "id": "29300",
+ "name": "קטי פיאסצקי",
+ "signals": {
+  "wikipedia": {
+   "exists": null,
+   "title": null,
+   "monthly_views_avg": null
+  },
+  "followers": {
+   "facebook": null,
+   "instagram": 1373,
+   "x": null,
+   "tiktok": 317,
+   "total_known": 1690
+  },
+  "news_presence": {
+   "major_domains_top20": null,
+   "domains": []
+  },
+  "prior_national_list": null
+ },
+ "notes_he": ""
+}

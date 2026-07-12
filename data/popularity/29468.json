@@ -1,0 +1,24 @@
+{
+ "id": "29468",
+ "name": "גיל ביילין",
+ "signals": {
+  "wikipedia": {
+   "exists": null,
+   "title": null,
+   "monthly_views_avg": null
+  },
+  "followers": {
+   "facebook": null,
+   "instagram": 1458,
+   "x": null,
+   "tiktok": 1003,
+   "total_known": 2461
+  },
+  "news_presence": {
+   "major_domains_top20": null,
+   "domains": []
+  },
+  "prior_national_list": null
+ },
+ "notes_he": ""
+}

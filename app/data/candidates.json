@@ -44,13 +44,13 @@
    "experience": "activist",
    "age": 50
   },
-  "electability": 3.04,
+  "electability": 2.62,
   "electability_signals": {
    "wikipedia_monthly_views": 1309,
-   "followers_total": null,
+   "followers_total": 1534,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "פעיל חברתי, סביבתי ופוליטי מוותיקי מרצ, מנכ\"ל קול רבני לזכויות אדם ויו\"ר משותף של מטה הפריפריות בדמוקרטים. גדל באשקלון במשפחה דתית-מזרחית, שרד את טבח 7 באוקטובר בקיבוץ נירים, ומאז מוביל מאבק להשבת החטופים, לוועדת חקירה ממלכתית ולשיקום הנגב המערבי. סדר יומו: שלום והסדרים מדיניים, צדק חברתי לפריפריה ודמוקרטיה.",
   "highlights_he": [
@@ -113,7 +113,7 @@
    "experience": "professional",
    "age": 35
   },
-  "electability": 1.25,
+  "electability": 1.23,
   "electability_signals": {
    "wikipedia_monthly_views": null,
    "followers_total": 110,
@@ -308,7 +308,7 @@
    "experience": "activist",
    "age": 45
   },
-  "electability": 2.05,
+  "electability": 2.06,
   "electability_signals": {
    "wikipedia_monthly_views": 400,
    "followers_total": 30492,
@@ -446,13 +446,13 @@
    "experience": "professional",
    "age": 65
   },
-  "electability": 4.84,
+  "electability": 4.46,
   "electability_signals": {
    "wikipedia_monthly_views": 3414,
-   "followers_total": null,
+   "followers_total": 5225,
    "news_domains": 3,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "אלוף בדימוס, טייס קרב, לשעבר ראש אגף התכנון בצה\"ל, ראש מטה חיל האוויר ומנכ\"ל התעשייה האווירית. הצטרף למחאה נגד ההפיכה המשטרית בינואר 2023 ולדמוקרטים במאי 2025, מתוך תפיסה שכוח צבאי חייב להיתרגם להישגים מדיניים. מציג עצמו כמנהיגות ביטחונית-ליברלית שתחתור לשלום ולא למלחמת נצח.",
   "highlights_he": [
@@ -515,7 +515,7 @@
    "experience": "mk_former",
    "age": 46
   },
-  "electability": 4.16,
+  "electability": 4.23,
   "electability_signals": {
    "wikipedia_monthly_views": 809,
    "followers_total": 16491,
@@ -586,13 +586,13 @@
    "experience": "professional",
    "age": 40
   },
-  "electability": 0.65,
+  "electability": 0.79,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 2288,
    "news_domains": 0,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "רב רפורמי, יו\"ר מר\"ם - מועצת הרבנות הרפורמית בישראל ורב קהילת דניאל ביפו. עלה מאוקראינה במסגרת נעל\"ה, שירת בגדוד קרקל, והפך לאחת הדמויות המובילות ביהדות המתקדמת בישראל. אג'נדה של פלורליזם יהודי, חופש דת ומאבק בכפייה הדתית.",
   "highlights_he": [
@@ -655,13 +655,13 @@
    "experience": "professional",
    "age": 50
   },
-  "electability": 0.65,
+  "electability": 0.84,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 2461,
    "news_domains": 0,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "איש תקשורת וחוקר תקשורת פוליטית, בנו של השר לשעבר יוסי ביילין ומחבר הספר \"המנהיג הבא\". יו\"ר נוער העבודה לשעבר, התמודד לראשות מפלגת העבודה ב-2021 ונמצא ברשימות העבודה/הדמוקרטים מאז הכנסת ה-21. אג'נדה: \"מדיני. בטחוני. דמוקרטי\" - פתרון מדיני-בטחוני, צמצום פערים, חינוך ובטיחות בדרכים.",
   "highlights_he": [
@@ -724,7 +724,7 @@
    "experience": "mk_current",
    "age": 52
   },
-  "electability": 4.18,
+  "electability": 4.17,
   "electability_signals": {
    "wikipedia_monthly_views": 3338,
    "followers_total": 36875,
@@ -793,13 +793,13 @@
    "experience": "professional",
    "age": 50
   },
-  "electability": 2.38,
+  "electability": 2.36,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 3461,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "ד\"ר אחסאן חלאילה, איש חינוך יליד סחנין ותושב כרמיאל, מנהל את מכללת משגב לחינוך וספורט משנת 2008. דוקטור למינהל חינוכי, פעיל חברתי ותיק שמשימת חייו היא שותפות יהודית-ערבית, אותה הוא מקדם דרך חינוך וספורט בגליל.",
   "highlights_he": [
@@ -928,7 +928,7 @@
    "experience": "activist",
    "age": 50
   },
-  "electability": 1.45,
+  "electability": 1.42,
   "electability_signals": {
    "wikipedia_monthly_views": null,
    "followers_total": 2281,
@@ -1000,13 +1000,13 @@
    "experience": "activist",
    "age": 58
   },
-  "electability": 2.38,
+  "electability": 2.02,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 1257,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "פעיל שטח ותיק של מרצ והדמוקרטים מיקנעם עילית, מייסד קש\"ב (קבוצת שינוי במרצ) ורכז צפון לשעבר בדגלים השחורים. איש הייטק יליד ברה\"מ שמציג עצמו כקול של הפריפריה, הצפון והקהילה דוברת הרוסית, תומך בהקמת מדינה פלסטינית ובדמוקרטיה פנימית במפלגה.",
   "highlights_he": [
@@ -1069,13 +1069,13 @@
    "experience": "activist",
    "age": 65
   },
-  "electability": 2.38,
+  "electability": 2.31,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 3348,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "סגן ניצב בדימוס, מורה ומחנך, מהדמויות הבולטות במאבק משפחות החטופים - אחיו איציק אלגרט ז\"ל וגיסו אלכס דנציג ז\"ל נחטפו מניר עוז ונרצחו בשבי. ממקימי שער בגין, שבת רעב 170 יום מול הכנסת, והצטרף לדמוקרטים כדי להביא את המאבק על החטופים ועל המדינה לכנסת - נגד השחיתות ולמען שלטון החוק וועדת חקירה ממלכתית.",
   "highlights_he": [
@@ -1141,7 +1141,7 @@
    "experience": "local_gov",
    "age": 52
   },
-  "electability": 3.05,
+  "electability": 2.96,
   "electability_signals": {
    "wikipedia_monthly_views": 302,
    "followers_total": 3643,
@@ -1211,13 +1211,13 @@
    "experience": "local_gov",
    "age": 47
   },
-  "electability": 3.26,
+  "electability": 3.14,
   "electability_signals": {
    "wikipedia_monthly_views": 458,
-   "followers_total": null,
+   "followers_total": 3792,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "חן אריאלי, סגנית ראש עיריית תל אביב-יפו ומחזיקת תיק התרבות, יו\"ר איגי ולשעבר יו\"ר האגודה למען הלהט\"ב. הובילה את שביתת הלהט\"ב הגדולה ב-2018 ואת מחאת הנשים, וכמחזיקת תיק הרווחה קידמה דיור קבע לדרי רחוב ותקציבים מגדריים. אם תיבחר תהיה חברת הכנסת הלסבית המוצהרת הראשונה.",
   "highlights_he": [
@@ -1280,13 +1280,13 @@
    "experience": "activist",
    "age": 42
   },
-  "electability": 3.37,
+  "electability": 3.67,
   "electability_signals": {
    "wikipedia_monthly_views": 3267,
-   "followers_total": null,
+   "followers_total": 69987,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "יזם חברתי ופוליטי דתי-ליברלי, רס\"ן במיל' ותושב יקנעם, ממובילי המאבק נגד ההפיכה המשטרית וחוקי ההשתמטות. מייסד לובי 99, דמוקרטTV ועלון השבת הליברלי, לשעבר ראש המטה של שלי יחימוביץ' ומנכ\"ל דרכנו. רץ תחת הסיסמה \"זאת היהדות שלי\", יהדות של קדושת חיים, צדק חברתי ולא של כפייה דתית.",
   "highlights_he": [
@@ -1349,7 +1349,7 @@
    "experience": "professional",
    "age": 52
   },
-  "electability": 0.65,
+  "electability": 0.59,
   "electability_signals": {
    "wikipedia_monthly_views": null,
    "followers_total": 119,
@@ -1484,13 +1484,13 @@
    "experience": "mk_former",
    "age": 52
   },
-  "electability": 2.16,
+  "electability": 1.9,
   "electability_signals": {
    "wikipedia_monthly_views": 302,
-   "followers_total": null,
+   "followers_total": 1499,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "חברת כנסת לשעבר מטעם המחנה הציוני ומנהיגה סביבתית מזה 30 שנה: מייסדת מגמה ירוקה, מקימת הפורום הישראלי לאנרגיה ויו\"ר משותפת של התנועה הירוקה. בכנסת הובילה את ההחלטות על סגירת מיכל האמוניה בחיפה ותחנות הכוח המזהמות בחדרה, וכיום מתמודדת בדמוקרטים במטרה לכהן כשרה להגנת הסביבה ולהוביל מהפכה של אנרגיות מתחדשות.",
   "highlights_he": [
@@ -1555,7 +1555,7 @@
    "experience": "activist",
    "age": 49
   },
-  "electability": 3.77,
+  "electability": 3.82,
   "electability_signals": {
    "wikipedia_monthly_views": 1056,
    "followers_total": 21694,
@@ -1626,13 +1626,13 @@
    "experience": "activist",
    "age": 38
   },
-  "electability": 1.47,
+  "electability": 1.89,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 11683,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "לי הופמן אגיב, בת 38 מהוד השרון, אקטיביסטית חברתית שעזבה קריירה יזמית בתחום היין לטובת הובלת מאבקים למען הדמוקרטיה והחינוך. ממובילות המחאה שהצטרפו לדמוקרטים, עם תכנית \"100 ימים ו-20 חוקים\" שבמרכזה ביטול חוקי ההפיכה המשטרית וחקיקת חוק יסוד: שוויון.",
   "highlights_he": [
@@ -1693,13 +1693,13 @@
    "experience": "local_gov",
    "age": 51
   },
-  "electability": 2.41,
+  "electability": 2.08,
   "electability_signals": {
    "wikipedia_monthly_views": 539,
-   "followers_total": null,
+   "followers_total": 1419,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "סגנית ראש עיריית תל אביב-יפו לשעבר מטעם מרצ ומחזיקת תיק הרווחה, יוצאת אתיופיה הראשונה שנבחרה למועצת העיר ולתפקיד סגנית ראש העיר. עלתה לישראל ברגל דרך סודן במבצע משה, גדלה בפנימיות והפכה למנהיגה חברתית, מרצה ואשת תקשורת. סדר יומה: מאבק בגזענות, שוויון הזדמנויות, רווחה וייצוג נשים.",
   "highlights_he": [
@@ -1762,7 +1762,7 @@
    "experience": "mk_former",
    "age": 60
   },
-  "electability": 3.22,
+  "electability": 3.18,
   "electability_signals": {
    "wikipedia_monthly_views": 1139,
    "followers_total": 2327,
@@ -1835,13 +1835,13 @@
    "experience": "activist",
    "age": 43
   },
-  "electability": 3.2,
+  "electability": 3.32,
   "electability_signals": {
    "wikipedia_monthly_views": 1606,
-   "followers_total": null,
+   "followers_total": 15463,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "מייסדת \"בונות אלטרנטיבה\" - תנועת שטח הנשים הגדולה בישראל - ומנהיגת \"מחאת השפחות\" נגד המהפכה המשפטית. קצינה לשעבר, יוצאת שב\"כ ומנהלת בכירה בגוגל ובקוקה-קולה, שאחרי 7.10 הובילה את המטה הבינלאומי להכרה בפשעי המין של חמאס. מתמודדת להבטחת ישראל ליברלית ושוויונית.",
   "highlights_he": [
@@ -1904,13 +1904,13 @@
    "experience": "activist",
    "age": 47
   },
-  "electability": 2.64,
+  "electability": 2.77,
   "electability_signals": {
    "wikipedia_monthly_views": 778,
-   "followers_total": null,
+   "followers_total": 9484,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "ממובילות המחאה למען הדמוקרטיה ואקטיביסטית שלושה עשורים: מיוזמות הצעדות לירושלים ובמות המחאה, מייסדת ומנכ\"לית לשעבר של הסתדרות העצמאים וממקימות תנועת \"עוגן לעתיד\". נכנסת לפוליטיקה עם תכנית עבודה כתובה שבמרכזה ביצור הדמוקרטיה, שוויון מגדרי (אג'נדת 5050), עצירת הכפייה הדתית, שיקום החינוך הממלכתי וזכויות העצמאים.",
   "highlights_he": [
@@ -1973,7 +1973,7 @@
    "experience": "mk_former",
    "age": 57
   },
-  "electability": 3.93,
+  "electability": 3.83,
   "electability_signals": {
    "wikipedia_monthly_views": 609,
    "followers_total": 4629,
@@ -2044,13 +2044,13 @@
    "experience": "activist",
    "age": 41
   },
-  "electability": 3.32,
+  "electability": 3.61,
   "electability_signals": {
    "wikipedia_monthly_views": 2673,
-   "followers_total": null,
+   "followers_total": 42289,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "משה רדמן אבוטבול, יליד לוד, יזם היי-טק וקצין מחקר באמ\"ן במילואים, ממנהיגיה הבולטים של מחאת קפלן נגד ההפיכה המשפטית. הקים תשתיות מחאה ובלט ברחובות ובבמות, והצטרף לדמוקרטים כנציג דור המחאה שמבקש להמשיך את המאבק על הדמוקרטיה מתוך הכנסת.",
   "highlights_he": [
@@ -2114,13 +2114,13 @@
    "experience": "activist",
    "age": 37
   },
-  "electability": 2.77,
+  "electability": 3.12,
   "electability_signals": {
    "wikipedia_monthly_views": 9618,
-   "followers_total": null,
+   "followers_total": 33567,
    "news_domains": 0,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "יזם ואקטיביסט חילוני, יוזם מחאת המילקי ומייסד \"חוזרים בתבונה\" שסייעה לאלפי חרדים לעזוב את החברה החרדית. רץ תחת הסיסמה \"הפרדת כת ממדינה, הפרדת דת ממזומן\" ורואה בסוגיות דת ומדינה את שורש כל בעיות ישראל. מתגורר בתל אביב עם בן זוגו ומציג עצמו כקול חילוני גאה בכנסת.",
   "highlights_he": [
@@ -2255,13 +2255,13 @@
    "experience": "activist",
    "age": 52
   },
-  "electability": 3.99,
+  "electability": 3.8,
   "electability_signals": {
    "wikipedia_monthly_views": 1402,
-   "followers_total": null,
+   "followers_total": 5950,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "פעילה חברתית ערבייה-מוסלמית מג'ת שבמשולש, מטפלת רגשית ואשת חינוך 27 שנים, מייסדת תנועת \"אין לנו ארץ אחרת\" לשותפות יהודית-ערבית. ממובילות המאבק בפשיעה בחברה הערבית ורכזת החברה הערבית ב\"נשים עושות שלום\"; מתמודדת כדי להיות המועמדת הערבייה הראשונה במפלגת שמאל ציונית.",
   "highlights_he": [
@@ -2456,13 +2456,13 @@
    "experience": "mk_current",
    "age": 54
   },
-  "electability": 3.26,
+  "electability": 3.44,
   "electability_signals": {
    "wikipedia_monthly_views": 1997,
-   "followers_total": null,
+   "followers_total": 18395,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "עו\"ד אפרת רייטן-מרום, חברת כנסת מכהנת ויו\"ר סיעת הדמוקרטים בכנסת ה-25. עורכת דין שהייתה שותפה בגולדפרב-זליגמן וייצגה את משפחות אסון נחל צפית, נבחרה לכנסת מטעם העבודה ב-2021 וכיהנה כיו\"ר ועדת העבודה והרווחה. מובילה את מאבקי הבלימה נגד ההפיכה המשטרית בכנסת, בבתי המשפט ובכיכרות.",
   "highlights_he": [
@@ -2526,13 +2526,13 @@
    "experience": "activist",
    "age": 32
   },
-  "electability": 1.47,
+  "electability": 1.62,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 3389,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "עורך דין בן 32 מכעביה שבגליל התחתון, ערבי, מוסלמי ובדואי שהתנדב לצה\"ל, אב לארבעה. פעיל במערך \"עוטף עצורים\" המלווה משפטית מפגיני מחאה, ורכז המיעוטים של הדמוקרטים הצעירים. מאמין בשותפות יהודית-ערבית אמיצה ובשינוי דרך השפעה מבפנים, ומבקש להביא קול צעיר ומחבר לכנסת.",
   "highlights_he": [
@@ -2594,7 +2594,7 @@
    "experience": "mk_former",
    "age": 59
   },
-  "electability": 3.01,
+  "electability": 2.91,
   "electability_signals": {
    "wikipedia_monthly_views": 609,
    "followers_total": 3137,
@@ -2731,13 +2731,13 @@
    "experience": "activist",
    "age": 40
   },
-  "electability": 2.92,
+  "electability": 2.97,
   "electability_signals": {
    "wikipedia_monthly_views": 1132,
-   "followers_total": null,
+   "followers_total": 8419,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "עורכת דין ורואת חשבון, מהפנים הבולטות והמזוהות ביותר של המחאה נגד הממשלה - מבלפור דרך קפלן ועד \"משמרות הבושה\" שהקימה והובילה. צברה מאות שעות בוועדות הכנסת (בעיקר ועדת חוקה) ומתמודדת כדי להביא לכנסת את המאבק לביצור הדמוקרטיה, שינוי סדר העדיפויות הכלכלי-חברתי, שותפות יהודית-ערבית וחתירה לשלום.",
   "highlights_he": [
@@ -2868,13 +2868,13 @@
    "experience": "mk_former",
    "age": 74
   },
-  "electability": 2.98,
+  "electability": 2.41,
   "electability_signals": {
    "wikipedia_monthly_views": 209,
-   "followers_total": null,
+   "followers_total": 87,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "עלי סלאלחה מבית ג'ן, איש חינוך וחבר כנסת לשעבר ממרצ. כמנהל תיכון מקיף בית ג'ן במשך שני עשורים חולל את \"הנס של בית ג'ן\" והוביל את בית הספר למקום הראשון בארץ בזכאות לבגרות. בכנסת ה-24 עמד בראש השדולה לקידום ושוויון החברה הדרוזית, נאבק נגד חוק הלאום וקידם בריאות ותשתיות לפריפריה הצפונית.",
   "highlights_he": [
@@ -2938,13 +2938,13 @@
    "experience": "activist",
    "age": 34
   },
-  "electability": 3.2,
+  "electability": 3.34,
   "electability_signals": {
    "wikipedia_monthly_views": 17,
-   "followers_total": null,
+   "followers_total": 15677,
    "news_domains": 3,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "עורך דין ופעיל חברתי בן 34, לשעבר בפרקליטות וממובילי מחאת \"אחים ואחיות לנשק\" נגד ההפיכה המשטרית. סרן במיל' וקצין מגלן שנלחם בניר עוז ב-7 באוקטובר ושירת 230 ימי מילואים במלחמה. הצטרף לדמוקרטים בפברואר 2026 כדי לייצג את הציבור הצעיר, המשרת, הציוני והליברלי.",
   "highlights_he": [
@@ -3007,7 +3007,7 @@
    "experience": "activist",
    "age": null
   },
-  "electability": 0.72,
+  "electability": 0.62,
   "electability_signals": {
    "wikipedia_monthly_views": null,
    "followers_total": 184,
@@ -3078,13 +3078,13 @@
    "experience": "mk_former",
    "age": 52
   },
-  "electability": 3.6,
+  "electability": 3.56,
   "electability_signals": {
    "wikipedia_monthly_views": 791,
-   "followers_total": null,
+   "followers_total": 10113,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "חברת כנסת לשעבר (יש עתיד, הכנסת ה-24) וילידת קיבוץ דן, שממצבת עצמה כ\"נציגת הצפון בכנסת\". כמנכ\"לית החברה הכלכלית גליל עליון הובילה את הרחבת מיגון הצפון והפיצויים לעסקים במלחמה, ומובילה את מחאת העצמאים. מתמודדת כקול ביצועי ומנוסה לפריפריה ולעצמאים.",
   "highlights_he": [
@@ -3149,13 +3149,13 @@
    "experience": "activist",
    "age": 35
   },
-  "electability": 1.47,
+  "electability": 1.57,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 3248,
    "news_domains": 1,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "מנכ\"ל תנועת \"מחזקים למען השלום והדמוקרטיה\" ופעיל שלום מזה עשור, בן 35 מיפו. הוביל תנועה דיגיטלית המגיעה ליותר ממיליון ישראלים בחודש, נאם באו\"ם בז'נבה והוביל קמפיינים נגד פורום קהלת וההפיכה המשטרית. מתמצב כנציג \"דור חדש בפוליטיקה\" עם אג'נדה של שלום, דמוקרטיה, שוויון ושותפות יהודית-ערבית.",
   "highlights_he": [
@@ -3218,7 +3218,7 @@
    "experience": "professional",
    "age": 59
   },
-  "electability": 3.64,
+  "electability": 3.58,
   "electability_signals": {
    "wikipedia_monthly_views": 1604,
    "followers_total": 2485,
@@ -3356,13 +3356,13 @@
    "experience": "local_gov",
    "age": 42
   },
-  "electability": 2.38,
+  "electability": 2.12,
   "electability_signals": {
    "wikipedia_monthly_views": null,
-   "followers_total": null,
+   "followers_total": 1690,
    "news_domains": 2,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "סגנית ראש עיריית בת ים וחברת מועצה כ-13 שנים, בעברה פעילת מרצ שהובילה את רשימת \"בת ים חופשית ודמוקרטית\". מחזיקה בתיקי הרווחה, התחבורה, איכות הסביבה, מעמד האישה והקהילה הגאה, והובילה את המחאה נגד ההפיכה המשטרית בעירה. רצה תחת הסיסמה \"שינוי עושים איפה שקשה\", הבאת הערכים הליברליים לקהלים חדשים.",
   "highlights_he": [
@@ -3425,7 +3425,7 @@
    "experience": "mk_former",
    "age": 41
   },
-  "electability": 3.01,
+  "electability": 2.96,
   "electability_signals": {
    "wikipedia_monthly_views": 581,
    "followers_total": 3639,
@@ -3498,13 +3498,13 @@
    "experience": "activist",
    "age": 43
   },
-  "electability": 2.04,
+  "electability": 2.36,
   "electability_signals": {
    "wikipedia_monthly_views": 1067,
-   "followers_total": null,
+   "followers_total": 14460,
    "news_domains": 0,
    "prior_national_list": false,
-   "coverage": 2
+   "coverage": 3
   },
   "summary_he": "עיתונאי ואקטיביסט עם 17 שנות ניסיון במאבק בשחיתות, מייסד מיזם התקשורת \"שקוף\" וממייסדי \"לובי 99\" ו\"עוגן לעתיד\". רץ לכנסת כדי \"לשבור את השיטה מבפנים\": שקיפות שלטונית, מאבק בכסף הגדול בפוליטיקה, מלחמה בפייק והוזלת יוקר המחיה - בקמפיין ממומן המונים ושקוף לחלוטין.",
   "highlights_he": [

@@ -1,0 +1,24 @@
+{
+ "id": "29722",
+ "name": "משה רדמן",
+ "signals": {
+  "wikipedia": {
+   "exists": null,
+   "title": null,
+   "monthly_views_avg": null
+  },
+  "followers": {
+   "facebook": null,
+   "instagram": 21989,
+   "x": null,
+   "tiktok": 20300,
+   "total_known": 42289
+  },
+  "news_presence": {
+   "major_domains_top20": null,
+   "domains": []
+  },
+  "prior_national_list": null
+ },
+ "notes_he": ""
+}
