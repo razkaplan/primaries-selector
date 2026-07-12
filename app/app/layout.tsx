@@ -8,10 +8,30 @@ const notoSansHebrew = Noto_Sans_Hebrew({
   weight: ["300", "400", "500", "700", "900"],
 });
 
+const OG_TITLE = "בוחרים בפריימריז - מי ראוי לקול שלכם?";
+const OG_DESCRIPTION =
+  "5 שאלות קצרות, דירוג אישי של כל 51 המועמדים בפריימריז של הדמוקרטים, ופתק מאוזן מוכן להצבעה. שקוף, מבוסס נתונים, בלי אג'נדה. ההצבעה ב-20.7.2026.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://elections.gtmascode.dev"),
   title: "בוחרים בפריימריז | כלי עזר לבחירת מועמדים - הדמוקרטים",
   description:
     "כלי לא רשמי שעוזר לחברות וחברי מפלגת הדמוקרטים לבחור מועמדים בפריימריז: שאלון קצר, דירוג מותאם אישית ומידע מרוכז על כל המועמדים.",
+  openGraph: {
+    title: OG_TITLE,
+    description: OG_DESCRIPTION,
+    url: "https://elections.gtmascode.dev",
+    siteName: "בוחרים בפריימריז",
+    locale: "he_IL",
+    type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: OG_TITLE }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: OG_TITLE,
+    description: OG_DESCRIPTION,
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
