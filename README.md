@@ -1,40 +1,56 @@
-# בוחרים בפריימריז — כלי עזר לבחירת מועמדים (הדמוקרטים)
+# בוחרים בפריימריז
 
-כלי לא רשמי שעוזר לחברות וחברי מפלגת הדמוקרטים לבחור מועמדים בפריימריז:
-שאלון קצר (4 שאלות) → דירוג אישי של כל 51 המועמדים → בניית "פתק" של עד 10 מועמדים.
+כלי עזר לא רשמי לחברות וחברי מפלגת הדמוקרטים לקראת הפריימריז (20.7.2026):
+שאלון קצר, דירוג מותאם אישית של 51 המועמדים, ובניית פתק מאוזן.
 
-## מבנה
+**האתר:** https://elections.gtmascode.dev
 
-- `app/` — אפליקציית Next.js (עברית, RTL, סטטית לחלוטין — מוכנה ל-Vercel)
-- `data/candidates.json` — הרוסטר הרשמי (נגזר מ-democrats.org.il/candidates)
-- `data/sites/<id>.md` — תוכן שנאסף מאתרי המועמדים (Bright Data MCP)
-- `data/research/<id>.md` — ממצאי מחקר חיפוש לכל מועמד (Bright Data SERP)
-- `data/profiles/<id>.json` — פרופיל מובנה: ציוני 10 צירי נושא (0-5), מאפיינים, תקציר
-- `data/PROFILE_SCHEMA.md` — הסכמה של הפרופילים
-- `scripts/merge.py` — ממזג רוסטר + פרופילים אל `app/data/candidates.json`
+## למה הקוד פתוח?
 
-## איך הדירוג עובד
+כי כל הטענה של הכלי היא שקיפות. מנוע הדירוג, הנתונים, בדיקות ההטיה
+והתיעוד הסטטיסטי, הכל כאן, פתוח לביקורת.
 
-ציון ההתאמה = 60% נושאים שנבחרו (מרכזיות הנושא באג'נדת המועמד) +
-15% העדפת ניסיון + 15% העדפות ייצוג + 10% זיקה מפלגתית (מרצ/עבודה/חדש).
-הנתונים מבוססים על מקורות פומביים בלבד; ללא המלצה מערכתית.
+- מנוע הדירוג: [app/lib/scoring.ts](app/lib/scoring.ts) (כ-200 שורות קריאות)
+- פתק מאוזן (MMR על גרף דמיון): [app/lib/ballot.ts](app/lib/ballot.ts)
+- תיעוד סטטיסטי מלא של המודל: [docs/MODEL.md](docs/MODEL.md)
+- סקירת ספרות מדע המדינה: [docs/political-science-review.md](docs/political-science-review.md)
+- בדיקת הטיה (30 פרסונות): [app/scripts/simulate.ts](app/scripts/simulate.ts)
+- פרופילי המועמדים והמקורות: [data/profiles/](data/profiles/)
 
-## הרצה
+## איך מציעים שיפור?
 
-```bash
-cd app && npm install && npm run dev
-```
+ראו [CONTRIBUTING.md](CONTRIBUTING.md). בקצרה: Issues לרעיונות ודיווחים,
+Pull Requests לשינויים. מיזוג נעשה רק על ידי בעל המאגר.
 
-## עדכון נתונים
-
-לאחר עדכון פרופילים תחת `data/profiles/`:
+## הרצה מקומית
 
 ```bash
-python3 scripts/merge.py && cd app && npm run build
+cd app && npm install && npm run dev        # האפליקציה
+npx tsx scripts/simulate.ts                 # בדיקת ההטיה (מתוך app/)
+python3 scripts/merge.py                    # בנייה מחדש של הדאטה (מהשורש)
 ```
 
-## פריסה ל-Vercel
+## גילוי נאות
 
-```bash
-cd app && npx vercel deploy
-```
+- הכלי אינו קשור למפלגת הדמוקרטים ואינו ממליץ על מועמדים.
+- המידע נאסף ממקורות פומביים (אתר המפלגה, אתרי מועמדים, ויקיפדיה,
+  חדשות, רשתות חברתיות) באמצעות [Bright Data](https://brightdata.com).
+  ציוני הצירים נוצרו בסיוע LLM לפי רובריקה אחידה ([data/PROFILE_SCHEMA.md](data/PROFILE_SCHEMA.md)).
+- ייתכנו אי-דיוקים. מצאתם טעות בפרופיל שלכם או של מועמד/ת שאתם מכירים?
+  פתחו Issue ותקבלו עדיפות גבוהה.
+- תמונות וביוגרפיות רשמיות שייכות למפלגה ולמועמדים ומשמשות כאן לצורך
+  מידע ציבורי. בקשות הסרה: פתחו Issue.
+
+---
+
+## English summary
+
+An unofficial, open-source candidate-matching tool for the Israeli
+HaDemokratim party primaries (July 20, 2026). Short questionnaire,
+transparent weighted-linear ranking over 51 researched candidate profiles,
+diversity-aware ballot builder (MMR), 30-persona bias audit, full model
+documentation in [docs/MODEL.md](docs/MODEL.md). Built with Next.js;
+data collected from public sources via Bright Data. Maintainer-only merges;
+suggestions welcome via Issues and PRs.
+
+Made with <3 by [Raz Kaplan](https://il.linkedin.com/in/razkaplan)
