@@ -83,6 +83,17 @@ export default function Home() {
           האתר הרשמי
         </a>
         , מאתרי המועמדים וממקורות פומביים
+        <span className="mt-1 block">
+          הקוד והמודל פתוחים לביקורת ולהצעות:{" "}
+          <a
+            href="https://github.com/razkaplan/primaries-selector"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </span>
         <span className="mt-1 block" dir="ltr">
           Made with &lt;3 by{" "}
           <a
