@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans_Hebrew } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 import "./globals.css";
 
 const notoSansHebrew = Noto_Sans_Hebrew({
@@ -44,6 +45,18 @@ export default function RootLayout({
       <body className={`${notoSansHebrew.className} min-h-full antialiased bg-[#f7f8fc] text-black`}>
         {children}
         <Analytics />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-V7LGK8CMHQ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-V7LGK8CMHQ');
+          `}
+        </Script>
       </body>
     </html>
   );
