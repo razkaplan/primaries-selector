@@ -1,3 +1,4 @@
+import metaData from "@/data/elections/meta.json";
 import partiesData from "@/data/elections/parties.json";
 import partyListsData from "@/data/elections/party_lists.json";
 import pollsData from "@/data/elections/polls.json";
@@ -12,6 +13,7 @@ export interface Party {
 export interface ListCandidate {
   rank: number;
   name: string;
+  name_he: string | null;
   wikipedia: string | null;
 }
 
@@ -56,6 +58,11 @@ export const parties = partiesData as Party[];
 export const partyLists = partyListsData as PartyList[];
 export const polls = (pollsData as { polls: Poll[] }).polls;
 export const pollEvents = (pollsData as { events: PollEvent[] }).events;
+export const meta = metaData as { scraped_at: string; sources: Record<string, string> };
+
+export function sourceUrl(sourcePage: string): string {
+  return meta.sources[sourcePage] ?? meta.sources["polls_2026"];
+}
 
 const partyByKey = new Map(parties.map((p) => [p.key, p]));
 
@@ -89,24 +96,73 @@ export const PARTY_COLORS: Record<string, string> = {
   noam: "#3d348b",
 };
 
-/** Hebrew labels for non-party result columns (question polls, PM polls). */
+/** Hebrew labels for non-party result columns (question polls, PM polls,
+ * hypothetical parties in scenario polls). */
 const RESULT_LABELS_HE: Record<string, string> = {
   netanyahu: "נתניהו",
   bennett: "בנט",
+  naftali_bennett: "נפתלי בנט",
   lapid: "לפיד",
   gantz: "גנץ",
   eisenkot: "איזנקוט",
   golan: "גולן",
   lieberman: "ליברמן",
   segalovitz: "סגלוביץ'",
+  barkat: "ברקת",
+  cohen: "כהן",
+  gallant: "גלנט",
+  hendel: "הנדל",
+  levin: "לוין",
+  simchi: "שמחי",
+  tropper: "טרופר",
+  winter: "וינטר",
+  bennett_cohen: "בנט–כהן",
+  hendel_bennett: "הנדל–בנט",
+  likud_b: "ליכוד ב'",
+  oy_rz: "עוצמה–הציונות הדתית",
+  nep: "הכלכלית החדשה",
+  beyachad_natzliach: "ביחד נצליח",
+  tov_haddad_deri: "שם טוב–חדאד–דרעי",
+  protest_party: "מפלגת מחאה",
+  right_wing_liberal_party: "מפלגה ליברלית-ימנית",
+  a_new_right_wing_party: "מפלגת ימין חדשה",
+  bennett_party: "מפלגת בנט",
+  hendel_party: "מפלגת הנדל",
+  other_jewish_parties: "מפלגות יהודיות אחרות",
   would_like: "בעד",
   would_dislike: "נגד",
   undecided: "לא הכריעו",
   don_t_know: "לא יודעים",
+  no_answer: "ללא תשובה",
+  absent: "לא ישתתפו",
   other: "אחר",
   others: "אחרות",
   none: "אף אחד",
   neither: "אף אחד מהם",
+  combined_yes: "בעד (משוקלל)",
+  combined_no: "נגד (משוקלל)",
+  yes_in_any_coalition: "בעד בכל קואליציה",
+  only_in_center_left_coalition: "רק בקואליציית מרכז-שמאל",
+  oppose_any_government: "נגד בכל ממשלה",
+  oppose_but_support_govt_from_outside: "נגד, אך תמיכה מבחוץ",
+  cross_bloc: "חוצת גושים",
+  cross_bloc_w_arabs: "חוצת גושים עם הערבים",
+  cross_bloc_w_haredi: "חוצת גושים עם החרדים",
+  cross_bloc_w_o_extremists: "חוצת גושים בלי הקיצוניים",
+  other_cross_bloc: "חוצת גושים אחרת",
+  distinct_bloc: "גוש מובחן",
+  right_wing_bloc: "גוש הימין",
+  right_wing_w_opposition_party: "ימין עם מפלגת אופוזיציה",
+  opposition_w_arabs: "אופוזיציה עם הערבים",
+  opposition_w_coalition_party: "אופוזיציה עם מפלגת קואליציה",
+  opposition: "האופוזיציה",
+  gov_total: "סך הקואליציה",
+  now: "עכשיו",
+  at_the_end_of_the_war: "בסוף המלחמה",
+  november_2026_as_scheduled: "בנובמבר 2026 כמתוכנן",
+  two_lists: "שתי רשימות",
+  three_lists: "שלוש רשימות",
+  same_party: "אותה מפלגה",
 };
 
 export function partyName(key: string): string {

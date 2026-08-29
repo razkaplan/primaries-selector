@@ -3,6 +3,7 @@ import KnessetNav from "@/components/KnessetNav";
 import KnessetFooter from "@/components/KnessetFooter";
 import PollsTable from "@/components/PollsTable";
 import { type Poll, polls } from "@/lib/elections";
+import { scenarioHe } from "@/lib/electionsHe";
 
 export const metadata: Metadata = {
   title: "סקרי תרחישים, ראש ממשלה וקואליציה | בחירות 2026 לכנסת",
@@ -86,7 +87,7 @@ export default function KnessetPollsMore() {
               className="rounded-2xl border border-neutral-200 bg-white p-4"
             >
               <summary className="cursor-pointer text-sm font-bold sm:text-base">
-                <span dir="ltr">{name}</span>
+                {scenarioHe(name)}
                 <span className="mr-2 text-sm font-normal text-neutral-400">
                   · {list.length} סקרים
                 </span>

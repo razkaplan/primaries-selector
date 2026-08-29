@@ -5,6 +5,7 @@ import KnessetFooter from "@/components/KnessetFooter";
 import PollsTable from "@/components/PollsTable";
 import {
   fmtDate,
+  meta,
   partyColor,
   partyLists,
   partyName,
@@ -12,7 +13,9 @@ import {
   polls,
   seatAverages,
   seatPolls,
+  sourceUrl,
 } from "@/lib/elections";
+import { eventHe } from "@/lib/electionsHe";
 
 export const metadata: Metadata = {
   title: "בחירות 2026 לכנסת | כל המפלגות, המועמדים והסקרים",
@@ -82,6 +85,17 @@ export default function KnessetOverview() {
           {govAvg !== null && (
             <> · גוש הקואליציה היוצאת בממוצע: {govAvg.toFixed(1)} מנדטים</>
           )}
+          {" · נאסף ב-"}
+          {fmtDate(meta.scraped_at, meta.scraped_at)}
+          {" · "}
+          <a
+            href={sourceUrl("polls_2026")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-[#101CAA]"
+          >
+            מקור
+          </a>
         </p>
         <div className="mt-4 space-y-2 rounded-2xl border border-neutral-200 bg-white p-5">
           {averages.map((a) => (
@@ -154,7 +168,7 @@ export default function KnessetOverview() {
                 <span className="w-20 shrink-0 font-bold text-neutral-500">
                   {fmtDate(e.date, e.date_raw)}
                 </span>
-                <span className="text-neutral-700">{e.event}</span>
+                <span className="text-neutral-700">{eventHe(e.event)}</span>
               </li>
             ))}
           </ul>

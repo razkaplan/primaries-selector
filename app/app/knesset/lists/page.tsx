@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import KnessetNav from "@/components/KnessetNav";
 import KnessetFooter from "@/components/KnessetFooter";
 import {
+  fmtDate,
+  meta,
   parties,
   partyColor,
   partyLists,
   partyName,
   seatAverages,
+  sourceUrl,
 } from "@/lib/elections";
 
 export const metadata: Metadata = {
@@ -51,10 +54,21 @@ export default function KnessetLists() {
               />
               <h2 className="text-xl font-black">{partyName(list.party)}</h2>
               <span className="text-sm text-neutral-400">
-                {list.party_section} · {list.candidates.length} מועמדות ומועמדים
+                {list.candidates.length} מועמדות ומועמדים
                 {avg.get(list.party) !== undefined && (
                   <> · {avg.get(list.party)!.toFixed(1)} מנדטים בממוצע הסקרים</>
                 )}
+                {" · עודכן "}
+                {fmtDate(meta.scraped_at, meta.scraped_at)}
+                {" · "}
+                <a
+                  href={sourceUrl("party_lists")}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#101CAA]"
+                >
+                  מקור
+                </a>
               </span>
             </header>
             <ol className="mt-4 gap-x-8 text-sm leading-7 sm:columns-2 lg:columns-3">
@@ -70,10 +84,10 @@ export default function KnessetLists() {
                       rel="noopener noreferrer"
                       className="truncate underline decoration-neutral-300 underline-offset-2 hover:text-[#101CAA]"
                     >
-                      {c.name}
+                      {c.name_he ?? c.name}
                     </a>
                   ) : (
-                    <span className="truncate">{c.name}</span>
+                    <span className="truncate">{c.name_he ?? c.name}</span>
                   )}
                 </li>
               ))}

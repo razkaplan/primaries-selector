@@ -391,8 +391,16 @@ def parse_poll_table(table, default_years):
     return polls, events
 
 
+def load_names_he():
+    """Curated English->Hebrew candidate names (data/elections/names_he.json),
+    built from the Hebrew-Wikipedia primaries pages and reviewed by hand."""
+    p = f"{OUT}/names_he.json"
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+
+
 def parse_party_lists(parser):
     """One h2 section per party; the section's single <ol> is the ranked slate."""
+    names_he = load_names_he()
     out = []
     for ol in parser.lists:
         sec = ol["heading"]["h2"]
@@ -404,6 +412,7 @@ def parse_party_lists(parser):
             if not name:
                 continue
             candidates.append({"rank": rank, "name": name,
+                               "name_he": names_he.get(name),
                                "wikipedia": wiki_url(li["links"])})
         if candidates:
             out.append({"party": party_key(sec.replace("_", " ")),
@@ -490,10 +499,17 @@ def main():
               ensure_ascii=False, indent=1)
     print(f"parties.json: {len(parties)} parties")
 
+    # provenance: when we scraped and from where (shown on the site)
+    meta = {"scraped_at": TODAY,
+            "sources": {k: "https://en.wikipedia.org/wiki/" + t.replace("%E2%80%93", "–")
+                        for k, t in PAGES.items()}}
+    json.dump(meta, open(f"{OUT}/meta.json", "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+
     # mirror for the app (same pattern as merge.py -> app/data)
     app_out = f"{ROOT}/app/data/elections"
     os.makedirs(app_out, exist_ok=True)
-    for name in ("party_lists", "polls", "parties"):
+    for name in ("party_lists", "polls", "parties", "meta"):
         with open(f"{OUT}/{name}.json", encoding="utf-8") as src:
             open(f"{app_out}/{name}.json", "w", encoding="utf-8").write(src.read())
     print(f"mirrored to {app_out}/")

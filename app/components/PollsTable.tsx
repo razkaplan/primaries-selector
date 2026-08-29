@@ -4,7 +4,9 @@ import {
   partyColor,
   partyName,
   resultKeys,
+  sourceUrl,
 } from "@/lib/elections";
+import { firmHe, publisherHe } from "@/lib/electionsHe";
 
 function Cell({ value, pct }: { value: number | string | null; pct?: number }) {
   if (value === null || value === undefined)
@@ -58,6 +60,7 @@ export default function PollsTable({
                 גוש נתניהו
               </th>
             )}
+            <th className="px-2 py-2 text-center font-bold">מקור</th>
           </tr>
         </thead>
         <tbody>
@@ -73,10 +76,10 @@ export default function PollsTable({
                 {fmtDate(p.date, p.date_raw)}
               </td>
               <td className="whitespace-nowrap px-2 py-1.5 text-neutral-600">
-                {p.firm ?? "–"}
+                {firmHe(p.firm)}
               </td>
               <td className="whitespace-nowrap px-2 py-1.5 text-neutral-500">
-                {p.publisher ?? "–"}
+                {publisherHe(p.publisher)}
               </td>
               <td className="px-2 py-1.5 text-center tabular-nums text-neutral-500">
                 {p.sample ?? "–"}
@@ -93,6 +96,17 @@ export default function PollsTable({
                   {p.gov_bloc ?? "–"}
                 </td>
               )}
+              <td className="px-2 py-1.5 text-center">
+                <a
+                  href={sourceUrl(p.source_page)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-400 underline hover:text-[#101CAA]"
+                  title="לטבלת המקור בוויקיפדיה"
+                >
+                  ↗
+                </a>
+              </td>
             </tr>
           ))}
         </tbody>
