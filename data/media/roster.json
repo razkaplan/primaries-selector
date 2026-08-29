@@ -1,0 +1,1048 @@
+{
+ "generated_from": {
+  "scraped_at": "2026-08-29",
+  "sources": {
+   "party_lists": "https://en.wikipedia.org/wiki/Party_lists_for_the_2026_Israeli_legislative_election",
+   "polls_2026": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+   "polls_2025": "https://en.wikipedia.org/wiki/2025_opinion_polling_for_the_2026_Israeli_legislative_election",
+   "polls_2024": "https://en.wikipedia.org/wiki/2024_opinion_polling_for_the_2026_Israeli_legislative_election",
+   "polls_2022_2023": "https://en.wikipedia.org/wiki/2022–2023_opinion_polling_for_the_2026_Israeli_legislative_election"
+  }
+ },
+ "window_start": "2026-07-28",
+ "roster": [
+  {
+   "id": "yair_golan",
+   "name_he": "יאיר גולן",
+   "name_en": "Yair Golan",
+   "party": "democrats",
+   "list_rank": 1,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Yair_Golan",
+   "socials": {
+    "x": "https://x.com/YairGolan1"
+   }
+  },
+  {
+   "id": "naama_lazimi",
+   "name_he": "נעמה לזימי",
+   "name_en": "Naama Lazimi",
+   "party": "democrats",
+   "list_rank": 2,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Naama_Lazimi",
+   "socials": {
+    "facebook": "https://www.facebook.com/share/192VuUoTC1/",
+    "instagram": "https://www.instagram.com/naamalazimi",
+    "x": "https://x.com/naamalazimi?s=20",
+    "tiktok": "https://www.tiktok.com/@naamalazimi",
+    "whatsapp": "https://chat.whatsapp.com/LIHb0epuuzoDMtBMxBpQIl"
+   }
+  },
+  {
+   "id": "gilad_kariv",
+   "name_he": "גלעד קריב",
+   "name_en": "Gilad Kariv",
+   "party": "democrats",
+   "list_rank": 3,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Gilad_Kariv",
+   "socials": {
+    "facebook": "https://www.facebook.com/RabbiGiladKariv",
+    "instagram": "https://www.instagram.com/gilad.kariv/",
+    "x": "https://x.com/KarivGilad?s=20",
+    "tiktok": "https://www.tiktok.com/@gilad_kariv"
+   }
+  },
+  {
+   "id": "efrat_rayten",
+   "name_he": "אפרת רייטן",
+   "name_en": "Efrat Rayten",
+   "party": "democrats",
+   "list_rank": 4,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Efrat_Rayten",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "yaya_fink",
+   "name_he": "יאיא פינק",
+   "name_en": "Yaya Fink",
+   "party": "democrats",
+   "list_rank": 5,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Yaya_Fink",
+   "socials": {
+    "facebook": "https://www.facebook.com/share/17mrvqG6BT/?mibextid=wwXIfr",
+    "instagram": "https://www.instagram.com/yayafink/?hl=en",
+    "x": "https://x.com/yayafink",
+    "tiktok": "https://www.tiktok.com/@yayafink?_r=1&_t=ZS-97QQc6AHmZ0"
+   }
+  },
+  {
+   "id": "gaby_lasky",
+   "name_he": "גבי לסקי",
+   "name_en": "Gaby Lasky",
+   "party": "democrats",
+   "list_rank": 6,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Gaby_Lasky",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "omri_ronen",
+   "name_he": "עמרי רונן",
+   "name_en": "Omri Ronen",
+   "party": "democrats",
+   "list_rank": 7,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Omri_Ronen_(social_activist)",
+   "socials": {
+    "facebook": "https://www.facebook.com/share/1TKMHd3f57",
+    "instagram": "https://www.instagram.com/omrironenn",
+    "x": "https://x.com/omrironen24",
+    "tiktok": "https://www.tiktok.com/@omri.ronen",
+    "whatsapp": "https://chat.whatsapp.com/J2Okv9csj9tGB0HGP5tT4M?mode=gi_t"
+   }
+  },
+  {
+   "id": "michal_rozin",
+   "name_he": "מיכל רוזין",
+   "name_en": "Michal Rozin",
+   "party": "democrats",
+   "list_rank": 8,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Michal_Rozin",
+   "socials": {
+    "facebook": "http://facebook.com/michal.rozin",
+    "instagram": "http://instagram.com/michal_rozin",
+    "x": "https://x.com/Michal_Rozin",
+    "tiktok": "https://www.tiktok.com/@michal_rozin"
+   }
+  },
+  {
+   "id": "moshe_radman",
+   "name_he": "משה רדמן אבוטבול",
+   "name_en": "Moshe Radman",
+   "party": "democrats",
+   "list_rank": 9,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Moshe_Radman",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "somaya_bashir",
+   "name_he": "סומיה בשיר",
+   "name_en": "Somaya Bashir",
+   "party": "democrats",
+   "list_rank": 10,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Somaya_Bashir",
+   "socials": {
+    "facebook": "https://www.facebook.com/share/1DAfjkL9gP/",
+    "instagram": "https://www.instagram.com/bashirsomaya?igsh=cW5wbjhqazV5NTYx",
+    "x": "https://x.com/bashsomaya",
+    "tiktok": "https://www.tiktok.com/@humanity10.2022?_r=1&_t=ZS-97PlATVdENo",
+    "whatsapp": "https://chat.whatsapp.com/CWLbVaI6uJKHZFYeopLtaf?s=cl&p=a&ilr=0"
+   }
+  },
+  {
+   "id": "nimrod_sheffer",
+   "name_he": "נמרוד שפר",
+   "name_en": "Nimrod Sheffer",
+   "party": "democrats",
+   "list_rank": 11,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Nimrod_Sheffer",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "moran_zer_katzenstein",
+   "name_he": "מורן זר קצנשטיין",
+   "name_en": "Moran Zer Katzenstein",
+   "party": "democrats",
+   "list_rank": 12,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Moran_Zer_Katzenstein",
+   "socials": {
+    "facebook": "https://www.facebook.com/moran.zer",
+    "instagram": "https://www.instagram.com/moranzer/",
+    "x": "https://x.com/zermoran",
+    "tiktok": "https://www.tiktok.com/@moran.zer",
+    "linkedin": "https://www.linkedin.com/in/moran-zer-katzenstein-90b62a18",
+    "whatsapp": "https://chat.whatsapp.com/HrFDUvl7NnMC5Y4x4V5VMh"
+   }
+  },
+  {
+   "id": "avi_dabush",
+   "name_he": "אבי דבוש",
+   "name_en": "Avi Dabush",
+   "party": "democrats",
+   "list_rank": 13,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Avi_Dabush",
+   "socials": {
+    "facebook": "https://www.facebook.com/DabushMeretz/?locale=he_IL",
+    "instagram": "https://www.instagram.com/dabushavi?igsh=N3d4eXNxY3J4aHBw&utm_source=qr",
+    "x": "https://x.com/avidabush",
+    "whatsapp": "https://chat.whatsapp.com/HOFF8xWD3ap4iCWd8tgGgr?mode=ac_t"
+   }
+  },
+  {
+   "id": "emilie_moatti",
+   "name_he": "אמילי מואטי",
+   "name_en": "Emilie Moatti",
+   "party": "democrats",
+   "list_rank": 14,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Emilie_Moatti",
+   "socials": {
+    "facebook": "https://www.facebook.com/share/18hYap6P3u/",
+    "instagram": "https://www.instagram.com/emiliemoatti?igsh=NDZhMDVzNW83MmM5",
+    "x": "https://x.com/EmilieMoatti",
+    "whatsapp": "https://chat.whatsapp.com/KEjtndS5tDCJCceFdYn60B?s=cl&p=a&mlu=0&amv=1"
+   }
+  },
+  {
+   "id": "tomer_avital",
+   "name_he": "תומר אביטל",
+   "name_en": "Tomer Avital",
+   "party": "democrats",
+   "list_rank": 15,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Tomer_Avital",
+   "socials": {
+    "facebook": "https://www.facebook.com/tomer.avital1",
+    "instagram": "https://www.instagram.com/tomeravital100/",
+    "x": "https://x.com/TomerAvital1",
+    "tiktok": "https://www.tiktok.com/@tomeravital100",
+    "linkedin": "https://www.linkedin.com/in/tomer-avital-52795315/",
+    "whatsapp": "https://chat.whatsapp.com/KG40OSzU4UxGpOUZfjm9i8?s=cl&p=i&ilr=0"
+   }
+  },
+  {
+   "id": "yousef_jabareen",
+   "name_he": "יוסף ג'בארין (יו\"ר חד\"ש)",
+   "name_en": "Yousef Jabareen (Hadash leader)",
+   "party": "joint_list",
+   "list_rank": 1,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Yousef_Jabareen",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "ahmad_tibi",
+   "name_he": "אחמד טיבי (יו\"ר תע\"ל)",
+   "name_en": "Ahmad Tibi (Ta’al leader)",
+   "party": "joint_list",
+   "list_rank": 2,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Ahmad_Tibi",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "sami_abu_shehadeh",
+   "name_he": "סאמי אבו שחאדה (יו\"ר בל\"ד)",
+   "name_en": "Sami Abu Shehadeh (Balad leader)",
+   "party": "joint_list",
+   "list_rank": 3,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Sami_Abu_Shehadeh",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "jafar_farah",
+   "name_he": "ג'אפר פרח (חד\"ש)",
+   "name_en": "Jafar Farah (Hadash)",
+   "party": "joint_list",
+   "list_rank": 4,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Jafar_Farah",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "bakhar_awawdeh",
+   "name_he": "בכר עואודה (בל\"ד)",
+   "name_en": "Bakhar Awawdeh (Balad)",
+   "party": "joint_list",
+   "list_rank": 5,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Bakhar_Awawdeh",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "ofer_cassif_in_rotation_with_ta_al",
+   "name_he": "עופר כסיף (חד\"ש) – ברוטציה עם תע\"ל",
+   "name_en": "Ofer Cassif (Hadash) - in rotation with Ta'al",
+   "party": "joint_list",
+   "list_rank": 6,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Ofer_Cassif",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "youssef_atauna",
+   "name_he": "יוסף עטאונה (חד\"ש)",
+   "name_en": "⁠Youssef Atauna (Hadash)",
+   "party": "joint_list",
+   "list_rank": 7,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Youssef_Atauna",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "maha_karkabi",
+   "name_he": "מהא כרכבי (בל\"ד)",
+   "name_en": "Maha Karkabi (Balad)",
+   "party": "joint_list",
+   "list_rank": 8,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Maha_Karkabi",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "ta_al_in_rotation_with_hadash",
+   "name_he": "נציג/ת תע\"ל – ברוטציה עם חד\"ש",
+   "name_en": "Ta'al - in rotation with Hadash",
+   "party": "joint_list",
+   "list_rank": 9,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "nihaya_washahi",
+   "name_he": "ניהאיא ושאחי (חד\"ש)",
+   "name_en": "Nihaya Washahi (Hadash)",
+   "party": "joint_list",
+   "list_rank": 10,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Nihaya_Washahi",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "hassan_nassasra",
+   "name_he": "חסן נסאסרה (בל\"ד)",
+   "name_en": "Hassan Nassasra (Balad)",
+   "party": "joint_list",
+   "list_rank": 11,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Hassan_Nassasra",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "ta_al",
+   "name_he": "נציג/ת תע\"ל",
+   "name_en": "Ta’al",
+   "party": "joint_list",
+   "list_rank": 12,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "benjamin_netanyahu",
+   "name_he": "בנימין נתניהו",
+   "name_en": "Benjamin Netanyahu",
+   "party": "likud",
+   "list_rank": 1,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "eli_cohen",
+   "name_he": "אלי כהן",
+   "name_en": "Eli Cohen",
+   "party": "likud",
+   "list_rank": 2,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Eli_Cohen_(politician,_born_1972)",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "israel_katz",
+   "name_he": "אמיר אוחנה",
+   "name_en": "Israel Katz",
+   "party": "likud",
+   "list_rank": 4,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Israel_Katz",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "gideon_sa_ar",
+   "name_he": "גדעון סער",
+   "name_en": "Gideon Sa'ar",
+   "party": "likud",
+   "list_rank": 5,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Gideon_Sa'ar",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "amir_ohana",
+   "name_he": "יריב לוין",
+   "name_en": "Amir Ohana",
+   "party": "likud",
+   "list_rank": 6,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Amir_Ohana",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "yariv_levin",
+   "name_he": "מירי רגב",
+   "name_en": "Yariv Levin",
+   "party": "likud",
+   "list_rank": 7,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Yariv_Levin",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "miri_regev",
+   "name_he": "אופיר כץ",
+   "name_en": "Miri Regev",
+   "party": "likud",
+   "list_rank": 8,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Miri_Regev",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "ofir_katz",
+   "name_he": "יואב קיש",
+   "name_en": "Ofir Katz",
+   "party": "likud",
+   "list_rank": 10,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Ofir_Katz",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "oren_dobronsky",
+   "name_he": "אורן דוברונסקי",
+   "name_en": "Oren Dobronsky",
+   "party": "likud",
+   "list_rank": 11,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Oren_Dobronsky",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "yoav_kisch",
+   "name_he": "מיקי זוהר",
+   "name_en": "Yoav Kisch",
+   "party": "likud",
+   "list_rank": 12,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Yoav_Kisch",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "miki_zohar",
+   "name_he": "אלמוג כהן",
+   "name_en": "Miki Zohar",
+   "party": "likud",
+   "list_rank": 13,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Miki_Zohar",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "almog_cohen",
+   "name_he": "עמיחי שיקלי",
+   "name_en": "Almog Cohen",
+   "party": "likud",
+   "list_rank": 14,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Almog_Cohen_(politician)",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "amichai_chikli",
+   "name_he": "דודי אמסלם",
+   "name_en": "Amichai Chikli",
+   "party": "likud",
+   "list_rank": 16,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Amichai_Chikli",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "dudi_amsalem",
+   "name_he": "משה סעדה",
+   "name_en": "Dudi Amsalem",
+   "party": "likud",
+   "list_rank": 17,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Dudi_Amsalem",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "haim_katz",
+   "name_he": "חיים כץ",
+   "name_en": "Haim Katz",
+   "party": "likud",
+   "list_rank": 18,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Haim_Katz",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "moshe_saada",
+   "name_he": "טלי גוטליב",
+   "name_en": "Moshe Saada",
+   "party": "likud",
+   "list_rank": 19,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Moshe_Saada",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "tally_gotliv",
+   "name_he": "שלמה קרעי",
+   "name_en": "Tally Gotliv",
+   "party": "likud",
+   "list_rank": 20,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Tally_Gotliv",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "shlomo_karhi",
+   "name_he": "בועז ביסמוט",
+   "name_en": "Shlomo Karhi",
+   "party": "likud",
+   "list_rank": 21,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Shlomo_Karhi",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "david_bitan",
+   "name_he": "דוד ביטן",
+   "name_en": "David Bitan",
+   "party": "likud",
+   "list_rank": 22,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/David_Bitan",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "boaz_bismuth",
+   "name_he": "ניר ברקת",
+   "name_en": "Boaz Bismuth",
+   "party": "likud",
+   "list_rank": 23,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Boaz_Bismuth",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "nir_barkat",
+   "name_he": "זאב אלקין",
+   "name_en": "Nir Barkat",
+   "party": "likud",
+   "list_rank": 24,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Nir_Barkat",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "gila_gamliel",
+   "name_he": "גילה גמליאל",
+   "name_en": "Gila Gamliel",
+   "party": "likud",
+   "list_rank": 25,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Gila_Gamliel",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "erez_tadmor",
+   "name_he": "ארז תדמור",
+   "name_en": "Erez Tadmor",
+   "party": "likud",
+   "list_rank": 27,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "shlomo_lerner",
+   "name_he": "שלמה לרנר",
+   "name_en": "Shlomo Lerner",
+   "party": "likud",
+   "list_rank": 28,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "moshe_peretz",
+   "name_he": "משה בנימין פרץ",
+   "name_en": "Moshe Peretz",
+   "party": "likud",
+   "list_rank": 30,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "shuki_ohana",
+   "name_he": "שוקי אוחנה",
+   "name_en": "Shuki Ohana",
+   "party": "likud",
+   "list_rank": 31,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "ze_ev_elkin",
+   "name_he": "עמית הלוי",
+   "name_en": "Ze'ev Elkin",
+   "party": "likud",
+   "list_rank": 32,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Ze'ev_Elkin",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "avi_maoz",
+   "name_he": "אבי מעוז",
+   "name_en": "Avi Maoz",
+   "party": "noam",
+   "list_rank": 1,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Avi_Maoz",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "bezalel_smotrich",
+   "name_he": "בצלאל סמוטריץ'",
+   "name_en": "Bezalel Smotrich",
+   "party": "rzp",
+   "list_rank": 1,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Bezalel_Smotrich",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "orit_strook",
+   "name_he": "אורית סטרוק",
+   "name_en": "Orit Strook",
+   "party": "rzp",
+   "list_rank": 2,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Orit_Strook",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "tzvika_mor",
+   "name_he": "צביקה מור",
+   "name_en": "Tzvika Mor",
+   "party": "rzp",
+   "list_rank": 3,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Tzvika_Mor",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "simcha_rothman",
+   "name_he": "שמחה רוטמן",
+   "name_en": "Simcha Rothman",
+   "party": "rzp",
+   "list_rank": 4,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Simcha_Rothman",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "zvi_sukkot",
+   "name_he": "צבי סוכות",
+   "name_en": "Zvi Sukkot",
+   "party": "rzp",
+   "list_rank": 5,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Zvi_Sukkot",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "ohad_tal",
+   "name_he": "אוהד טל",
+   "name_en": "Ohad Tal",
+   "party": "rzp",
+   "list_rank": 6,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Ohad_Tal",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "omer_rahamim",
+   "name_he": "עומר רחמים",
+   "name_en": "Omer Rahamim",
+   "party": "rzp",
+   "list_rank": 7,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Omer_Rahamim",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "michal_waldiger",
+   "name_he": "מיכל וולדיגר",
+   "name_en": "Michal Waldiger",
+   "party": "rzp",
+   "list_rank": 8,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Michal_Waldiger",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "mansour_abbas",
+   "name_he": "מנסור עבאס",
+   "name_en": "Mansour Abbas",
+   "party": "raam",
+   "list_rank": 1,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Mansour_Abbas",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "waleed_taha",
+   "name_he": "וליד טאהא",
+   "name_en": "Waleed Taha",
+   "party": "raam",
+   "list_rank": 2,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Waleed_Taha",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "waleed_alhwashla",
+   "name_he": "ואליד אלהואשלה",
+   "name_en": "Waleed Alhwashla",
+   "party": "raam",
+   "list_rank": 3,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Waleed_Alhwashla",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "iman_khatib_yassin",
+   "name_he": "אימאן ח'טיב-יאסין",
+   "name_en": "Iman Khatib-Yassin",
+   "party": "raam",
+   "list_rank": 4,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Iman_Khatib-Yassin",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "yasir_hujeirat",
+   "name_he": "יאסר חוג'יראת",
+   "name_en": "Yasir Hujeirat",
+   "party": "raam",
+   "list_rank": 5,
+   "realistic": true,
+   "wikipedia": "https://en.wikipedia.org/wiki/Yasir_Hujeirat",
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "gadi_eisenkot",
+   "name_he": "גדי איזנקוט",
+   "name_en": "Gadi Eisenkot",
+   "party": "yashar",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "naftali_bennett",
+   "name_he": "נפתלי בנט",
+   "name_en": "Naftali Bennett",
+   "party": "together",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/naftalibennett"
+   }
+  },
+  {
+   "id": "yair_lapid",
+   "name_he": "יאיר לפיד",
+   "name_en": "Yair Lapid",
+   "party": "together",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/yairlapid"
+   }
+  },
+  {
+   "id": "itamar_ben_gvir",
+   "name_he": "איתמר בן גביר",
+   "name_en": "Itamar Ben-Gvir",
+   "party": "otzma_yehudit",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/itamarbengvir"
+   }
+  },
+  {
+   "id": "aryeh_deri",
+   "name_he": "אריה דרעי",
+   "name_en": "Aryeh Deri",
+   "party": "shas",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/ariyederi"
+   }
+  },
+  {
+   "id": "moshe_gafni",
+   "name_he": "משה גפני",
+   "name_en": "Moshe Gafni",
+   "party": "utj",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "yitzhak_goldknopf",
+   "name_he": "יצחק גולדקנופף",
+   "name_en": "Yitzhak Goldknopf",
+   "party": "utj",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "avigdor_lieberman",
+   "name_he": "אביגדור ליברמן",
+   "name_en": "Avigdor Lieberman",
+   "party": "yisrael_beiteinu",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/AvigdorLiberman"
+   }
+  },
+  {
+   "id": "benny_gantz",
+   "name_he": "בני גנץ",
+   "name_en": "Benny Gantz",
+   "party": "blue_white",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/gantzbe"
+   }
+  },
+  {
+   "id": "hili_tropper",
+   "name_he": "חילי טרופר",
+   "name_en": "Hili Tropper",
+   "party": "zionist_home",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "yoaz_hendel",
+   "name_he": "יועז הנדל",
+   "name_en": "Yoaz Hendel",
+   "party": "zionist_home",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "gilad_erdan",
+   "name_he": "גלעד ארדן",
+   "name_en": "Gilad Erdan",
+   "party": "unity",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/giladerdan1"
+   }
+  },
+  {
+   "id": "yuli_edelstein",
+   "name_he": "יולי אדלשטיין",
+   "name_en": "Yuli Edelstein",
+   "party": "unity",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/YuliEdelstein"
+   }
+  },
+  {
+   "id": "ofer_winter",
+   "name_he": "עופר וינטר",
+   "name_en": "Ofer Winter",
+   "party": "amcha_yisrael",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": null
+   }
+  },
+  {
+   "id": "sharren_haskel",
+   "name_he": "שרן השכל",
+   "name_en": "Sharren Haskel",
+   "party": "israel_first",
+   "list_rank": null,
+   "realistic": true,
+   "wikipedia": null,
+   "socials": {
+    "x": "https://x.com/sharrenhaskel"
+   }
+  }
+ ]
+}

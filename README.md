@@ -40,8 +40,21 @@ python3 scripts/scrape_elections.py         # כל המפלגות: רשימות 
 ב-[data/elections/SCHEMA.md](data/elections/SCHEMA.md).
 
 הנתונים מוצגים באתר בעמודים ייעודיים: `/knesset` (סקירה וממוצע הסקרים),
-`/knesset/lists` (רשימות המועמדים), `/knesset/polls` (כל סקרי המנדטים)
-ו-`/knesset/polls/more` (תרחישים, ראש ממשלה מועדף וקואליציה).
+`/knesset/lists` (רשימות המועמדים), `/knesset/polls` (כל סקרי המנדטים),
+`/knesset/polls/more` (תרחישים, ראש ממשלה מועדף וקואליציה)
+ו-`/knesset/quotes` (ציטוטים מתועדים עם מקור, תאריך ושיתוף כתמונה).
+
+## קורפוס התבטאויות המועמדים
+
+תשתית לאיסוף התבטאויות (רשתות + חדשות) של המועמדים הריאליים בכל
+המפלגות, לקראת חיפוש לפי נושאים והצלבת הבטחות ואמירות סותרות:
+
+```bash
+python3 scripts/build_media_roster.py    # מי המועמדים הריאליים ואילו פרופילים ידועים
+python3 scripts/collect_media.py         # איסוף פוסטים ואזכורי חדשות (Bright Data CLI)
+```
+
+כל רשומה מחויבת בתאריך ובקישור למקור; ראו [data/media/SCHEMA.md](data/media/SCHEMA.md).
 
 ## גילוי נאות
 

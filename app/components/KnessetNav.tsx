@@ -5,6 +5,7 @@ const TABS = [
   { href: "/knesset/lists", label: "רשימות המועמדים" },
   { href: "/knesset/polls", label: "סקרי מנדטים" },
   { href: "/knesset/polls/more", label: "תרחישים ועוד" },
+  { href: "/knesset/quotes", label: "ציטוטים" },
 ];
 
 export default function KnessetNav({ active }: { active: string }) {
