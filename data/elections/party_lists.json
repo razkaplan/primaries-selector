@@ -1,0 +1,673 @@
+[
+ {
+  "party": "democrats",
+  "party_section": "The Democrats",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Yair Golan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yair_Golan"
+   },
+   {
+    "rank": 2,
+    "name": "Naama Lazimi",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naama_Lazimi"
+   },
+   {
+    "rank": 3,
+    "name": "Gilad Kariv",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gilad_Kariv"
+   },
+   {
+    "rank": 4,
+    "name": "Efrat Rayten",
+    "wikipedia": "https://en.wikipedia.org/wiki/Efrat_Rayten"
+   },
+   {
+    "rank": 5,
+    "name": "Yaya Fink",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yaya_Fink"
+   },
+   {
+    "rank": 6,
+    "name": "Gaby Lasky",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gaby_Lasky"
+   },
+   {
+    "rank": 7,
+    "name": "Omri Ronen",
+    "wikipedia": "https://en.wikipedia.org/wiki/Omri_Ronen_(social_activist)"
+   },
+   {
+    "rank": 8,
+    "name": "Michal Rozin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michal_Rozin"
+   },
+   {
+    "rank": 9,
+    "name": "Moshe Radman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moshe_Radman"
+   },
+   {
+    "rank": 10,
+    "name": "Somaya Bashir",
+    "wikipedia": "https://en.wikipedia.org/wiki/Somaya_Bashir"
+   },
+   {
+    "rank": 11,
+    "name": "Nimrod Sheffer",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nimrod_Sheffer"
+   },
+   {
+    "rank": 12,
+    "name": "Moran Zer Katzenstein",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moran_Zer_Katzenstein"
+   },
+   {
+    "rank": 13,
+    "name": "Avi Dabush",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avi_Dabush"
+   },
+   {
+    "rank": 14,
+    "name": "Emilie Moatti",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emilie_Moatti"
+   },
+   {
+    "rank": 15,
+    "name": "Tomer Avital",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tomer_Avital"
+   },
+   {
+    "rank": 16,
+    "name": "Nava Rozolyo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nava_Rozolyo"
+   },
+   {
+    "rank": 17,
+    "name": "Ram Shefa",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ram_Shefa"
+   },
+   {
+    "rank": 18,
+    "name": "Ali Salalha",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ali_Salalha"
+   },
+   {
+    "rank": 19,
+    "name": "Rotem Sivan",
+    "wikipedia": null
+   },
+   {
+    "rank": 20,
+    "name": "Eran Etzion",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eran_Etzion"
+   },
+   {
+    "rank": 21,
+    "name": "Moran Michel",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moran_Michel"
+   },
+   {
+    "rank": 22,
+    "name": "Naor Narkis",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naor_Narkis"
+   },
+   {
+    "rank": 23,
+    "name": "Nidal Masalha",
+    "wikipedia": null
+   },
+   {
+    "rank": 24,
+    "name": "Katy Piasecki-Morag",
+    "wikipedia": null
+   },
+   {
+    "rank": 25,
+    "name": "Mossi Raz",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mossi_Raz"
+   },
+   {
+    "rank": 26,
+    "name": "Mehereta Baruch-Ron",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mehereta_Baruch-Ron"
+   },
+   {
+    "rank": 27,
+    "name": "Ghaleb Salamaneh",
+    "wikipedia": null
+   },
+   {
+    "rank": 28,
+    "name": "Inbar Bezek",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inbar_Bezek"
+   },
+   {
+    "rank": 29,
+    "name": "Yariv Oppenheimer",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yariv_Oppenheimer"
+   },
+   {
+    "rank": 30,
+    "name": "Chen Arieli",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chen_Arieli"
+   },
+   {
+    "rank": 31,
+    "name": "Danny Elgarat",
+    "wikipedia": null
+   },
+   {
+    "rank": 32,
+    "name": "Yael Cohen Paran",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yael_Cohen_Paran"
+   },
+   {
+    "rank": 33,
+    "name": "Amir Khnifess",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amir_Khnifess"
+   },
+   {
+    "rank": 34,
+    "name": "Hadas Regolsky",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hadas_Regolsky"
+   },
+   {
+    "rank": 35,
+    "name": "Ihab Shalyan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ihab_Shalyan"
+   },
+   {
+    "rank": 36,
+    "name": "Inbal Wertman Shoham",
+    "wikipedia": null
+   },
+   {
+    "rank": 37,
+    "name": "Ahsan Halaila",
+    "wikipedia": null
+   },
+   {
+    "rank": 38,
+    "name": "Lee Hoffman-Agiv",
+    "wikipedia": null
+   },
+   {
+    "rank": 39,
+    "name": "Ayid Badir",
+    "wikipedia": null
+   },
+   {
+    "rank": 40,
+    "name": "Alice Goldman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alice_Goldman"
+   },
+   {
+    "rank": 41,
+    "name": "Itay Leshem",
+    "wikipedia": null
+   },
+   {
+    "rank": 42,
+    "name": "Gil Beilin",
+    "wikipedia": null
+   },
+   {
+    "rank": 43,
+    "name": "Eran Nissan",
+    "wikipedia": null
+   },
+   {
+    "rank": 44,
+    "name": "Malik Badir",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malik_Badir"
+   },
+   {
+    "rank": 45,
+    "name": "Yair Rubinstein",
+    "wikipedia": null
+   },
+   {
+    "rank": 46,
+    "name": "Dima Shapira",
+    "wikipedia": null
+   },
+   {
+    "rank": 47,
+    "name": "Evyatar Be'er",
+    "wikipedia": null
+   },
+   {
+    "rank": 48,
+    "name": "Binyamin Daniel Minich",
+    "wikipedia": null
+   },
+   {
+    "rank": 49,
+    "name": "Yaron Niv",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yaron_Niv"
+   },
+   {
+    "rank": 50,
+    "name": "Yoav Agami",
+    "wikipedia": null
+   },
+   {
+    "rank": 51,
+    "name": "Avishay Liechtenstein",
+    "wikipedia": null
+   },
+   {
+    "rank": 52,
+    "name": "Olivier Emmanuel De Lame",
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "joint_list",
+  "party_section": "Joint List",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Yousef Jabareen (Hadash leader)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yousef_Jabareen"
+   },
+   {
+    "rank": 2,
+    "name": "Ahmad Tibi (Ta’al leader)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ahmad_Tibi"
+   },
+   {
+    "rank": 3,
+    "name": "Sami Abu Shehadeh (Balad leader)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sami_Abu_Shehadeh"
+   },
+   {
+    "rank": 4,
+    "name": "Jafar Farah (Hadash)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jafar_Farah"
+   },
+   {
+    "rank": 5,
+    "name": "Bakhar Awawdeh (Balad)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bakhar_Awawdeh"
+   },
+   {
+    "rank": 6,
+    "name": "Ofer Cassif (Hadash) - in rotation with Ta'al",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ofer_Cassif"
+   },
+   {
+    "rank": 7,
+    "name": "⁠Youssef Atauna (Hadash)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Youssef_Atauna"
+   },
+   {
+    "rank": 8,
+    "name": "Maha Karkabi (Balad)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maha_Karkabi"
+   },
+   {
+    "rank": 9,
+    "name": "Ta'al - in rotation with Hadash",
+    "wikipedia": null
+   },
+   {
+    "rank": 10,
+    "name": "Nihaya Washahi (Hadash)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nihaya_Washahi"
+   },
+   {
+    "rank": 11,
+    "name": "Hassan Nassasra (Balad)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hassan_Nassasra"
+   },
+   {
+    "rank": 12,
+    "name": "Ta’al",
+    "wikipedia": null
+   },
+   {
+    "rank": 13,
+    "name": "Ayas Natour (Hadash)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ayas_Natour"
+   }
+  ]
+ },
+ {
+  "party": "likud",
+  "party_section": "Likud",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Benjamin Netanyahu",
+    "wikipedia": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
+   },
+   {
+    "rank": 2,
+    "name": "Eli Cohen",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eli_Cohen_(politician,_born_1972)"
+   },
+   {
+    "rank": 3,
+    "name": "TBD",
+    "wikipedia": null
+   },
+   {
+    "rank": 4,
+    "name": "Israel Katz",
+    "wikipedia": "https://en.wikipedia.org/wiki/Israel_Katz"
+   },
+   {
+    "rank": 5,
+    "name": "Gideon Sa'ar",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gideon_Sa'ar"
+   },
+   {
+    "rank": 6,
+    "name": "Amir Ohana",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amir_Ohana"
+   },
+   {
+    "rank": 7,
+    "name": "Yariv Levin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yariv_Levin"
+   },
+   {
+    "rank": 8,
+    "name": "Miri Regev",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miri_Regev"
+   },
+   {
+    "rank": 9,
+    "name": "TBD",
+    "wikipedia": null
+   },
+   {
+    "rank": 10,
+    "name": "Ofir Katz",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ofir_Katz"
+   },
+   {
+    "rank": 11,
+    "name": "Oren Dobronsky",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oren_Dobronsky"
+   },
+   {
+    "rank": 12,
+    "name": "Yoav Kisch",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoav_Kisch"
+   },
+   {
+    "rank": 13,
+    "name": "Miki Zohar",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miki_Zohar"
+   },
+   {
+    "rank": 14,
+    "name": "Almog Cohen",
+    "wikipedia": "https://en.wikipedia.org/wiki/Almog_Cohen_(politician)"
+   },
+   {
+    "rank": 15,
+    "name": "TBD",
+    "wikipedia": null
+   },
+   {
+    "rank": 16,
+    "name": "Amichai Chikli",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amichai_Chikli"
+   },
+   {
+    "rank": 17,
+    "name": "Dudi Amsalem",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dudi_Amsalem"
+   },
+   {
+    "rank": 18,
+    "name": "Haim Katz",
+    "wikipedia": "https://en.wikipedia.org/wiki/Haim_Katz"
+   },
+   {
+    "rank": 19,
+    "name": "Moshe Saada",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moshe_Saada"
+   },
+   {
+    "rank": 20,
+    "name": "Tally Gotliv",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tally_Gotliv"
+   },
+   {
+    "rank": 21,
+    "name": "Shlomo Karhi",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shlomo_Karhi"
+   },
+   {
+    "rank": 22,
+    "name": "David Bitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Bitan"
+   },
+   {
+    "rank": 23,
+    "name": "Boaz Bismuth",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boaz_Bismuth"
+   },
+   {
+    "rank": 24,
+    "name": "Nir Barkat",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nir_Barkat"
+   },
+   {
+    "rank": 25,
+    "name": "Gila Gamliel",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gila_Gamliel"
+   },
+   {
+    "rank": 26,
+    "name": "TBD",
+    "wikipedia": null
+   },
+   {
+    "rank": 27,
+    "name": "Erez Tadmor",
+    "wikipedia": null
+   },
+   {
+    "rank": 28,
+    "name": "Shlomo Lerner",
+    "wikipedia": null
+   },
+   {
+    "rank": 29,
+    "name": "TBD",
+    "wikipedia": null
+   },
+   {
+    "rank": 30,
+    "name": "Moshe Peretz",
+    "wikipedia": null
+   },
+   {
+    "rank": 31,
+    "name": "Shuki Ohana",
+    "wikipedia": null
+   },
+   {
+    "rank": 32,
+    "name": "Ze'ev Elkin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ze'ev_Elkin"
+   },
+   {
+    "rank": 33,
+    "name": "Amit Halevi",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amit_Halevi"
+   },
+   {
+    "rank": 34,
+    "name": "Keren Atiass-Bublil",
+    "wikipedia": null
+   },
+   {
+    "rank": 35,
+    "name": "Sharon Saada",
+    "wikipedia": null
+   },
+   {
+    "rank": 36,
+    "name": "Efi Nave",
+    "wikipedia": "https://en.wikipedia.org/wiki/Efi_Nave"
+   },
+   {
+    "rank": 37,
+    "name": "Avihai Boaron",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avihai_Boaron"
+   },
+   {
+    "rank": 38,
+    "name": "Eti Atiya",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eti_Atiya"
+   },
+   {
+    "rank": 39,
+    "name": "Netanel Ohion",
+    "wikipedia": null
+   },
+   {
+    "rank": 40,
+    "name": "May Golan",
+    "wikipedia": "https://en.wikipedia.org/wiki/May_Golan"
+   }
+  ]
+ },
+ {
+  "party": "noam",
+  "party_section": "Noam",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Avi Maoz",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avi_Maoz"
+   },
+   {
+    "rank": 2,
+    "name": "Eliyahu Libman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eliyahu_Libman"
+   },
+   {
+    "rank": 3,
+    "name": "Shimon Tubul",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shimon_Tubul"
+   },
+   {
+    "rank": 4,
+    "name": "Yisca Hayimov",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yisca_Hayimov"
+   },
+   {
+    "rank": 5,
+    "name": "Liora Alon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Liora_Alon"
+   }
+  ]
+ },
+ {
+  "party": "rzp",
+  "party_section": "Religious Zionist Party",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Bezalel Smotrich",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bezalel_Smotrich"
+   },
+   {
+    "rank": 2,
+    "name": "Orit Strook",
+    "wikipedia": "https://en.wikipedia.org/wiki/Orit_Strook"
+   },
+   {
+    "rank": 3,
+    "name": "Tzvika Mor",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tzvika_Mor"
+   },
+   {
+    "rank": 4,
+    "name": "Simcha Rothman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Simcha_Rothman"
+   },
+   {
+    "rank": 5,
+    "name": "Zvi Sukkot",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zvi_Sukkot"
+   },
+   {
+    "rank": 6,
+    "name": "Ohad Tal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ohad_Tal"
+   },
+   {
+    "rank": 7,
+    "name": "Omer Rahamim",
+    "wikipedia": "https://en.wikipedia.org/wiki/Omer_Rahamim"
+   },
+   {
+    "rank": 8,
+    "name": "Michal Waldiger",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michal_Waldiger"
+   },
+   {
+    "rank": 9,
+    "name": "Shmuel Shashon",
+    "wikipedia": null
+   },
+   {
+    "rank": 10,
+    "name": "Tzvika Vishingrad",
+    "wikipedia": null
+   },
+   {
+    "rank": 11,
+    "name": "Eitam Tam",
+    "wikipedia": null
+   },
+   {
+    "rank": 12,
+    "name": "Natan Zaubman",
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "raam",
+  "party_section": "United Arab List",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Mansour Abbas",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mansour_Abbas"
+   },
+   {
+    "rank": 2,
+    "name": "Waleed Taha",
+    "wikipedia": "https://en.wikipedia.org/wiki/Waleed_Taha"
+   },
+   {
+    "rank": 3,
+    "name": "Waleed Alhwashla",
+    "wikipedia": "https://en.wikipedia.org/wiki/Waleed_Alhwashla"
+   },
+   {
+    "rank": 4,
+    "name": "Iman Khatib-Yassin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iman_Khatib-Yassin"
+   },
+   {
+    "rank": 5,
+    "name": "Yasir Hujeirat",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasir_Hujeirat"
+   }
+  ]
+ }
+]
