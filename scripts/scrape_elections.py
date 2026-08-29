@@ -8,7 +8,8 @@ Sources (Parsoid HTML via the Wikimedia REST API, cached in data/elections/raw/)
   - Opinion polling for the 2026 Israeli legislative election (2026 tables)
   - 2025 / 2024 / 2022-2023 opinion polling subpages
 
-Outputs (see data/elections/SCHEMA.md):
+Outputs (see data/elections/SCHEMA.md), mirrored to app/data/elections/ for
+the Next.js pages:
   - data/elections/party_lists.json  ranked slate per party
   - data/elections/polls.json        one record per poll row, keyed by table header
   - data/elections/parties.json      registry of parties seen in lists + polls
@@ -480,7 +481,7 @@ def main():
     keys -= NON_PARTY_KEYS
     parties = []
     for k in sorted(keys):
-        base = re.sub(r"_\d+$", "", k)
+        base = re.sub(r"_\d$", "", k)  # duplicate-column suffix (_2/_3) only
         names = PARTY_NAMES.get(base)
         parties.append({"key": k, "name_he": names[0] if names else None,
                         "name_en": names[1] if names else base.replace("_", " ").title(),
@@ -488,6 +489,14 @@ def main():
     json.dump(parties, open(f"{OUT}/parties.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     print(f"parties.json: {len(parties)} parties")
+
+    # mirror for the app (same pattern as merge.py -> app/data)
+    app_out = f"{ROOT}/app/data/elections"
+    os.makedirs(app_out, exist_ok=True)
+    for name in ("party_lists", "polls", "parties"):
+        with open(f"{OUT}/{name}.json", encoding="utf-8") as src:
+            open(f"{app_out}/{name}.json", "w", encoding="utf-8").write(src.read())
+    print(f"mirrored to {app_out}/")
 
 
 if __name__ == "__main__":

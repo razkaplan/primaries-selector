@@ -39,6 +39,10 @@ python3 scripts/scrape_elections.py         # כל המפלגות: רשימות 
 וסקרי קואליציה. הפלט נשמר ב-[data/elections/](data/elections/) ומתועד
 ב-[data/elections/SCHEMA.md](data/elections/SCHEMA.md).
 
+הנתונים מוצגים באתר בעמודים ייעודיים: `/knesset` (סקירה וממוצע הסקרים),
+`/knesset/lists` (רשימות המועמדים), `/knesset/polls` (כל סקרי המנדטים)
+ו-`/knesset/polls/more` (תרחישים, ראש ממשלה מועדף וקואליציה).
+
 ## גילוי נאות
 
 - הכלי אינו קשור למפלגת הדמוקרטים ואינו ממליץ על מועמדים.
