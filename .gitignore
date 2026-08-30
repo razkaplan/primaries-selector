@@ -2,6 +2,8 @@ node_modules
 .next
 .vercel
 data/followers_raw/
+data/elections/raw/
+data/media/raw/
 data/serp/
 data/candidates-page*.html
 data/brand-*.css

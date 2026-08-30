@@ -1,0 +1,164 @@
+[
+ {
+  "key": "a_new_right_wing_party",
+  "name_he": null,
+  "name_en": "A New Right Wing Party",
+  "has_list": false
+ },
+ {
+  "key": "amcha_yisrael",
+  "name_he": "עמך ישראל",
+  "name_en": "Amcha Yisrael",
+  "has_list": false
+ },
+ {
+  "key": "balad",
+  "name_he": "בל\"ד",
+  "name_en": "Balad",
+  "has_list": false
+ },
+ {
+  "key": "bennett_2026",
+  "name_he": "בנט 2026",
+  "name_en": "Bennett 2026",
+  "has_list": false
+ },
+ {
+  "key": "bennett_party",
+  "name_he": null,
+  "name_en": "Bennett Party",
+  "has_list": false
+ },
+ {
+  "key": "blue_white",
+  "name_he": "כחול לבן",
+  "name_en": "Blue and White (National Unity)",
+  "has_list": false
+ },
+ {
+  "key": "democrats",
+  "name_he": "הדמוקרטים",
+  "name_en": "The Democrats",
+  "has_list": true
+ },
+ {
+  "key": "hadash_taal",
+  "name_he": "חד\"ש-תע\"ל",
+  "name_en": "Hadash–Ta'al",
+  "has_list": false
+ },
+ {
+  "key": "hendel_party",
+  "name_he": null,
+  "name_en": "Hendel Party",
+  "has_list": false
+ },
+ {
+  "key": "joint_list",
+  "name_he": "הרשימה המשותפת",
+  "name_en": "Joint List",
+  "has_list": true
+ },
+ {
+  "key": "labor",
+  "name_he": "העבודה",
+  "name_en": "Labor",
+  "has_list": false
+ },
+ {
+  "key": "likud",
+  "name_he": "הליכוד",
+  "name_en": "Likud",
+  "has_list": true
+ },
+ {
+  "key": "meretz",
+  "name_he": "מרצ",
+  "name_en": "Meretz",
+  "has_list": false
+ },
+ {
+  "key": "new_hope",
+  "name_he": "תקווה חדשה",
+  "name_en": "New Hope",
+  "has_list": false
+ },
+ {
+  "key": "noam",
+  "name_he": "נעם",
+  "name_en": "Noam",
+  "has_list": true
+ },
+ {
+  "key": "otzma_yehudit",
+  "name_he": "עוצמה יהודית",
+  "name_en": "Otzma Yehudit",
+  "has_list": false
+ },
+ {
+  "key": "raam",
+  "name_he": "רע\"ם",
+  "name_en": "Ra'am (United Arab List)",
+  "has_list": true
+ },
+ {
+  "key": "reservists",
+  "name_he": "המילואימניקים",
+  "name_en": "The Reservists",
+  "has_list": false
+ },
+ {
+  "key": "rzp",
+  "name_he": "הציונות הדתית",
+  "name_en": "Religious Zionist Party",
+  "has_list": true
+ },
+ {
+  "key": "shas",
+  "name_he": "ש\"ס",
+  "name_en": "Shas",
+  "has_list": false
+ },
+ {
+  "key": "together",
+  "name_he": "ביחד",
+  "name_en": "Together (Bennett–Lapid)",
+  "has_list": false
+ },
+ {
+  "key": "unity",
+  "name_he": "האחדות",
+  "name_en": "Unity",
+  "has_list": false
+ },
+ {
+  "key": "utj",
+  "name_he": "יהדות התורה",
+  "name_en": "United Torah Judaism",
+  "has_list": false
+ },
+ {
+  "key": "yashar",
+  "name_he": "ישר",
+  "name_en": "Yashar",
+  "has_list": false
+ },
+ {
+  "key": "yesh_atid",
+  "name_he": "יש עתיד",
+  "name_en": "Yesh Atid",
+  "has_list": false
+ },
+ {
+  "key": "yisrael_beiteinu",
+  "name_he": "ישראל ביתנו",
+  "name_en": "Yisrael Beiteinu",
+  "has_list": false
+ },
+ {
+  "key": "zionist_home",
+  "name_he": "הבית הציוני – המילואימניקים",
+  "name_en": "Zionist Home – The Reservists",
+  "has_list": false
+ }
+]

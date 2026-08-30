@@ -28,7 +28,33 @@ Pull Requests לשינויים. מיזוג נעשה רק על ידי בעל המ
 cd app && npm install && npm run dev        # האפליקציה
 npx tsx scripts/simulate.ts                 # בדיקת ההטיה (מתוך app/)
 python3 scripts/merge.py                    # בנייה מחדש של הדאטה (מהשורש)
+python3 scripts/scrape_elections.py         # כל המפלגות: רשימות מועמדים וסקרים
 ```
+
+## נתוני הבחירות הכלליות (כל המפלגות)
+
+לקראת הבחירות לכנסת ה-26 (27.10.2026), `scripts/scrape_elections.py` אוסף
+מוויקיפדיה האנגלית את רשימות המועמדים של כל המפלגות ואת כל הסקרים שפורסמו
+מאז בחירות 2022: הקצאות מנדטים, אחוזי הצבעה, סקרי תרחישים, ראש ממשלה מועדף
+וסקרי קואליציה. הפלט נשמר ב-[data/elections/](data/elections/) ומתועד
+ב-[data/elections/SCHEMA.md](data/elections/SCHEMA.md).
+
+הנתונים מוצגים באתר בעמודים ייעודיים: `/knesset` (סקירה וממוצע הסקרים),
+`/knesset/lists` (רשימות המועמדים), `/knesset/polls` (כל סקרי המנדטים),
+`/knesset/polls/more` (תרחישים, ראש ממשלה מועדף וקואליציה)
+ו-`/knesset/quotes` (ציטוטים מתועדים עם מקור, תאריך ושיתוף כתמונה).
+
+## קורפוס התבטאויות המועמדים
+
+תשתית לאיסוף התבטאויות (רשתות + חדשות) של המועמדים הריאליים בכל
+המפלגות, לקראת חיפוש לפי נושאים והצלבת הבטחות ואמירות סותרות:
+
+```bash
+python3 scripts/build_media_roster.py    # מי המועמדים הריאליים ואילו פרופילים ידועים
+python3 scripts/collect_media.py         # איסוף פוסטים ואזכורי חדשות (Bright Data CLI)
+```
+
+כל רשומה מחויבת בתאריך ובקישור למקור; ראו [data/media/SCHEMA.md](data/media/SCHEMA.md).
 
 ## גילוי נאות
 
@@ -52,5 +78,12 @@ diversity-aware ballot builder (MMR), 30-persona bias audit, full model
 documentation in [docs/MODEL.md](docs/MODEL.md). Built with Next.js;
 data collected from public sources via Bright Data. Maintainer-only merges;
 suggestions welcome via Issues and PRs.
+
+For the general election (26th Knesset, October 27, 2026),
+`scripts/scrape_elections.py` scrapes every party's candidate list and all
+published polls (seat projections, vote shares, scenario/leadership/coalition
+polls, 2022–2026) from English Wikipedia into
+[data/elections/](data/elections/); schema in
+[data/elections/SCHEMA.md](data/elections/SCHEMA.md).
 
 Made with <3 by [Raz Kaplan](https://il.linkedin.com/in/razkaplan)

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { Answers, Candidate } from "@/lib/types";
 import Quiz from "@/components/Quiz";
 import Results from "@/components/Results";
@@ -24,7 +25,17 @@ export default function Home() {
           >
             בוחרים<span className="text-[#D92731]">בפריימריז</span>
           </button>
-          <span className="text-xs text-neutral-400">כלי עזר לא רשמי</span>
+          <span className="flex items-center gap-3">
+            <Link
+              href="/knesset"
+              className="rounded-full bg-neutral-100 px-3 py-1.5 text-xs font-bold text-neutral-700 transition-colors hover:bg-neutral-200"
+            >
+              בחירות 2026: כל המפלגות והסקרים ←
+            </Link>
+            <span className="hidden text-xs text-neutral-400 sm:inline">
+              כלי עזר לא רשמי
+            </span>
+          </span>
         </div>
       </header>
 
