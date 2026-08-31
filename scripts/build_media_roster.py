@@ -72,7 +72,9 @@ def main():
         a = avg.get(pl["party"], 0)
         cut = math.ceil(a * 1.25 + 2) if a >= 2 else 1
         for c in pl["candidates"]:
-            if c["rank"] > cut or c["name"] == "TBD":
+            # skip unfilled slots and rotation placeholders that aren't people
+            if c["rank"] > cut or c["name"] == "TBD" or c["name"].startswith("Ta'al") \
+                    or c["name"].startswith("Ta’al"):
                 continue
             socials = dems_socials.get(c.get("name_he") or "", {})
             roster.append({

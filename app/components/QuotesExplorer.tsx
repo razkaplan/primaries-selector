@@ -143,46 +143,92 @@ async function shareQuote(q: Quote) {
 }
 
 export default function QuotesExplorer() {
+  const [party, setParty] = useState<string>("all");
   const [who, setWho] = useState<string>("all");
   const [preview, setPreview] = useState<string | null>(null);
   const previewRef = useRef<HTMLDivElement>(null);
 
+  const parties = useMemo(() => {
+    const count = new Map<string, number>();
+    for (const q of quotes) count.set(q.party, (count.get(q.party) ?? 0) + 1);
+    return [...count.entries()].sort((a, b) => b[1] - a[1]);
+  }, []);
   const candidates = useMemo(() => {
     const seen = new Map<string, Quote>();
-    for (const q of quotes) if (!seen.has(q.candidate_id)) seen.set(q.candidate_id, q);
-    return [...seen.values()];
-  }, []);
-  const shown = who === "all" ? quotes : quotes.filter((q) => q.candidate_id === who);
+    for (const q of quotes)
+      if ((party === "all" || q.party === party) && !seen.has(q.candidate_id))
+        seen.set(q.candidate_id, q);
+    return [...seen.values()].sort((a, b) =>
+      a.candidate_he.localeCompare(b.candidate_he, "he"),
+    );
+  }, [party]);
+  const shown = quotes.filter(
+    (q) =>
+      (party === "all" || q.party === party) &&
+      (who === "all" || q.candidate_id === who),
+  );
 
   return (
     <div>
       <div className="flex flex-wrap gap-2">
         <button
-          onClick={() => setWho("all")}
+          onClick={() => {
+            setParty("all");
+            setWho("all");
+          }}
           className={`rounded-full px-3 py-1.5 text-sm font-medium ${
-            who === "all" ? "bg-[#101CAA] text-white" : "bg-white text-neutral-600 border border-neutral-200"
+            party === "all" ? "bg-[#101CAA] text-white" : "border border-neutral-200 bg-white text-neutral-600"
           }`}
         >
-          כולם ({quotes.length})
+          כל המפלגות ({quotes.length})
         </button>
-        {candidates.map((c) => (
+        {parties.map(([p, n]) => (
           <button
-            key={c.candidate_id}
-            onClick={() => setWho(c.candidate_id)}
+            key={p}
+            onClick={() => {
+              setParty(p);
+              setWho("all");
+            }}
             className={`flex items-center gap-2 rounded-full px-3 py-1.5 text-sm font-medium ${
-              who === c.candidate_id
+              party === p
                 ? "bg-[#101CAA] text-white"
                 : "border border-neutral-200 bg-white text-neutral-600"
             }`}
           >
             <span
               className="inline-block h-2.5 w-2.5 rounded-full"
-              style={{ backgroundColor: partyColor(c.party) }}
+              style={{ backgroundColor: partyColor(p) }}
             />
-            {c.candidate_he}
+            {partyName(p)} ({n})
           </button>
         ))}
       </div>
+
+      {party !== "all" && (
+        <div className="mt-3 flex flex-wrap gap-2 border-t border-neutral-200 pt-3">
+          <button
+            onClick={() => setWho("all")}
+            className={`rounded-full px-3 py-1 text-xs font-medium ${
+              who === "all" ? "bg-neutral-800 text-white" : "border border-neutral-200 bg-white text-neutral-500"
+            }`}
+          >
+            כל המועמדים
+          </button>
+          {candidates.map((c) => (
+            <button
+              key={c.candidate_id}
+              onClick={() => setWho(c.candidate_id)}
+              className={`rounded-full px-3 py-1 text-xs font-medium ${
+                who === c.candidate_id
+                  ? "bg-neutral-800 text-white"
+                  : "border border-neutral-200 bg-white text-neutral-500"
+              }`}
+            >
+              {c.candidate_he}
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         {shown.map((q) => (
