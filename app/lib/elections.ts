@@ -94,11 +94,13 @@ export const PARTY_COLORS: Record<string, string> = {
   reservists: "#64748b",
   new_hope: "#33658a",
   noam: "#3d348b",
+  israel_first: "#8d6e63",
 };
 
 /** Hebrew labels for non-party result columns (question polls, PM polls,
  * hypothetical parties in scenario polls). */
 const RESULT_LABELS_HE: Record<string, string> = {
+  israel_first: "ישראל תחילה",
   netanyahu: "נתניהו",
   bennett: "בנט",
   naftali_bennett: "נפתלי בנט",

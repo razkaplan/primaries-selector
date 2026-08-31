@@ -1,6 +1,6 @@
 {
  "generated_from": {
-  "scraped_at": "2026-08-29",
+  "scraped_at": "2026-08-31",
   "sources": {
    "party_lists": "https://en.wikipedia.org/wiki/Party_lists_for_the_2026_Israeli_legislative_election",
    "polls_2026": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
@@ -325,18 +325,6 @@
    }
   },
   {
-   "id": "ta_al_in_rotation_with_hadash",
-   "name_he": "נציג/ת תע\"ל – ברוטציה עם חד\"ש",
-   "name_en": "Ta'al - in rotation with Hadash",
-   "party": "joint_list",
-   "list_rank": 9,
-   "realistic": true,
-   "wikipedia": null,
-   "socials": {
-    "x": null
-   }
-  },
-  {
    "id": "nihaya_washahi",
    "name_he": "ניהאיא ושאחי (חד\"ש)",
    "name_en": "Nihaya Washahi (Hadash)",
@@ -356,18 +344,6 @@
    "list_rank": 11,
    "realistic": true,
    "wikipedia": "https://en.wikipedia.org/wiki/Hassan_Nassasra",
-   "socials": {
-    "x": null
-   }
-  },
-  {
-   "id": "ta_al",
-   "name_he": "נציג/ת תע\"ל",
-   "name_en": "Ta’al",
-   "party": "joint_list",
-   "list_rank": 12,
-   "realistic": true,
-   "wikipedia": null,
    "socials": {
     "x": null
    }
@@ -398,7 +374,7 @@
   },
   {
    "id": "israel_katz",
-   "name_he": "אמיר אוחנה",
+   "name_he": "ישראל כץ",
    "name_en": "Israel Katz",
    "party": "likud",
    "list_rank": 4,
@@ -422,7 +398,7 @@
   },
   {
    "id": "amir_ohana",
-   "name_he": "יריב לוין",
+   "name_he": "אמיר אוחנה",
    "name_en": "Amir Ohana",
    "party": "likud",
    "list_rank": 6,
@@ -434,7 +410,7 @@
   },
   {
    "id": "yariv_levin",
-   "name_he": "מירי רגב",
+   "name_he": "יריב לוין",
    "name_en": "Yariv Levin",
    "party": "likud",
    "list_rank": 7,
@@ -446,7 +422,7 @@
   },
   {
    "id": "miri_regev",
-   "name_he": "אופיר כץ",
+   "name_he": "מירי רגב",
    "name_en": "Miri Regev",
    "party": "likud",
    "list_rank": 8,
@@ -458,7 +434,7 @@
   },
   {
    "id": "ofir_katz",
-   "name_he": "יואב קיש",
+   "name_he": "אופיר כץ",
    "name_en": "Ofir Katz",
    "party": "likud",
    "list_rank": 10,
@@ -482,7 +458,7 @@
   },
   {
    "id": "yoav_kisch",
-   "name_he": "מיקי זוהר",
+   "name_he": "יואב קיש",
    "name_en": "Yoav Kisch",
    "party": "likud",
    "list_rank": 12,
@@ -494,7 +470,7 @@
   },
   {
    "id": "miki_zohar",
-   "name_he": "אלמוג כהן",
+   "name_he": "מיקי זוהר",
    "name_en": "Miki Zohar",
    "party": "likud",
    "list_rank": 13,
@@ -506,7 +482,7 @@
   },
   {
    "id": "almog_cohen",
-   "name_he": "עמיחי שיקלי",
+   "name_he": "אלמוג כהן",
    "name_en": "Almog Cohen",
    "party": "likud",
    "list_rank": 14,
@@ -518,7 +494,7 @@
   },
   {
    "id": "amichai_chikli",
-   "name_he": "דודי אמסלם",
+   "name_he": "עמיחי שיקלי",
    "name_en": "Amichai Chikli",
    "party": "likud",
    "list_rank": 16,
@@ -530,7 +506,7 @@
   },
   {
    "id": "dudi_amsalem",
-   "name_he": "משה סעדה",
+   "name_he": "דודי אמסלם",
    "name_en": "Dudi Amsalem",
    "party": "likud",
    "list_rank": 17,
@@ -554,7 +530,7 @@
   },
   {
    "id": "moshe_saada",
-   "name_he": "טלי גוטליב",
+   "name_he": "משה סעדה",
    "name_en": "Moshe Saada",
    "party": "likud",
    "list_rank": 19,
@@ -566,7 +542,7 @@
   },
   {
    "id": "tally_gotliv",
-   "name_he": "שלמה קרעי",
+   "name_he": "טלי גוטליב",
    "name_en": "Tally Gotliv",
    "party": "likud",
    "list_rank": 20,
@@ -578,7 +554,7 @@
   },
   {
    "id": "shlomo_karhi",
-   "name_he": "בועז ביסמוט",
+   "name_he": "שלמה קרעי",
    "name_en": "Shlomo Karhi",
    "party": "likud",
    "list_rank": 21,
@@ -602,7 +578,7 @@
   },
   {
    "id": "boaz_bismuth",
-   "name_he": "ניר ברקת",
+   "name_he": "בועז ביסמוט",
    "name_en": "Boaz Bismuth",
    "party": "likud",
    "list_rank": 23,
@@ -614,7 +590,7 @@
   },
   {
    "id": "nir_barkat",
-   "name_he": "זאב אלקין",
+   "name_he": "ניר ברקת",
    "name_en": "Nir Barkat",
    "party": "likud",
    "list_rank": 24,
@@ -662,7 +638,7 @@
   },
   {
    "id": "moshe_peretz",
-   "name_he": "משה בנימין פרץ",
+   "name_he": "משה פרץ",
    "name_en": "Moshe Peretz",
    "party": "likud",
    "list_rank": 30,
@@ -686,7 +662,7 @@
   },
   {
    "id": "ze_ev_elkin",
-   "name_he": "עמית הלוי",
+   "name_he": "זאב אלקין",
    "name_en": "Ze'ev Elkin",
    "party": "likud",
    "list_rank": 32,
