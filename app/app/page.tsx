@@ -60,14 +60,26 @@ const CARDS = [
   {
     href: "/knesset/quotes",
     emoji: "🗣️",
-    title: "ציטוטים והתבטאויות",
-    blurb: "מה המועמדים באמת אמרו — עם תאריך, מקור ושיתוף כתמונה בקליק.",
+    title: "ציר הזמן של ההתבטאויות",
+    blurb: "מה המועמדים אמרו, מתי — ומה זה עשה להם בסקרים. עם מקור ושיתוף כתמונה.",
+  },
+  {
+    href: "/knesset/markets",
+    emoji: "💸",
+    title: "שוקי חיזוי",
+    blurb: "מי יהיה רה״מ הבא לפי Polymarket ו-Kalshi — אנשים שמהמרים על זה בכסף.",
   },
   {
     href: "/primaries",
     emoji: "🗳️",
     title: "כלי הפריימריז",
     blurb: "הכלי שליווה את פריימריז הדמוקרטים: שאלון, דירוג ומודל פתוח.",
+  },
+  {
+    href: "/about",
+    emoji: "🧭",
+    title: "מתודולוגיה ומקורות",
+    blurb: "איך אנחנו אוספים, מה העקרונות, וכל המקורות — שקוף עד הסוף.",
   },
 ];
 
@@ -233,7 +245,7 @@ export default function KnessetOverview() {
 
       {/* section cards */}
       <section className="mx-auto max-w-6xl px-4 pb-10">
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {CARDS.map((c) => (
             <Link
               key={c.href}

@@ -29,6 +29,7 @@ cd app && npm install && npm run dev        # האפליקציה
 npx tsx scripts/simulate.ts                 # בדיקת ההטיה (מתוך app/)
 python3 scripts/merge.py                    # בנייה מחדש של הדאטה (מהשורש)
 python3 scripts/scrape_elections.py         # כל המפלגות: רשימות מועמדים וסקרים
+python3 scripts/scrape_markets.py           # שוקי חיזוי: Polymarket + Kalshi
 ```
 
 ## נתוני הבחירות הכלליות (כל המפלגות)
@@ -41,8 +42,12 @@ python3 scripts/scrape_elections.py         # כל המפלגות: רשימות 
 
 הנתונים מוצגים באתר בעמודים ייעודיים: `/knesset` (סקירה וממוצע הסקרים),
 `/knesset/lists` (רשימות המועמדים), `/knesset/polls` (כל סקרי המנדטים),
-`/knesset/polls/more` (תרחישים, ראש ממשלה מועדף וקואליציה)
-ו-`/knesset/quotes` (ציטוטים מתועדים עם מקור, תאריך ושיתוף כתמונה).
+`/knesset/polls/more` (תרחישים, ראש ממשלה מועדף וקואליציה),
+`/knesset/quotes` (ציר זמן של ציטוטים מתועדים, עם מקור, תאריך, שיתוף
+כתמונה והצלבה מול ממוצע הסקרים) ו-`/knesset/markets` (שוקי חיזוי —
+`scripts/scrape_markets.py` מושך את ההסתברויות מה-API הציבורי של Polymarket
+ושל Kalshi אל [data/elections/markets.json](data/elections/markets.json),
+ומתעד כל ריצה ב-markets_history.jsonl).
 
 ## קורפוס התבטאויות המועמדים
 
