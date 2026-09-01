@@ -65,7 +65,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
           <div
             key={i}
             className={`h-1.5 flex-1 rounded-full transition-colors ${
-              i <= step ? "bg-[#2A38D7]" : "bg-neutral-200"
+              i <= step ? "bg-[#5a31f4]" : "bg-neutral-200"
             }`}
           />
         ))}
@@ -87,12 +87,12 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
                   onClick={() => toggleIssue(k)}
                   className={`rounded-xl border px-4 py-3 text-right text-sm font-medium transition-colors ${
                     active
-                      ? "border-[#2A38D7] bg-[#2A38D7]/10"
+                      ? "border-[#5a31f4] bg-[#5a31f4]/10"
                       : "border-neutral-200 bg-white hover:border-neutral-400"
                   } ${!active && issues.length >= 3 ? "opacity-50" : ""}`}
                 >
                   {active && (
-                    <span className="ml-2 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#2A38D7] text-xs font-bold text-white">
+                    <span className="ml-2 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#5a31f4] text-xs font-bold text-white">
                       {issues.indexOf(k) + 1}
                     </span>
                   )}
@@ -115,7 +115,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
                 onClick={() => setExperience(o.value)}
                 className={`w-full rounded-xl border px-4 py-3 text-right transition-colors ${
                   experience === o.value
-                    ? "border-[#2A38D7] bg-[#2A38D7]/10"
+                    ? "border-[#5a31f4] bg-[#5a31f4]/10"
                     : "border-neutral-200 bg-white hover:border-neutral-400"
                 }`}
               >
@@ -129,7 +129,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
               type="checkbox"
               checked={credibility}
               onChange={(e) => setCredibility(e.target.checked)}
-              className="mt-0.5 accent-[#2A38D7]"
+              className="mt-0.5 accent-[#5a31f4]"
             />
             <span>
               <span className="font-bold">תוספת רצינות:</span> תנו משקל גבוה יותר להצהרות
@@ -155,7 +155,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
                   onClick={() => toggleRep(k)}
                   className={`rounded-xl border px-4 py-3 text-right text-sm font-medium transition-colors ${
                     active
-                      ? "border-[#2A38D7] bg-[#2A38D7]/10"
+                      ? "border-[#5a31f4] bg-[#5a31f4]/10"
                       : "border-neutral-200 bg-white hover:border-neutral-400"
                   }`}
                 >
@@ -180,7 +180,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
                 onClick={() => setOrigin(o.value)}
                 className={`w-full rounded-xl border px-4 py-3 text-right transition-colors ${
                   origin === o.value
-                    ? "border-[#2A38D7] bg-[#2A38D7]/10"
+                    ? "border-[#5a31f4] bg-[#5a31f4]/10"
                     : "border-neutral-200 bg-white hover:border-neutral-400"
                 }`}
               >
@@ -206,7 +206,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
                 onClick={() => setElectability(o.value)}
                 className={`w-full rounded-xl border px-4 py-3 text-right transition-colors ${
                   electability === o.value
-                    ? "border-[#2A38D7] bg-[#2A38D7]/10"
+                    ? "border-[#5a31f4] bg-[#5a31f4]/10"
                     : "border-neutral-200 bg-white hover:border-neutral-400"
                 }`}
               >
@@ -233,7 +233,7 @@ export default function Quiz({ onDone }: { onDone: (a: Answers) => void }) {
         <button
           onClick={next}
           disabled={!canNext}
-          className="rounded-xl bg-[#101CAA] px-8 py-3 font-bold text-white transition-colors hover:bg-[#2A38D7] disabled:bg-neutral-300"
+          className="rounded-xl bg-[#3d1ebe] px-8 py-3 font-bold text-white transition-colors hover:bg-[#5a31f4] disabled:bg-neutral-300"
         >
           {step === steps - 1 ? "הצגת ההתאמות שלי" : "המשך"}
         </button>

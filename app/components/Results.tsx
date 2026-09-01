@@ -121,7 +121,7 @@ export default function Results({
       <div className="mt-4 flex flex-wrap items-center gap-2">
         <button
           onClick={fillSmartBallot}
-          className="rounded-xl bg-[#101CAA] px-4 py-2 text-sm font-bold text-white hover:bg-[#2A38D7]"
+          className="rounded-xl bg-[#3d1ebe] px-4 py-2 text-sm font-bold text-white hover:bg-[#5a31f4]"
         >
           הרכיבו לי פתק מאוזן
         </button>
@@ -131,7 +131,7 @@ export default function Results({
         </span>
       </div>
       {smartNote && (
-        <p className="mt-2 rounded-xl bg-[#2A38D7]/5 px-3 py-2 text-sm text-neutral-700">
+        <p className="mt-2 rounded-xl bg-[#5a31f4]/5 px-3 py-2 text-sm text-neutral-700">
           הרכב הפתק: {smartNote}
         </p>
       )}
@@ -174,7 +174,7 @@ export default function Results({
                   key={id}
                   onClick={() => toggle(id)}
                   title="הסרה"
-                  className="rounded-full bg-[#2A38D7]/15 px-2.5 py-0.5 text-sm font-medium hover:bg-red-100"
+                  className="rounded-full bg-[#5a31f4]/15 px-2.5 py-0.5 text-sm font-medium hover:bg-red-100"
                 >
                   {byId.get(id)?.name} ✕
                 </button>
@@ -182,7 +182,7 @@ export default function Results({
             </div>
             <button
               onClick={copyBallot}
-              className="rounded-xl bg-[#101CAA] px-4 py-2 text-sm font-bold text-white hover:bg-[#2A38D7]"
+              className="rounded-xl bg-[#3d1ebe] px-4 py-2 text-sm font-bold text-white hover:bg-[#5a31f4]"
             >
               {copied ? "הועתק ✓" : "העתקת הרשימה"}
             </button>

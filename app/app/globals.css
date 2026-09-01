@@ -1,18 +1,82 @@
 @import "tailwindcss";
 
-/* Brand tokens from the official party Elementor kit (democrats.org.il) */
+/* ---------------------------------------------------------------------------
+   בחירות2026 design tokens — "fun & smart": warm paper, electric violet,
+   coral + amber sparks. Politically neutral chrome; party colors stay
+   entity-anchored in lib/elections.ts.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-paper: #faf6ee;
+  --color-card: #ffffff;
+  --color-ink: #1c1832;
+  --color-ink-soft: #55506e;
+  --color-ink-faint: #8d88a3;
+  --color-line: #e9e2d2;
+  --color-brand: #5a31f4;
+  --color-brand-deep: #3d1ebe;
+  --color-brand-wash: #efeafe;
+  --color-coral: #ff4d6d;
+  --color-coral-deep: #d63352;
+  --color-sun: #ffc53d;
+  --color-mint: #12b5a5;
+  --color-night: #191533;
+}
+
 :root {
-  --brand-primary: #2a38d7;
-  --brand-deep: #101caa;
-  --brand-accent: #d92731;
-  --ink: #000000;
+  /* legacy vars still referenced by the primaries quiz components */
+  --brand-primary: #5a31f4;
+  --brand-deep: #3d1ebe;
+  --brand-accent: #ff4d6d;
+  --ink: #1c1832;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  background:
+    radial-gradient(60rem 30rem at 110% -10%, rgba(90, 49, 244, 0.07), transparent 60%),
+    radial-gradient(50rem 26rem at -20% 0%, rgba(255, 197, 61, 0.12), transparent 55%),
+    var(--color-paper);
+}
+
 ::selection {
-  background: var(--brand-primary);
+  background: var(--color-brand);
   color: #ffffff;
+}
+
+.font-display {
+  font-family: var(--font-display), var(--font-body), sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* chunky link/button focus for keyboard users */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--color-sun);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* recessive, brand-tinted scrollbars for the wide poll tables */
+.table-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.table-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+.table-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand);
+}
+
+/* the hero wordmark underline squiggle */
+.squiggle {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='8' viewBox='0 0 90 8'%3E%3Cpath d='M1 5.5 Q 12 1, 23 5 T 45 5 T 67 5 T 89 4.5' fill='none' stroke='%23ffc53d' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 90px 8px;
+  padding-bottom: 10px;
 }

@@ -66,22 +66,25 @@ export function sourceUrl(sourcePage: string): string {
 
 const partyByKey = new Map(parties.map((p) => [p.key, p]));
 
-/** Decorative, roughly-conventional media colors; not official branding. */
+/** Entity-anchored, roughly-conventional media colors; not official branding.
+ * Identity is never color-alone: every mark carries the party name label.
+ * Near-identical hues that co-appear were separated (validated for adjacent
+ * CVD confusion with the dataviz palette checker). */
 export const PARTY_COLORS: Record<string, string> = {
   likud: "#1e58c8",
-  together: "#00aeef",
-  yesh_atid: "#00aeef",
+  together: "#0096c7",
+  yesh_atid: "#0096c7",
   bennett_2026: "#5bc0de",
-  rzp: "#2f6b4f",
-  otzma_yehudit: "#b8860b",
+  rzp: "#124e32",
+  otzma_yehudit: "#d19a00",
   blue_white: "#183b8e",
   shas: "#111111",
   utj: "#1a1a6e",
   yisrael_beiteinu: "#7b3fa0",
-  raam: "#007a3d",
-  joint_list: "#c8102e",
-  hadash_taal: "#c8102e",
-  hadash: "#c8102e",
+  raam: "#00934a",
+  joint_list: "#d7263d",
+  hadash_taal: "#8e2043",
+  hadash: "#8e2043",
   taal: "#a4243b",
   balad: "#f28c28",
   democrats: "#d92731",
@@ -90,7 +93,7 @@ export const PARTY_COLORS: Record<string, string> = {
   yashar: "#0e7c7b",
   zionist_home: "#e87722",
   unity: "#c99700",
-  amcha_yisrael: "#6b8e23",
+  amcha_yisrael: "#c05299",
   reservists: "#64748b",
   new_hope: "#33658a",
   noam: "#3d348b",

@@ -6,7 +6,8 @@ import { type Poll, polls } from "@/lib/elections";
 import { scenarioHe } from "@/lib/electionsHe";
 
 export const metadata: Metadata = {
-  title: "סקרי תרחישים, ראש ממשלה וקואליציה | בחירות 2026 לכנסת",
+  title: "סקרי תרחישים, ראש ממשלה וקואליציה",
+  alternates: { canonical: "/knesset/polls/more" },
   description:
     "סקרי תרחישים (ריצות משותפות ומפלגות חדשות), ראש הממשלה המועדף, הרכבי קואליציה, סקרי החברה הערבית ושאלות נוספות.",
 };
@@ -63,8 +64,8 @@ export default function KnessetPollsMore() {
       <KnessetNav active="/knesset/polls/more" />
 
       <section className="mx-auto max-w-7xl px-4 py-10">
-        <h1 className="text-3xl font-black">תרחישים, ראש ממשלה וקואליציה</h1>
-        <p className="mt-3 max-w-2xl leading-relaxed text-neutral-600">
+        <h1 className="font-display text-4xl">תרחישים, ראש ממשלה וקואליציה</h1>
+        <p className="mt-3 max-w-2xl leading-relaxed text-ink-soft">
           כל מה שנסקר מעבר לשאלת המנדטים הישירה: תרחישי "מה אם" על ריצות
           משותפות ומפלגות חדשות, ראש הממשלה המועדף, הרכבי קואליציה וסקרים
           ייעודיים לחברה הערבית.
@@ -72,11 +73,11 @@ export default function KnessetPollsMore() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-8">
-        <h2 className="mb-1 text-xl font-black">
+        <h2 className="mb-1 font-display text-2xl">
           סקרי תרחישים · {scenarios.reduce((s, [, l]) => s + l.length, 0)} סקרים
           ב-{scenarios.length} תרחישים
         </h2>
-        <p className="mb-4 text-sm text-neutral-500">
+        <p className="mb-4 text-sm text-ink-soft">
           הקצאת מנדטים בתרחישים היפותטיים, כפי שהוגדרו על ידי הסוקרים. כותרת כל
           תרחיש מתארת את ההנחה שנבדקה.
         </p>
@@ -84,11 +85,11 @@ export default function KnessetPollsMore() {
           {scenarios.map(([name, list]) => (
             <details
               key={name}
-              className="rounded-2xl border border-neutral-200 bg-white p-4"
+              className="rounded-3xl border border-line bg-card p-4"
             >
               <summary className="cursor-pointer text-sm font-bold sm:text-base">
                 {scenarioHe(name)}
-                <span className="mr-2 text-sm font-normal text-neutral-400">
+                <span className="mr-2 text-sm font-normal text-ink-faint">
                   · {list.length} סקרים
                 </span>
               </summary>
@@ -105,10 +106,10 @@ export default function KnessetPollsMore() {
         if (list.length === 0) return null;
         return (
           <section key={sec.kind} className="mx-auto max-w-7xl px-4 pb-8">
-            <h2 className="mb-1 text-xl font-black">
+            <h2 className="mb-1 font-display text-2xl">
               {sec.title} · {list.length} סקרים
             </h2>
-            <p className="mb-4 text-sm text-neutral-500">{sec.blurb}</p>
+            <p className="mb-4 text-sm text-ink-soft">{sec.blurb}</p>
             <PollsTable polls={list} percent={sec.percent} />
           </section>
         );

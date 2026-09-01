@@ -3,6 +3,7 @@ import Link from "next/link";
 import KnessetNav from "@/components/KnessetNav";
 import KnessetFooter from "@/components/KnessetFooter";
 import PollsTable from "@/components/PollsTable";
+import ShareBar from "@/components/ShareBar";
 import {
   fmtDate,
   meta,
@@ -18,9 +19,10 @@ import {
 import { eventHe } from "@/lib/electionsHe";
 
 export const metadata: Metadata = {
-  title: "בחירות 2026 לכנסת | כל המפלגות, המועמדים והסקרים",
+  title: "בחירות2026 | כל המפלגות, המועמדים והסקרים במקום אחד",
   description:
-    "סקירת הבחירות לכנסת ה-26 (27.10.2026): ממוצע הסקרים העדכני, רשימות המועמדים של כל המפלגות, כל הסקרים שפורסמו מאז 2022 וציטוטים מתועדים של המועמדים.",
+    "ממוצע הסקרים העדכני, רשימות המועמדים של כל המפלגות, כל הסקרים שפורסמו מאז 2022 וציטוטים מתועדים — עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.",
+  alternates: { canonical: "/" },
 };
 
 /** 30 days back from the newest poll, so the average is data-anchored. */
@@ -29,6 +31,33 @@ function windowStart(latest: string | null, days: number): string {
   d.setUTCDate(d.getUTCDate() - days);
   return d.toISOString().slice(0, 10);
 }
+
+const CARDS = [
+  {
+    href: "/knesset/lists",
+    emoji: "📋",
+    title: "רשימות המועמדים",
+    blurb: "כל הרשימות שפורסמו, שם-שם, עם תאריך עדכון ומקור לכל רשימה.",
+  },
+  {
+    href: "/knesset/polls/more",
+    emoji: "🔮",
+    title: "תרחישי ״מה אם״",
+    blurb: "ריצות משותפות, מפלגות חדשות, ראש ממשלה מועדף והרכבי קואליציה.",
+  },
+  {
+    href: "/knesset/quotes",
+    emoji: "🗣️",
+    title: "ציטוטים והתבטאויות",
+    blurb: "מה המועמדים באמת אמרו — עם תאריך, מקור ושיתוף כתמונה בקליק.",
+  },
+  {
+    href: "/primaries",
+    emoji: "🗳️",
+    title: "כלי הפריימריז",
+    blurb: "הכלי שליווה את פריימריז הדמוקרטים: שאלון, דירוג ומודל פתוח.",
+  },
+];
 
 export default function KnessetOverview() {
   const latestDate = seatPolls[0]?.date ?? null;
@@ -49,146 +78,137 @@ export default function KnessetOverview() {
     <main className="min-h-screen">
       <KnessetNav active="/" />
 
-      <section className="mx-auto max-w-5xl px-4 py-10">
-        <h1 className="text-3xl font-black leading-tight sm:text-4xl">
-          הבחירות לכנסת ה-26
+      {/* hero */}
+      <section className="mx-auto max-w-6xl px-4 pb-8 pt-12">
+        <p className="font-bold text-brand">27 באוקטובר 2026 · בוחרים את הכנסת ה-26</p>
+        <h1 className="font-display mt-2 max-w-3xl text-4xl leading-[1.15] sm:text-6xl">
+          כל הדאטה של הבחירות.
+          <br />
+          <span className="squiggle">בלי אג'נדה.</span>
         </h1>
-        <p className="mt-3 max-w-2xl leading-relaxed text-neutral-600">
-          ב-27.10.2026 בוחרים את 120 חברות וחברי הכנסת הבאה. כאן מרוכזים, מכל
-          המפלגות: רשימות המועמדים שפורסמו, וכל סקרי הבחירות מאז נובמבר 2022 —
-          הקצאות מנדטים, תרחישי ריצה משותפת, ראש ממשלה מועדף וסקרי קואליציה.
+        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+          רשימות המועמדים של כל המפלגות, כל סקר שפורסם מאז נובמבר 2022,
+          וההתבטאויות של המועמדים — הכול מתועד, מתוארך ומקושר למקור.
+          פרויקט עצמאי, בקוד פתוח, שלא מחבב אף מפלגה.
         </p>
+        <div className="mt-6 flex flex-wrap items-center gap-4">
+          <Link
+            href="/knesset/polls"
+            className="rounded-2xl bg-brand px-7 py-3.5 text-lg font-black text-white shadow-lg shadow-brand/25 transition-all hover:-translate-y-0.5 hover:bg-brand-deep"
+          >
+            לכל הסקרים ←
+          </Link>
+          <ShareBar path="/" text="בחירות2026 — כל הדאטה של הבחירות לכנסת ה-26, בלי אג'נדה:" />
+        </div>
 
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {[
-            { n: seatPolls.length, label: "סקרי מנדטים" },
-            { n: polls.length - seatPolls.length, label: "סקרי תרחישים ושאלות" },
-            { n: partyLists.length, label: "רשימות שפורסמו" },
-            { n: nCandidates, label: "מועמדות ומועמדים" },
+            { n: seatPolls.length, label: "סקרי מנדטים", color: "text-brand" },
+            { n: polls.length - seatPolls.length, label: "סקרי תרחישים ושאלות", color: "text-mint" },
+            { n: nCandidates, label: "מועמדות ומועמדים", color: "text-coral" },
+            { n: 178, label: "ציטוטים מתועדים", color: "text-ink" },
           ].map((s) => (
             <div
               key={s.label}
-              className="rounded-2xl border border-neutral-200 bg-white p-4 text-center"
+              className="rounded-3xl border border-line bg-card p-5 text-center shadow-sm"
             >
-              <div className="text-2xl font-black text-[#101CAA]">{s.n}</div>
-              <div className="mt-1 text-xs text-neutral-500">{s.label}</div>
+              <div className={`font-display text-4xl ${s.color}`}>{s.n.toLocaleString("he-IL")}</div>
+              <div className="mt-1 text-xs font-bold text-ink-faint">{s.label}</div>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 pb-10">
-        <h2 className="text-xl font-black">ממוצע הסקרים · 30 הימים האחרונים</h2>
-        <p className="mt-1 text-sm text-neutral-500">
-          ממוצע מנדטים פשוט לכל מפלגה על פני הסקרים שכללו אותה
-          {latestDate && <> · עדכני ל-{fmtDate(latestDate, "")}</>}
-          {govAvg !== null && (
-            <> · גוש הקואליציה היוצאת בממוצע: {govAvg.toFixed(1)} מנדטים</>
-          )}
-          {" · נאסף ב-"}
-          {fmtDate(meta.scraped_at, meta.scraped_at)}
-          {" · "}
-          <a
-            href={sourceUrl("polls_2026")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-[#101CAA]"
-          >
-            מקור
-          </a>
-        </p>
-        <div className="mt-4 space-y-2 rounded-2xl border border-neutral-200 bg-white p-5">
-          {averages.map((a) => (
-            <div key={a.key} className="flex items-center gap-3 text-sm">
-              <span className="w-44 shrink-0 truncate font-medium sm:w-52">
-                {partyName(a.key)}
-              </span>
-              <div className="h-4 flex-1 overflow-hidden rounded-full bg-neutral-100">
-                <div
-                  className="h-full rounded-full"
-                  style={{
-                    width: `${(a.avg / maxAvg) * 100}%`,
-                    backgroundColor: partyColor(a.key),
-                  }}
-                />
+      {/* polling average */}
+      <section className="mx-auto max-w-6xl px-4 pb-10">
+        <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 className="font-display text-2xl">ממוצע הסקרים · 30 הימים האחרונים</h2>
+            <span className="text-sm text-ink-faint">
+              {latestDate && <>עדכני ל-{fmtDate(latestDate, "")} · </>}
+              <a href={sourceUrl("polls_2026")} target="_blank" rel="noopener noreferrer" className="underline hover:text-brand">
+                מקור
+              </a>
+            </span>
+          </div>
+          <p className="mt-1 text-sm text-ink-soft">
+            ממוצע מנדטים פשוט לכל מפלגה על פני הסקרים שכללו אותה
+            {govAvg !== null && (
+              <> · גוש הקואליציה היוצאת: <b>{govAvg.toFixed(1)}</b> מנדטים בממוצע</>
+            )}
+          </p>
+          <div className="mt-6 space-y-2.5">
+            {averages.map((a) => (
+              <div
+                key={a.key}
+                className="group flex items-center gap-3 text-sm"
+                title={`${partyName(a.key)}: ממוצע ${a.avg.toFixed(1)} מנדטים`}
+              >
+                <span className="w-44 shrink-0 truncate font-bold sm:w-52">
+                  {partyName(a.key)}
+                </span>
+                <div className="h-3.5 flex-1 overflow-hidden rounded-full bg-paper">
+                  <div
+                    className="h-full rounded-full transition-all group-hover:opacity-80"
+                    style={{
+                      width: `${(a.avg / maxAvg) * 100}%`,
+                      backgroundColor: partyColor(a.key),
+                    }}
+                  />
+                </div>
+                <span className="w-10 shrink-0 text-left font-black tabular-nums">
+                  {a.avg.toFixed(1)}
+                </span>
               </div>
-              <span className="w-10 shrink-0 text-left font-bold tabular-nums">
-                {a.avg.toFixed(1)}
-              </span>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 pb-10">
-        <div className="flex items-baseline justify-between">
-          <h2 className="text-xl font-black">הסקרים האחרונים</h2>
-          <Link href="/knesset/polls" className="text-sm font-medium text-[#101CAA] underline">
+      {/* latest polls */}
+      <section className="mx-auto max-w-6xl px-4 pb-10">
+        <div className="mb-4 flex items-baseline justify-between">
+          <h2 className="font-display text-2xl">הסקרים האחרונים</h2>
+          <Link href="/knesset/polls" className="text-sm font-bold text-brand underline underline-offset-4 hover:text-brand-deep">
             לכל {seatPolls.length} סקרי המנדטים ←
           </Link>
         </div>
-        <div className="mt-4">
-          <PollsTable polls={recent} />
+        <PollsTable polls={recent} />
+      </section>
+
+      {/* section cards */}
+      <section className="mx-auto max-w-6xl px-4 pb-10">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {CARDS.map((c) => (
+            <Link
+              key={c.href}
+              href={c.href}
+              className="group rounded-3xl border border-line bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:border-brand hover:shadow-lg hover:shadow-brand/10"
+            >
+              <span className="text-3xl">{c.emoji}</span>
+              <h3 className="font-display mt-3 text-xl group-hover:text-brand">
+                {c.title} ←
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-soft">{c.blurb}</p>
+            </Link>
+          ))}
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 pb-10">
-        <div className="grid gap-4 sm:grid-cols-2">
-          <Link
-            href="/knesset/lists"
-            className="rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-md"
-          >
-            <h3 className="text-lg font-black">רשימות המועמדים ←</h3>
-            <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-              {nCandidates} מועמדות ומועמדים ב-{partyLists.length} רשימות שכבר
-              פורסמו. מפלגות נוספות יגישו רשימות עד 9.9.2026.
-            </p>
-          </Link>
-          <Link
-            href="/knesset/polls/more"
-            className="rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-md"
-          >
-            <h3 className="text-lg font-black">תרחישים, ראש ממשלה וקואליציה ←</h3>
-            <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-              סקרי "מה אם": ריצות משותפות ומפלגות חדשות, ראש הממשלה המועדף,
-              הרכבי קואליציה וסקרי החברה הערבית.
-            </p>
-          </Link>
-          <Link
-            href="/knesset/quotes"
-            className="rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-md"
-          >
-            <h3 className="text-lg font-black">ציטוטים והתבטאויות ←</h3>
-            <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-              מה המועמדים אמרו, ברשתות ובתקשורת: כל ציטוט עם תאריך, קישור
-              למקור ואפשרות שיתוף כתמונה.
-            </p>
-          </Link>
-          <Link
-            href="/primaries"
-            className="rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-md"
-          >
-            <h3 className="text-lg font-black">כלי הפריימריז של הדמוקרטים ←</h3>
-            <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-              הכלי שליווה את הפריימריז (20.7.2026): שאלון קצר ודירוג אישי של
-              51 המועמדים, עם מודל פתוח ומתועד.
-            </p>
-          </Link>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-5xl px-4 pb-12">
-        <details className="rounded-2xl border border-neutral-200 bg-white p-5">
-          <summary className="cursor-pointer text-lg font-black">
-            ציר הזמן של הקמפיין ({pollEvents.length} אירועים)
+      {/* campaign timeline */}
+      <section className="mx-auto max-w-6xl px-4 pb-12">
+        <details className="rounded-3xl border border-line bg-card p-6 shadow-sm">
+          <summary className="font-display cursor-pointer text-xl">
+            📅 ציר הזמן של הקמפיין ({pollEvents.length} אירועים)
           </summary>
-          <ul className="mt-4 space-y-2 text-sm leading-relaxed">
+          <ul className="mt-5 space-y-3 border-r-2 border-brand-wash pr-4 text-sm leading-relaxed">
             {pollEvents.map((e, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="w-20 shrink-0 font-bold text-neutral-500">
+              <li key={i} className="relative flex gap-3">
+                <span className="absolute -right-[1.35rem] top-1.5 h-2.5 w-2.5 rounded-full bg-brand" />
+                <span className="w-20 shrink-0 font-black text-ink-faint">
                   {fmtDate(e.date, e.date_raw)}
                 </span>
-                <span className="text-neutral-700">{eventHe(e.event)}</span>
+                <span className="text-ink-soft">{eventHe(e.event)}</span>
               </li>
             ))}
           </ul>
