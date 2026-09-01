@@ -3,6 +3,10 @@ import Link from "next/link";
 import KnessetNav from "@/components/KnessetNav";
 import KnessetFooter from "@/components/KnessetFooter";
 import PollsTable from "@/components/PollsTable";
+import Hemicycle from "@/components/Hemicycle";
+import PollTrends from "@/components/PollTrends";
+import BlocBar from "@/components/BlocBar";
+import CountUp from "@/components/CountUp";
 import ShareBar from "@/components/ShareBar";
 import {
   fmtDate,
@@ -12,11 +16,19 @@ import {
   partyName,
   pollEvents,
   polls,
+  roundSeats,
   seatAverages,
   seatPolls,
+  seatTrends,
   sourceUrl,
 } from "@/lib/elections";
 import { eventHe } from "@/lib/electionsHe";
+import sourcesData from "@/data/elections/sources.json";
+
+const nQuotes = (sourcesData as { corpus: { records: number }[] }).corpus.reduce(
+  (s, c) => s + c.records,
+  0,
+);
 
 export const metadata: Metadata = {
   title: "בחירות2026 | כל המפלגות, המועמדים והסקרים במקום אחד",
@@ -73,6 +85,8 @@ export default function KnessetOverview() {
     govAvgPolls.length > 0
       ? govAvgPolls.reduce((s, p) => s + (p.gov_bloc ?? 0), 0) / govAvgPolls.length
       : null;
+  const seatRound = roundSeats(averages.filter((a) => a.avg >= 1.5));
+  const trendSeries = seatTrends(8);
 
   return (
     <main className="min-h-screen">
@@ -106,16 +120,57 @@ export default function KnessetOverview() {
             { n: seatPolls.length, label: "סקרי מנדטים", color: "text-brand" },
             { n: polls.length - seatPolls.length, label: "סקרי תרחישים ושאלות", color: "text-mint" },
             { n: nCandidates, label: "מועמדות ומועמדים", color: "text-coral" },
-            { n: 178, label: "ציטוטים מתועדים", color: "text-ink" },
-          ].map((s) => (
+            { n: nQuotes, label: "ציטוטים מתועדים", color: "text-ink" },
+          ].map((s, i) => (
             <div
               key={s.label}
-              className="rounded-3xl border border-line bg-card p-5 text-center shadow-sm"
+              className="anim-rise rounded-3xl border border-line bg-card p-5 text-center shadow-sm"
+              style={{ "--rise-delay": `${i * 90}ms` } as React.CSSProperties}
             >
-              <div className={`font-display text-4xl ${s.color}`}>{s.n.toLocaleString("he-IL")}</div>
+              <div className={`font-display text-4xl ${s.color}`}>
+                <CountUp value={s.n} />
+              </div>
               <div className="mt-1 text-xs font-bold text-ink-faint">{s.label}</div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* the Knesset, visualized */}
+      <section className="mx-auto max-w-6xl px-4 pb-10">
+        <div className="grid gap-4 lg:grid-cols-5">
+          <div className="anim-rise rounded-3xl border border-line bg-card p-6 shadow-sm lg:col-span-3">
+            <h2 className="font-display text-2xl">ככה תיראה הכנסת</h2>
+            <p className="mt-1 text-sm text-ink-soft">
+              120 המנדטים לפי ממוצע הסקרים של 30 הימים האחרונים, מעוגלים בשיטת
+              השארית הגדולה. הקואליציה היוצאת יושבת מימין.
+            </p>
+            <div className="mt-4">
+              <Hemicycle seats={seatRound} />
+            </div>
+          </div>
+          <div className="anim-rise flex flex-col gap-4 lg:col-span-2" style={{ "--rise-delay": "120ms" } as React.CSSProperties}>
+            <div className="rounded-3xl border border-line bg-card p-6 shadow-sm">
+              <h2 className="font-display text-2xl">שאלת ה-61</h2>
+              <p className="mt-1 text-sm text-ink-soft">מי חוצה את קו הרוב?</p>
+              <div className="mt-4">
+                <BlocBar seats={seatRound} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* trends */}
+      <section className="mx-auto max-w-6xl px-4 pb-10">
+        <div className="anim-rise rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 className="font-display text-2xl">מי עולה, מי יורד · 2026</h2>
+            <span className="text-sm text-ink-faint">ממוצע נגרר 14 יום, דגימה שבועית · העבירו עכבר לפירוט</span>
+          </div>
+          <div className="mt-5">
+            <PollTrends series={trendSeries} />
+          </div>
         </div>
       </section>
 
@@ -149,7 +204,7 @@ export default function KnessetOverview() {
                 </span>
                 <div className="h-3.5 flex-1 overflow-hidden rounded-full bg-paper">
                   <div
-                    className="h-full rounded-full transition-all group-hover:opacity-80"
+                    className="anim-grow-x h-full rounded-full transition-all group-hover:opacity-80"
                     style={{
                       width: `${(a.avg / maxAvg) * 100}%`,
                       backgroundColor: partyColor(a.key),

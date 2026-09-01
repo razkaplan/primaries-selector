@@ -22,6 +22,9 @@ const TYPE_LABEL: Record<string, string> = {
   social_instagram: "אינסטגרם",
   social_tiktok: "טיקטוק",
   social_facebook: "פייסבוק",
+  tiktok: "טיקטוק",
+  youtube: "יוטיוב",
+  podcast: "פודקאסט",
   news: "חדשות",
 };
 

@@ -3,6 +3,14 @@ import KnessetNav from "@/components/KnessetNav";
 import KnessetFooter from "@/components/KnessetFooter";
 import ShareBar from "@/components/ShareBar";
 import { meta, partyLists, polls } from "@/lib/elections";
+import { publisherHe } from "@/lib/electionsHe";
+import sourcesData from "@/data/elections/sources.json";
+
+const sources = sourcesData as {
+  corpus: { name: string; kind: string; records: number }[];
+  poll_publishers: { name: string; polls: number }[];
+  reference: { name: string; kind: string; url: string; license: string }[];
+};
 
 export const metadata: Metadata = {
   title: "מתודולוגיה ומקורות",
@@ -76,9 +84,9 @@ export default function AboutPage() {
               מוויקיפדיה העברית ומאומתים ידנית.
             </li>
             <li>
-              <b>ציטוטים:</b> פוסטים פומביים ברשתות (X, פייסבוק ועוד) וכתבות
-              באתרי החדשות הישראליים. טקסט קטוע מסומן ב-… והקישור מוביל תמיד
-              למקור המלא.
+              <b>ציטוטים:</b> פוסטים פומביים ברשתות (X, טיקטוק ועוד), ראיונות
+              וידאו ביוטיוב, פודקאסטים פוליטיים וכתבות באתרי החדשות
+              הישראליים. טקסט קטוע מסומן ב-… והקישור מוביל תמיד למקור המלא.
             </li>
             <li>
               <b>עדכון אחרון:</b> {meta.scraped_at}. צינור האיסוף רץ מחדש
@@ -115,6 +123,41 @@ export default function AboutPage() {
             </a>
             .
           </p>
+        </div>
+
+        <div className="rounded-3xl border border-line bg-card p-6 shadow-sm">
+          <h2 className="font-display text-2xl">כל המקורות, ברשימה אחת</h2>
+          <p className="mt-2 text-sm text-ink-soft">
+            כל פלטפורמה וכלי תקשורת שמהם נאסף ולו נתון אחד באתר — קורפוס
+            הציטוטים (רשתות, חדשות, וידאו ופודקאסטים) ומפרסמי הסקרים.
+          </p>
+          <h3 className="font-display mt-5 text-lg">קורפוס הציטוטים ({sources.corpus.reduce((s, x) => s + x.records, 0)} רשומות)</h3>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {sources.corpus.map((c) => (
+              <li key={c.name} className="rounded-full border border-line bg-paper px-3 py-1 text-xs font-bold text-ink-soft">
+                {c.name} <span className="text-ink-faint">· {c.kind} · {c.records}</span>
+              </li>
+            ))}
+          </ul>
+          <h3 className="font-display mt-5 text-lg">מפרסמי הסקרים ({sources.poll_publishers.length})</h3>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {sources.poll_publishers.map((c) => (
+              <li key={c.name} className="rounded-full border border-line bg-paper px-3 py-1 text-xs font-bold text-ink-soft">
+                {publisherHe(c.name)} <span className="text-ink-faint">· {c.polls}</span>
+              </li>
+            ))}
+          </ul>
+          <h3 className="font-display mt-5 text-lg">מקורות אנציקלופדיים</h3>
+          <ul className="mt-2 space-y-1 text-sm">
+            {sources.reference.map((c) => (
+              <li key={c.url}>
+                <a href={c.url} target="_blank" rel="noopener noreferrer" className="font-bold text-brand underline underline-offset-4">
+                  {c.name}
+                </a>{" "}
+                <span className="text-ink-faint">({c.license})</span>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div className="rounded-3xl border-2 border-dashed border-brand/40 bg-brand-wash p-6">

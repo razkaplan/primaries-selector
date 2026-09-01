@@ -228,6 +228,87 @@ export function resultKeys(list: Poll[]): string[] {
     .map(([k]) => k);
 }
 
+/** Parties of the outgoing (25th-Knesset) coalition at dissolution, matching
+ * the polls' own "Gov." bloc column. New Hope merged into Likud. */
+export const OUTGOING_COALITION = new Set([
+  "likud",
+  "shas",
+  "utj",
+  "otzma_yehudit",
+  "rzp",
+  "noam",
+]);
+
+/** Round fractional seat averages to whole seats summing to `total`
+ * (largest-remainder / Hare). */
+export function roundSeats(
+  averages: { key: string; avg: number }[],
+  total = 120,
+): { key: string; seats: number }[] {
+  const sum = averages.reduce((s, a) => s + a.avg, 0);
+  if (sum <= 0) return averages.map((a) => ({ key: a.key, seats: 0 }));
+  const scaled = averages.map((a) => ({ key: a.key, exact: (a.avg / sum) * total }));
+  const out = scaled.map((s) => ({ key: s.key, seats: Math.floor(s.exact) }));
+  let left = total - out.reduce((s, o) => s + o.seats, 0);
+  const byRemainder = scaled
+    .map((s, i) => ({ i, r: s.exact - Math.floor(s.exact) }))
+    .sort((a, b) => b.r - a.r);
+  for (const { i } of byRemainder) {
+    if (left <= 0) break;
+    out[i].seats += 1;
+    left -= 1;
+  }
+  return out;
+}
+
+export interface TrendSeries {
+  key: string;
+  name: string;
+  color: string;
+  points: { date: string; value: number }[];
+}
+
+/** 14-day trailing averages sampled weekly over 2026, for the `topN`
+ * parties by latest average — the data behind the trend chart. */
+export function seatTrends(topN = 8): TrendSeries[] {
+  const year = seatPolls.filter((p) => p.date && p.date >= "2026-01-01");
+  if (year.length === 0) return [];
+  const last = year[0].date!;
+  const first = year[year.length - 1].date!;
+  const keys = seatAverages(windowBack(last, 30))
+    .slice(0, topN)
+    .map((a) => a.key);
+  const sampleDates: string[] = [];
+  for (let d = new Date(first + "T00:00:00Z"); d.toISOString().slice(0, 10) <= last; d.setUTCDate(d.getUTCDate() + 7)) {
+    sampleDates.push(d.toISOString().slice(0, 10));
+  }
+  if (sampleDates[sampleDates.length - 1] !== last) sampleDates.push(last);
+  return keys.map((key) => {
+    const points: { date: string; value: number }[] = [];
+    for (const date of sampleDates) {
+      const from = windowBack(date, 14);
+      let total = 0;
+      let n = 0;
+      for (const p of year) {
+        if (!p.date || p.date > date || p.date < from) continue;
+        const v = p.results[key];
+        if (typeof v === "number") {
+          total += v;
+          n += 1;
+        }
+      }
+      if (n > 0) points.push({ date, value: total / n });
+    }
+    return { key, name: partyName(key), color: partyColor(key), points };
+  });
+}
+
+function windowBack(iso: string, days: number): string {
+  const d = new Date(iso + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() - days);
+  return d.toISOString().slice(0, 10);
+}
+
 export function fmtDate(iso: string | null, raw: string): string {
   if (!iso) return raw;
   const d = new Date(iso + "T00:00:00Z");

@@ -327,13 +327,13 @@
   "candidate_id": "ofir_katz",
   "candidate_he": "אופיר כץ",
   "party": "likud",
-  "source_type": "news",
-  "source_name": "ynet.co.il",
+  "source_type": "podcast",
+  "source_name": "ynet 120 ואחת",
   "date": "2026-08-16",
   "url": "https://www.ynet.co.il/news/120andone/article/sjolijf8fe",
-  "text": "יו\"ר הקואליציה אופיר כץ: \"היינו עדינים מדי ברפורמה. אחרי הבחירות נלך עד הסוף\"",
+  "text": "אופיר כץ בפודקאסט \"120 ואחת\": \"היינו עדינים מדי ברפורמה. אחרי הבחירות נלך עד הסוף\"",
   "engagement": null,
-  "collected_at": "2026-08-31T06:44Z"
+  "collected_at": "2026-09-01T21:34Z"
  },
  {
   "candidate_id": "emilie_moatti",
@@ -418,6 +418,18 @@
   "text": "״הם פשוט ייכחדו״, כך שר המשפטים מדבר על שופטי בית המשפט העליון. לא על תיקון מערכת המשפט ולא על איזון בין הרשויות…",
   "engagement": null,
   "collected_at": "2026-08-31T06:44Z"
+ },
+ {
+  "candidate_id": "gadi_eisenkot",
+  "candidate_he": "גדי איזנקוט",
+  "party": "yashar",
+  "source_type": "youtube",
+  "source_name": "youtube.com",
+  "date": "2026-08-12",
+  "url": "https://www.youtube.com/watch?v=g7EIndseISM",
+  "text": "גדי איזנקוט בריאיון לקרן מרציאנו בחדשות 12",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
  },
  {
   "candidate_id": "avi_dabush",
@@ -768,6 +780,18 @@
   "collected_at": "2026-08-31T06:44Z"
  },
  {
+  "candidate_id": "gilad_kariv",
+  "candidate_he": "גלעד קריב",
+  "party": "democrats",
+  "source_type": "podcast",
+  "source_name": "ynet 120 ואחת",
+  "date": "2026-07-15",
+  "url": "https://www.ynet.co.il/news/120andone/article/s125qdcxfg",
+  "text": "גלעד קריב בפודקאסט \"120 ואחת\": \"מנסור עבאס יכול להיות שר הבריאות. רבבות ערבים יצביעו לדמוקרטים\"",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
+ },
+ {
   "candidate_id": "yair_lapid",
   "candidate_he": "יאיר לפיד",
   "party": "together",
@@ -802,6 +826,18 @@
   "text": "נמרוד שפר: \"נחזיר את צה\"ל לנתיב אנושי ומוסרי - שצדקת הדרך לא תהיה רק סיסמה משיחית אלא תוכנית פעולה\"",
   "engagement": null,
   "collected_at": "2026-08-31T06:44Z"
+ },
+ {
+  "candidate_id": "yair_golan",
+  "candidate_he": "יאיר גולן",
+  "party": "democrats",
+  "source_type": "youtube",
+  "source_name": "youtube.com",
+  "date": "2026-06-29",
+  "url": "https://www.youtube.com/watch?v=83zkcSmhCGk",
+  "text": "יאיר גולן בריאיון: \"להקים ממשלה עם נתניהו זה כמו לצאת לדייט עם נוכל הטינדר\"",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
  },
  {
   "candidate_id": "maha_karkabi",
@@ -900,6 +936,18 @@
   "collected_at": "2026-08-31T06:44Z"
  },
  {
+  "candidate_id": "naftali_bennett",
+  "candidate_he": "נפתלי בנט",
+  "party": "together",
+  "source_type": "youtube",
+  "source_name": "youtube.com",
+  "date": "2026-06-19",
+  "url": "https://www.youtube.com/watch?v=N9S9BZc5shI",
+  "text": "ישנה כיוון? בנט חזר בתנופה לבחירות 2026 - אבל בסקרים הוא מאבד קולות",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
+ },
+ {
   "candidate_id": "yair_golan",
   "candidate_he": "יאיר גולן",
   "party": "democrats",
@@ -910,6 +958,18 @@
   "text": "בוקר קשה לישראל.\n\nהבוקר אזרחי ישראל מתעוררים להסכם בין ארצות הברית לאיראן שנעשה מעל ראשה של ישראל.\n\nבאיבחת חתימה אחת נמחקו הישגים צבאיים אדירים שהושגו באומץ לבם של טייסינו ובדם לוחמינו, בזמן שנתניהו עמד מן הצד - חלש, חולה, מבודד וחסר השפעה.\n\nטראמפ חותם על הסכם שמזרים מיליארדים למשטר האייתוללות, משאיר את תשתיות הגרעין על כנן, מותיר את האיום הבליסטי בעינו ומעניק חבל הצלה למשטר הרצחני בטהראן.\n\nנתניהו טוב לחמאס.\nנתניהו טוב לאיראן.\nנתניהו טוב לחיזבאללה.\n\nנתניהו לא טוב לישראל.\n\nמי שהבטיח ״ניצחון מוחלט״ מסיים את כהונתו כשהאויבים של ישראל חזקים יותר, ישראל חלשה יותר, וההרתעה שנבנתה בדם לוחמינו נשחקת מול עינינו.\n\nהחלפתו אינה רק צורך פוליטי - היא צורך ביטחוני קיומי.",
   "engagement": 8224,
   "collected_at": "2026-08-29T19:23Z"
+ },
+ {
+  "candidate_id": "gadi_eisenkot",
+  "candidate_he": "גדי איזנקוט",
+  "party": "yashar",
+  "source_type": "podcast",
+  "source_name": "ynet 120 ואחת",
+  "date": "2026-06-15",
+  "url": "https://www.ynet.co.il/news/120andone/article/ryse7c8wmx",
+  "text": "איזנקוט בפודקאסט \"120 ואחת\": \"אני פועל להיות ראש הממשלה. נתניהו מבין שאני היריב המרכזי שלו\"",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
  },
  {
   "candidate_id": "simcha_rothman",
@@ -1092,6 +1152,18 @@
   "collected_at": "2026-08-29T19:23Z"
  },
  {
+  "candidate_id": "yaya_fink",
+  "candidate_he": "יאיא פינק",
+  "party": "democrats",
+  "source_type": "tiktok",
+  "source_name": "tiktok.com",
+  "date": "2026-04-26",
+  "url": "https://www.tiktok.com/@yayafink/video/7632998095596391701",
+  "text": "יאיא פינק בטיקטוק: \"סיכום ימים אחרונים תחת בן גביר\"",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
+ },
+ {
   "candidate_id": "boaz_bismuth",
   "candidate_he": "בועז ביסמוט",
   "party": "likud",
@@ -1102,6 +1174,18 @@
   "text": "ביסמוט בתום דיון ביטחוני: \"המשטר האיראני עומד לשלם מחיר כבד מאוד\"",
   "engagement": null,
   "collected_at": "2026-08-31T06:44Z"
+ },
+ {
+  "candidate_id": "omri_ronen",
+  "candidate_he": "עמרי רונן",
+  "party": "democrats",
+  "source_type": "podcast",
+  "source_name": "ynet 120 ואחת",
+  "date": "2026-04-15",
+  "url": "https://www.ynet.co.il/radio/120andone/article/omnyb43200b5657a",
+  "text": "עמרי רונן בפודקאסט \"120 ואחת\": \"הממשלה הפכה אותי לאויב העם. אבל הציבור רותח ותהיה פה ממשלת שינוי\"",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
  },
  {
   "candidate_id": "naftali_bennett",
@@ -1344,6 +1428,18 @@
   "collected_at": "2026-08-29T19:23Z"
  },
  {
+  "candidate_id": "itamar_ben_gvir",
+  "candidate_he": "איתמר בן גביר",
+  "party": "otzma_yehudit",
+  "source_type": "tiktok",
+  "source_name": "tiktok.com",
+  "date": "2024-02-27",
+  "url": "https://www.tiktok.com/@itamar_ben_gvir/video/7340202421475511554",
+  "text": "בן גביר בטיקטוק הרשמי: \"הבחירות מגיל 17. צאו להצביע!\" #עוצמהיהודית",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
+ },
+ {
   "candidate_id": "ofer_cassif_in_rotation_with_ta_al",
   "candidate_he": "עופר כסיף (חד\"ש) – ברוטציה עם תע\"ל",
   "party": "joint_list",
@@ -1560,6 +1656,18 @@
   "collected_at": "2026-08-29T19:23Z"
  },
  {
+  "candidate_id": "yair_golan",
+  "candidate_he": "יאיר גולן",
+  "party": "democrats",
+  "source_type": "youtube",
+  "source_name": "youtube.com",
+  "date": null,
+  "url": "https://www.youtube.com/watch?v=IJCFSk1ogDU",
+  "text": "יו\"ר הדמוקרטים יאיר גולן: שנת 2026 - שנת מפנה ותיקון למדינת ישראל",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
+ },
+ {
   "candidate_id": "tally_gotliv",
   "candidate_he": "טלי גוטליב",
   "party": "likud",
@@ -1740,6 +1848,18 @@
   "collected_at": "2026-08-31T06:44Z"
  },
  {
+  "candidate_id": "gadi_eisenkot",
+  "candidate_he": "גדי איזנקוט",
+  "party": "yashar",
+  "source_type": "youtube",
+  "source_name": "youtube.com",
+  "date": null,
+  "url": "https://www.youtube.com/watch?v=B4_GU54e__c",
+  "text": "איזנקוט בריאיון: \"לנתניהו שיקולים זרים; הישארות בממשלה משמעותה בגידה בחיילים\"",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
+ },
+ {
   "candidate_id": "ohad_tal",
   "candidate_he": "אוהד טל",
   "party": "rzp",
@@ -1798,6 +1918,18 @@
   "text": "השר קרעי נגד הצבעת ישראלים מחו\"ל: \"אם השלטון היה שפוי, היינו גרים פה\" — סערה ותגובות זועמות",
   "engagement": null,
   "collected_at": "2026-08-31T06:44Z"
+ },
+ {
+  "candidate_id": "shlomo_karhi",
+  "candidate_he": "שלמה קרעי",
+  "party": "likud",
+  "source_type": "youtube",
+  "source_name": "youtube.com",
+  "date": null,
+  "url": "https://www.youtube.com/watch?v=z8Lcy_Jz1Gk",
+  "text": "שר התקשורת שלמה קרעי מתייחס ליו\"ר הדמוקרטים ולמפלגתו כשותפה פוטנציאלית לגוש בהובלת איזנקוט",
+  "engagement": null,
+  "collected_at": "2026-09-01T21:34Z"
  },
  {
   "candidate_id": "moshe_gafni",
