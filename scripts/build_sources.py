@@ -56,6 +56,12 @@ def main():
             {"name": "ויקיפדיה העברית — הבחירות לכנסת העשרים ושש", "kind": "אנציקלופדי",
              "url": "https://he.wikipedia.org/wiki/הבחירות_לכנסת_העשרים_ושש",
              "license": "CC BY-SA 4.0"},
+            {"name": "Polymarket — שוק חיזוי (רה\"מ הבא של ישראל)", "kind": "שוקי חיזוי",
+             "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+             "license": "Gamma API ציבורי"},
+            {"name": "Kalshi — בורסת חוזי אירועים (רה\"מ הבא של ישראל)", "kind": "שוקי חיזוי",
+             "url": "https://kalshi.com/markets/kxisraelpm",
+             "license": "Trade API v2 ציבורי"},
         ],
     }
     for out in (f"{ROOT}/data/elections/sources.json",

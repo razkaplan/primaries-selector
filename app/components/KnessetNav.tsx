@@ -6,6 +6,7 @@ const TABS = [
   { href: "/knesset/polls", label: "סקרים" },
   { href: "/knesset/polls/more", label: "תרחישים" },
   { href: "/knesset/quotes", label: "ציטוטים" },
+  { href: "/knesset/markets", label: "שוקי חיזוי" },
   { href: "/about", label: "מתודולוגיה" },
 ];
 
