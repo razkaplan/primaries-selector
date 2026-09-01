@@ -10,11 +10,11 @@ import { firmHe, publisherHe } from "@/lib/electionsHe";
 
 function Cell({ value, pct }: { value: number | string | null; pct?: number }) {
   if (value === null || value === undefined)
-    return <td className="px-2 py-1.5 text-center text-neutral-300">–</td>;
+    return <td className="px-2 py-1.5 text-center text-line">–</td>;
   if (value === 0 && pct !== undefined)
     return (
       <td
-        className="px-2 py-1.5 text-center text-neutral-400"
+        className="px-2 py-1.5 text-center text-ink-faint"
         title={`מתחת לאחוז החסימה: ${pct}%`}
       >
         ({pct})
@@ -35,11 +35,11 @@ export default function PollsTable({
   const keys = resultKeys(polls);
   const hasGov = polls.some((p) => p.gov_bloc != null);
   return (
-    <div className="overflow-x-auto rounded-2xl border border-neutral-200 bg-white">
+    <div className="table-scroll overflow-x-auto rounded-3xl border border-line bg-card shadow-sm">
       <table className="w-full min-w-max border-collapse text-xs sm:text-sm">
         <thead>
-          <tr className="border-b border-neutral-200 bg-neutral-50 text-neutral-600">
-            <th className="sticky right-0 bg-neutral-50 px-2 py-2 text-right font-bold">
+          <tr className="border-b-2 border-line bg-paper/60 text-ink-soft">
+            <th className="sticky right-0 bg-paper px-2 py-2 text-right font-bold">
               תאריך
             </th>
             <th className="px-2 py-2 text-right font-bold">סוקר</th>
@@ -67,21 +67,21 @@ export default function PollsTable({
           {polls.map((p, i) => (
             <tr
               key={i}
-              className="border-b border-neutral-100 last:border-0 hover:bg-neutral-50"
+              className="border-b border-line/60 last:border-0 hover:bg-brand-wash/40"
             >
               <td
-                className="sticky right-0 whitespace-nowrap bg-white px-2 py-1.5 font-medium"
+                className="sticky right-0 whitespace-nowrap bg-card px-2 py-1.5 font-bold"
                 title={p.date_raw}
               >
                 {fmtDate(p.date, p.date_raw)}
               </td>
-              <td className="whitespace-nowrap px-2 py-1.5 text-neutral-600">
+              <td className="whitespace-nowrap px-2 py-1.5 text-ink-soft">
                 {firmHe(p.firm)}
               </td>
-              <td className="whitespace-nowrap px-2 py-1.5 text-neutral-500">
+              <td className="whitespace-nowrap px-2 py-1.5 text-ink-faint">
                 {publisherHe(p.publisher)}
               </td>
-              <td className="px-2 py-1.5 text-center tabular-nums text-neutral-500">
+              <td className="px-2 py-1.5 text-center tabular-nums text-ink-faint">
                 {p.sample ?? "–"}
               </td>
               {keys.map((k) => (
@@ -101,7 +101,7 @@ export default function PollsTable({
                   href={sourceUrl(p.source_page)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-neutral-400 underline hover:text-[#101CAA]"
+                  className="text-ink-faint underline hover:text-brand"
                   title="לטבלת המקור בוויקיפדיה"
                 >
                   ↗

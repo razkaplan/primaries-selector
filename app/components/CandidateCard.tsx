@@ -35,7 +35,7 @@ export default function CandidateCard({
   return (
     <div
       className={`rounded-2xl border bg-white transition-shadow hover:shadow-md ${
-        starred ? "border-[#2A38D7] ring-2 ring-[#2A38D7]/40" : "border-neutral-200"
+        starred ? "border-[#5a31f4] ring-2 ring-[#5a31f4]/40" : "border-neutral-200"
       }`}
     >
       <div className="flex items-start gap-4 p-4">
@@ -61,7 +61,7 @@ export default function CandidateCard({
           <div className="flex items-center gap-3 flex-wrap">
             <h3 className="text-lg font-bold">{c.name}</h3>
             {score !== undefined && (
-              <span className="rounded-full bg-[#2A38D7] px-2.5 py-0.5 text-sm font-bold text-white">
+              <span className="rounded-full bg-[#5a31f4] px-2.5 py-0.5 text-sm font-bold text-white">
                 {Math.round(score)}% התאמה
               </span>
             )}
@@ -97,10 +97,10 @@ export default function CandidateCard({
             title={starred ? "הסרה מהפתק שלי" : ballotFull ? "הפתק מלא" : "הוספה לפתק שלי"}
             className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
               starred
-                ? "bg-[#101CAA] text-white"
+                ? "bg-[#3d1ebe] text-white"
                 : ballotFull
                   ? "bg-neutral-100 text-neutral-400 cursor-not-allowed"
-                  : "bg-neutral-100 hover:bg-[#2A38D7]/10"
+                  : "bg-neutral-100 hover:bg-[#5a31f4]/10"
             }`}
           >
             {starred ? "✓ בפתק שלי" : "+ לפתק שלי"}
@@ -121,7 +121,7 @@ export default function CandidateCard({
             <ul className="mt-3 space-y-1">
               {c.highlights_he.map((h) => (
                 <li key={h} className="flex gap-2 text-sm text-neutral-700">
-                  <span className="text-[#D92731] font-bold">•</span>
+                  <span className="text-[#ff4d6d] font-bold">•</span>
                   {h}
                 </li>
               ))}
@@ -133,7 +133,7 @@ export default function CandidateCard({
                 href={c.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-lg bg-[#101CAA] px-3 py-1.5 font-medium text-white hover:bg-[#2A38D7]"
+                className="rounded-lg bg-[#3d1ebe] px-3 py-1.5 font-medium text-white hover:bg-[#5a31f4]"
               >
                 אתר המועמד/ת
               </a>

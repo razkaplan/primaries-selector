@@ -1,28 +1,49 @@
 import type { Metadata } from "next";
-import { Noto_Sans_Hebrew } from "next/font/google";
+import { Rubik, Secular_One } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import "./globals.css";
 
-const notoSansHebrew = Noto_Sans_Hebrew({
+const rubik = Rubik({
   subsets: ["hebrew", "latin"],
-  weight: ["300", "400", "500", "700", "900"],
+  weight: ["400", "500", "700", "900"],
+  variable: "--font-body",
 });
 
-const OG_TITLE = "בחירות 2026 לכנסת - כל המפלגות, המועמדים והסקרים";
+const secularOne = Secular_One({
+  subsets: ["hebrew", "latin"],
+  weight: "400",
+  variable: "--font-display",
+});
+
+const SITE = "https://elections.gtmascode.dev";
+const OG_TITLE = "בחירות2026 — כל הדאטה של הבחירות. בלי אג'נדה.";
 const OG_DESCRIPTION =
-  "רשימות המועמדים של כל המפלגות, כל סקרי הבחירות מאז 2022 וציטוטים מתועדים של המועמדים - עם תאריך ומקור לכל נתון. הבחירות ב-27.10.2026.";
+  "רשימות המועמדים של כל המפלגות, 1,200+ סקרים מאז 2022 וציטוטים מתועדים עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://elections.gtmascode.dev"),
-  title: "בחירות 2026 לכנסת | כל המפלגות, המועמדים והסקרים",
+  metadataBase: new URL(SITE),
+  title: {
+    default: "בחירות2026 | כל המפלגות, המועמדים והסקרים במקום אחד",
+    template: "%s | בחירות2026",
+  },
   description:
-    "כלי לא רשמי לבחירות לכנסת ה-26: רשימות המועמדים של כל המפלגות, כל הסקרים שפורסמו מאז 2022, וציטוטים מתועדים עם תאריך ומקור.",
+    "המקור הפתוח לבחירות לכנסת ה-26: רשימות מועמדים של כל המפלגות, כל הסקרים מאז 2022 וציטוטים מתועדים - עם תאריך וקישור למקור לכל נתון.",
+  applicationName: "בחירות2026",
+  keywords: [
+    "בחירות 2026",
+    "בחירות לכנסת",
+    "סקרים",
+    "סקר מנדטים",
+    "רשימות מועמדים",
+    "הכנסת ה-26",
+  ],
+  robots: { index: true, follow: true },
   openGraph: {
     title: OG_TITLE,
     description: OG_DESCRIPTION,
-    url: "https://elections.gtmascode.dev",
-    siteName: "בוחרים בפריימריז",
+    url: SITE,
+    siteName: "בחירות2026",
     locale: "he_IL",
     type: "website",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: OG_TITLE }],
@@ -35,15 +56,52 @@ export const metadata: Metadata = {
   },
 };
 
+const JSON_LD = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE}/#website`,
+      url: SITE,
+      name: "בחירות2026",
+      description:
+        "כל הדאטה של הבחירות לכנסת ה-26: רשימות מועמדים, סקרים וציטוטים מתועדים.",
+      inLanguage: "he",
+    },
+    {
+      "@type": "Dataset",
+      name: "סקרי הבחירות לכנסת ה-26",
+      description:
+        "כל סקרי המנדטים, אחוזי ההצבעה וסקרי התרחישים שפורסמו לקראת הבחירות לכנסת ה-26, מנובמבר 2022 ואילך, עם סוקר, מפרסם, מדגם ותאריך לכל סקר.",
+      url: `${SITE}/knesset/polls`,
+      license: "https://creativecommons.org/licenses/by-sa/4.0/",
+      creator: { "@type": "Person", name: "Raz Kaplan" },
+      isBasedOn: "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election",
+      distribution: {
+        "@type": "DataDownload",
+        encodingFormat: "application/json",
+        contentUrl: "https://github.com/razkaplan/primaries-selector/tree/main/data/elections",
+      },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="he" dir="rtl" className="h-full">
-      <body className={`${notoSansHebrew.className} min-h-full antialiased bg-[#f7f8fc] text-black`}>
+    <html lang="he" dir="rtl" className={`h-full ${rubik.variable} ${secularOne.variable}`}>
+      <body
+        className="min-h-full antialiased text-ink"
+        style={{ fontFamily: "var(--font-body), sans-serif" }}
+      >
         {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
+        />
         <Analytics />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-V7LGK8CMHQ"

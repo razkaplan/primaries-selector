@@ -64,55 +64,81 @@ function renderQuoteImage(q: Quote): HTMLCanvasElement {
   canvas.width = W;
   canvas.height = H;
   const ctx = canvas.getContext("2d")!;
-  const font = getComputedStyle(document.body).fontFamily || "sans-serif";
+  const rootStyle = getComputedStyle(document.documentElement);
+  const body = rootStyle.getPropertyValue("--font-body").trim() || "sans-serif";
+  const display = rootStyle.getPropertyValue("--font-display").trim() || body;
 
-  ctx.fillStyle = "#f7f8fc";
+  // warm paper with soft brand glows
+  ctx.fillStyle = "#faf6ee";
   ctx.fillRect(0, 0, W, H);
+  const glowA = ctx.createRadialGradient(W, 0, 0, W, 0, 620);
+  glowA.addColorStop(0, "rgba(90,49,244,0.10)");
+  glowA.addColorStop(1, "rgba(90,49,244,0)");
+  ctx.fillStyle = glowA;
+  ctx.fillRect(0, 0, W, H);
+  const glowB = ctx.createRadialGradient(0, H, 0, 0, H, 560);
+  glowB.addColorStop(0, "rgba(255,197,61,0.18)");
+  glowB.addColorStop(1, "rgba(255,197,61,0)");
+  ctx.fillStyle = glowB;
+  ctx.fillRect(0, 0, W, H);
+  // party color band
   ctx.fillStyle = partyColor(q.party);
-  ctx.fillRect(0, 0, W, 14);
+  ctx.fillRect(0, 0, W, 16);
 
   ctx.direction = "rtl";
   ctx.textAlign = "right";
 
-  // quote mark
-  ctx.fillStyle = partyColor(q.party);
-  ctx.font = `900 110px ${font}`;
-  ctx.fillText("”", W - 70, 165);
+  // oversized quote mark in coral
+  ctx.fillStyle = "#ff4d6d";
+  ctx.font = `400 130px ${display}, ${body}`;
+  ctx.fillText("”", W - 64, 175);
 
   // body: shrink until it fits
   const text = q.text.length > 420 ? q.text.slice(0, 420) + "…" : q.text;
   let size = 54;
   let lines: string[];
   do {
-    ctx.font = `700 ${size}px ${font}`;
-    lines = wrapLines(ctx, text, W - 160);
+    ctx.font = `700 ${size}px ${body}`;
+    lines = wrapLines(ctx, text, W - 170);
     size -= 2;
-  } while (lines.length * (size + 18) > 560 && size > 26);
-  ctx.fillStyle = "#111111";
-  let y = 250;
+  } while (lines.length * (size + 18) > 540 && size > 26);
+  ctx.fillStyle = "#1c1832";
+  let y = 255;
   for (const line of lines) {
-    ctx.fillText(line, W - 80, y);
+    ctx.fillText(line, W - 84, y);
     y += size + 20;
   }
 
   // attribution
-  y = Math.max(y + 40, 830);
+  y = Math.max(y + 44, 840);
   ctx.fillStyle = partyColor(q.party);
-  ctx.fillRect(W - 80, y - 34, 10, 90);
-  ctx.fillStyle = "#111111";
-  ctx.font = `900 40px ${font}`;
-  ctx.fillText(`${q.candidate_he} · ${partyName(q.party)}`, W - 110, y);
-  ctx.fillStyle = "#555555";
-  ctx.font = `400 30px ${font}`;
+  ctx.beginPath();
+  ctx.roundRect(W - 90, y - 36, 12, 96, 6);
+  ctx.fill();
+  ctx.fillStyle = "#1c1832";
+  ctx.font = `400 44px ${display}, ${body}`;
+  ctx.fillText(`${q.candidate_he} · ${partyName(q.party)}`, W - 120, y);
+  ctx.fillStyle = "#55506e";
+  ctx.font = `500 30px ${body}`;
   ctx.fillText(
     `${fmtHe(q.date)} · ${TYPE_LABEL[q.source_type] ?? q.source_name}`,
-    W - 110,
-    y + 48,
+    W - 120,
+    y + 50,
   );
 
-  ctx.fillStyle = "#9ca3af";
-  ctx.font = `400 26px ${font}`;
-  ctx.fillText("המקור המלא ופרטים: elections.gtmascode.dev/knesset/quotes", W - 80, H - 50);
+  // brand footer: wordmark left, provenance right
+  ctx.fillStyle = "#5a31f4";
+  ctx.font = `400 34px ${display}, ${body}`;
+  ctx.textAlign = "left";
+  ctx.fillText("בחירות26", 70, H - 52);
+  ctx.fillStyle = "#ffc53d";
+  ctx.beginPath();
+  ctx.arc(52, H - 63, 7, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = "#8d88a3";
+  ctx.font = `500 24px ${body}`;
+  ctx.textAlign = "right";
+  ctx.fillText("המקור המלא: elections.gtmascode.dev/knesset/quotes", W - 70, H - 52);
   return canvas;
 }
 
@@ -177,7 +203,7 @@ export default function QuotesExplorer() {
             setWho("all");
           }}
           className={`rounded-full px-3 py-1.5 text-sm font-medium ${
-            party === "all" ? "bg-[#101CAA] text-white" : "border border-neutral-200 bg-white text-neutral-600"
+            party === "all" ? "bg-brand text-white" : "border border-line bg-card text-ink-soft"
           }`}
         >
           כל המפלגות ({quotes.length})
@@ -191,8 +217,8 @@ export default function QuotesExplorer() {
             }}
             className={`flex items-center gap-2 rounded-full px-3 py-1.5 text-sm font-medium ${
               party === p
-                ? "bg-[#101CAA] text-white"
-                : "border border-neutral-200 bg-white text-neutral-600"
+                ? "bg-brand text-white"
+                : "border border-line bg-card text-ink-soft"
             }`}
           >
             <span
@@ -205,11 +231,11 @@ export default function QuotesExplorer() {
       </div>
 
       {party !== "all" && (
-        <div className="mt-3 flex flex-wrap gap-2 border-t border-neutral-200 pt-3">
+        <div className="mt-3 flex flex-wrap gap-2 border-t border-line pt-3">
           <button
             onClick={() => setWho("all")}
             className={`rounded-full px-3 py-1 text-xs font-medium ${
-              who === "all" ? "bg-neutral-800 text-white" : "border border-neutral-200 bg-white text-neutral-500"
+              who === "all" ? "bg-ink text-white" : "border border-line bg-card text-ink-soft"
             }`}
           >
             כל המועמדים
@@ -220,8 +246,8 @@ export default function QuotesExplorer() {
               onClick={() => setWho(c.candidate_id)}
               className={`rounded-full px-3 py-1 text-xs font-medium ${
                 who === c.candidate_id
-                  ? "bg-neutral-800 text-white"
-                  : "border border-neutral-200 bg-white text-neutral-500"
+                  ? "bg-ink text-white"
+                  : "border border-line bg-card text-ink-soft"
               }`}
             >
               {c.candidate_he}
@@ -234,7 +260,7 @@ export default function QuotesExplorer() {
         {shown.map((q) => (
           <article
             key={q.url}
-            className="flex flex-col rounded-2xl border border-neutral-200 bg-white p-5"
+            className="flex flex-col rounded-3xl border border-line bg-card p-5"
           >
             <div className="flex items-center gap-2 text-sm">
               <span
@@ -242,19 +268,19 @@ export default function QuotesExplorer() {
                 style={{ backgroundColor: partyColor(q.party) }}
               />
               <span className="font-bold">{q.candidate_he}</span>
-              <span className="text-neutral-400">· {partyName(q.party)}</span>
+              <span className="text-ink-faint">· {partyName(q.party)}</span>
             </div>
-            <p className="mt-3 flex-1 leading-relaxed text-neutral-800">
+            <p className="mt-3 flex-1 leading-relaxed text-ink">
               {q.text}
             </p>
-            <div className="mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-neutral-100 pt-3 text-xs text-neutral-500">
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-line/60 pt-3 text-xs text-ink-soft">
               <span>
                 {fmtHe(q.date)} · {TYPE_LABEL[q.source_type] ?? q.source_name} ·{" "}
                 <a
                   href={q.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline hover:text-[#101CAA]"
+                  className="underline hover:text-brand"
                 >
                   למקור ↗
                 </a>
@@ -269,13 +295,13 @@ export default function QuotesExplorer() {
                       50,
                     );
                   }}
-                  className="rounded-full border border-neutral-200 px-3 py-1.5 font-bold text-neutral-600 hover:bg-neutral-50"
+                  className="rounded-full border border-line px-3 py-1.5 font-bold text-ink-soft hover:bg-paper"
                 >
                   תצוגה
                 </button>
                 <button
                   onClick={() => shareQuote(q)}
-                  className="rounded-full bg-[#101CAA] px-3 py-1.5 font-bold text-white hover:bg-[#2A38D7]"
+                  className="rounded-full bg-brand px-3 py-1.5 font-bold text-white hover:bg-brand-deep"
                 >
                   שיתוף כתמונה
                 </button>
@@ -286,18 +312,18 @@ export default function QuotesExplorer() {
       </div>
 
       {preview && (
-        <div ref={previewRef} className="mt-8 rounded-2xl border border-neutral-200 bg-white p-4">
+        <div ref={previewRef} className="mt-8 rounded-3xl border border-line bg-card p-4">
           <div className="mb-2 flex items-center justify-between">
             <span className="text-sm font-bold">תצוגה מקדימה של תמונת השיתוף</span>
             <button
               onClick={() => setPreview(null)}
-              className="text-sm text-neutral-400 underline"
+              className="text-sm text-ink-faint underline"
             >
               סגירה
             </button>
           </div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={preview} alt="תמונת ציטוט לשיתוף" className="mx-auto w-full max-w-md rounded-xl border border-neutral-100" />
+          <img src={preview} alt="תמונת ציטוט לשיתוף" className="mx-auto w-full max-w-md rounded-xl border border-line/60" />
         </div>
       )}
     </div>
