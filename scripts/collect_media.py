@@ -26,6 +26,7 @@ WEBDATA_KINDS = {  # roster socials key -> bdata webdata dataset
     "instagram": "instagram_posts",
     "tiktok": "tiktok_posts",
     "facebook": "facebook_posts",
+    "youtube": "youtube_videos",
 }
 NEWS_SITES = ["ynet.co.il", "haaretz.co.il", "maariv.co.il", "israelhayom.co.il",
               "walla.co.il", "kan.org.il", "mako.co.il", "now14.co.il",

@@ -1,0 +1,257 @@
+{
+ "corpus": [
+  {
+   "name": "X (טוויטר)",
+   "kind": "רשתות חברתיות",
+   "records": 49
+  },
+  {
+   "name": "ynet",
+   "kind": "אתרי חדשות",
+   "records": 33
+  },
+  {
+   "name": "N12 (מאקו)",
+   "kind": "אתרי חדשות",
+   "records": 15
+  },
+  {
+   "name": "ערוץ 7",
+   "kind": "אתרי חדשות",
+   "records": 11
+  },
+  {
+   "name": "הארץ",
+   "kind": "אתרי חדשות",
+   "records": 10
+  },
+  {
+   "name": "זמן ישראל",
+   "kind": "אתרי חדשות",
+   "records": 9
+  },
+  {
+   "name": "ישראל היום",
+   "kind": "אתרי חדשות",
+   "records": 9
+  },
+  {
+   "name": "רדיו 103FM",
+   "kind": "אתרי חדשות",
+   "records": 7
+  },
+  {
+   "name": "וואלה",
+   "kind": "אתרי חדשות",
+   "records": 7
+  },
+  {
+   "name": "YouTube",
+   "kind": "וידאו",
+   "records": 6
+  },
+  {
+   "name": "מעריב",
+   "kind": "אתרי חדשות",
+   "records": 5
+  },
+  {
+   "name": "פודקאסט \"120 ואחת\" (ynet)",
+   "kind": "פודקאסטים",
+   "records": 4
+  },
+  {
+   "name": "סרוגים",
+   "kind": "אתרי חדשות",
+   "records": 3
+  },
+  {
+   "name": "רדיו 104.5FM",
+   "kind": "אתרי חדשות",
+   "records": 3
+  },
+  {
+   "name": "כאן תאגיד השידור",
+   "kind": "אתרי חדשות",
+   "records": 3
+  },
+  {
+   "name": "JDN",
+   "kind": "אתרי חדשות",
+   "records": 3
+  },
+  {
+   "name": "ערוץ 14",
+   "kind": "אתרי חדשות",
+   "records": 2
+  },
+  {
+   "name": "כיפה",
+   "kind": "אתרי חדשות",
+   "records": 2
+  },
+  {
+   "name": "TikTok",
+   "kind": "רשתות חברתיות",
+   "records": 2
+  },
+  {
+   "name": "כלכליסט",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "כיכר השבת",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "x.com",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "knesset.tv",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "i24NEWS",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "אייס",
+   "kind": "אתרי חדשות",
+   "records": 1
+  }
+ ],
+ "poll_publishers": [
+  {
+   "name": "Maariv",
+   "polls": 314
+  },
+  {
+   "name": "HaHadashot 12",
+   "polls": 251
+  },
+  {
+   "name": "Channel 13",
+   "polls": 148
+  },
+  {
+   "name": "Channel 14",
+   "polls": 138
+  },
+  {
+   "name": "Kan 11",
+   "polls": 84
+  },
+  {
+   "name": "Zman Yisrael",
+   "polls": 72
+  },
+  {
+   "name": "i24 News",
+   "polls": 45
+  },
+  {
+   "name": "Israel Hayom",
+   "polls": 41
+  },
+  {
+   "name": "Zman Israel",
+   "polls": 24
+  },
+  {
+   "name": "Israel Democracy Institute",
+   "polls": 14
+  },
+  {
+   "name": "Channel 16",
+   "polls": 8
+  },
+  {
+   "name": "Walla",
+   "polls": 7
+  },
+  {
+   "name": "KAP, Tel Aviv University",
+   "polls": 7
+  },
+  {
+   "name": "MDC/KAS",
+   "polls": 7
+  },
+  {
+   "name": "The Abraham Initiatives",
+   "polls": 7
+  },
+  {
+   "name": "The Jerusalem Post",
+   "polls": 6
+  },
+  {
+   "name": "Attila Somfalvi",
+   "polls": 6
+  },
+  {
+   "name": "Arutz Sheva",
+   "polls": 6
+  },
+  {
+   "name": "internal",
+   "polls": 3
+  },
+  {
+   "name": "JPPI",
+   "polls": 2
+  },
+  {
+   "name": "Channel 12",
+   "polls": 2
+  },
+  {
+   "name": "2022 legislative election",
+   "polls": 2
+  },
+  {
+   "name": "The Times of Israel",
+   "polls": 1
+  },
+  {
+   "name": "The Truth Machine",
+   "polls": 1
+  },
+  {
+   "name": "Maariv [better source needed]",
+   "polls": 1
+  },
+  {
+   "name": "IDI",
+   "polls": 1
+  },
+  {
+   "name": "Amit Segal",
+   "polls": 1
+  },
+  {
+   "name": "2022 election result (estimation)",
+   "polls": 1
+  }
+ ],
+ "reference": [
+  {
+   "name": "ויקיפדיה האנגלית — עמודי הבחירות לכנסת ה-26",
+   "kind": "אנציקלופדי",
+   "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "name": "ויקיפדיה העברית — הבחירות לכנסת העשרים ושש",
+   "kind": "אנציקלופדי",
+   "url": "https://he.wikipedia.org/wiki/הבחירות_לכנסת_העשרים_ושש",
+   "license": "CC BY-SA 4.0"
+  }
+ ]
+}
