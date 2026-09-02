@@ -84,12 +84,6 @@
   "has_list": false
  },
  {
-  "key": "noam",
-  "name_he": "נעם",
-  "name_en": "Noam",
-  "has_list": true
- },
- {
   "key": "otzma_yehudit",
   "name_he": "עוצמה יהודית",
   "name_en": "Otzma Yehudit",
@@ -102,6 +96,12 @@
   "has_list": true
  },
  {
+  "key": "religious_zionist_party_zehut",
+  "name_he": null,
+  "name_en": "Religious Zionist Party Zehut",
+  "has_list": true
+ },
+ {
   "key": "reservists",
   "name_he": "המילואימניקים",
   "name_en": "The Reservists",
@@ -111,7 +111,7 @@
   "key": "rzp",
   "name_he": "הציונות הדתית",
   "name_en": "Religious Zionist Party",
-  "has_list": true
+  "has_list": false
  },
  {
   "key": "shas",

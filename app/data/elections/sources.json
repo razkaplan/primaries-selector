@@ -61,12 +61,12 @@
    "records": 4
   },
   {
-   "name": "סרוגים",
+   "name": "רדיו 104.5FM",
    "kind": "אתרי חדשות",
    "records": 3
   },
   {
-   "name": "רדיו 104.5FM",
+   "name": "JDN",
    "kind": "אתרי חדשות",
    "records": 3
   },
@@ -76,9 +76,14 @@
    "records": 3
   },
   {
-   "name": "JDN",
+   "name": "סרוגים",
    "kind": "אתרי חדשות",
    "records": 3
+  },
+  {
+   "name": "TikTok",
+   "kind": "רשתות חברתיות",
+   "records": 2
   },
   {
    "name": "ערוץ 14",
@@ -91,17 +96,17 @@
    "records": 2
   },
   {
-   "name": "TikTok",
-   "kind": "רשתות חברתיות",
-   "records": 2
-  },
-  {
-   "name": "כלכליסט",
+   "name": "i24NEWS",
    "kind": "אתרי חדשות",
    "records": 1
   },
   {
    "name": "כיכר השבת",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "אייס",
    "kind": "אתרי חדשות",
    "records": 1
   },
@@ -116,12 +121,7 @@
    "records": 1
   },
   {
-   "name": "i24NEWS",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
-   "name": "אייס",
+   "name": "כלכליסט",
    "kind": "אתרי חדשות",
    "records": 1
   }
@@ -133,11 +133,11 @@
   },
   {
    "name": "HaHadashot 12",
-   "polls": 251
+   "polls": 260
   },
   {
    "name": "Channel 13",
-   "polls": 148
+   "polls": 150
   },
   {
    "name": "Channel 14",
@@ -145,7 +145,7 @@
   },
   {
    "name": "Kan 11",
-   "polls": 84
+   "polls": 90
   },
   {
    "name": "Zman Yisrael",
