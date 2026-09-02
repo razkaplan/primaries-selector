@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-09-02T07:26Z",
+ "fetched_at": "2026-09-02T07:44Z",
  "markets": [
   {
    "platform": "polymarket",
    "id": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
    "question_en": "Prime Minister of Israel after the next election?",
    "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-   "volume_usd": 34513681,
+   "volume_usd": 34513777,
    "end_date": "2026-12-31",
    "currency": "USD",
    "outcomes": [
@@ -14,7 +14,7 @@
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
      "prob": 0.511,
-     "volume_usd": 1728634
+     "volume_usd": 1728727
     },
     {
      "name": "Benjamin Netanyahu",
@@ -86,7 +86,7 @@
      "name": "Yair Lapid",
      "name_he": "יאיר לפיד",
      "prob": 0.0015,
-     "volume_usd": 1494131
+     "volume_usd": 1494134
     },
     {
      "name": "Benny Gantz",
