@@ -1,128 +1,128 @@
 {
- "fetched_at": "2026-09-01T22:53Z",
+ "fetched_at": "2026-09-02T07:26Z",
  "markets": [
   {
    "platform": "polymarket",
    "id": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
    "question_en": "Prime Minister of Israel after the next election?",
    "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-   "volume_usd": 34436141,
+   "volume_usd": 34513681,
    "end_date": "2026-12-31",
    "currency": "USD",
    "outcomes": [
     {
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
-     "prob": 0.491,
-     "volume_usd": 1726602
+     "prob": 0.511,
+     "volume_usd": 1728634
     },
     {
      "name": "Benjamin Netanyahu",
      "name_he": "בנימין נתניהו",
-     "prob": 0.315,
-     "volume_usd": 3481409
+     "prob": 0.305,
+     "volume_usd": 3507144
     },
     {
      "name": "Naftali Bennett",
      "name_he": "נפתלי בנט",
-     "prob": 0.065,
-     "volume_usd": 3009525
+     "prob": 0.075,
+     "volume_usd": 3013290
     },
     {
      "name": "Avigdor Lieberman",
      "name_he": "אביגדור ליברמן",
      "prob": 0.045,
-     "volume_usd": 2467208
+     "volume_usd": 2467252
     },
     {
      "name": "Ofer Winter",
      "name_he": "עופר וינטר",
-     "prob": 0.0135,
-     "volume_usd": 233730
+     "prob": 0.013,
+     "volume_usd": 233820
     },
     {
      "name": "Yair Golan",
      "name_he": "יאיר גולן",
-     "prob": 0.01,
-     "volume_usd": 2326744
+     "prob": 0.0095,
+     "volume_usd": 2326909
     },
     {
      "name": "Itamar Ben Gvir",
      "name_he": "איתמר בן גביר",
      "prob": 0.0055,
-     "volume_usd": 1533462
+     "volume_usd": 1533638
+    },
+    {
+     "name": "Gideon Sa’ar",
+     "name_he": "גדעון סער",
+     "prob": 0.0035,
+     "volume_usd": 2146650
     },
     {
      "name": "Amir Ohana",
      "name_he": "אמיר אוחנה",
-     "prob": 0.0035,
-     "volume_usd": 2501809
-    },
-    {
-     "name": "Moshe Feiglin",
-     "name_he": "משה פייגלין",
      "prob": 0.003,
-     "volume_usd": 1617970
+     "volume_usd": 2506775
     },
     {
      "name": "Yossi Cohen",
      "name_he": "יוסי כהן",
      "prob": 0.0025,
-     "volume_usd": 2199527
-    },
-    {
-     "name": "Gideon Sa’ar",
-     "name_he": "גדעון סער",
-     "prob": 0.0025,
-     "volume_usd": 2142186
+     "volume_usd": 2206542
     },
     {
      "name": "Yariv Levin",
      "name_he": "יריב לוין",
      "prob": 0.0025,
-     "volume_usd": 1641882
+     "volume_usd": 1655022
+    },
+    {
+     "name": "Moshe Feiglin",
+     "name_he": "משה פייגלין",
+     "prob": 0.0025,
+     "volume_usd": 1624875
     },
     {
      "name": "Yair Lapid",
      "name_he": "יאיר לפיד",
      "prob": 0.0015,
-     "volume_usd": 1494086
+     "volume_usd": 1494131
     },
     {
      "name": "Benny Gantz",
      "name_he": "בני גנץ",
      "prob": 0.0015,
-     "volume_usd": 2157849
+     "volume_usd": 2157877
     },
     {
      "name": "Ayelet Shaked",
      "name_he": "איילת שקד",
      "prob": 0.0015,
-     "volume_usd": 1595049
+     "volume_usd": 1595064
     },
     {
      "name": "Yoaz Hendel",
      "name_he": "יועז הנדל",
      "prob": 0.0015,
-     "volume_usd": 1547433
+     "volume_usd": 1547446
     },
     {
      "name": "Israel Katz",
      "name_he": "ישראל כץ",
      "prob": 0.0015,
-     "volume_usd": 660833
+     "volume_usd": 660881
     },
     {
      "name": "Nir Barkat",
      "name_he": "ניר ברקת",
      "prob": 0.0015,
-     "volume_usd": 1503558
+     "volume_usd": 1503596
     },
     {
      "name": "Gilad Erdan",
      "name_he": "Gilad Erdan",
      "prob": 0.0015,
-     "volume_usd": 595280
+     "volume_usd": 604135
     }
    ]
   },
@@ -131,33 +131,33 @@
    "id": "KXISRAELPM-26OCT27",
    "question_en": "Prime Minister of Israel after the 2026 election?",
    "url": "https://kalshi.com/markets/kxisraelpm",
-   "volume_usd": 139263,
+   "volume_usd": 143607,
    "end_date": "2027-10-27",
    "currency": "USD (contracts)",
    "outcomes": [
     {
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
-     "prob": 0.53,
-     "volume_usd": 21456
+     "prob": 0.6,
+     "volume_usd": 21636
     },
     {
      "name": "Benjamin Netanyahu",
      "name_he": "בנימין נתניהו",
-     "prob": 0.26,
-     "volume_usd": 90165
+     "prob": 0.27,
+     "volume_usd": 92268
+    },
+    {
+     "name": "Avigdor Lieberman",
+     "name_he": "אביגדור ליברמן",
+     "prob": 0.06,
+     "volume_usd": 8665
     },
     {
      "name": "Naftali Bennett",
      "name_he": "נפתלי בנט",
      "prob": 0.05,
      "volume_usd": 15292
-    },
-    {
-     "name": "Avigdor Lieberman",
-     "name_he": "אביגדור ליברמן",
-     "prob": 0.05,
-     "volume_usd": 6604
     },
     {
      "name": "Yossi Cohen",
