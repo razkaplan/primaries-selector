@@ -61,6 +61,25 @@ python3 scripts/collect_media.py         # איסוף פוסטים ואזכור�
 
 כל רשומה מחויבת בתאריך ובקישור למקור; ראו [data/media/SCHEMA.md](data/media/SCHEMA.md).
 
+## שרת MCP
+
+כל הדאטה זמינה כשרת [MCP](https://modelcontextprotocol.io) בכתובת
+`https://elections.gtmascode.dev/api/mcp` (Streamable HTTP, ללא מפתח).
+שבעה כלים: `list_parties`, `get_poll_average`, `list_polls`, `head_to_head`,
+`get_party_list`, `search_quotes`, `get_prediction_markets`. חיבור מ-Claude Code:
+
+```bash
+claude mcp add --transport http elections2026 https://elections.gtmascode.dev/api/mcp
+```
+
+המימוש: [app/app/api/mcp/route.ts](app/app/api/mcp/route.ts).
+
+## עדכון אוטומטי
+
+GitHub Action ([.github/workflows/update-data.yml](.github/workflows/update-data.yml))
+מריץ את הסקרייפרים כל 6 שעות, דוחף שינויי דאטה ל-main ופורס מחדש ל-Vercel
+(דורש secret בשם `VERCEL_TOKEN`).
+
 ## גילוי נאות
 
 - הכלי אינו קשור למפלגת הדמוקרטים ואינו ממליץ על מועמדים.

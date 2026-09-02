@@ -160,6 +160,36 @@ export default function AboutPage() {
           </ul>
         </div>
 
+        <div className="rounded-3xl border border-line bg-card p-6 shadow-sm">
+          <h2 className="font-display text-2xl">🤖 שרת MCP: שאלו את הדאטה ישירות</h2>
+          <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+            כל הדאטה של האתר זמינה גם כשרת{" "}
+            <a
+              href="https://modelcontextprotocol.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-brand"
+            >
+              Model Context Protocol
+            </a>
+            . חברו אותו ל-Claude (או לכל לקוח MCP) ושאלו בשפה חופשית — ״באיזה
+            סקר איזנקוט עבר לראשונה את ביבי?״, ״מה אמר וינטר על משאל עם?״,
+            ״מי ברשימה של הדמוקרטים?״ — והתשובות יגיעו מהדאטה המתועדת, עם
+            מקור ותאריך.
+          </p>
+          <div dir="ltr" className="mt-3 overflow-x-auto rounded-2xl bg-night p-4 text-left text-xs leading-relaxed text-white/90">
+            <div className="text-white/50"># claude.ai → Settings → Connectors → Add custom connector</div>
+            <div>https://elections.gtmascode.dev/api/mcp</div>
+            <div className="mt-2 text-white/50"># Claude Code</div>
+            <div>claude mcp add --transport http elections2026 https://elections.gtmascode.dev/api/mcp</div>
+          </div>
+          <p className="mt-3 text-xs text-ink-faint">
+            שבעה כלים: ממוצע הסקרים, חיפוש בכל ארכיון הסקרים, השוואת ראש-בראש,
+            רשימות המועמדים, חיפוש בציטוטים (כולל הקשר סקרים), שוקי החיזוי
+            ומפתחות המפלגות. ללא הרשמה וללא מפתח.
+          </p>
+        </div>
+
         <div className="rounded-3xl border-2 border-dashed border-brand/40 bg-brand-wash p-6">
           <h2 className="font-display text-2xl">מצאתם טעות?</h2>
           <p className="mt-2 text-sm leading-relaxed text-ink-soft">
