@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-02T07:44Z",
+ "fetched_at": "2026-09-02T07:47Z",
  "markets": [
   {
    "platform": "polymarket",
@@ -13,7 +13,7 @@
     {
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
-     "prob": 0.511,
+     "prob": 0.5125,
      "volume_usd": 1728727
     },
     {
