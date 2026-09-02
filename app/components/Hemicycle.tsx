@@ -1,7 +1,7 @@
 import { OUTGOING_COALITION, partyColor, partyName } from "@/lib/elections";
 
 /** The iconic parliament arc: 120 dots, colored by party, outgoing-coalition
- * parties seated on the right. Identity is never color-alone — every dot has
+ * parties seated on the right. Identity is never color-alone, every dot has
  * a title and the legend carries name + seats. */
 export default function Hemicycle({
   seats,

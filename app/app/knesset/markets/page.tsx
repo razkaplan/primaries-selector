@@ -26,7 +26,7 @@ const PLATFORM_HE: Record<string, { name: string; blurb: string }> = {
 };
 
 function fmtHe(iso: string | null): string {
-  if (!iso) return "—";
+  if (!iso) return "-";
   return new Intl.DateTimeFormat("he-IL", {
     day: "numeric",
     month: "long",
@@ -45,7 +45,7 @@ export default function KnessetMarkets() {
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-soft">
           סקרים שואלים אנשים מה הם חושבים. שוקי חיזוי שואלים אותם כמה הם מוכנים
           להמר על זה. כאן מוצגות ההסתברויות שנגזרות ממחירי החוזים ב-Polymarket
-          וב-Kalshi לשאלה <b>מי יהיה ראש הממשלה הבא של ישראל</b> — מתעדכן בכל
+          וב-Kalshi לשאלה <b>מי יהיה ראש הממשלה הבא של ישראל</b>, מתעדכן בכל
           ריצת איסוף, עם קישור ישיר לכל שוק.
         </p>
         <div className="mt-5">
@@ -123,7 +123,7 @@ export default function KnessetMarkets() {
       <section className="mx-auto max-w-5xl px-4 pb-12">
         <div className="rounded-3xl border border-sun/60 bg-sun/10 p-5 text-sm leading-relaxed text-ink-soft">
           <b className="text-ink">רגע, זה לא סקר.</b> שוקי חיזוי משקפים את דעת
-          המהמרים — קהל לא מייצג, ברובו מחוץ לישראל — ולא מדגם של בוחרים.
+          המהמרים (קהל לא מייצג, ברובו מחוץ לישראל) ולא מדגם של בוחרים.
           המחירים תנודתיים, מושפעים מנזילות ומהטיות, והשאלה (״מי יהיה רה״מ״)
           שונה מהשאלה שסקרים מודדים (״כמה מנדטים לכל מפלגה״). מוצג כאן כזווית
           נוספת על המרוץ, לא כתחזית ולא כהמלצה לסחור.

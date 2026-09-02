@@ -174,7 +174,7 @@ async function shareQuote(q: TimelineQuote) {
     try {
       await navigator.share({
         files: [file],
-        text: `${q.candidate_he}, ${fmtHe(q.date)} — המקור: ${q.url}`,
+        text: `${q.candidate_he}, ${fmtHe(q.date)}, המקור: ${q.url}`,
       });
       return;
     } catch {
@@ -188,7 +188,7 @@ async function shareQuote(q: TimelineQuote) {
 }
 
 /** Poll-impact badge: the party's 14-day seat average before vs. after the
- * quote date. A delta is context, not causation — labeled as such. */
+ * quote date. A delta is context, not causation, labeled as such. */
 function ImpactBadge({ q }: { q: TimelineQuote }) {
   if (!q.impact) return null;
   const { before, after } = q.impact;

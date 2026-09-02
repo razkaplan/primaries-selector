@@ -269,7 +269,7 @@ export interface TrendSeries {
 }
 
 /** 14-day trailing averages sampled weekly over 2026, for the `topN`
- * parties by latest average — the data behind the trend chart. */
+ * parties by latest average, the data behind the trend chart. */
 export function seatTrends(topN = 8): TrendSeries[] {
   const year = seatPolls.filter((p) => p.date && p.date >= "2026-01-01");
   if (year.length === 0) return [];
