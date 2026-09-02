@@ -26,7 +26,7 @@ export default function KnessetFooter() {
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed">
             כל הדאטה של הבחירות לכנסת ה-26 במקום אחד: רשימות, סקרים
-            וציטוטים — עם תאריך ומקור לכל נתון. פרויקט עצמאי בקוד פתוח,
+            וציטוטים, עם תאריך ומקור לכל נתון. פרויקט עצמאי בקוד פתוח,
             לא קשור לאף מפלגה.
           </p>
         </div>
@@ -61,7 +61,7 @@ export default function KnessetFooter() {
           <h3 className="font-display text-base text-white">חשוב לדעת</h3>
           <p className="mt-3 leading-relaxed">
             הנתונים נאספים ממקורות פומביים ועשויים לכלול אי-דיוקים או פיגור
-            בעדכון — בדקו במקור המקושר. מצאתם טעות?{" "}
+            בעדכון, בדקו במקור המקושר. מצאתם טעות?{" "}
             <a
               href="https://github.com/razkaplan/primaries-selector/issues"
               target="_blank"

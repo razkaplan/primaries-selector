@@ -155,7 +155,7 @@ const handler = createMcpHandler(
       {
         title: "ראש בראש",
         description:
-          'Compare two parties (seat projections) or two PM candidates (preferred-PM polls) across every poll that includes both, oldest first, marking each lead change — e.g. "in which poll did Eizenkot first pass Netanyahu?". Accepts English keys or Hebrew names (e.g. a="eisenkot", b="netanyahu", kind="preferred_pm"; or a="yashar", b="likud", kind="seats").',
+          'Compare two parties (seat projections) or two PM candidates (preferred-PM polls) across every poll that includes both, oldest first, marking each lead change, e.g. "in which poll did Eizenkot first pass Netanyahu?". Accepts English keys or Hebrew names (e.g. a="eisenkot", b="netanyahu", kind="preferred_pm"; or a="yashar", b="likud", kind="seats").',
         inputSchema: z.object({
           a: z.string().describe("First party/candidate (key or Hebrew name)"),
           b: z.string().describe("Second party/candidate (key or Hebrew name)"),
@@ -171,7 +171,7 @@ const handler = createMcpHandler(
         const [kb] = resolveKey(b, pool);
         if (!ka || !kb) {
           return json({
-            error: `could not resolve "${!ka ? a : b}" — call list_parties or list_polls to see valid keys`,
+            error: `could not resolve "${!ka ? a : b}", call list_parties or list_polls to see valid keys`,
           });
         }
         let rows = pool
@@ -222,7 +222,7 @@ const handler = createMcpHandler(
           partyLists.find(
             (p) => p.party.toLowerCase().includes(q) || partyName(p.party).includes(party.trim()),
           );
-        if (!pl) return json({ error: `unknown party "${party}" — call list_parties for keys` });
+        if (!pl) return json({ error: `unknown party "${party}", call list_parties for keys` });
         return json({
           party: pl.party,
           name_he: partyName(pl.party),
@@ -305,7 +305,7 @@ const handler = createMcpHandler(
   {
     serverInfo: { name: "elections-2026", version: "1.0.0" },
     instructions:
-      "Open election data for the 26th Knesset election (Israel, 2026-10-27), from elections.gtmascode.dev: every published poll since Nov 2022, all party candidate lists, a documented-statements corpus, and prediction-market odds. Every datum carries a date and a source link — cite them. Party/candidate arguments accept English keys or Hebrew names; call list_parties to discover keys.",
+      "Open election data for the 26th Knesset election (Israel, 2026-10-27), from elections.gtmascode.dev: every published poll since Nov 2022, all party candidate lists, a documented-statements corpus, and prediction-market odds. Every datum carries a date and a source link, cite them. Party/candidate arguments accept English keys or Hebrew names; call list_parties to discover keys.",
   },
 );
 

@@ -33,7 +33,7 @@ const nQuotes = (sourcesData as { corpus: { records: number }[] }).corpus.reduce
 export const metadata: Metadata = {
   title: "בחירות2026 | כל המפלגות, המועמדים והסקרים במקום אחד",
   description:
-    "ממוצע הסקרים העדכני, רשימות המועמדים של כל המפלגות, כל הסקרים שפורסמו מאז 2022 וציטוטים מתועדים — עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.",
+    "ממוצע הסקרים העדכני, רשימות המועמדים של כל המפלגות, כל הסקרים שפורסמו מאז 2022 וציטוטים מתועדים, עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.",
   alternates: { canonical: "/" },
 };
 
@@ -61,13 +61,13 @@ const CARDS = [
     href: "/knesset/quotes",
     emoji: "🗣️",
     title: "ציר הזמן של ההתבטאויות",
-    blurb: "מה המועמדים אמרו, מתי — ומה זה עשה להם בסקרים. עם מקור ושיתוף כתמונה.",
+    blurb: "מה המועמדים אמרו, מתי, ומה זה עשה להם בסקרים. עם מקור ושיתוף כתמונה.",
   },
   {
     href: "/knesset/markets",
     emoji: "💸",
     title: "שוקי חיזוי",
-    blurb: "מי יהיה רה״מ הבא לפי Polymarket ו-Kalshi — אנשים שמהמרים על זה בכסף.",
+    blurb: "מי יהיה רה״מ הבא לפי Polymarket ו-Kalshi: אנשים שמהמרים על זה בכסף.",
   },
   {
     href: "/primaries",
@@ -79,7 +79,7 @@ const CARDS = [
     href: "/about",
     emoji: "🧭",
     title: "מתודולוגיה ומקורות",
-    blurb: "איך אנחנו אוספים, מה העקרונות, וכל המקורות — שקוף עד הסוף.",
+    blurb: "איך אנחנו אוספים, מה העקרונות, וכל המקורות, שקוף עד הסוף.",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function KnessetOverview() {
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
           רשימות המועמדים של כל המפלגות, כל סקר שפורסם מאז נובמבר 2022,
-          וההתבטאויות של המועמדים — הכול מתועד, מתוארך ומקושר למקור.
+          וההתבטאויות של המועמדים, הכול מתועד, מתוארך ומקושר למקור.
           פרויקט עצמאי, בקוד פתוח, שלא מחבב אף מפלגה.
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-4">
@@ -124,7 +124,7 @@ export default function KnessetOverview() {
           >
             לכל הסקרים ←
           </Link>
-          <ShareBar path="/" text="בחירות2026 — כל הדאטה של הבחירות לכנסת ה-26, בלי אג'נדה:" />
+          <ShareBar path="/" text="בחירות2026: כל הדאטה של הבחירות לכנסת ה-26, בלי אג'נדה:" />
         </div>
 
         <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">

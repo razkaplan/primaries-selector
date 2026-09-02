@@ -83,11 +83,11 @@ export default function KnessetQuotes() {
       <section className="mx-auto max-w-5xl px-4 py-10">
         <h1 className="font-display text-4xl">ציר הזמן של ההתבטאויות 🗣️</h1>
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-soft">
-          מה המועמדים אמרו, מתי — ומה קרה למפלגה שלהם בסקרים. כל התבטאות
+          מה המועמדים אמרו, מתי, ומה קרה למפלגה שלהם בסקרים. כל התבטאות
           מסודרת על ציר הזמן עם תאריך וקישור למקור, וכשיש מספיק סקרים סביבה
           ({withImpact} מתוך {quotes.length} כרגע) מוצמד אליה ממוצע המנדטים של
           המפלגה ב-14 הימים שלפני ואחרי. כל ציטוט ניתן לשיתוף כתמונה; ציטוט
-          קטוע (…) קוראים במלואו במקור. תיעוד מלא של האיסוף —{" "}
+          קטוע (…) קוראים במלואו במקור. תיעוד מלא של האיסוף -{" "}
           <a
             href="https://github.com/razkaplan/primaries-selector/blob/main/data/media/SCHEMA.md"
             className="underline"
@@ -100,13 +100,13 @@ export default function KnessetQuotes() {
         </p>
         <div className="mt-4 max-w-2xl rounded-2xl border border-sun/60 bg-sun/10 px-4 py-3 text-sm leading-relaxed text-ink-soft">
           <b className="text-ink">איך לקרוא את המספרים:</b> שינוי בסקרים סביב
-          ציטוט הוא הֶקשר, לא הוכחת סיבה — באותם ימים קורים גם אירועים אחרים.
+          ציטוט הוא הֶקשר, לא הוכחת סיבה, באותם ימים קורים גם אירועים אחרים.
           זה כלי לזיהוי מועמדים לבדיקה, לא פסק דין.
         </div>
         <div className="mt-5">
           <ShareBar
             path="/knesset/quotes"
-            text="מה המועמדים באמת אמרו — ומה זה עשה להם בסקרים. ציר הזמן המלא:"
+            text="מה המועמדים באמת אמרו, ומה זה עשה להם בסקרים. ציר הזמן המלא:"
           />
         </div>
       </section>

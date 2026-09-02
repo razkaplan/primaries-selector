@@ -70,7 +70,7 @@ export default function MarketsCompare({ markets }: { markets: Market[] }) {
                     )}
                   </div>
                   <span className="w-14 shrink-0 text-left text-xs font-black tabular-nums text-ink-soft">
-                    {v !== undefined ? `${(v * 100).toFixed(v >= 0.1 ? 0 : 1)}%` : "—"}
+                    {v !== undefined ? `${(v * 100).toFixed(v >= 0.1 ? 0 : 1)}%` : "-"}
                   </span>
                 </div>
               );
