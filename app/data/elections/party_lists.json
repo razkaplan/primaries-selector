@@ -329,8 +329,8 @@
    },
    {
     "rank": 2,
-    "name": "Ahmad Tibi (Ta’al leader)",
-    "name_he": "אחמד טיבי (יו\"ר תע\"ל)",
+    "name": "Ahmad Tibi (Ta'al leader)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -341,8 +341,8 @@
    },
    {
     "rank": 4,
-    "name": "Jafar Farah (Hadash)",
-    "name_he": "ג'אפר פרח (חד\"ש)",
+    "name": "\"TBA\" (Hadash)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -521,8 +521,8 @@
    },
    {
     "rank": 20,
-    "name": "Tally Gotliv",
-    "name_he": "טלי גוטליב",
+    "name": "Eti Atiya",
+    "name_he": "אתי עטייה",
     "wikipedia": null
    },
    {
@@ -565,7 +565,7 @@
     "rank": 27,
     "name": "Erez Tadmor",
     "name_he": "ארז תדמור",
-    "wikipedia": null
+    "wikipedia": "https://en.wikipedia.org/wiki/ארז%20תדמור%20(איש%20תקשורת)"
    },
    {
     "rank": 28,
@@ -589,7 +589,7 @@
     "rank": 31,
     "name": "Shuki Ohana",
     "name_he": "שוקי אוחנה",
-    "wikipedia": null
+    "wikipedia": "https://en.wikipedia.org/wiki/שוקי%20אוחנה"
    },
    {
     "rank": 32,
@@ -629,8 +629,8 @@
    },
    {
     "rank": 38,
-    "name": "Eti Atiya",
-    "name_he": "אתי עטייה",
+    "name": "May Golan",
+    "name_he": "מאי גולן",
     "wikipedia": null
    },
    {
@@ -641,8 +641,32 @@
    },
    {
     "rank": 40,
-    "name": "May Golan",
-    "name_he": "מאי גולן",
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "otzma_yehudit",
+  "party_section": "Otzma Yehudit",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Itamar Ben-Gvir",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 2,
+    "name": "Tally Gotliv",
+    "name_he": "טלי גוטליב",
+    "wikipedia": null
+   },
+   {
+    "rank": 3,
+    "name": "Yitzhak Wasserlauf",
+    "name_he": null,
     "wikipedia": null
    }
   ]
@@ -653,44 +677,44 @@
   "candidates": [
    {
     "rank": 1,
-    "name": "Bezalel Smotrich",
-    "name_he": "בצלאל סמוטריץ'",
+    "name": "Bezalel Smotrich (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 2,
-    "name": "Moshe Feiglin",
+    "name": "Moshe Feiglin (Zehut)",
     "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 3,
-    "name": "Orit Strook",
-    "name_he": "אורית סטרוק",
+    "name": "Orit Strook (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 4,
-    "name": "Tzvika Mor",
-    "name_he": "צביקה מור",
+    "name": "Tzvika Mor (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 5,
-    "name": "Simcha Rothman",
-    "name_he": "שמחה רוטמן",
+    "name": "Simcha Rothman (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 6,
-    "name": "Zvi Sukkot",
-    "name_he": "צבי סוכות",
+    "name": "Zvi Sukkot (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 7,
-    "name": "Ohad Tal",
-    "name_he": "אוהד טל",
+    "name": "Ohad Tal (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -701,8 +725,8 @@
    },
    {
     "rank": 9,
-    "name": "Omer Rahamim",
-    "name_he": "עומר רחמים",
+    "name": "Omer Rahamim (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -719,32 +743,104 @@
    },
    {
     "rank": 12,
-    "name": "Michal Waldiger",
-    "name_he": "מיכל וולדיגר",
+    "name": "Michal Waldiger (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 13,
-    "name": "Shmuel Shashon",
-    "name_he": "שמואל ששון",
+    "name": "Shmuel Shashon (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 14,
-    "name": "Tzvika Vishingrad",
-    "name_he": "צביקה וישנגרד",
+    "name": "Tzvika Vishingrad (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 15,
-    "name": "Eitam Tam",
-    "name_he": "איתן תם",
+    "name": "Eitam Tam (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 16,
-    "name": "Natan Zaubman",
-    "name_he": "נתן זאובמן",
+    "name": "Natan Zaubman (Religious Zionist Party)",
+    "name_he": null,
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "party_section": "Together",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Naftali Bennett (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 2,
+    "name": "Yair Lapid (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 3,
+    "name": "Bennett 2026",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 4,
+    "name": "Merav Ben-Ari (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 5,
+    "name": "Bennett 2026",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 6,
+    "name": "Noam Tibon (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": "https://en.wikipedia.org/wiki/נעם%20תיבון"
+   },
+   {
+    "rank": 7,
+    "name": "Bennett 2026",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 8,
+    "name": "Bennett 2026",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 9,
+    "name": "Meirav Cohen",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 10,
+    "name": "Bennett 2026",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 11,
+    "name": "Bennett 2026",
+    "name_he": null,
     "wikipedia": null
    }
   ]
