@@ -87,7 +87,7 @@
   "key": "otzma_yehudit",
   "name_he": "עוצמה יהודית",
   "name_en": "Otzma Yehudit",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "raam",
@@ -123,7 +123,7 @@
   "key": "together",
   "name_he": "ביחד",
   "name_en": "Together (Bennett–Lapid)",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "unity",
@@ -153,6 +153,12 @@
   "key": "yisrael_beiteinu",
   "name_he": "ישראל ביתנו",
   "name_en": "Yisrael Beiteinu",
+  "has_list": false
+ },
+ {
+  "key": "zehut",
+  "name_he": null,
+  "name_en": "Zehut",
   "has_list": false
  },
  {

@@ -26,12 +26,12 @@
    "records": 10
   },
   {
-   "name": "זמן ישראל",
+   "name": "ישראל היום",
    "kind": "אתרי חדשות",
    "records": 9
   },
   {
-   "name": "ישראל היום",
+   "name": "זמן ישראל",
    "kind": "אתרי חדשות",
    "records": 9
   },
@@ -61,7 +61,7 @@
    "records": 4
   },
   {
-   "name": "רדיו 104.5FM",
+   "name": "כאן תאגיד השידור",
    "kind": "אתרי חדשות",
    "records": 3
   },
@@ -71,7 +71,7 @@
    "records": 3
   },
   {
-   "name": "כאן תאגיד השידור",
+   "name": "רדיו 104.5FM",
    "kind": "אתרי חדשות",
    "records": 3
   },
@@ -81,34 +81,19 @@
    "records": 3
   },
   {
-   "name": "TikTok",
-   "kind": "רשתות חברתיות",
+   "name": "ערוץ 14",
+   "kind": "אתרי חדשות",
    "records": 2
   },
   {
-   "name": "ערוץ 14",
-   "kind": "אתרי חדשות",
+   "name": "TikTok",
+   "kind": "רשתות חברתיות",
    "records": 2
   },
   {
    "name": "כיפה",
    "kind": "אתרי חדשות",
    "records": 2
-  },
-  {
-   "name": "i24NEWS",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
-   "name": "כיכר השבת",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
-   "name": "אייס",
-   "kind": "אתרי חדשות",
-   "records": 1
   },
   {
    "name": "x.com",
@@ -121,7 +106,22 @@
    "records": 1
   },
   {
+   "name": "אייס",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "i24NEWS",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
    "name": "כלכליסט",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "כיכר השבת",
    "kind": "אתרי חדשות",
    "records": 1
   }
@@ -129,7 +129,7 @@
  "poll_publishers": [
   {
    "name": "Maariv",
-   "polls": 314
+   "polls": 317
   },
   {
    "name": "HaHadashot 12",
@@ -137,11 +137,11 @@
   },
   {
    "name": "Channel 13",
-   "polls": 150
+   "polls": 152
   },
   {
    "name": "Channel 14",
-   "polls": 138
+   "polls": 142
   },
   {
    "name": "Kan 11",
@@ -149,15 +149,15 @@
   },
   {
    "name": "Zman Yisrael",
-   "polls": 72
+   "polls": 73
   },
   {
    "name": "i24 News",
-   "polls": 45
+   "polls": 48
   },
   {
    "name": "Israel Hayom",
-   "polls": 41
+   "polls": 45
   },
   {
    "name": "Zman Israel",
@@ -169,11 +169,11 @@
   },
   {
    "name": "Channel 16",
-   "polls": 8
+   "polls": 12
   },
   {
    "name": "Walla",
-   "polls": 7
+   "polls": 10
   },
   {
    "name": "KAP, Tel Aviv University",

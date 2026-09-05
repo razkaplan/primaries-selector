@@ -16,6 +16,602 @@
    "source_page": "polls_2026"
   },
   {
+   "date_raw": "3–4 Sep",
+   "date": "2026-09-04",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 20,
+    "together": 15,
+    "rzp": 5,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 7,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 23,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 4
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "sample": 600,
+   "below_threshold_pct": {
+    "blue_white": 0.7,
+    "zionist_home": 2.1,
+    "unity": 1.1
+   },
+   "others": 1.9,
+   "gov_bloc": 47,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "3 Sep",
+   "date": "2026-09-03",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 31,
+    "together": 9,
+    "rzp": 7,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 10,
+    "utj": 8,
+    "yisrael_beiteinu": 6,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 8,
+    "yashar": 22,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 0
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
+   "sample": 865,
+   "below_threshold_pct": {
+    "blue_white": 1.2,
+    "zionist_home": 1.3,
+    "unity": 0.1,
+    "amcha_yisrael": 2.7
+   },
+   "others": 0.3,
+   "gov_bloc": 63,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2–3 Sep",
+   "date": "2026-09-03",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": 13,
+    "rzp": 6,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 24,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 4
+   },
+   "firm": "Kantar",
+   "publisher": "Israel Hayom",
+   "sample": 555,
+   "below_threshold_pct": {
+    "blue_white": 1.7,
+    "zionist_home": 2.7,
+    "unity": 0.7
+   },
+   "others": null,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2–3 Sep",
+   "date": "2026-09-03",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 22,
+    "together": 15,
+    "rzp": 5,
+    "otzma_yehudit": 6,
+    "blue_white": 0,
+    "shas": 9,
+    "utj": 8,
+    "yisrael_beiteinu": 10,
+    "raam": 5,
+    "joint_list": 6,
+    "democrats": 8,
+    "yashar": 22,
+    "zionist_home": 4,
+    "unity": 0,
+    "amcha_yisrael": 0
+   },
+   "firm": "Yossi Tatika",
+   "publisher": "Zman Yisrael",
+   "sample": 500,
+   "below_threshold_pct": {
+    "blue_white": 1.4,
+    "unity": 0.2,
+    "amcha_yisrael": 2.4
+   },
+   "others": null,
+   "gov_bloc": 50,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2–3 Sep",
+   "date": "2026-09-03",
+   "kind": "scenario",
+   "results": {
+    "likud": 21,
+    "together": 13,
+    "yashar": 24,
+    "tropper": 0,
+    "zehut": 6,
+    "amcha_yisrael": 4,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "unity": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9
+   },
+   "scenario": "Together-Yashar-Tropper, Blue & White-Unity, Zehut-RZP-Amcha Yisrael, Segalovitz-Ra'am mergers",
+   "firm": "Kantar",
+   "publisher": "Israel Hayom",
+   "below_threshold_pct": {
+    "tropper": 2.7,
+    "blue_white": 1.7,
+    "unity": 0.7
+   },
+   "others": null,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2–3 Sep",
+   "date": "2026-09-03",
+   "kind": "scenario",
+   "results": {
+    "likud": 21,
+    "together": 12,
+    "yashar": 24,
+    "tropper": 0,
+    "zehut": 11,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "unity": null,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9
+   },
+   "scenario": "Together-Yashar-Tropper, Blue & White-Unity, Zehut-RZP-Amcha Yisrael, Segalovitz-Ra'am mergers",
+   "firm": "Kantar",
+   "publisher": "Israel Hayom",
+   "below_threshold_pct": {
+    "tropper": 2.0,
+    "blue_white": 1.5
+   },
+   "others": null,
+   "gov_bloc": 54,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2–3 Sep",
+   "date": "2026-09-03",
+   "kind": "scenario",
+   "results": {
+    "likud": 21,
+    "together": 36,
+    "tropper": 0,
+    "zehut": 4,
+    "amcha_yisrael": 5,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "unity": null,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 10
+   },
+   "scenario": "Together-Yashar-Tropper, Blue & White-Unity, Zehut-RZP-Amcha Yisrael, Segalovitz-Ra'am mergers",
+   "firm": "Kantar",
+   "publisher": "Israel Hayom",
+   "below_threshold_pct": {
+    "tropper": 2.0,
+    "blue_white": 1.5
+   },
+   "others": null,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "3 Sep 26",
+   "date": "2026-09-03",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 54,
+    "eisenkot": 46,
+    "neither": null
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 19,
+    "together": 18,
+    "rzp": 5,
+    "otzma_yehudit": 9,
+    "blue_white": 0,
+    "shas": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 4,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 20,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 5
+   },
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "sample": 552,
+   "below_threshold_pct": {
+    "blue_white": 1.0,
+    "zionist_home": 2.0,
+    "unity": 1.0
+   },
+   "others": 3,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": 12,
+    "rzp": 6,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "raam": 5,
+    "joint_list": 9,
+    "democrats": 11,
+    "yashar": 22,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 4
+   },
+   "firm": "Midgam Project",
+   "publisher": "Channel 13",
+   "sample": 940,
+   "below_threshold_pct": {
+    "blue_white": 1.2,
+    "zionist_home": 2.2,
+    "unity": 0.6
+   },
+   "others": 0.8,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 27,
+    "together": 9,
+    "rzp": 6,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 23,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 5
+   },
+   "firm": "Direct Polls",
+   "publisher": "i24 News",
+   "sample": 522,
+   "below_threshold_pct": {
+    "blue_white": 1.0,
+    "zionist_home": 1.0,
+    "unity": 1.0
+   },
+   "others": 8,
+   "gov_bloc": 55,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 22,
+    "together": 15,
+    "rzp": 5,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 8,
+    "democrats": 10,
+    "yashar": 24,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 0
+   },
+   "firm": "Lazar",
+   "publisher": "Walla",
+   "sample": 500,
+   "below_threshold_pct": {
+    "blue_white": 0.7,
+    "zionist_home": 3.0,
+    "unity": 0.7,
+    "amcha_yisrael": 2.3
+   },
+   "others": 3.1,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "scenario",
+   "results": {
+    "likud": 22,
+    "together": 15,
+    "rzp_zehut": 5,
+    "amcha_yisrael": 0,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 8,
+    "democrats": 10,
+    "yashar": 24,
+    "zionist_home": 0,
+    "unity": 0
+   },
+   "scenario": "Tally Gotliv joins Otzma Yehudit",
+   "firm": "Lazar",
+   "publisher": "Walla",
+   "below_threshold_pct": {
+    "amcha_yisrael": 2.3,
+    "blue_white": 0.7,
+    "zionist_home": 3.0,
+    "unity": 0.7
+   },
+   "others": 3.1,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "scenario",
+   "results": {
+    "likud": 21,
+    "together": 15,
+    "rzp_zehut": 4,
+    "amcha_yisrael": 0,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 10,
+    "raam": 5,
+    "joint_list": 8,
+    "democrats": 10,
+    "yashar": 24,
+    "zionist_home": 0,
+    "unity": 0
+   },
+   "scenario": "Tally Gotliv joins Otzma Yehudit",
+   "firm": "Lazar",
+   "publisher": "Walla",
+   "below_threshold_pct": {
+    "amcha_yisrael": 2.8,
+    "blue_white": 1.1,
+    "zionist_home": 3.0,
+    "unity": 0.5
+   },
+   "others": 3.1,
+   "gov_bloc": 48,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "scenario",
+   "results": {
+    "likud": 27,
+    "together": 9,
+    "rzp_zehut": 6,
+    "amcha_yisrael": 5,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 23,
+    "zionist_home": 0,
+    "unity": 0
+   },
+   "scenario": "Tally Gotliv joins Otzma Yehudit",
+   "firm": "Direct Polls",
+   "publisher": "i24 News",
+   "below_threshold_pct": {
+    "blue_white": 1.0,
+    "zionist_home": 1.0,
+    "unity": 1.0
+   },
+   "others": null,
+   "gov_bloc": 55,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "scenario",
+   "results": {
+    "likud": 26,
+    "together": 9,
+    "rzp_zehut": 11,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 23,
+    "zionist_home": 0,
+    "unity": 0
+   },
+   "scenario": "Tally Gotliv joins Otzma Yehudit",
+   "firm": "Direct Polls",
+   "publisher": "i24 News",
+   "below_threshold_pct": {
+    "blue_white": 1.0,
+    "zionist_home": 1.0,
+    "unity": 1.0
+   },
+   "others": null,
+   "gov_bloc": 60,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "scenario",
+   "results": {
+    "likud": 19,
+    "together": 18,
+    "rzp": 5,
+    "otzma_yehudit": 9,
+    "zionist_home": 0,
+    "blue_white": 0,
+    "unity": 0,
+    "nep": 0,
+    "shas": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 4,
+    "hadash_taal": 7,
+    "democrats": 10,
+    "yashar": 20,
+    "amcha_yisrael": 5
+   },
+   "scenario": "Unity-Reservists-B&W-NEP merger",
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "below_threshold_pct": {
+    "zionist_home": 2.0,
+    "blue_white": 1.0,
+    "unity": 1.0,
+    "nep": 2.0
+   },
+   "others": 3,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep",
+   "date": "2026-09-02",
+   "kind": "scenario",
+   "results": {
+    "likud": 17,
+    "together": 14,
+    "rzp": 5,
+    "otzma_yehudit": 8,
+    "zionist_home": 9,
+    "shas": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 6,
+    "raam": 4,
+    "hadash_taal": 8,
+    "democrats": 10,
+    "yashar": 19,
+    "amcha_yisrael": 4
+   },
+   "scenario": "Unity-Reservists-B&W-NEP merger",
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "others": 1,
+   "gov_bloc": 46,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep 26",
+   "date": "2026-09-02",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 37,
+    "eisenkot": 47,
+    "neither": null,
+    "undecided": 16
+   },
+   "firm": "Midgam Project",
+   "publisher": "Channel 13",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "2 Sep 26",
+   "date": "2026-09-02",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 40,
+    "eisenkot": 45,
+    "neither": 15,
+    "undecided": null
+   },
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "source_page": "polls_2026"
+  },
+  {
    "date_raw": "31 Aug",
    "date": "2026-08-31",
    "kind": "seat_projection",
@@ -23,6 +619,7 @@
     "likud": 23,
     "together": 15,
     "rzp": 0,
+    "zehut": 0,
     "otzma_yehudit": 8,
     "blue_white": 0,
     "shas": 7,
@@ -41,11 +638,12 @@
    "sample": 506,
    "below_threshold_pct": {
     "rzp": 2.6,
+    "zehut": 2.1,
     "blue_white": 0.9,
     "zionist_home": 2.6,
     "unity": 0.5
    },
-   "others": 4.3,
+   "others": 2.2,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -283,9 +881,45 @@
    "date": "2026-08-30",
    "kind": "seat_projection",
    "results": {
+    "likud": 31,
+    "together": 6,
+    "rzp": 4,
+    "zehut": 0,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 10,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 8,
+    "yashar": 24,
+    "zionist_home": 0,
+    "unity": 0,
+    "amcha_yisrael": 4
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
+   "sample": 666,
+   "below_threshold_pct": {
+    "zehut": 2.3,
+    "blue_white": 0.5,
+    "zionist_home": 0.9,
+    "unity": 0.6
+   },
+   "others": 2.3,
+   "gov_bloc": 59,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "30 Aug",
+   "date": "2026-08-30",
+   "kind": "seat_projection",
+   "results": {
     "likud": 21,
     "together": 14,
     "rzp": 5,
+    "zehut": null,
     "otzma_yehudit": 7,
     "blue_white": 0,
     "shas": 7,
@@ -306,6 +940,37 @@
     "blue_white": 1.5,
     "zionist_home": 2.4,
     "unity": 0.7
+   },
+   "others": null,
+   "gov_bloc": 48,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "30 Aug",
+   "date": "2026-08-30",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": null,
+    "rzp": 7,
+    "otzma_yehudit": 7,
+    "blue_white": null,
+    "shas": null,
+    "utj": null,
+    "yisrael_beiteinu": null,
+    "raam": 5,
+    "joint_list": 8,
+    "democrats": null,
+    "yashar": 24,
+    "zionist_home": null,
+    "unity": null,
+    "amcha_yisrael": 0
+   },
+   "firm": "Kantar",
+   "publisher": "Kan 11",
+   "sample": 552,
+   "below_threshold_pct": {
+    "amcha_yisrael": 3.0
    },
    "others": null,
    "gov_bloc": 48,
@@ -340,37 +1005,6 @@
     "blue_white": 1.5,
     "zionist_home": 2.4,
     "unity": 0.7
-   },
-   "others": null,
-   "gov_bloc": 48,
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "30 Aug",
-   "date": "2026-08-30",
-   "kind": "scenario",
-   "results": {
-    "likud": 21,
-    "together": null,
-    "zehut": 7,
-    "otzma_yehudit": 7,
-    "blue_white": null,
-    "shas": null,
-    "utj": null,
-    "yisrael_beiteinu": null,
-    "raam": 5,
-    "joint_list": 8,
-    "democrats": null,
-    "yashar": 24,
-    "zionist_home": null,
-    "unity": null,
-    "amcha_yisrael": 0
-   },
-   "scenario": "RZP-Otzma-Zehut mergers",
-   "firm": "Kantar",
-   "publisher": "Kan 11",
-   "below_threshold_pct": {
-    "amcha_yisrael": 3.0
    },
    "others": null,
    "gov_bloc": 48,
@@ -415,6 +1049,19 @@
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "30 Aug 26",
+   "date": "2026-08-30",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 54,
+    "eisenkot": 46,
+    "neither": null
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
    "source_page": "polls_2026"
   },
   {
@@ -544,6 +1191,7 @@
     "likud": 31,
     "together": 7,
     "rzp": 4,
+    "zehut": 0,
     "otzma_yehudit": 7,
     "blue_white": 0,
     "shas": 10,
@@ -561,11 +1209,12 @@
    "publisher": "Channel 14",
    "sample": 981,
    "below_threshold_pct": {
+    "zehut": 1.7,
     "blue_white": 0.4,
     "zionist_home": 1.1,
     "unity": 0.3
    },
-   "others": 2.0,
+   "others": 0.3,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -577,6 +1226,7 @@
     "likud": 22,
     "together": 14,
     "rzp": 0,
+    "zehut": null,
     "otzma_yehudit": 6,
     "blue_white": 0,
     "shas": 9,
@@ -611,6 +1261,7 @@
     "likud": 20,
     "together": 15,
     "rzp": 0,
+    "zehut": null,
     "otzma_yehudit": 8,
     "blue_white": 0,
     "shas": 7,
@@ -686,6 +1337,7 @@
     "likud": 21,
     "together": 16,
     "rzp": 0,
+    "zehut": 0,
     "otzma_yehudit": 9,
     "blue_white": 0,
     "shas": 9,
@@ -704,6 +1356,7 @@
    "sample": 552,
    "below_threshold_pct": {
     "rzp": 3.0,
+    "zehut": 1.0,
     "blue_white": 1.0,
     "zionist_home": 3.0,
     "unity": 2.0
@@ -720,6 +1373,7 @@
     "likud": 19,
     "together": 13,
     "rzp": 5,
+    "zehut": 0,
     "otzma_yehudit": 8,
     "blue_white": 0,
     "shas": 8,
@@ -737,12 +1391,13 @@
    "publisher": "Channel 13",
    "sample": 1407,
    "below_threshold_pct": {
+    "zehut": 1.1,
     "blue_white": 1.8,
     "zionist_home": 2.0,
     "unity": 0.8,
     "amcha_yisrael": 2.2
    },
-   "others": 1.1,
+   "others": null,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -754,6 +1409,7 @@
     "likud": 26,
     "together": 8,
     "rzp": 4,
+    "zehut": 0,
     "otzma_yehudit": 6,
     "blue_white": 0,
     "shas": 8,
@@ -771,11 +1427,12 @@
    "publisher": "i24 News",
    "sample": 532,
    "below_threshold_pct": {
+    "zehut": 1.3,
     "blue_white": 1.0,
     "zionist_home": 1.0,
     "unity": 1.0
    },
-   "others": 2.4,
+   "others": 1.1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -787,6 +1444,7 @@
     "likud": 21,
     "together": 15,
     "rzp": 0,
+    "zehut": null,
     "otzma_yehudit": 8,
     "blue_white": 0,
     "shas": 7,
@@ -1048,6 +1706,7 @@
     "zionist_home": 0,
     "blue_white": 0,
     "unity": 0,
+    "nep": null,
     "shas": 7,
     "utj": 8,
     "yisrael_beiteinu": 9,
@@ -1055,9 +1714,9 @@
     "hadash_taal": 7,
     "democrats": 11,
     "yashar": 24,
-    "winter": null
+    "amcha_yisrael": null
    },
-   "scenario": "Unity-Reservists-B&W merger",
+   "scenario": "Unity-Reservists-B&W-NEP merger",
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
    "below_threshold_pct": {
@@ -1065,6 +1724,7 @@
     "blue_white": 0.8,
     "unity": 0.4
    },
+   "others": null,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -1079,6 +1739,7 @@
     "otzma_yehudit": 9,
     "zionist_home": 0,
     "blue_white": 0,
+    "nep": null,
     "shas": 7,
     "utj": 8,
     "yisrael_beiteinu": 9,
@@ -1086,9 +1747,9 @@
     "hadash_taal": 7,
     "democrats": 11,
     "yashar": 25,
-    "winter": 4
+    "amcha_yisrael": 4
    },
-   "scenario": "Unity-Reservists-B&W merger",
+   "scenario": "Unity-Reservists-B&W-NEP merger",
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
    "below_threshold_pct": {
@@ -1096,6 +1757,7 @@
     "zionist_home": 2.8,
     "blue_white": 2.4
    },
+   "others": null,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -1449,7 +2111,7 @@
    "results": {
     "likud": 21,
     "together": 13,
-    "rzp": 5,
+    "rzp": 4,
     "otzma_yehudit": 7,
     "blue_white": 0,
     "shas": 7,
@@ -2484,6 +3146,7 @@
     "zionist_home": 0,
     "blue_white": 0,
     "unity": 0,
+    "nep": null,
     "shas": 7,
     "utj": 8,
     "yisrael_beiteinu": 10,
@@ -2492,9 +3155,9 @@
     "balad": 0,
     "democrats": 11,
     "yashar": 24,
-    "winter": null
+    "amcha_yisrael": null
    },
-   "scenario": "Unity-Reservists-B&W merger",
+   "scenario": "Unity-Reservists-B&W-NEP merger",
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
    "below_threshold_pct": {
@@ -2503,6 +3166,7 @@
     "unity": 1.3,
     "balad": 1.6
    },
+   "others": null,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -2516,6 +3180,7 @@
     "rzp": 5,
     "otzma_yehudit": 8,
     "zionist_home": 6,
+    "nep": null,
     "shas": 7,
     "utj": 8,
     "yisrael_beiteinu": 10,
@@ -2524,11 +3189,12 @@
     "balad": null,
     "democrats": 11,
     "yashar": 22,
-    "winter": null
+    "amcha_yisrael": null
    },
-   "scenario": "Unity-Reservists-B&W merger",
+   "scenario": "Unity-Reservists-B&W-NEP merger",
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
+   "others": null,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -3486,6 +4152,34 @@
     "balad": 2.9
    },
    "gov_bloc": 62,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "3–4 Aug 26",
+   "date": "2026-08-04",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 39,
+    "bennett": 43,
+    "neither": null,
+    "undecided": 15
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "3–4 Aug 26",
+   "date": "2026-08-04",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 39,
+    "eisenkot": 48,
+    "neither": null,
+    "undecided": 13
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
    "source_page": "polls_2026"
   },
   {
@@ -34310,6 +35004,21 @@
   }
  ],
  "events": [
+  {
+   "date_raw": "8 Sep",
+   "date": "2025-09-08",
+   "event": "Deadline for submission of party lists to the Central Elections Committee"
+  },
+  {
+   "date_raw": "4 Sep",
+   "date": "2026-09-04",
+   "event": "Unity withdraws from the election"
+  },
+  {
+   "date_raw": "3 Sep",
+   "date": "2026-09-03",
+   "event": "Likud MK Tally Gotliv announces she is running with Otzma Yehudit"
+  },
   {
    "date_raw": "1 Sep",
    "date": "2026-09-01",
