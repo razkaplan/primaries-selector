@@ -3,8 +3,9 @@ import Link from "next/link";
 const TABS = [
   { href: "/", label: "סקירה" },
   { href: "/knesset/lists", label: "רשימות" },
+  { href: "/knesset/representation", label: "הרכב הכנסת" },
   { href: "/knesset/polls", label: "סקרים" },
-  { href: "/knesset/polls/more", label: "תרחישים" },
+  { href: "/knesset/polls/more", label: "קואליציות" },
   { href: "/knesset/quotes", label: "ציטוטים" },
   { href: "/knesset/markets", label: "שוקי חיזוי" },
   { href: "/about", label: "מתודולוגיה" },

@@ -57,6 +57,9 @@ ALIASES = {
     "hadash–ta'al": "hadash_taal", "hadash": "hadash", "ta'al": "taal",
     "balad": "balad", "nep": "nep", "new economic party": "nep",
     "israel first": "israel_first", "noam": "noam",
+    "religious zionist party-zehut": "rzp", "rzp-zehut": "rzp",
+    "reserv./nep": "reserv_nep", "reservists-nep": "reserv_nep",
+    "reserv. / nep": "reserv_nep",
 }
 
 PARTY_NAMES = {  # canonical key -> [name_he, name_en]
@@ -86,8 +89,9 @@ PARTY_NAMES = {  # canonical key -> [name_he, name_en]
     "taal": ["תע\"ל", "Ta'al"],
     "balad": ["בל\"ד", "Balad"],
     "nep": ["המפלגה הכלכלית החדשה", "New Economic Party"],
-    "israel_first": ["ישראל ראשונה", "Israel First"],
+    "israel_first": ["ישראל תחילה", "Israel First"],
     "noam": ["נעם", "Noam"],
+    "reserv_nep": ["המילואימניקים–הכלכלית החדשה", "Reservists–New Economic Party"],
 }
 
 KIND_BY_H2 = {
@@ -153,10 +157,13 @@ class PageParser(HTMLParser):
                 self._cell["links"].append(a["href"])
             elif tag == "br" and self._cell is not None:
                 self._cell["text"].append(" ")
-        elif tag == "ol" and self._depth == 0:
-            self._ol = {"heading": dict(self.heads), "items": []}
+        elif tag in ("ol", "ul") and self._depth == 0 and self._ol is None:
+            self._ol = {"heading": dict(self.heads), "items": [], "kind": tag}
+            self._olnest = 0
         elif self._ol is not None:
-            if tag == "li" and self._li is None:
+            if tag in ("ol", "ul"):
+                self._olnest += 1
+            elif tag == "li" and self._li is None and self._olnest == 0:
                 self._li = {"text": [], "links": []}
             elif tag == "a" and self._li is not None and a.get("href"):
                 self._li["links"].append(a["href"])
@@ -186,13 +193,17 @@ class PageParser(HTMLParser):
                 if self._row is not None:
                     self._row.append(self._cell)
                 self._cell = None
-        elif tag == "li" and self._li is not None:
+        elif tag == "li" and self._li is not None and self._ol is not None \
+                and self._olnest == 0:
             self._li["text"] = squash(self._li["text"])
             self._ol["items"].append(self._li)
             self._li = None
-        elif tag == "ol" and self._ol is not None:
-            self.lists.append(self._ol)
-            self._ol = None
+        elif tag in ("ol", "ul") and self._ol is not None:
+            if self._olnest > 0:
+                self._olnest -= 1
+            else:
+                self.lists.append(self._ol)
+                self._ol = None
 
     def handle_data(self, data):
         if self._mute:
@@ -233,13 +244,14 @@ def expand(rows):
 
 def clean(text):
     """Drop footnote markers ([12], [ac]), filler chars and stray whitespace."""
-    text = re.sub(r"[ㅤ ​]", " ", re.sub(r"\[[a-z0-9]{1,4}\]", "", text))
+    text = re.sub(r"[ㅤ ​⁠]", " ", re.sub(r"\[[a-z0-9]{1,4}\]", "", text))
     return re.sub(r"\s+", " ", text).strip()
 
 
 def wiki_url(links):
     for href in links:
-        m = re.search(r"(?:en\.wikipedia\.org)?/wiki/([^#?]+)", href)
+        m = (re.search(r"(?:en\.wikipedia\.org)?/wiki/([^#?]+)", href)
+             or re.fullmatch(r"\./([^#?]+)", href))  # REST-API relative links
         if m and not m.group(1).startswith(("File:", "Special:", "Template:")):
             return "https://en.wikipedia.org/wiki/" + m.group(1)
     return None
@@ -399,26 +411,85 @@ def load_names_he():
 
 
 def parse_party_lists(parser):
-    """One h2 section per party; the section's single <ol> is the ranked slate."""
+    """One h2 section per party. A section's <ol> is the final ranked slate;
+    a party section carrying only a <ul> is an announced-but-unranked slate
+    (post-submission pages mix both) and is kept with ranked=False."""
     names_he = load_names_he()
-    out = []
-    for ol in parser.lists:
-        sec = ol["heading"]["h2"]
-        if not sec or sec in ("Notes", "References", "External_links", "See_also"):
+    skip = {None, "Contents", "Notes", "References", "External_links", "See_also",
+            "Also_on_the_electoral_list",
+            "Members_of_the_25th_Knesset_that_switched_parties"}
+    by_section = {}  # section -> chosen list (first <ol> wins over any <ul>)
+    order = []
+    for lst in parser.lists:
+        sec = lst["heading"]["h2"]
+        if sec in skip:
             continue
+        cur = by_section.get(sec)
+        if cur is None:
+            by_section[sec] = lst
+            order.append(sec)
+        elif cur.get("kind") == "ul" and lst.get("kind") == "ol":
+            by_section[sec] = lst
+    out = []
+    for sec in order:
+        lst = by_section[sec]
         candidates = []
-        for rank, li in enumerate(ol["items"], 1):
+        for rank, li in enumerate(lst["items"], 1):
             name = clean(re.sub(r"\[\d+\]", "", li["text"]))
             if not name:
                 continue
-            candidates.append({"rank": rank, "name": name,
-                               "name_he": names_he.get(name),
-                               "wikipedia": wiki_url(li["links"])})
+            # "Name (faction/annotation)" -> name + note
+            note = None
+            m = re.fullmatch(r"(.+?)\s*\(([^()]+)\)", name)
+            if m:
+                name, note = m.group(1).strip(), m.group(2).strip()
+            cand = {"rank": rank, "name": name,
+                    "name_he": names_he.get(name),
+                    "wikipedia": wiki_url(li["links"])}
+            if note:
+                cand["note"] = note
+            candidates.append(cand)
         if candidates:
-            out.append({"party": party_key(sec.replace("_", " ")),
-                        "party_section": sec.replace("_", " "),
-                        "candidates": candidates})
-    return out
+            rec = {"party": party_key(sec.replace("_", " ")),
+                   "party_section": sec.replace("_", " "),
+                   "candidates": candidates}
+            if lst.get("kind") == "ul":
+                rec["ranked"] = False
+            out.append(rec)
+    return apply_overrides(out)
+
+
+RESERVED_RE = re.compile(r"reserved|tba|tbd|שריון|טרם", re.I)
+
+
+def apply_overrides(party_lists):
+    """Fill ranks Wikipedia still lists as reserved/TBD from the curated
+    list_overrides.json (each carries the source that published the submitted
+    list). Never replaces a real scraped name, so overrides retire on their
+    own once Wikipedia catches up."""
+    path = f"{OUT}/list_overrides.json"
+    if not os.path.exists(path):
+        return party_lists
+    overrides = json.load(open(path, encoding="utf-8"))
+    for pl in party_lists:
+        ov = overrides.get(pl["party"])
+        if not isinstance(ov, dict):
+            continue
+        fills = {int(k): v for k, v in ov.get("candidates", {}).items()}
+        by_rank = {c["rank"]: c for c in pl["candidates"]}
+        for rank, name_he in sorted(fills.items()):
+            cur = by_rank.get(rank)
+            if cur is None:
+                cur = {"rank": rank, "name": name_he, "name_he": name_he,
+                       "wikipedia": None}
+                pl["candidates"].append(cur)
+            elif RESERVED_RE.search(cur["name"]) or RESERVED_RE.search(cur.get("name_he") or ""):
+                cur["name_he"] = name_he
+            else:
+                continue  # real scraped name wins
+            cur["override_source"] = ov.get("source")
+        pl["candidates"].sort(key=lambda c: c["rank"])
+    return party_lists
 
 
 def fetch(key, title):

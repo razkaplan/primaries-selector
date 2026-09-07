@@ -1,0 +1,32 @@
+{
+  "_comment": "Curated fills for ranks Wikipedia still shows as reserved/TBD, applied by scrape_elections.py AFTER parsing. Each party carries the source that published the submitted list. An override never replaces a real scraped name - it only fills placeholder slots - so it retires automatically as Wikipedia catches up.",
+  "yashar": {
+    "source": "https://www.mako.co.il/news-politics/2026_q3/Article-896792932bb70a1027.htm",
+    "date": "2026-09-07",
+    "candidates": {
+      "2": "יורם כהן",
+      "3": "אורית פרקש הכהן",
+      "4": "עדי אלטשולר",
+      "5": "מתן כהנא",
+      "7": "שאול מרידור",
+      "8": "תאיר איפרגן",
+      "9": "אושרת גני גונן",
+      "11": "ענבר הרוש גיטי",
+      "12": "אלעזר שטרן",
+      "13": "כמיל אבו רוקן",
+      "14": "דבורה שריפיאן בכר",
+      "15": "אלקס ריף",
+      "16": "ענבר יחזקאלי",
+      "17": "רועי פולקמן",
+      "18": "ישראל זרי",
+      "19": "טל אוחנה חכמון",
+      "20": "אליסף פרץ",
+      "21": "יפה טבג'ה",
+      "22": "ניר חג'בי",
+      "23": "רון ברקאי",
+      "24": "שי פישר",
+      "25": "ליאן פולק דוד",
+      "26": "רועי כהן"
+    }
+  }
+}
