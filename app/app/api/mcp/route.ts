@@ -84,7 +84,7 @@ const handler = createMcpHandler(
       },
       async () => {
         const latest = seatPolls[0]?.date ?? "2026-08-29";
-        const avg = new Map(seatAverages(shiftISO(latest, -30)).map((a) => [a.key, a]));
+        const avg = new Map(seatAverages(shiftISO(latest, -30), true).map((a) => [a.key, a]));
         const rows = partyLists.map((pl) => ({
           key: pl.party,
           name_he: partyName(pl.party),
@@ -107,7 +107,7 @@ const handler = createMcpHandler(
       },
       async ({ days }) => {
         const latest = seatPolls[0]?.date ?? "2026-08-29";
-        const averages = seatAverages(shiftISO(latest, -days))
+        const averages = seatAverages(shiftISO(latest, -days), true)
           .filter((a) => a.avg >= 0.5)
           .map((a) => ({ key: a.key, name_he: partyName(a.key), seats_avg: +a.avg.toFixed(1) }));
         return json({ window_days: days, latest_poll: latest, majority: 61, averages });

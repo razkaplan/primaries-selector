@@ -53,9 +53,15 @@ const CARDS = [
   },
   {
     href: "/knesset/polls/more",
-    emoji: "🔮",
-    title: "תרחישי ״מה אם״",
-    blurb: "ריצות משותפות, מפלגות חדשות, ראש ממשלה מועדף והרכבי קואליציה.",
+    emoji: "🧩",
+    title: "מי מרכיב ממשלה?",
+    blurb: "חשבון הקואליציות לפי הסקרים, מול מה שהמנהיגים באמת הצהירו.",
+  },
+  {
+    href: "/knesset/representation",
+    emoji: "🪑",
+    title: "מי תשב בכנסת",
+    blurb: "נשים, דתות, ערים, עובדות וקשרים — הרכב הכנסת הצפויה לפי הסקרים.",
   },
   {
     href: "/knesset/quotes",
@@ -70,12 +76,6 @@ const CARDS = [
     blurb: "מי יהיה רה״מ הבא לפי Polymarket ו-Kalshi — אנשים שמהמרים על זה בכסף.",
   },
   {
-    href: "/primaries",
-    emoji: "🗳️",
-    title: "כלי הפריימריז",
-    blurb: "הכלי שליווה את פריימריז הדמוקרטים: שאלון, דירוג ומודל פתוח.",
-  },
-  {
     href: "/about",
     emoji: "🧭",
     title: "מתודולוגיה ומקורות",
@@ -86,7 +86,7 @@ const CARDS = [
 export default function KnessetOverview() {
   const latestDate = seatPolls[0]?.date ?? null;
   const since = windowStart(latestDate, 30);
-  const averages = seatAverages(since).filter((a) => a.avg >= 0.5);
+  const averages = seatAverages(since, true).filter((a) => a.avg >= 0.5);
   const maxAvg = Math.max(...averages.map((a) => a.avg), 1);
   const nCandidates = partyLists.reduce((s, p) => s + p.candidates.length, 0);
   const recent = seatPolls.slice(0, 5);

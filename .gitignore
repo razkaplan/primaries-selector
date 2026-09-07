@@ -7,3 +7,4 @@ data/media/raw/
 data/serp/
 data/candidates-page*.html
 data/brand-*.css
+__pycache__/

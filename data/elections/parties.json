@@ -9,7 +9,7 @@
   "key": "amcha_yisrael",
   "name_he": "עמך ישראל",
   "name_en": "Amcha Yisrael",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "balad",
@@ -54,6 +54,12 @@
   "has_list": false
  },
  {
+  "key": "israel_first",
+  "name_he": "ישראל תחילה",
+  "name_en": "Israel First",
+  "has_list": true
+ },
+ {
   "key": "joint_list",
   "name_he": "הרשימה המשותפת",
   "name_en": "Joint List",
@@ -84,6 +90,12 @@
   "has_list": false
  },
  {
+  "key": "noam",
+  "name_he": "נעם",
+  "name_en": "Noam",
+  "has_list": true
+ },
+ {
   "key": "otzma_yehudit",
   "name_he": "עוצמה יהודית",
   "name_en": "Otzma Yehudit",
@@ -96,15 +108,9 @@
   "has_list": true
  },
  {
-  "key": "religious_zionist_party_zehut",
-  "name_he": null,
-  "name_en": "Religious Zionist Party Zehut",
-  "has_list": true
- },
- {
   "key": "reserv_nep",
-  "name_he": null,
-  "name_en": "Reserv Nep",
+  "name_he": "המילואימניקים–הכלכלית החדשה",
+  "name_en": "Reservists–New Economic Party",
   "has_list": false
  },
  {
@@ -117,7 +123,7 @@
   "key": "rzp",
   "name_he": "הציונות הדתית",
   "name_en": "Religious Zionist Party",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "rzp_zehut",
