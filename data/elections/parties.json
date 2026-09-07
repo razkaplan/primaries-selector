@@ -87,7 +87,7 @@
   "key": "otzma_yehudit",
   "name_he": "עוצמה יהודית",
   "name_en": "Otzma Yehudit",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "raam",
@@ -102,6 +102,12 @@
   "has_list": true
  },
  {
+  "key": "reserv_nep",
+  "name_he": null,
+  "name_en": "Reserv Nep",
+  "has_list": false
+ },
+ {
   "key": "reservists",
   "name_he": "המילואימניקים",
   "name_en": "The Reservists",
@@ -114,6 +120,12 @@
   "has_list": false
  },
  {
+  "key": "rzp_zehut",
+  "name_he": null,
+  "name_en": "Rzp Zehut",
+  "has_list": false
+ },
+ {
   "key": "shas",
   "name_he": "ש\"ס",
   "name_en": "Shas",
@@ -123,7 +135,7 @@
   "key": "together",
   "name_he": "ביחד",
   "name_en": "Together (Bennett–Lapid)",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "unity",
@@ -135,13 +147,13 @@
   "key": "utj",
   "name_he": "יהדות התורה",
   "name_en": "United Torah Judaism",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "yashar",
   "name_he": "ישר",
   "name_en": "Yashar",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "yesh_atid",
@@ -153,6 +165,12 @@
   "key": "yisrael_beiteinu",
   "name_he": "ישראל ביתנו",
   "name_en": "Yisrael Beiteinu",
+  "has_list": true
+ },
+ {
+  "key": "zehut",
+  "name_he": null,
+  "name_en": "Zehut",
   "has_list": false
  },
  {

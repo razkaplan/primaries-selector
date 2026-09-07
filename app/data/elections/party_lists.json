@@ -329,8 +329,8 @@
    },
    {
     "rank": 2,
-    "name": "Ahmad Tibi (Ta’al leader)",
-    "name_he": "אחמד טיבי (יו\"ר תע\"ל)",
+    "name": "Ahmad Tibi (Ta'al leader)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -341,8 +341,8 @@
    },
    {
     "rank": 4,
-    "name": "Jafar Farah (Hadash)",
-    "name_he": "ג'אפר פרח (חד\"ש)",
+    "name": "Samir Abu Zaid (Hadash)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -521,8 +521,8 @@
    },
    {
     "rank": 20,
-    "name": "Tally Gotliv",
-    "name_he": "טלי גוטליב",
+    "name": "Eti Atiya",
+    "name_he": "אתי עטייה",
     "wikipedia": null
    },
    {
@@ -565,7 +565,7 @@
     "rank": 27,
     "name": "Erez Tadmor",
     "name_he": "ארז תדמור",
-    "wikipedia": null
+    "wikipedia": "https://en.wikipedia.org/wiki/ארז%20תדמור%20(איש%20תקשורת)"
    },
    {
     "rank": 28,
@@ -589,7 +589,7 @@
     "rank": 31,
     "name": "Shuki Ohana",
     "name_he": "שוקי אוחנה",
-    "wikipedia": null
+    "wikipedia": "https://en.wikipedia.org/wiki/שוקי%20אוחנה"
    },
    {
     "rank": 32,
@@ -629,8 +629,8 @@
    },
    {
     "rank": 38,
-    "name": "Eti Atiya",
-    "name_he": "אתי עטייה",
+    "name": "May Golan",
+    "name_he": "מאי גולן",
     "wikipedia": null
    },
    {
@@ -641,8 +641,50 @@
    },
    {
     "rank": 40,
-    "name": "May Golan",
-    "name_he": "מאי גולן",
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "otzma_yehudit",
+  "party_section": "Otzma Yehudit",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Itamar Ben-Gvir",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 2,
+    "name": "Tally Gotliv",
+    "name_he": "טלי גוטליב",
+    "wikipedia": null
+   },
+   {
+    "rank": 3,
+    "name": "Yitzhak Wasserlauf",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 4,
+    "name": "Amihai Eliyahu",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 5,
+    "name": "Limor Son Har-Melech",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 6,
+    "name": "Yitzhak Kroizer",
+    "name_he": null,
     "wikipedia": null
    }
   ]
@@ -653,44 +695,44 @@
   "candidates": [
    {
     "rank": 1,
-    "name": "Bezalel Smotrich",
-    "name_he": "בצלאל סמוטריץ'",
+    "name": "Bezalel Smotrich (Religious Zionist Party)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 2,
-    "name": "Moshe Feiglin",
+    "name": "Moshe Feiglin (Zehut)",
     "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 3,
-    "name": "Orit Strook",
-    "name_he": "אורית סטרוק",
+    "name": "Orit Strook (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 4,
-    "name": "Tzvika Mor",
-    "name_he": "צביקה מור",
+    "name": "Tzvika Mor (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 5,
-    "name": "Simcha Rothman",
-    "name_he": "שמחה רוטמן",
+    "name": "Simcha Rothman (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 6,
-    "name": "Zvi Sukkot",
-    "name_he": "צבי סוכות",
+    "name": "Zvi Sukkot (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 7,
-    "name": "Ohad Tal",
-    "name_he": "אוהד טל",
+    "name": "Ohad Tal (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -701,8 +743,8 @@
    },
    {
     "rank": 9,
-    "name": "Omer Rahamim",
-    "name_he": "עומר רחמים",
+    "name": "Omer Rahamim (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
@@ -719,32 +761,248 @@
    },
    {
     "rank": 12,
-    "name": "Michal Waldiger",
-    "name_he": "מיכל וולדיגר",
+    "name": "Michal Waldiger (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 13,
-    "name": "Shmuel Shashon",
-    "name_he": "שמואל ששון",
+    "name": "Shmuel Shashon (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 14,
-    "name": "Tzvika Vishingrad",
-    "name_he": "צביקה וישנגרד",
+    "name": "Tzvika Vishingrad (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 15,
-    "name": "Eitam Tam",
-    "name_he": "איתן תם",
+    "name": "Eitam Tam (RZP)",
+    "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 16,
-    "name": "Natan Zaubman",
-    "name_he": "נתן זאובמן",
+    "name": "Natan Zaubman (RZP)",
+    "name_he": null,
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "together",
+  "party_section": "Together",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Naftali Bennett (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 2,
+    "name": "Yair Lapid (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 3,
+    "name": "Keren Terner Eyal (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 4,
+    "name": "Meirav Ben-Ari (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 5,
+    "name": "Liran Avisar Ben Horin (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": "https://en.wikipedia.org/wiki/לירן%20אבישר%20בן-חורין"
+   },
+   {
+    "rank": 6,
+    "name": "Noam Tibon (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": "https://en.wikipedia.org/wiki/נעם%20תיבון"
+   },
+   {
+    "rank": 7,
+    "name": "Michal Negri (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 8,
+    "name": "Eitan Ginzburg (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 9,
+    "name": "Meirav Cohen (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 10,
+    "name": "Yonatan Shalev (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 11,
+    "name": "Bruria Naim Arman (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 12,
+    "name": "Ram Ben-Barak (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 13,
+    "name": "Amir Strugo (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 14,
+    "name": "Naor Shiri (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 15,
+    "name": "Nissam Ze'evi (Bennet 2026)",
+    "name_he": null,
+    "wikipedia": "https://en.wikipedia.org/wiki/ניסן%20זאבי"
+   },
+   {
+    "rank": 16,
+    "name": "Vladimir Beliak (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 17,
+    "name": "Orly Harel (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 18,
+    "name": "Yorai Lahav-Hertzanu (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 19,
+    "name": "Shahar Varon (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 20,
+    "name": "Yasmin Fridman (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 21,
+    "name": "Esti Ayalon Kobo (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 22,
+    "name": "Jeremy Saltan (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 23,
+    "name": "Neta Attias (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 24,
+    "name": "Tzvi Plotnitzky (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 25,
+    "name": "Moshe Tur-Paz (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 26,
+    "name": "Olessia Kantor (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": "https://en.wikipedia.org/wiki/אולסיה%20קנטור"
+   },
+   {
+    "rank": 27,
+    "name": "Simon Davidson (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 28,
+    "name": "Mati Gill (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 29,
+    "name": "Tomer Wiener (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 30,
+    "name": "Shelly Tal Meron (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 31,
+    "name": "Tami Muziel (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 32,
+    "name": "Roni Malkai (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 33,
+    "name": "Yael Stern (Bennett 2026)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 34,
+    "name": "Matti Sarfati Harkavi (Yesh Atid)",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 35,
+    "name": "Amit Barda (Bennett 2026)",
+    "name_he": null,
     "wikipedia": null
    }
   ]
@@ -761,26 +1019,218 @@
    },
    {
     "rank": 2,
+    "name": "Yoav Segalovitz",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 3,
     "name": "Waleed Taha",
     "name_he": "וליד טאהא",
     "wikipedia": null
    },
    {
-    "rank": 3,
+    "rank": 4,
     "name": "Waleed Alhwashla",
     "name_he": "ואליד אלהואשלה",
     "wikipedia": null
    },
    {
-    "rank": 4,
+    "rank": 5,
     "name": "Iman Khatib-Yassin",
     "name_he": "אימאן ח'טיב-יאסין",
     "wikipedia": null
    },
    {
-    "rank": 5,
+    "rank": 6,
     "name": "Yasir Hujeirat",
     "name_he": "יאסר חוג'יראת",
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "utj",
+  "party_section": "United Torah Judaism",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Ya'akov Asher",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 2,
+    "name": "Yitzhak Pindrus",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 3,
+    "name": "Moshe Rosenthal",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 4,
+    "name": "Yehuda Weisfish",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 5,
+    "name": "Dudi Zeltz",
+    "name_he": null,
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "yashar",
+  "party_section": "Yashar",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Gadi Eisenkot",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 2,
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   },
+   {
+    "rank": 3,
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   },
+   {
+    "rank": 4,
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   },
+   {
+    "rank": 5,
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   },
+   {
+    "rank": 6,
+    "name": "Hili Tropper",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 7,
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   },
+   {
+    "rank": 8,
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   },
+   {
+    "rank": 9,
+    "name": "TBD",
+    "name_he": "שריון – טרם נקבע",
+    "wikipedia": null
+   },
+   {
+    "rank": 10,
+    "name": "Shira Shapira",
+    "name_he": null,
+    "wikipedia": null
+   }
+  ]
+ },
+ {
+  "party": "yisrael_beiteinu",
+  "party_section": "Yisrael Beiteinu",
+  "candidates": [
+   {
+    "rank": 1,
+    "name": "Avigdor Lieberman",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 2,
+    "name": "Rafi Ben Shitrit",
+    "name_he": null,
+    "wikipedia": "https://en.wikipedia.org/wiki/רפי%20בן%20שטרית"
+   },
+   {
+    "rank": 3,
+    "name": "Talya Lankri",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 4,
+    "name": "Oded Forer",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 5,
+    "name": "Yulia Malinovsky",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 6,
+    "name": "Sharon Sharabi",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 7,
+    "name": "Hamad Amar",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 8,
+    "name": "Evgeny Sova",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 9,
+    "name": "Elvira Kolihman",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 10,
+    "name": "Dan Illouz",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 11,
+    "name": "Lily Ben Ami",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 12,
+    "name": "Yael Benvenisti",
+    "name_he": null,
+    "wikipedia": null
+   },
+   {
+    "rank": 13,
+    "name": "David Azulai",
+    "name_he": null,
     "wikipedia": null
    }
   ]
