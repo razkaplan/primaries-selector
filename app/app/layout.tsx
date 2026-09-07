@@ -19,7 +19,7 @@ const secularOne = Secular_One({
 const SITE = "https://elections.gtmascode.dev";
 const OG_TITLE = "בחירות2026 — כל הדאטה של הבחירות. בלי אג'נדה.";
 const OG_DESCRIPTION =
-  "1,200+ סקרים, רשימות המועמדים של כל המפלגות, ציר הזמן של ההתבטאויות ושוקי החיזוי — עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.";
+  "הרשימות שהוגשו לוועדת הבחירות, הרכב הכנסת הצפויה לפי הסקרים, חשבון הקואליציות, 1,267 סקרים וציר ההתבטאויות — עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
@@ -46,13 +46,13 @@ export const metadata: Metadata = {
     siteName: "בחירות2026",
     locale: "he_IL",
     type: "website",
-    images: [{ url: "/og-2026.png", width: 1200, height: 630, alt: OG_TITLE }],
+    images: [{ url: "/og-2026-09.png", width: 1200, height: 630, alt: OG_TITLE }],
   },
   twitter: {
     card: "summary_large_image",
     title: OG_TITLE,
     description: OG_DESCRIPTION,
-    images: ["/og-2026.png"],
+    images: ["/og-2026-09.png"],
   },
 };
 
