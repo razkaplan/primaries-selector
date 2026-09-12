@@ -16,13 +16,610 @@
    "source_page": "polls_2026"
   },
   {
+   "date_raw": "9–10 Sep",
+   "date": "2026-09-10",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 19,
+    "together": 14,
+    "rzp": 5,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 7,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 25,
+    "reserv_nep": 0,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "sample": 601,
+   "below_threshold_pct": {
+    "blue_white": 1.1,
+    "reserv_nep": 3.0,
+    "haredi_public": 0.4
+   },
+   "others": 0.7,
+   "gov_bloc": 46,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9–10 Sep",
+   "date": "2026-09-10",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 23,
+    "together": 15,
+    "rzp": 4,
+    "otzma_yehudit": 6,
+    "blue_white": 0,
+    "shas": 10,
+    "utj": 9,
+    "yisrael_beiteinu": 10,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 8,
+    "yashar": 23,
+    "reserv_nep": 0,
+    "amcha_yisrael": 0,
+    "haredi_public": null
+   },
+   "firm": "Yossi Tatika",
+   "publisher": "Zman Yisrael",
+   "sample": 500,
+   "below_threshold_pct": {
+    "blue_white": 1.4,
+    "reserv_nep": 2.8,
+    "amcha_yisrael": 2.8
+   },
+   "others": null,
+   "gov_bloc": 52,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9–10 Sep 26",
+   "date": "2026-09-10",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 38,
+    "eisenkot": 50,
+    "neither": null,
+    "undecided": 12
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9–10 Sep 26",
+   "date": "2026-09-10",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 40,
+    "bennett": 45,
+    "neither": null,
+    "undecided": 15
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 20,
+    "together": 16,
+    "rzp": 4,
+    "otzma_yehudit": 9,
+    "blue_white": 0,
+    "shas": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 23,
+    "reserv_nep": 0,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "sample": null,
+   "below_threshold_pct": {
+    "blue_white": 1.0,
+    "reserv_nep": 2.0,
+    "haredi_public": 0.7
+   },
+   "others": null,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 19,
+    "together": 13,
+    "rzp": 6,
+    "otzma_yehudit": 9,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "raam": 6,
+    "joint_list": 8,
+    "democrats": 10,
+    "yashar": 22,
+    "reserv_nep": 0,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "Midgam Project",
+   "publisher": "Channel 13",
+   "sample": 1119,
+   "below_threshold_pct": {
+    "blue_white": 1.1,
+    "reserv_nep": 3.2,
+    "haredi_public": 1.1
+   },
+   "others": null,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 27,
+    "together": 10,
+    "rzp": 6,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 22,
+    "reserv_nep": 0,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "Direct Polls",
+   "publisher": "i24 News",
+   "sample": 1054,
+   "below_threshold_pct": {
+    "blue_white": 1.1,
+    "reserv_nep": 1.4,
+    "haredi_public": 1.0
+   },
+   "others": 7,
+   "gov_bloc": 56,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 31,
+    "together": 7,
+    "rzp": 8,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 10,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 6,
+    "joint_list": 6,
+    "democrats": 8,
+    "yashar": 22,
+    "reserv_nep": 0,
+    "amcha_yisrael": 0,
+    "haredi_public": 0
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
+   "sample": 537,
+   "below_threshold_pct": {
+    "blue_white": 0.2,
+    "reserv_nep": 1.4,
+    "amcha_yisrael": 2.1,
+    "haredi_public": 0.1
+   },
+   "others": 0.1,
+   "gov_bloc": 63,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": 14,
+    "rzp": 5,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 7,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 25,
+    "reserv_nep": 0,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "Lazar",
+   "publisher": "Walla",
+   "sample": 506,
+   "below_threshold_pct": {
+    "blue_white": 0.9,
+    "reserv_nep": 2.8,
+    "haredi_public": 0.2
+   },
+   "others": 1.3,
+   "gov_bloc": 47,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": 12,
+    "rzp": 5,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 24,
+    "reserv_nep": 4,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "Kantar",
+   "publisher": "Kan 11",
+   "sample": 554,
+   "below_threshold_pct": {
+    "blue_white": 0.8,
+    "haredi_public": 0.9
+   },
+   "others": 0.5,
+   "gov_bloc": 48,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": 13,
+    "rzp": 5,
+    "otzma_yehudit": 6,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 9,
+    "raam": 4,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 25,
+    "reserv_nep": 0,
+    "amcha_yisrael": 5,
+    "haredi_public": 0
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "sample": 504,
+   "below_threshold_pct": {
+    "blue_white": 1.4,
+    "reserv_nep": 2.9,
+    "haredi_public": 1.0
+   },
+   "others": 0.5,
+   "gov_bloc": 47,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep 26",
+   "date": "2026-09-09",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 53,
+    "eisenkot": 47,
+    "neither": null
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep",
+   "date": "2026-09-09",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 42,
+    "eisenkot": 43,
+    "neither": 15,
+    "undecided": null
+   },
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep 26",
+   "date": "2026-09-09",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 38,
+    "eisenkot": 42,
+    "neither": 13,
+    "undecided": 7
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep 26",
+   "date": "2026-09-09",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 35,
+    "eisenkot": 46,
+    "neither": null,
+    "undecided": 19
+   },
+   "firm": "Midgam Project",
+   "publisher": "Channel 13",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Sep 26",
+   "date": "2026-09-09",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 40,
+    "bennett": 37,
+    "neither": 19,
+    "undecided": 4
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7–8 Sep",
+   "date": "2026-09-08",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 20,
+    "together": 13,
+    "rzp": 5,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 7,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 25,
+    "reserv_nep": 4,
+    "amcha_yisrael": 0,
+    "haredi_public": 0
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "sample": 600,
+   "below_threshold_pct": {
+    "blue_white": 1.3,
+    "amcha_yisrael": 2.8,
+    "haredi_public": 0.4
+   },
+   "others": 0.6,
+   "gov_bloc": 47,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7 Sep",
+   "date": "2026-09-07",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 25,
+    "together": 9,
+    "rzp": 8,
+    "otzma_yehudit": 9,
+    "blue_white": 4,
+    "shas": 10,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 20,
+    "reserv_nep": 0,
+    "amcha_yisrael": 0,
+    "haredi_public": 0
+   },
+   "firm": "S.M.L.T.",
+   "publisher": "—N/a",
+   "sample": 2185,
+   "below_threshold_pct": {
+    "reserv_nep": 1.79,
+    "amcha_yisrael": 2.08,
+    "haredi_public": 0.24
+   },
+   "others": 1.0,
+   "gov_bloc": 59,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7 Sep",
+   "date": "2026-09-07",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 30,
+    "together": 6,
+    "rzp": 8,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 10,
+    "utj": 7,
+    "yisrael_beiteinu": 6,
+    "raam": 5,
+    "joint_list": 8,
+    "democrats": 10,
+    "yashar": 22,
+    "reserv_nep": 0,
+    "amcha_yisrael": 0,
+    "haredi_public": 0
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
+   "sample": 1057,
+   "below_threshold_pct": {
+    "blue_white": 0.4,
+    "reserv_nep": 2.1,
+    "amcha_yisrael": 3.0,
+    "haredi_public": 0.3
+   },
+   "others": 0.2,
+   "gov_bloc": 63,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7 Sep",
+   "date": "2026-09-07",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": 13,
+    "rzp": 6,
+    "otzma_yehudit": 6,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "raam": 4,
+    "joint_list": 7,
+    "democrats": 11,
+    "yashar": 25,
+    "reserv_nep": 0,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "sample": 503,
+   "below_threshold_pct": {
+    "blue_white": 1.0,
+    "reserv_nep": 2.7,
+    "haredi_public": 1.2
+   },
+   "others": 0.4,
+   "gov_bloc": 48,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7 Sep",
+   "date": "2026-09-07",
+   "kind": "voting_intention_pct",
+   "results": {
+    "likud": 19.2,
+    "rzp": 6.1,
+    "otzma_yehudit": 7.6,
+    "shas": 7.9,
+    "utj": 5.9,
+    "together": 7.3,
+    "blue_white": 3.3,
+    "yisrael_beiteinu": 5.7,
+    "democrats": 7.0,
+    "yashar": 15.2,
+    "zionist_home": 1.79,
+    "unity": null,
+    "winter": 2.1,
+    "raam": 4.2,
+    "hadash_taal": 5.7,
+    "balad": null,
+    "other": 1.24,
+    "don_t_know": null
+   },
+   "firm": "S.M.L.T.",
+   "publisher": "—N/a",
+   "sample": 2185,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7 Sep 26",
+   "date": "2026-09-07",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 56,
+    "eisenkot": 44,
+    "neither": null
+   },
+   "firm": "Filber",
+   "publisher": "Channel 14",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7 Sep 26",
+   "date": "2026-09-07",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 35,
+    "eisenkot": 42,
+    "neither": 17,
+    "undecided": 6
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "7 Sep 26",
+   "date": "2026-09-07",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 38,
+    "bennett": 35,
+    "neither": 23,
+    "undecided": 6
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "source_page": "polls_2026"
+  },
+  {
    "date_raw": "6 Sep",
    "date": "2026-09-06",
    "kind": "seat_projection",
    "results": {
     "likud": 20,
     "together": 13,
-    "rzp_zehut": 6,
+    "rzp": 6,
     "otzma_yehudit": 7,
     "blue_white": null,
     "shas": 7,
@@ -33,7 +630,8 @@
     "democrats": 8,
     "yashar": 23,
     "reserv_nep": 4,
-    "amcha_yisrael": 4
+    "amcha_yisrael": 4,
+    "haredi_public": null
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -47,9 +645,9 @@
    "date": "2026-09-06",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 37,
-    "bennett": 32,
-    "neither": 31
+    "netanyahu": 35,
+    "eisenkot": 38,
+    "neither": 29
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -60,9 +658,9 @@
    "date": "2026-09-06",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 35,
-    "eisenkot": 38,
-    "neither": 29
+    "netanyahu": 37,
+    "bennett": 32,
+    "neither": 31
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -99,6 +697,34 @@
    },
    "others": 1.9,
    "gov_bloc": 47,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "3–4 Sep 26",
+   "date": "2026-09-04",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 39,
+    "eisenkot": 48,
+    "neither": null,
+    "undecided": 13
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "3–4 Sep 26",
+   "date": "2026-09-04",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 39,
+    "bennett": 43,
+    "neither": null,
+    "undecided": 15
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
    "source_page": "polls_2026"
   },
   {
@@ -449,7 +1075,7 @@
    "results": {
     "likud": 22,
     "together": 15,
-    "rzp_zehut": 5,
+    "rzp": 5,
     "amcha_yisrael": 0,
     "otzma_yehudit": 7,
     "blue_white": 0,
@@ -483,7 +1109,7 @@
    "results": {
     "likud": 21,
     "together": 15,
-    "rzp_zehut": 4,
+    "rzp": 4,
     "amcha_yisrael": 0,
     "otzma_yehudit": 8,
     "blue_white": 0,
@@ -517,7 +1143,7 @@
    "results": {
     "likud": 27,
     "together": 9,
-    "rzp_zehut": 6,
+    "rzp": 6,
     "amcha_yisrael": 5,
     "otzma_yehudit": 7,
     "blue_white": 0,
@@ -550,7 +1176,7 @@
    "results": {
     "likud": 26,
     "together": 9,
-    "rzp_zehut": 11,
+    "rzp": 11,
     "otzma_yehudit": 8,
     "blue_white": 0,
     "shas": 7,
@@ -662,6 +1288,139 @@
    },
    "firm": "Maagar Mochot",
    "publisher": "Channel 16",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Aug – 1 Sep 2026",
+   "date": "2026-09-01",
+   "kind": "arab_voters",
+   "results": {
+    "segalovitz": 5,
+    "taal": 9,
+    "a_place_for_us_all": 0,
+    "democrats": 1.1,
+    "yisrael_beiteinu": 0.23,
+    "yesh_atid": 0.45,
+    "blue_white": 0.03,
+    "yashar": 0.45,
+    "likud": 0.63,
+    "shas": 0
+   },
+   "firm": "Afkar",
+   "publisher": "Nazareth-Mashur W. Publishing Ltd.",
+   "sample": 800,
+   "below_threshold_pct": {
+    "a_place_for_us_all": 1.6
+   },
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Aug – 1 Sep 2026",
+   "date": "2026-09-01",
+   "kind": "arab_voters",
+   "results": {
+    "segalovitz": 4,
+    "taal": 12,
+    "democrats": 0.82,
+    "yisrael_beiteinu": 0.23,
+    "yesh_atid": 0.39,
+    "blue_white": 0,
+    "yashar": 0.39,
+    "likud": 0.42,
+    "shas": 0
+   },
+   "firm": "Afkar",
+   "publisher": "Nazareth-Mashur W. Publishing Ltd.",
+   "sample": 800,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Aug – 1 Sep 2026",
+   "date": "2026-09-01",
+   "kind": "arab_voters",
+   "results": {
+    "segalovitz": 7,
+    "taal": 9,
+    "a_place_for_us_all": null,
+    "democrats": 0.9,
+    "yisrael_beiteinu": 0.2,
+    "yesh_atid": 0.5,
+    "blue_white": 0,
+    "yashar": 0.4,
+    "likud": 0.5,
+    "shas": 0.1
+   },
+   "firm": "Afkar",
+   "publisher": "Nazareth-Mashur W. Publishing Ltd.",
+   "sample": 800,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Aug – 1 Sep 2026",
+   "date": "2026-09-01",
+   "kind": "arab_voters",
+   "results": {
+    "raam": 19,
+    "hadash": 38,
+    "a_place_for_us_all": 7,
+    "democrats": 5,
+    "likud": 3,
+    "yisrael_beiteinu": 1,
+    "together": 2,
+    "beyachad_natzliach": null,
+    "yashar": 2,
+    "other_jewish_parties": null,
+    "absent": 9,
+    "no_answer": 2,
+    "don_t_know": 12
+   },
+   "firm": "Afkar",
+   "publisher": "Nazareth-Mashur W. Publishing Ltd.",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Aug – 1 Sep 2026",
+   "date": "2026-09-01",
+   "kind": "arab_voters",
+   "results": {
+    "raam": 16,
+    "hadash": 43,
+    "democrats": 4,
+    "likud": 2,
+    "yisrael_beiteinu": 1,
+    "together": 2,
+    "beyachad_natzliach": null,
+    "yashar": 2,
+    "other_jewish_parties": null,
+    "absent": 8,
+    "no_answer": 2,
+    "don_t_know": 10
+   },
+   "firm": "Afkar",
+   "publisher": "Nazareth-Mashur W. Publishing Ltd.",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Aug – 1 Sep 2026",
+   "date": "2026-09-01",
+   "kind": "arab_voters",
+   "results": {
+    "raam": 26,
+    "hadash": 40,
+    "a_place_for_us_all": null,
+    "democrats": 4,
+    "likud": 2,
+    "yisrael_beiteinu": 1,
+    "together": 2,
+    "beyachad_natzliach": null,
+    "yashar": 2,
+    "other_jewish_parties": null,
+    "absent": 11,
+    "no_answer": 1,
+    "don_t_know": 11
+   },
+   "firm": "Afkar",
+   "publisher": "Nazareth-Mashur W. Publishing Ltd.",
    "source_page": "polls_2026"
   },
   {
@@ -906,9 +1665,9 @@
    "date": "2026-08-31",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 36,
-    "bennett": 35,
-    "neither": 23,
+    "netanyahu": 34,
+    "eisenkot": 43,
+    "neither": 17,
     "undecided": 6
    },
    "firm": "Midgam R&C",
@@ -920,9 +1679,9 @@
    "date": "2026-08-31",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 34,
-    "eisenkot": 43,
-    "neither": 17,
+    "netanyahu": 36,
+    "bennett": 35,
+    "neither": 23,
     "undecided": 6
    },
    "firm": "Midgam R&C",
@@ -1096,19 +1855,6 @@
    "date": "2026-08-30",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 37,
-    "bennett": 36,
-    "neither": 27
-   },
-   "firm": "Kantar",
-   "publisher": "Kan 11",
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "30 Aug 26",
-   "date": "2026-08-30",
-   "kind": "preferred_pm",
-   "results": {
     "netanyahu": 54,
     "eisenkot": 46,
     "neither": null
@@ -1125,6 +1871,19 @@
     "netanyahu": 37,
     "eisenkot": 40,
     "neither": 23
+   },
+   "firm": "Kantar",
+   "publisher": "Kan 11",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "30 Aug 26",
+   "date": "2026-08-30",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 37,
+    "bennett": 36,
+    "neither": 27
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -1342,20 +2101,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "26–27 Aug 26",
-   "date": "2026-08-27",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 40,
-    "bennett": 45,
-    "neither": null,
-    "undecided": 15
-   },
-   "firm": "Lazar",
-   "publisher": "Maariv",
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "27 Aug 26",
    "date": "2026-08-27",
    "kind": "preferred_pm",
@@ -1375,6 +2120,20 @@
    "results": {
     "netanyahu": 37,
     "eisenkot": 48,
+    "neither": null,
+    "undecided": 15
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "26–27 Aug 26",
+   "date": "2026-08-27",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 40,
+    "bennett": 45,
     "neither": null,
     "undecided": 15
    },
@@ -1597,10 +2356,10 @@
     "segalovitz": null,
     "raam": 5,
     "taal": 10,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -1618,10 +2377,10 @@
    "results": {
     "segalovitz": 5,
     "taal": 9,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -1822,10 +2581,10 @@
     "segalovitz": null,
     "raam": 4,
     "taal": 7,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -1843,10 +2602,10 @@
    "results": {
     "segalovitz": 4,
     "taal": 7,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -1855,20 +2614,6 @@
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
    "sample": null,
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "24 Aug 26",
-   "date": "2026-08-24",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 37,
-    "bennett": 39,
-    "neither": 19,
-    "undecided": 5
-   },
-   "firm": "Midgam R&C",
-   "publisher": "HaHadashot 12",
    "source_page": "polls_2026"
   },
   {
@@ -1893,6 +2638,20 @@
     "eisenkot": 44,
     "neither": 16,
     "undecided": 6
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "24 Aug 26",
+   "date": "2026-08-24",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 37,
+    "bennett": 39,
+    "neither": 19,
+    "undecided": 5
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -2063,10 +2822,10 @@
     "segalovitz": null,
     "raam": 5,
     "taal": 7,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -2084,10 +2843,10 @@
    "results": {
     "segalovitz": 5,
     "taal": 7,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -2103,9 +2862,9 @@
    "date": "2026-08-23",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 36,
-    "bennett": 37,
-    "neither": 27
+    "netanyahu": 35,
+    "eisenkot": 41,
+    "neither": 24
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -2116,9 +2875,9 @@
    "date": "2026-08-23",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 35,
-    "eisenkot": 41,
-    "neither": 24
+    "netanyahu": 36,
+    "bennett": 37,
+    "neither": 27
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -2264,10 +3023,10 @@
    "date": "2026-08-20",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 41,
-    "bennett": 45,
+    "netanyahu": 38,
+    "eisenkot": 52,
     "neither": null,
-    "undecided": 14
+    "undecided": 10
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -2278,10 +3037,10 @@
    "date": "2026-08-20",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 38,
-    "eisenkot": 52,
+    "netanyahu": 41,
+    "bennett": 45,
     "neither": null,
-    "undecided": 10
+    "undecided": 14
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -2391,20 +3150,6 @@
    "date": "2026-08-19",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 42,
-    "bennett": 43,
-    "neither": null,
-    "undecided": 15
-   },
-   "firm": "Midgam Project",
-   "publisher": "Channel 13",
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "19 Aug 26",
-   "date": "2026-08-19",
-   "kind": "preferred_pm",
-   "results": {
     "netanyahu": 38,
     "eisenkot": 47,
     "neither": null,
@@ -2426,6 +3171,20 @@
    },
    "firm": "Maagar Mochot",
    "publisher": "Channel 16",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "19 Aug 26",
+   "date": "2026-08-19",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 42,
+    "bennett": 43,
+    "neither": null,
+    "undecided": 15
+   },
+   "firm": "Midgam Project",
+   "publisher": "Channel 13",
    "source_page": "polls_2026"
   },
   {
@@ -2649,10 +3408,10 @@
    "date": "2026-08-17",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 35,
-    "bennett": 34,
-    "neither": 27,
-    "undecided": 4
+    "netanyahu": 34,
+    "eisenkot": 38,
+    "neither": 22,
+    "undecided": 6
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -2663,10 +3422,10 @@
    "date": "2026-08-17",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 34,
-    "eisenkot": 38,
-    "neither": 22,
-    "undecided": 6
+    "netanyahu": 35,
+    "bennett": 34,
+    "neither": 27,
+    "undecided": 4
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -2712,9 +3471,9 @@
    "date": "2026-08-16",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 37,
-    "bennett": 35,
-    "neither": 28
+    "netanyahu": 36,
+    "eisenkot": 41,
+    "neither": 23
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -2725,9 +3484,9 @@
    "date": "2026-08-16",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 36,
-    "eisenkot": 41,
-    "neither": 23
+    "netanyahu": 37,
+    "bennett": 35,
+    "neither": 28
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -2908,10 +3667,10 @@
     "raam": 5,
     "taal": 6,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -2932,10 +3691,10 @@
    "results": {
     "segalovitz": 6,
     "taal": 8,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -3065,10 +3824,10 @@
     "raam": 5,
     "taal": 6,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -3089,10 +3848,10 @@
    "results": {
     "segalovitz": 5,
     "taal": 9,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -3321,10 +4080,10 @@
     "raam": 5,
     "taal": 5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -3345,10 +4104,10 @@
    "results": {
     "segalovitz": 6,
     "taal": 6,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -3357,20 +4116,6 @@
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
    "sample": null,
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "10 Aug 26",
-   "date": "2026-08-10",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 35,
-    "bennett": 37,
-    "neither": 22,
-    "undecided": 5
-   },
-   "firm": "Midgam R&C",
-   "publisher": "HaHadashot 12",
    "source_page": "polls_2026"
   },
   {
@@ -3396,6 +4141,20 @@
     "eisenkot": 40,
     "neither": 19,
     "undecided": 7
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "10 Aug 26",
+   "date": "2026-08-10",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 35,
+    "bennett": 37,
+    "neither": 22,
+    "undecided": 5
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -3530,10 +4289,10 @@
     "raam": 6,
     "taal": 5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -3554,10 +4313,10 @@
    "results": {
     "segalovitz": 5,
     "taal": 8,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -3566,19 +4325,6 @@
    "firm": "Kantar",
    "publisher": "Kan 11",
    "sample": null,
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "9 Aug 26",
-   "date": "2026-08-09",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 41,
-    "bennett": 31,
-    "neither": 28
-   },
-   "firm": "Kantar",
-   "publisher": "Kan 11",
    "source_page": "polls_2026"
   },
   {
@@ -3605,6 +4351,19 @@
    },
    "firm": "Filber",
    "publisher": "Channel 14",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "9 Aug 26",
+   "date": "2026-08-09",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 41,
+    "bennett": 31,
+    "neither": 28
+   },
+   "firm": "Kantar",
+   "publisher": "Kan 11",
    "source_page": "polls_2026"
   },
   {
@@ -3823,10 +4582,10 @@
    "date": "2026-08-06",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 40,
-    "bennett": 43,
+    "netanyahu": 38,
+    "eisenkot": 47,
     "neither": null,
-    "undecided": 17
+    "undecided": 15
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -3837,10 +4596,10 @@
    "date": "2026-08-06",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 38,
-    "eisenkot": 47,
+    "netanyahu": 40,
+    "bennett": 43,
     "neither": null,
-    "undecided": 15
+    "undecided": 17
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -4006,10 +4765,10 @@
     "raam": 5,
     "taal": 6,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -4030,10 +4789,10 @@
    "results": {
     "segalovitz": 7,
     "taal": 8,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -4208,34 +4967,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "3–4 Aug 26",
-   "date": "2026-08-04",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 39,
-    "bennett": 43,
-    "neither": null,
-    "undecided": 15
-   },
-   "firm": "Lazar",
-   "publisher": "Maariv",
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "3–4 Aug 26",
-   "date": "2026-08-04",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 39,
-    "eisenkot": 48,
-    "neither": null,
-    "undecided": 13
-   },
-   "firm": "Lazar",
-   "publisher": "Maariv",
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "4 Aug 26",
    "date": "2026-08-04",
    "kind": "preferred_pm",
@@ -4347,10 +5078,10 @@
     "raam": 5,
     "taal": 5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -4371,10 +5102,10 @@
    "results": {
     "segalovitz": 6,
     "taal": 5,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -4390,10 +5121,10 @@
    "date": "2026-08-03",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 38,
-    "bennett": 37,
+    "netanyahu": 37,
+    "eisenkot": 37,
     "neither": 21,
-    "undecided": 4
+    "undecided": 5
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -4404,10 +5135,10 @@
    "date": "2026-08-03",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 37,
-    "eisenkot": 37,
+    "netanyahu": 38,
+    "bennett": 37,
     "neither": 21,
-    "undecided": 5
+    "undecided": 4
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -4606,10 +5337,10 @@
     "raam": 5,
     "taal": 6,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -4631,10 +5362,10 @@
     "segalovitz": 5,
     "taal": 6,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -4651,8 +5382,8 @@
    "kind": "preferred_pm",
    "results": {
     "netanyahu": 40,
-    "bennett": 31,
-    "neither": 29
+    "eisenkot": 36,
+    "neither": 24
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -4664,8 +5395,8 @@
    "kind": "preferred_pm",
    "results": {
     "netanyahu": 40,
-    "eisenkot": 36,
-    "neither": 24
+    "bennett": 31,
+    "neither": 29
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -4869,10 +5600,10 @@
    "date": "2026-07-30",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 39,
-    "bennett": 44,
+    "netanyahu": 38,
+    "eisenkot": 48,
     "neither": null,
-    "undecided": 17
+    "undecided": 13
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -4883,10 +5614,10 @@
    "date": "2026-07-30",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 38,
-    "eisenkot": 48,
+    "netanyahu": 39,
+    "bennett": 44,
     "neither": null,
-    "undecided": 13
+    "undecided": 17
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -4975,9 +5706,9 @@
    "date": "2026-07-29",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 40,
-    "bennett": 45,
-    "neither": 15
+    "netanyahu": 36,
+    "eisenkot": 47,
+    "neither": 17
    },
    "firm": "Midgam Project",
    "publisher": "Channel 13",
@@ -4988,9 +5719,9 @@
    "date": "2026-07-29",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 36,
-    "eisenkot": 47,
-    "neither": 17
+    "netanyahu": 40,
+    "bennett": 45,
+    "neither": 15
    },
    "firm": "Midgam Project",
    "publisher": "Channel 13",
@@ -5088,10 +5819,10 @@
     "raam": 5,
     "taal": 5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -5113,10 +5844,10 @@
     "segalovitz": null,
     "raam": 4,
     "taal": 6,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -5125,32 +5856,6 @@
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
    "sample": null,
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "27 Jul 26",
-   "date": "2026-07-27",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 40,
-    "bennett": 34,
-    "neither": 26
-   },
-   "firm": "Midgam R&C",
-   "publisher": "HaHadashot 12",
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "27 Jul 26",
-   "date": "2026-07-27",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 47,
-    "bennett": 37,
-    "neither": 16
-   },
-   "firm": "Direct Polls",
-   "publisher": "i24 News",
    "source_page": "polls_2026"
   },
   {
@@ -5174,6 +5879,32 @@
     "netanyahu": 45,
     "eisenkot": 44,
     "neither": 11
+   },
+   "firm": "Direct Polls",
+   "publisher": "i24 News",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Jul 26",
+   "date": "2026-07-27",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 40,
+    "bennett": 34,
+    "neither": 26
+   },
+   "firm": "Midgam R&C",
+   "publisher": "HaHadashot 12",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Jul 26",
+   "date": "2026-07-27",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 47,
+    "bennett": 37,
+    "neither": 16
    },
    "firm": "Direct Polls",
    "publisher": "i24 News",
@@ -5248,8 +5979,8 @@
    "kind": "preferred_pm",
    "results": {
     "netanyahu": 39,
-    "bennett": 31,
-    "neither": 30
+    "eisenkot": 38,
+    "neither": 23
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -5261,8 +5992,8 @@
    "kind": "preferred_pm",
    "results": {
     "netanyahu": 39,
-    "eisenkot": 38,
-    "neither": 23
+    "bennett": 31,
+    "neither": 30
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -5445,20 +6176,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "22–23 Jul26",
-   "date": "2026-07-23",
-   "kind": "preferred_pm",
-   "results": {
-    "netanyahu": 42,
-    "bennett": 45,
-    "neither": null,
-    "undecided": 13
-   },
-   "firm": "Lazar",
-   "publisher": "Maariv",
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "22–23 Jul 26",
    "date": "2026-07-23",
    "kind": "preferred_pm",
@@ -5467,6 +6184,20 @@
     "eisenkot": 46,
     "neither": null,
     "undecided": 14
+   },
+   "firm": "Lazar",
+   "publisher": "Maariv",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "22–23 Jul26",
+   "date": "2026-07-23",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 42,
+    "bennett": 45,
+    "neither": null,
+    "undecided": 13
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -5742,8 +6473,8 @@
    "kind": "preferred_pm",
    "results": {
     "netanyahu": 36,
-    "bennett": 32,
-    "neither": 35
+    "eisenkot": 35,
+    "neither": 29
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -5755,8 +6486,8 @@
    "kind": "preferred_pm",
    "results": {
     "netanyahu": 36,
-    "eisenkot": 35,
-    "neither": 29
+    "bennett": 32,
+    "neither": 35
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -6155,9 +6886,9 @@
    "date": "2026-07-13",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 37,
-    "bennett": 35,
-    "neither": 28
+    "netanyahu": 34,
+    "eisenkot": 43,
+    "neither": 27
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -6168,9 +6899,9 @@
    "date": "2026-07-13",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 34,
-    "eisenkot": 43,
-    "neither": 27
+    "netanyahu": 37,
+    "bennett": 35,
+    "neither": 28
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -6841,9 +7572,9 @@
    "date": "2026-07-05",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 41,
-    "bennett": 33,
-    "neither": 26
+    "netanyahu": 40,
+    "eisenkot": 41,
+    "neither": 19
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -6854,9 +7585,9 @@
    "date": "2026-07-05",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 40,
-    "eisenkot": 41,
-    "neither": 19
+    "netanyahu": 41,
+    "bennett": 33,
+    "neither": 26
    },
    "firm": "Kantar",
    "publisher": "Kan 11",
@@ -7104,10 +7835,10 @@
     "raam": 4,
     "taal": 5,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -7126,10 +7857,10 @@
     "segalovitz": null,
     "raam": 5,
     "taal": 7,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -7237,10 +7968,10 @@
     "raam": 5,
     "taal": 6,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -7259,10 +7990,10 @@
     "segalovitz": null,
     "raam": 4,
     "taal": 10,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -7781,10 +8512,10 @@
     "raam": 4,
     "taal": 4,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -7803,10 +8534,10 @@
     "segalovitz": null,
     "raam": 4,
     "taal": 6,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -8559,9 +9290,9 @@
    "date": "2026-06-11",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 37,
-    "bennett": 33,
-    "neither": 29
+    "netanyahu": 36,
+    "eisenkot": 36,
+    "neither": 28
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -8572,9 +9303,9 @@
    "date": "2026-06-11",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 36,
-    "eisenkot": 36,
-    "neither": 28
+    "netanyahu": 37,
+    "bennett": 33,
+    "neither": 29
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -8799,10 +9530,10 @@
     "raam": 4,
     "taal": 4,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -8820,10 +9551,10 @@
    "results": {
     "segalovitz": null,
     "raam": 13,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -8839,9 +9570,9 @@
    "date": "2026-06-04",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 38,
-    "bennett": 31,
-    "neither": 31
+    "netanyahu": 35,
+    "eisenkot": 38,
+    "neither": 27
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -8852,9 +9583,9 @@
    "date": "2026-06-04",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 35,
-    "eisenkot": 38,
-    "neither": 27
+    "netanyahu": 38,
+    "bennett": 31,
+    "neither": 31
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -9084,10 +9815,10 @@
     "raam": 5,
     "taal": 5,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -9105,10 +9836,10 @@
    "results": {
     "segalovitz": null,
     "raam": 13,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -9279,9 +10010,9 @@
     "raam": 4,
     "taal": 6,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
-    "yesh_atid": null,
     "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
@@ -9300,10 +10031,10 @@
    "results": {
     "segalovitz": null,
     "raam": 16,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -9633,9 +10364,9 @@
     "raam": 5,
     "taal": 5,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
-    "yesh_atid": null,
     "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
@@ -9654,10 +10385,10 @@
    "results": {
     "segalovitz": null,
     "raam": 13,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
-    "bennett_2026": null,
     "blue_white": null,
     "yashar": null,
     "likud": null,
@@ -9948,9 +10679,9 @@
    "date": "2026-05-14",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 40,
-    "bennett": 33,
-    "neither": 27
+    "netanyahu": 39,
+    "eisenkot": 35,
+    "neither": 26
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -9961,9 +10692,9 @@
    "date": "2026-05-14",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 39,
-    "eisenkot": 35,
-    "neither": 26
+    "netanyahu": 40,
+    "bennett": 33,
+    "neither": 27
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -10751,6 +11482,7 @@
     "raam": 4.6,
     "taal": 5.3,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": 1.1,
     "yisrael_beiteinu": 0.3,
     "yesh_atid": 0.4,
@@ -10774,6 +11506,7 @@
    "results": {
     "segalovitz": null,
     "raam": 16.3,
+    "a_place_for_us_all": null,
     "democrats": 0.7,
     "yisrael_beiteinu": 0.2,
     "yesh_atid": 0.4,
@@ -10792,10 +11525,10 @@
    "date": "2026-05-02",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 41,
-    "bennett": 46,
+    "netanyahu": 42,
+    "eisenkot": 44,
     "neither": null,
-    "undecided": 13
+    "undecided": 14
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -10806,10 +11539,10 @@
    "date": "2026-05-02",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 42,
-    "eisenkot": 44,
+    "netanyahu": 41,
+    "bennett": 46,
     "neither": null,
-    "undecided": 14
+    "undecided": 13
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -11871,10 +12604,10 @@
    "date": "2026-04-17",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 43,
-    "bennett": 41,
+    "netanyahu": 45,
+    "eisenkot": 38,
     "neither": null,
-    "undecided": 16
+    "undecided": 17
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -11885,10 +12618,10 @@
    "date": "2026-04-17",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 45,
-    "eisenkot": 38,
+    "netanyahu": 43,
+    "bennett": 41,
     "neither": null,
-    "undecided": 17
+    "undecided": 16
    },
    "firm": "Lazar",
    "publisher": "Maariv",
@@ -12512,10 +13245,10 @@
    "date": "2026-03-19",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 44,
-    "bennett": 28,
-    "neither": 24,
-    "undecided": 4
+    "netanyahu": 43,
+    "eisenkot": 31,
+    "neither": null,
+    "undecided": null
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -12526,10 +13259,10 @@
    "date": "2026-03-19",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 43,
-    "eisenkot": 31,
-    "neither": null,
-    "undecided": null
+    "netanyahu": 44,
+    "bennett": 28,
+    "neither": 24,
+    "undecided": 4
    },
    "firm": "Midgam R&C",
    "publisher": "HaHadashot 12",
@@ -13046,6 +13779,7 @@
     "raam": 5,
     "taal": 5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13070,6 +13804,7 @@
    "results": {
     "segalovitz": null,
     "raam": 14,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13659,6 +14394,7 @@
     "raam": 5,
     "taal": 5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13683,6 +14419,7 @@
    "results": {
     "segalovitz": null,
     "raam": 13,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13706,6 +14443,7 @@
     "raam": 5,
     "taal": 6,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13727,6 +14465,7 @@
    "results": {
     "segalovitz": null,
     "raam": 15,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13815,6 +14554,7 @@
     "raam": 5,
     "taal": 5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13839,6 +14579,7 @@
    "results": {
     "segalovitz": null,
     "raam": 13,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13966,6 +14707,7 @@
     "raam": 4,
     "taal": 5,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -13987,6 +14729,7 @@
    "results": {
     "segalovitz": null,
     "raam": 15,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -14213,6 +14956,7 @@
     "raam": 6,
     "taal": 5,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -14234,6 +14978,7 @@
    "results": {
     "segalovitz": null,
     "raam": 16,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -14254,12 +14999,17 @@
    "kind": "arab_voters",
    "results": {
     "raam": 68,
+    "a_place_for_us_all": null,
     "democrats": 4,
     "likud": 3,
-    "beyachad_natzliach": 1,
+    "yisrael_beiteinu": 1,
+    "together": null,
+    "beyachad_natzliach": null,
+    "yashar": null,
     "other_jewish_parties": null,
     "absent": 11,
-    "no_answer": 9
+    "no_answer": 9,
+    "don_t_know": null
    },
    "firm": "Arpanel",
    "publisher": "–",
@@ -14272,12 +15022,17 @@
    "results": {
     "raam": 20,
     "hadash": 47,
+    "a_place_for_us_all": null,
     "democrats": 5,
-    "likud": 4,
-    "beyachad_natzliach": 1,
+    "likud": null,
+    "yisrael_beiteinu": 4,
+    "together": null,
+    "beyachad_natzliach": null,
+    "yashar": 1,
     "other_jewish_parties": 1,
     "absent": 13,
-    "no_answer": 9
+    "no_answer": 9,
+    "don_t_know": null
    },
    "firm": "Arpanel",
    "publisher": "–",
@@ -14292,12 +15047,17 @@
     "hadash": 17,
     "taal": 8,
     "balad": 10,
+    "a_place_for_us_all": null,
     "democrats": 5,
     "likud": 3,
-    "beyachad_natzliach": 1,
+    "yisrael_beiteinu": null,
+    "together": 1,
+    "beyachad_natzliach": null,
+    "yashar": null,
     "other_jewish_parties": 1,
     "absent": 21,
-    "no_answer": 13
+    "no_answer": 13,
+    "don_t_know": null
    },
    "firm": "Arpanel",
    "publisher": "–",
@@ -15545,6 +16305,7 @@
     "raam": 4,
     "taal": 6,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -15569,6 +16330,7 @@
    "results": {
     "segalovitz": null,
     "raam": 16,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -16073,6 +16835,7 @@
     "raam": 3.9,
     "taal": 5.3,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": 0.7,
     "yisrael_beiteinu": 0.5,
     "yesh_atid": 0.3,
@@ -16097,6 +16860,7 @@
    "results": {
     "segalovitz": null,
     "raam": 15.5,
+    "a_place_for_us_all": null,
     "democrats": 0.3,
     "yisrael_beiteinu": null,
     "yesh_atid": 0.3,
@@ -16401,6 +17165,7 @@
     "raam": 4,
     "taal": 5,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -16423,6 +17188,7 @@
     "segalovitz": null,
     "raam": 4,
     "taal": 10,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -16444,6 +17210,7 @@
    "results": {
     "segalovitz": null,
     "raam": 16,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -20203,6 +20970,7 @@
     "raam": 4.3,
     "taal": 4.8,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": 1,
     "yisrael_beiteinu": null,
     "yesh_atid": 0.5,
@@ -22032,6 +22800,7 @@
     "raam": 4.4,
     "taal": 5.5,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -22059,6 +22828,7 @@
     "taal": 0,
     "hadash": 0,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -22086,6 +22856,7 @@
     "segalovitz": null,
     "raam": 7.1,
     "hadash": 5.5,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -22108,6 +22879,7 @@
     "segalovitz": null,
     "raam": 4.1,
     "taal": 8.6,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -22129,6 +22901,7 @@
    "results": {
     "segalovitz": null,
     "raam": 13.1,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -22148,8 +22921,8 @@
    "date": "2025-02-17",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 37,
-    "bennett": 37,
+    "netanyahu": 36,
+    "eisenkot": 31,
     "neither": null,
     "undecided": null
    },
@@ -22162,8 +22935,8 @@
    "date": "2025-02-17",
    "kind": "preferred_pm",
    "results": {
-    "netanyahu": 36,
-    "eisenkot": 31,
+    "netanyahu": 37,
+    "bennett": 37,
     "neither": null,
     "undecided": null
    },
@@ -23320,6 +24093,7 @@
     "raam": 5,
     "taal": 4,
     "balad": null,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -26614,6 +27388,7 @@
     "raam": 4.7,
     "taal": 5.2,
     "balad": 0,
+    "a_place_for_us_all": null,
     "democrats": null,
     "yisrael_beiteinu": null,
     "yesh_atid": null,
@@ -35044,12 +35819,17 @@
     "raam": 35.2,
     "hadash": 28.8,
     "balad": 21.8,
+    "a_place_for_us_all": null,
     "democrats": 3.5,
     "likud": 2.2,
+    "yisrael_beiteinu": 2.0,
+    "together": 1.7,
     "beyachad_natzliach": null,
-    "other_jewish_parties": 6.5,
+    "yashar": null,
+    "other_jewish_parties": 4.8,
     "absent": 46.8,
-    "no_answer": null
+    "no_answer": null,
+    "don_t_know": null
    },
    "firm": "2022 election result (estimation)",
    "publisher": "2022 election result (estimation)",
@@ -35058,19 +35838,34 @@
  ],
  "events": [
   {
+   "date_raw": "12 Sep",
+   "date": "2026-09-12",
+   "event": "Joint List and United Arab List sign a surplus-vote agreement"
+  },
+  {
+   "date_raw": "10 Sep",
+   "date": "2026-09-10",
+   "event": "Together and Yisrael Beiteinu sign a surplus-vote agreement"
+  },
+  {
+   "date_raw": "10 Sep",
+   "date": "2026-09-10",
+   "event": "Yashar and The Democrats sign a surplus-vote agreement"
+  },
+  {
    "date_raw": "8 Sep",
-   "date": "2025-09-08",
-   "event": "Submission of candidate lists to the Central Elections Committee opens at 4 PM IST and closes at 10 PM IST"
+   "date": "2026-09-08",
+   "event": "Final day of submission of candidate lists to the Central Elections Committee, which opens at 4 PM IST and closes at 10 PM IST"
   },
   {
    "date_raw": "7 Sep",
    "date": "2026-09-07",
-   "event": "Submission of candidate lists to the Central Elections Committee opens at 1 PM IST and closes at 5 PM"
+   "event": "First day of submission of candidate lists to the Central Elections Committee, which opens at 1 PM IST and closes at 5 PM"
   },
   {
    "date_raw": "6 Sep",
    "date": "2026-09-06",
-   "event": "Zionist Home leader Hili Tropper announces he is running with Yashar, dissolving his alliance with The Reservists, which then merged with the New Economic Party"
+   "event": "Zionist Home leader Hili Tropper announces he is running with Yashar, dissolving his alliance with The Reservists, which then merges with the New Economic Party"
   },
   {
    "date_raw": "4 Sep",
