@@ -6,6 +6,12 @@
   "has_list": false
  },
  {
+  "key": "additional_parties",
+  "name_he": null,
+  "name_en": "Additional Parties",
+  "has_list": true
+ },
+ {
   "key": "amcha_yisrael",
   "name_he": "עמך ישראל",
   "name_en": "Amcha Yisrael",
@@ -33,7 +39,7 @@
   "key": "blue_white",
   "name_he": "כחול לבן",
   "name_en": "Blue and White (National Unity)",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "democrats",
@@ -46,6 +52,12 @@
   "name_he": "חד\"ש-תע\"ל",
   "name_en": "Hadash–Ta'al",
   "has_list": false
+ },
+ {
+  "key": "haredi_public",
+  "name_he": null,
+  "name_en": "Haredi Public",
+  "has_list": true
  },
  {
   "key": "hendel_party",
@@ -126,16 +138,16 @@
   "has_list": true
  },
  {
-  "key": "rzp_zehut",
-  "name_he": null,
-  "name_en": "Rzp Zehut",
-  "has_list": false
- },
- {
   "key": "shas",
   "name_he": "ש\"ס",
   "name_en": "Shas",
-  "has_list": false
+  "has_list": true
+ },
+ {
+  "key": "the_reservists_and_the_economic_party",
+  "name_he": null,
+  "name_en": "The Reservists And The Economic Party",
+  "has_list": true
  },
  {
   "key": "together",
@@ -154,6 +166,12 @@
   "name_he": "יהדות התורה",
   "name_en": "United Torah Judaism",
   "has_list": true
+ },
+ {
+  "key": "winter",
+  "name_he": null,
+  "name_en": "Winter",
+  "has_list": false
  },
  {
   "key": "yashar",

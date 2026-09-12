@@ -16,22 +16,22 @@
    "records": 15
   },
   {
-   "name": "ערוץ 7",
-   "kind": "אתרי חדשות",
-   "records": 11
-  },
-  {
    "name": "הארץ",
    "kind": "אתרי חדשות",
    "records": 11
   },
   {
-   "name": "זמן ישראל",
+   "name": "ערוץ 7",
+   "kind": "אתרי חדשות",
+   "records": 11
+  },
+  {
+   "name": "ישראל היום",
    "kind": "אתרי חדשות",
    "records": 9
   },
   {
-   "name": "ישראל היום",
+   "name": "זמן ישראל",
    "kind": "אתרי חדשות",
    "records": 9
   },
@@ -41,12 +41,12 @@
    "records": 8
   },
   {
-   "name": "וואלה",
+   "name": "כאן תאגיד השידור",
    "kind": "אתרי חדשות",
    "records": 7
   },
   {
-   "name": "כאן תאגיד השידור",
+   "name": "וואלה",
    "kind": "אתרי חדשות",
    "records": 7
   },
@@ -66,7 +66,7 @@
    "records": 4
   },
   {
-   "name": "סרוגים",
+   "name": "JDN",
    "kind": "אתרי חדשות",
    "records": 3
   },
@@ -76,13 +76,18 @@
    "records": 3
   },
   {
-   "name": "JDN",
+   "name": "סרוגים",
    "kind": "אתרי חדשות",
    "records": 3
   },
   {
    "name": "ערוץ 14",
    "kind": "אתרי חדשות",
+   "records": 2
+  },
+  {
+   "name": "TikTok",
+   "kind": "רשתות חברתיות",
    "records": 2
   },
   {
@@ -96,21 +101,6 @@
    "records": 2
   },
   {
-   "name": "TikTok",
-   "kind": "רשתות חברתיות",
-   "records": 2
-  },
-  {
-   "name": "כלכליסט",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
-   "name": "כיכר השבת",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
    "name": "x.com",
    "kind": "אתרי חדשות",
    "records": 1
@@ -121,12 +111,22 @@
    "records": 1
   },
   {
+   "name": "אייס",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
    "name": "i24NEWS",
    "kind": "אתרי חדשות",
    "records": 1
   },
   {
-   "name": "אייס",
+   "name": "כלכליסט",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "כיכר השבת",
    "kind": "אתרי חדשות",
    "records": 1
   }
@@ -134,31 +134,31 @@
  "poll_publishers": [
   {
    "name": "Maariv",
-   "polls": 317
+   "polls": 321
   },
   {
    "name": "HaHadashot 12",
-   "polls": 260
+   "polls": 266
   },
   {
    "name": "Channel 13",
-   "polls": 152
+   "polls": 154
   },
   {
    "name": "Channel 14",
-   "polls": 142
+   "polls": 146
   },
   {
    "name": "Kan 11",
-   "polls": 93
+   "polls": 94
   },
   {
    "name": "Zman Yisrael",
-   "polls": 73
+   "polls": 74
   },
   {
    "name": "i24 News",
-   "polls": 48
+   "polls": 49
   },
   {
    "name": "Israel Hayom",
@@ -169,16 +169,16 @@
    "polls": 24
   },
   {
+   "name": "Channel 16",
+   "polls": 14
+  },
+  {
    "name": "Israel Democracy Institute",
    "polls": 14
   },
   {
-   "name": "Channel 16",
-   "polls": 12
-  },
-  {
    "name": "Walla",
-   "polls": 10
+   "polls": 11
   },
   {
    "name": "KAP, Tel Aviv University",
@@ -191,6 +191,10 @@
   {
    "name": "The Abraham Initiatives",
    "polls": 7
+  },
+  {
+   "name": "Nazareth-Mashur W. Publishing Ltd.",
+   "polls": 6
   },
   {
    "name": "The Jerusalem Post",
@@ -207,6 +211,10 @@
   {
    "name": "internal",
    "polls": 3
+  },
+  {
+   "name": "—N/a",
+   "polls": 2
   },
   {
    "name": "JPPI",
