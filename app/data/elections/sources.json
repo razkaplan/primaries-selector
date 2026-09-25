@@ -41,12 +41,12 @@
    "records": 8
   },
   {
-   "name": "וואלה",
+   "name": "כאן תאגיד השידור",
    "kind": "אתרי חדשות",
    "records": 7
   },
   {
-   "name": "כאן תאגיד השידור",
+   "name": "וואלה",
    "kind": "אתרי חדשות",
    "records": 7
   },
@@ -71,12 +71,12 @@
    "records": 3
   },
   {
-   "name": "רדיו 104.5FM",
+   "name": "JDN",
    "kind": "אתרי חדשות",
    "records": 3
   },
   {
-   "name": "JDN",
+   "name": "רדיו 104.5FM",
    "kind": "אתרי חדשות",
    "records": 3
   },
@@ -101,11 +101,6 @@
    "records": 2
   },
   {
-   "name": "כלכליסט",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
    "name": "כיכר השבת",
    "kind": "אתרי חדשות",
    "records": 1
@@ -121,12 +116,17 @@
    "records": 1
   },
   {
-   "name": "i24NEWS",
+   "name": "אייס",
    "kind": "אתרי חדשות",
    "records": 1
   },
   {
-   "name": "אייס",
+   "name": "כלכליסט",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "i24NEWS",
    "kind": "אתרי חדשות",
    "records": 1
   }
@@ -134,51 +134,51 @@
  "poll_publishers": [
   {
    "name": "Maariv",
-   "polls": 317
+   "polls": 323
   },
   {
    "name": "HaHadashot 12",
-   "polls": 260
+   "polls": 268
   },
   {
    "name": "Channel 13",
-   "polls": 152
+   "polls": 155
   },
   {
    "name": "Channel 14",
-   "polls": 142
+   "polls": 151
   },
   {
    "name": "Kan 11",
-   "polls": 93
+   "polls": 97
   },
   {
    "name": "Zman Yisrael",
-   "polls": 73
+   "polls": 75
   },
   {
    "name": "i24 News",
-   "polls": 48
+   "polls": 51
   },
   {
    "name": "Israel Hayom",
-   "polls": 45
+   "polls": 46
   },
   {
    "name": "Zman Israel",
    "polls": 24
   },
   {
+   "name": "Channel 16",
+   "polls": 14
+  },
+  {
    "name": "Israel Democracy Institute",
    "polls": 14
   },
   {
-   "name": "Channel 16",
-   "polls": 12
-  },
-  {
    "name": "Walla",
-   "polls": 10
+   "polls": 11
   },
   {
    "name": "KAP, Tel Aviv University",
@@ -191,6 +191,10 @@
   {
    "name": "The Abraham Initiatives",
    "polls": 7
+  },
+  {
+   "name": "Nazareth-Mashur W. Publishing Ltd.",
+   "polls": 6
   },
   {
    "name": "The Jerusalem Post",
@@ -207,6 +211,10 @@
   {
    "name": "internal",
    "polls": 3
+  },
+  {
+   "name": "—N/a",
+   "polls": 2
   },
   {
    "name": "JPPI",
