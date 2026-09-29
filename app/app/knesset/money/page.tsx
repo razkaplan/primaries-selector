@@ -6,6 +6,7 @@ import MoneyBars, { type MoneyRow } from "@/components/MoneyBars";
 import { fmtNis } from "@/lib/money";
 import { partyColor, partyName, roundSeats, seatAverages, seatPolls } from "@/lib/elections";
 import moneyData from "@/data/elections/money.json";
+import marketsData from "@/data/elections/markets.json";
 
 export const metadata: Metadata = {
   title: "מי מממן את המפלגות",
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
 
 interface Sourced {
   as_of: string;
+  /** "month" when only the month of publication is confirmed */
+  date_precision?: "month";
   source_name: string;
   url: string;
   quote?: string;
@@ -63,16 +66,41 @@ interface Money {
   primaries: PrimaryRecord[];
   primaries_totals: (Sourced & { party: string; total_nis: number; text: string })[];
   primaries_context: (Sourced & { text: string })[];
+  spotlights: (Sourced & { party: string; title: string; text: string; amount_nis: number | null })[];
   third_parties?: (Sourced & { name: string; stance: string; amount_nis: number | null; funders: string })[];
 }
 
 const money = moneyData as unknown as Money;
 
 const CATEGORY = {
+  state: { label: "מקדמה מהמדינה", color: "#5a31f4" },
   backer: { label: "ערבויות של תומכים פרטיים", color: "#e8435f" },
   self: { label: "ערבות של ראש המפלגה או משפחתו", color: "#c98600" },
   donation: { label: "תרומות", color: "#0e9384" },
 } as const;
+
+/** Prediction-market outcomes (PM candidates) mapped to the list each one heads. */
+const LEADER_PARTY: Record<string, string> = {
+  "Gadi Eizenkot": "yashar",
+  "Benjamin Netanyahu": "likud",
+  "Naftali Bennett": "together",
+  "Avigdor Lieberman": "yisrael_beiteinu",
+  "Itamar Ben Gvir": "otzma_yehudit",
+  "Ofer Winter": "amcha_yisrael",
+  "Yair Golan": "democrats",
+  "Yoaz Hendel": "reserv_nep",
+  "Benny Gantz": "blue_white",
+};
+
+interface MarketOutcome {
+  name: string;
+  name_he: string;
+  prob: number;
+}
+const markets = marketsData as {
+  fetched_at: string;
+  markets: { platform: string; url: string; volume_usd: number; outcomes: MarketOutcome[] }[];
+};
 
 /** Lists the CEC voted to disqualify on 23.9.2026, pending Supreme Court review. */
 const PENDING_DISQUALIFICATION = new Set(["raam", "joint_list"]);
@@ -84,6 +112,12 @@ function fmtDate(iso: string): string {
     year: "numeric",
     timeZone: "UTC",
   }).format(new Date(iso + "T00:00:00Z"));
+}
+
+function fmtMonth(iso: string): string {
+  return new Intl.DateTimeFormat("he-IL", { month: "long", year: "numeric", timeZone: "UTC" }).format(
+    new Date(iso + "T00:00:00Z"),
+  );
 }
 
 function windowStart(latest: string | null, days: number): string {
@@ -100,7 +134,7 @@ function Src({ s }: { s: Sourced }) {
       rel="noopener noreferrer"
       className="whitespace-nowrap text-xs text-ink-faint underline hover:text-brand"
     >
-      {s.source_name} · {fmtDate(s.as_of)} ↗
+      {s.source_name} · {s.date_precision === "month" ? fmtMonth(s.as_of) : fmtDate(s.as_of)} ↗
     </a>
   );
 }
@@ -209,6 +243,66 @@ export default function KnessetMoney() {
       details: [`${d.source_name}, ${fmtDate(d.as_of)}`],
     }));
 
+  // --- total cost per seat: known campaign money / seats in the poll average
+  const seatOf = new Map(seats.map((x) => [x.key, x.seats]));
+  const moneyOf = (party: string) => {
+    const adv = money.advances.find((a) => a.party === party)?.amount_nis ?? 0;
+    const t = money.private_totals.find((x) => x.party === party);
+    return {
+      state: adv,
+      backer: t ? t.guarantees_nis - t.self_nis : 0,
+      self: t?.self_nis ?? 0,
+      donation: t?.donations_nis ?? 0,
+    };
+  };
+  const moneyParties = [...new Set([...money.advances.map((a) => a.party), ...money.private_totals.map((t) => t.party)])];
+  const totalOf = (party: string) => Object.values(moneyOf(party)).reduce((a, b) => a + b, 0);
+  const cpsRows: MoneyRow[] = moneyParties
+    .filter((party) => (seatOf.get(party) ?? 0) > 0)
+    .map((party) => {
+      const m = moneyOf(party);
+      const n = seatOf.get(party)!;
+      return {
+        key: party,
+        label: partyName(party),
+        dot: partyColor(party),
+        note: `${fmtNis(totalOf(party))} ל-${n} מנדטים`,
+        segments: (Object.keys(m) as (keyof typeof m)[]).map((k) => ({
+          key: k,
+          label: CATEGORY[k].label,
+          color: CATEGORY[k].color,
+          value: m[k] / n,
+        })),
+        details: [`סה״כ כסף ידוע: ${fmtNis(totalOf(party))}`, `${n} מנדטים בממוצע הסקרים`],
+      };
+    })
+    .sort((a, b) => b.segments.reduce((s, x) => s + x.value, 0) - a.segments.reduce((s, x) => s + x.value, 0));
+  const noSeatMoney = moneyParties
+    .filter((party) => (seatOf.get(party) ?? 0) === 0 && totalOf(party) > 0)
+    .sort((a, b) => totalOf(b) - totalOf(a));
+
+  // --- the same money against the prediction markets (odds of heading the next government)
+  const poly = markets.markets.find((m) => m.platform === "polymarket");
+  const kalshi = markets.markets.find((m) => m.platform === "kalshi");
+  const marketRows = (poly?.outcomes ?? [])
+    .filter((o) => LEADER_PARTY[o.name] && totalOf(LEADER_PARTY[o.name]) > 0)
+    .map((o) => {
+      const party = LEADER_PARTY[o.name];
+      const n = seatOf.get(party) ?? 0;
+      return {
+        party,
+        leader: o.name_he,
+        prob: o.prob,
+        kalshi: kalshi?.outcomes.find((k) => k.name === o.name)?.prob ?? null,
+        total: totalOf(party),
+        perSeat: n > 0 ? totalOf(party) / n : null,
+        seats: n,
+      };
+    })
+    .sort((a, b) => b.prob - a.prob);
+  const maxPerSeat = Math.max(...marketRows.map((r) => r.perSeat ?? 0), 1);
+  const maxProb = Math.max(...marketRows.map((r) => r.prob), 0.01);
+
   const h = money.headline;
 
   return (
@@ -289,6 +383,22 @@ export default function KnessetMoney() {
           <div className="mt-6">
             <MoneyBars rows={advanceRows} />
           </div>
+          {money.spotlights.length > 0 && (
+            <div className="mt-6 rounded-2xl border border-line bg-paper/60 p-4 text-sm">
+              <div className="flex items-center gap-2 font-bold">
+                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: partyColor("blue_white") }} />
+                {money.spotlights[0].title}
+              </div>
+              <ul className="mt-2 space-y-2 leading-relaxed text-ink-soft">
+                {money.spotlights.map((sp) => (
+                  <li key={sp.url}>
+                    {sp.title !== money.spotlights[0].title && <b className="text-ink">{sp.title}: </b>}
+                    {sp.text} <Src s={sp} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </section>
 
@@ -308,7 +418,7 @@ export default function KnessetMoney() {
           <div className="mt-6">
             <MoneyBars
               rows={privateRows}
-              legend={Object.values(CATEGORY).map((c) => ({ label: c.label, color: c.color }))}
+              legend={[CATEGORY.backer, CATEGORY.self, CATEGORY.donation].map((c) => ({ label: c.label, color: c.color }))}
             />
           </div>
           <p className="mt-4 text-xs leading-relaxed text-ink-faint">
@@ -363,6 +473,113 @@ export default function KnessetMoney() {
               {d.names.join(", ")}. <Src s={d} />
             </p>
           ))}
+        </div>
+      </section>
+
+      {/* total cost per seat */}
+      <section className="mx-auto max-w-5xl px-4 pb-10">
+        <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
+          <h2 className="font-display text-2xl">כמה עולה מנדט?</h2>
+          <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+            כל הכסף הידוע של כל רשימה לקמפיין (מקדמה מהמדינה, ערבויות ותרומות
+            שדווחו) מחולק במספר המנדטים שלה בממוצע הסקרים. זו הערכה: היא לא
+            כוללת מימון שוטף, יתרות מהעבר או הוצאות שעוד לא דווחו, והיא משתנה
+            עם כל סקר.
+          </p>
+          <div className="mt-6">
+            <MoneyBars
+              rows={cpsRows}
+              legend={[CATEGORY.state, CATEGORY.backer, CATEGORY.self, CATEGORY.donation].map((c) => ({ label: c.label, color: c.color }))}
+            />
+          </div>
+          {noSeatMoney.length > 0 && (
+            <div className="mt-6 border-t border-line/60 pt-4">
+              <h3 className="font-bold">כסף בלי מנדטים בסקרים</h3>
+              <ul className="mt-2 flex flex-wrap gap-2 text-sm">
+                {noSeatMoney.map((party) => (
+                  <li key={party} className="flex items-center gap-1.5 rounded-full border border-line bg-paper/60 px-3 py-1">
+                    <span className="h-2 w-2 rounded-full" style={{ backgroundColor: partyColor(party) }} />
+                    <b>{partyName(party)}</b>
+                    <span className="tabular-nums text-ink-soft">{fmtNis(totalOf(party))}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-2 text-xs leading-relaxed text-ink-faint">
+                רשימות שקיבלו או גייסו כסף אבל נמדדות מתחת לאחוז החסימה (או לא נמדדות
+                בנפרד). אם לא ייכנסו לכנסת, זה המחיר ללא מנדט.
+              </p>
+            </div>
+          )}
+
+          <h3 className="font-display mt-10 text-lg">הכסף מול שוק ההימורים</h3>
+          <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+            לצד העלות למנדט: הסיכוי שהשוק נותן לראש כל רשימה להרכיב את הממשלה
+            הבאה, לפי{" "}
+            <a href={poly?.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-brand">
+              Polymarket
+            </a>{" "}
+            (מחזור מסחר של כ-{Math.round((poly?.volume_usd ?? 0) / 1e6)} מיליון דולר), ובסוגריים{" "}
+            <a href={kalshi?.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-brand">
+              Kalshi
+            </a>
+            , שוק דליל בהרבה. עודכן {fmtDate(markets.fetched_at.slice(0, 10))}. כסף גדול למנדט
+            לא מבטיח סיכוי, והשוק מתמחר את ראשות הממשלה ולא את המנדטים.
+          </p>
+          <div className="table-scroll mt-4 overflow-x-auto">
+            <table className="w-full min-w-[600px] text-sm">
+              <thead>
+                <tr className="border-b border-line text-right text-xs text-ink-faint">
+                  <th className="py-2 font-bold">ראש הרשימה</th>
+                  <th className="w-[30%] py-2 font-bold">עלות למנדט</th>
+                  <th className="w-[30%] py-2 font-bold">סיכוי לראשות הממשלה</th>
+                  <th className="py-2 text-left font-bold">כסף לכל נקודת אחוז</th>
+                </tr>
+              </thead>
+              <tbody>
+                {marketRows.map((r) => (
+                  <tr key={r.party} className="border-b border-line/50">
+                    <td className="py-2.5">
+                      <span className="flex items-center gap-1.5 font-bold">
+                        <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: partyColor(r.party) }} />
+                        {r.leader}
+                      </span>
+                      <span className="block text-[11px] text-ink-faint">{partyName(r.party)} · {fmtNis(r.total)}</span>
+                    </td>
+                    <td className="py-2.5 pl-4">
+                      {r.perSeat ? (
+                        <div className="flex items-center gap-2" title={`${fmtNis(r.total)} / ${r.seats} מנדטים`}>
+                          <div className="h-3 flex-1 rounded-full bg-paper">
+                            <div className="h-full rounded-full" style={{ width: `${(r.perSeat / maxPerSeat) * 100}%`, backgroundColor: partyColor(r.party) }} />
+                          </div>
+                          <span className="w-20 shrink-0 text-xs font-black tabular-nums">{fmtNis(r.perSeat)}</span>
+                        </div>
+                      ) : (
+                        <span className="text-xs text-ink-faint">אין מנדטים בסקרים</span>
+                      )}
+                    </td>
+                    <td className="py-2.5 pl-4">
+                      <div className="flex items-center gap-2" title={`Polymarket ${(r.prob * 100).toFixed(1)}%`}>
+                        <div className="h-3 flex-1 rounded-full bg-paper">
+                          <div className="h-full rounded-full bg-ink/70" style={{ width: `${Math.max((r.prob / maxProb) * 100, 1)}%` }} />
+                        </div>
+                        <span className="w-20 shrink-0 text-xs font-black tabular-nums">
+                          {(r.prob * 100).toFixed(r.prob < 0.01 ? 2 : 1)}%
+                          {r.kalshi !== null && <span className="font-normal text-ink-faint"> ({Math.round(r.kalshi * 100)}%)</span>}
+                        </span>
+                      </div>
+                    </td>
+                    <td className="py-2.5 text-left text-xs font-black tabular-nums">
+                      {r.prob > 0 ? fmtNis(r.total / (r.prob * 100)) : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 text-xs leading-relaxed text-ink-faint">
+            ״כסף לכל נקודת אחוז״ = הכסף הידוע של הרשימה חלקי הסיכוי (באחוזים) שנותן Polymarket
+            לראש הרשימה. שוק הימורים משקף את ההימורים של משתתפיו, לא תחזית רשמית.
+          </p>
         </div>
       </section>
 

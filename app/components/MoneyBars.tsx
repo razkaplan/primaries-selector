@@ -66,8 +66,8 @@ export default function MoneyBars({
               tabIndex={0}
               aria-label={`${r.label}: ${fmtNis(total)}`}
             >
-              <div className="flex items-center gap-3 text-sm">
-                <span className="w-40 shrink-0 sm:w-52">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm sm:flex-nowrap">
+                <span className="w-full shrink-0 sm:w-52">
                   <span className="flex items-center gap-1.5 truncate font-bold">
                     {r.dot && (
                       <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: r.dot }} />
@@ -93,7 +93,7 @@ export default function MoneyBars({
                 </span>
               </div>
               {open && (
-                <div className="pointer-events-none absolute right-44 top-6 z-20 w-64 rounded-2xl border border-line bg-card p-3 text-xs shadow-lg sm:right-56">
+                <div className="pointer-events-none absolute right-0 top-full z-20 mt-1 w-64 sm:right-56 sm:top-6 sm:mt-0 rounded-2xl border border-line bg-card p-3 text-xs shadow-lg">
                   <div className="mb-1 flex items-baseline justify-between gap-2 font-black text-ink">
                     <span>{r.label}</span>
                     <span className="tabular-nums">{fmtNis(total)}</span>
