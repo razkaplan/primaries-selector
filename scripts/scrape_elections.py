@@ -318,6 +318,9 @@ def parse_date(raw, years):
     iso = f"{year:04d}-{mon:02d}-{int(day or 1):02d}"
     if not yr and iso > TODAY:  # scenario tables mix years without marking them
         iso = f"{year - 1:04d}{iso[4:]}"
+    if iso > TODAY:  # an explicit future date is an upstream typo, not a poll
+        print(f"warning: future poll date {raw!r} -> undated", file=sys.stderr)
+        return None
     return iso
 
 
@@ -551,6 +554,11 @@ def main():
                     rec["source_page"] = key
                 polls.extend(p)
                 events.extend(e)
+    # A poll we can't attribute to a pollster is not published.
+    unattributed = [r for r in polls if not r.get("firm")]
+    if unattributed:
+        print(f"dropped {len(unattributed)} poll rows with no pollster", file=sys.stderr)
+    polls = [r for r in polls if r.get("firm")]
     polls.sort(key=lambda r: r["date"] or "", reverse=True)
     json.dump({"polls": polls, "events": events},
               open(f"{OUT}/polls.json", "w", encoding="utf-8"),

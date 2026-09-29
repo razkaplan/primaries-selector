@@ -42,6 +42,43 @@ const PRINCIPLES = [
   },
 ];
 
+/** Editorial standards. Each line describes a rule the site actually
+ * applies; the ones marked in tests/test_data.py are checked on every change. */
+const EDITORIAL = [
+  {
+    title: "עובדה מול הערכה",
+    body: "ממוצע הסקרים, הרכב הכנסת הצפוי והמימון הצפוי מהמדינה הם חישובים שלנו, ומסומנים ככאלה לצד הנוסחה. כל השאר מובא כפי שפורסם.",
+  },
+  {
+    title: "ייחוס",
+    body: "טענה מיוחסת למי שאמר או פרסם אותה. סקר שלא ניתן לייחס לבית סקר, או ציטוט שמקושר לעמוד כללי ולא לפריט עצמו, לא מתפרסם; בדיקות אוטומטיות אוכפות זאת בכל שינוי.",
+  },
+  {
+    title: "הליכים שלא הסתיימו",
+    body: "החלטה שאינה סופית (למשל פסילה בוועדת הבחירות לפני הכרעת העליון) מוצגת ככזו, עם עמדות הצדדים ועם הבקשות שנדחו. עד להכרעה, הנתונים מוצגים כרגיל.",
+  },
+  {
+    title: "ריבוי מקורות",
+    body: "עדכון חשוב לכל האתר נשען על כמה כלי תקשורת בלתי תלויים, וכל עובדה בו מקושרת בנפרד. נתוני כסף נלקחים ממבקר המדינה, מהחוק או מדיווח שמצטט אותם.",
+  },
+  {
+    title: "אנשים בשמם",
+    body: "אדם פרטי מוזכר בשמו רק כשהופיע בדיווח רשמי או בכתבה מזוהה, ורק בהקשר שבו דווח. כשזהותו לא ודאית, השם לא מופיע. כשמי שהוזכר הגיב בפומבי, התגובה מובאת.",
+  },
+  {
+    title: "שפה ניטרלית",
+    body: "אנחנו מתארים ולא מתייגים: ״ערבים״ ו״תומכים פרטיים״ ולא כינויים טעונים. ערבות או תרומה חוקית אינן רמז לעבירה או למניע.",
+  },
+  {
+    title: "תיקונים בגלוי",
+    body: "כל שינוי בנתונים ובקוד נשמר בהיסטוריה הציבורית של הפרויקט ב-GitHub, כולל תיקוני טעויות.",
+  },
+  {
+    title: "שקיפות בכלים",
+    body: "חלק מאיסוף הנתונים וכתיבת הקוד נעשה בסיוע כלי בינה מלאכותית. לכן כל נתון מקושר למקורו: כדי שכל אחד יוכל לבדוק.",
+  },
+];
+
 export default function AboutPage() {
   const nCandidates = partyLists.reduce((s, p) => s + p.candidates.length, 0);
   return (
@@ -123,6 +160,17 @@ export default function AboutPage() {
             </a>
             .
           </p>
+        </div>
+
+        <div className="rounded-3xl border border-line bg-card p-6 shadow-sm">
+          <h2 className="font-display text-2xl">עקרונות עריכה</h2>
+          <ul className="mt-3 list-disc space-y-2 pr-5 text-sm leading-relaxed text-ink-soft">
+            {EDITORIAL.map((e) => (
+              <li key={e.title}>
+                <b className="text-ink">{e.title}:</b> {e.body}
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div className="rounded-3xl border border-line bg-card p-6 shadow-sm">

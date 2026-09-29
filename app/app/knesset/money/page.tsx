@@ -125,7 +125,7 @@ export default function KnessetMoney() {
         note: out
           ? `ממוצע של ${out.seats} (יוצאת) ו-${s.seats} (סקרים)`
           : PENDING_DISQUALIFICATION.has(s.key)
-            ? `${s.seats} מנדטים · נפסלה בוועדה, ממתינה לבג״ץ`
+            ? `${s.seats} מנדטים · נפסלה בוועדה, ממתינה להכרעת העליון`
             : `${s.seats} מנדטים בסקרים`,
         segments: [{ key: "state", label: "מימון ממלכתי", value: total, color: partyColor(s.key) }],
         details: [
@@ -302,6 +302,8 @@ export default function KnessetMoney() {
             התחייבות לכסות את ההלוואה אם המפלגה לא תיכנס לכנסת. הערבויות הן
             הבסיס שעליו הבנק מלווה, ולכן ההלוואות עצמן לא נספרות כאן פעם
             נוספת. הנה המפלגות החדשות, לפי סוג הכסף שדווח למבקר המדינה.
+            ערבות כזו חוקית ואינה תרומה; היא מוצגת כדי להראות מי נושא בסיכון
+            הכספי של הקמפיין, ואין בהופעת שם כאן כדי לרמוז על מניע או השפעה.
           </p>
           <div className="mt-6">
             <MoneyBars
