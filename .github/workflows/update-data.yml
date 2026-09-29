@@ -39,6 +39,10 @@ jobs:
           python3 scripts/scrape_markets.py
           python3 scripts/build_sources.py
 
+      - name: Data tests
+        # Same suite as checks.yml: never publish unsourced or future-dated data.
+        run: python3 -m unittest discover -s tests
+
       - name: Sanity-check the fresh data
         # A source-site redesign that breaks parsing must fail the run, not
         # silently publish a shrunken dataset. Small legitimate shrinkage

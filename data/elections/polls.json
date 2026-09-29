@@ -2,7 +2,7 @@
  "polls": [
   {
    "date_raw": "Nov 2026",
-   "date": "2026-11-01",
+   "date": null,
    "kind": "other",
    "results": {
     "would_like": 82,
@@ -24819,26 +24819,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "December 2024",
-   "date": "2024-12-01",
-   "kind": "other",
-   "results": {
-    "balad": 61,
-    "hadash_taal": 51,
-    "shas": 57,
-    "labor": 46,
-    "likud": 54,
-    "meretz": 62,
-    "blue_white": 34,
-    "oy_rz": 63,
-    "raam": 65,
-    "utj": 84,
-    "yesh_atid": 28,
-    "yisrael_beiteinu": 52
-   },
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "29 Nov",
    "date": "2024-11-29",
    "kind": "seat_projection",
@@ -25819,26 +25799,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "October 2024",
-   "date": "2024-10-01",
-   "kind": "other",
-   "results": {
-    "balad": 49,
-    "hadash_taal": 54,
-    "shas": 54,
-    "labor": 48,
-    "likud": 50,
-    "meretz": 67,
-    "blue_white": 43,
-    "oy_rz": 60,
-    "raam": 55,
-    "utj": 82,
-    "yesh_atid": 29,
-    "yisrael_beiteinu": 59
-   },
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "30 Sep",
    "date": "2024-09-30",
    "kind": "seat_projection",
@@ -26547,26 +26507,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "September 2024",
-   "date": "2024-09-01",
-   "kind": "other",
-   "results": {
-    "balad": 40,
-    "hadash_taal": 53,
-    "shas": 50,
-    "labor": 47,
-    "likud": 46,
-    "meretz": 71,
-    "blue_white": 45,
-    "oy_rz": 55,
-    "raam": 62,
-    "utj": 79,
-    "yesh_atid": 29,
-    "yisrael_beiteinu": 53
-   },
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "30 Aug",
    "date": "2024-08-30",
    "kind": "seat_projection",
@@ -27088,26 +27028,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "August 2024",
-   "date": "2024-08-01",
-   "kind": "other",
-   "results": {
-    "balad": 29,
-    "hadash_taal": 44.5,
-    "shas": 68,
-    "labor": 51,
-    "likud": 39,
-    "meretz": 74,
-    "blue_white": 48,
-    "oy_rz": 51,
-    "raam": 55,
-    "utj": 71,
-    "yesh_atid": 31,
-    "yisrael_beiteinu": 66.5
-   },
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "31 Jul",
    "date": "2024-07-31",
    "kind": "seat_projection",
@@ -27529,26 +27449,6 @@
    "firm": "Viterbi Center",
    "publisher": "Israel Democracy Institute",
    "gov_bloc": 37.2,
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "July 2024",
-   "date": "2024-07-01",
-   "kind": "other",
-   "results": {
-    "balad": 28,
-    "hadash_taal": 39,
-    "shas": 74,
-    "labor": 45,
-    "likud": 39,
-    "meretz": 66,
-    "blue_white": 48,
-    "oy_rz": 52,
-    "raam": 58,
-    "utj": 69.5,
-    "yesh_atid": 31,
-    "yisrael_beiteinu": 72
-   },
    "source_page": "polls_2026"
   },
   {
@@ -28342,26 +28242,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "June 2024",
-   "date": "2024-06-01",
-   "kind": "other",
-   "results": {
-    "balad": 36,
-    "hadash_taal": 44,
-    "shas": 76,
-    "labor": 37,
-    "likud": 36,
-    "meretz": 60,
-    "blue_white": 58,
-    "oy_rz": 59,
-    "raam": 56,
-    "utj": 72,
-    "yesh_atid": 35.5,
-    "yisrael_beiteinu": 78
-   },
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "29–30 May 24",
    "date": "2024-05-30",
    "kind": "scenario",
@@ -29036,26 +28916,6 @@
    "source_page": "polls_2026"
   },
   {
-   "date_raw": "May 2024",
-   "date": "2024-05-01",
-   "kind": "other",
-   "results": {
-    "balad": 40,
-    "hadash_taal": 54,
-    "shas": 77,
-    "labor": 24,
-    "likud": 37,
-    "meretz": 48,
-    "blue_white": 63,
-    "oy_rz": 56,
-    "raam": 55,
-    "utj": 80,
-    "yesh_atid": 32,
-    "yisrael_beiteinu": 70
-   },
-   "source_page": "polls_2026"
-  },
-  {
    "date_raw": "30 Apr 24",
    "date": "2024-04-30",
    "kind": "scenario",
@@ -29567,26 +29427,6 @@
    "firm": "Viterbi Center",
    "publisher": "Israel Democracy Institute",
    "gov_bloc": 37.4,
-   "source_page": "polls_2026"
-  },
-  {
-   "date_raw": "April 2024",
-   "date": "2024-04-01",
-   "kind": "other",
-   "results": {
-    "balad": 49,
-    "hadash_taal": 59,
-    "shas": 74,
-    "labor": 20,
-    "likud": 38,
-    "meretz": 55,
-    "blue_white": 70,
-    "oy_rz": 63,
-    "raam": 63,
-    "utj": 89,
-    "yesh_atid": 32,
-    "yisrael_beiteinu": 65
-   },
    "source_page": "polls_2026"
   },
   {

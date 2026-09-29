@@ -1,0 +1,47 @@
+{
+ "_comment": "Sitewide notices. Each fact line carries its own sources (as_of + url), per the iron rule in data/media/SCHEMA.md. Set active=false once the matter is resolved, and add the outcome with a source rather than deleting the record.",
+ "notices": [
+  {
+   "id": "cec-disqualifications-2026-09",
+   "active": true,
+   "as_of": "2026-09-29",
+   "headline": "ועדת הבחירות פסלה את רע״מ ואת הרשימה המשותפת. ההכרעה הסופית בידי בית המשפט העליון.",
+   "summary": "עד להכרעה, שתי הרשימות מוצגות באתר כרגיל: בסקרים, בהרכב הכנסת הצפוי ובחשבון הקואליציות.",
+   "facts": [
+    {
+     "text": "ב-23.9 החליטה ועדת הבחירות המרכזית לפסול את רע״מ ואת הרשימה המשותפת, ברוב של 18 מול 5 (נמנע אחד) בכל אחת מההצבעות.",
+     "sources": [
+      {"source_name": "הארץ", "as_of": "2026-09-23", "url": "https://www.haaretz.co.il/news/elections/2026-09-23/ty-article/000001a0-cc88-d52e-a7f4-fe8d624b0000"},
+      {"source_name": "Times of Israel", "as_of": "2026-09-23", "url": "https://www.timesofisrael.com/election-panel-votes-to-bar-balad-chief-abu-shehadeh-over-alleged-support-for-terror/"}
+     ]
+    },
+    {
+     "text": "ההחלטה התקבלה בניגוד לעמדת היועצת המשפטית לממשלה, שלפיה הראיות נגד שתי הרשימות אינן מספיקות לפסילה.",
+     "sources": [
+      {"source_name": "Times of Israel", "as_of": "2026-09-23", "url": "https://www.timesofisrael.com/election-panel-votes-to-bar-balad-chief-abu-shehadeh-over-alleged-support-for-terror/"}
+     ]
+    },
+    {
+     "text": "הוועדה פסלה גם את מועמדותם של ח״כ עופר כסיף (19 מול 5) ושל יו״ר בל״ד סמי אבו שחאדה (31 מול 4). ב-29.9 ביקשה היועמ״שית מהעליון לאשר את פסילת אבו שחאדה.",
+     "sources": [
+      {"source_name": "Times of Israel", "as_of": "2026-09-23", "url": "https://www.timesofisrael.com/election-panel-votes-to-bar-balad-chief-abu-shehadeh-over-alleged-support-for-terror/"},
+      {"source_name": "הארץ", "as_of": "2026-09-29", "url": "https://www.haaretz.co.il/news/elections/2026-09-29/ty-article/000001a0-ebf1-d272-adf6-fff73fde0000"}
+     ]
+    },
+    {
+     "text": "למחרת דחתה הוועדה את הבקשות לפסול את עוצמה יהודית, את הציונות הדתית-זהות ואת הדמוקרטים.",
+     "sources": [
+      {"source_name": "הארץ", "as_of": "2026-09-24", "url": "https://www.haaretz.co.il/news/elections/2026-09-24/ty-article/.premium/000001a0-d1a3-dcb9-a9a4-f1e794ad0000"}
+     ]
+    },
+    {
+     "text": "המפלגות הערביות גינו את ההחלטה. פסילת מועמד טעונה אישור של בית המשפט העליון, ורשימה שנפסלה רשאית לערער אליו.",
+     "sources": [
+      {"source_name": "Al Jazeera", "as_of": "2026-09-24", "url": "https://www.aljazeera.com/news/2026/9/24/israel-moves-to-bar-both-main-arab-lists-from-october-election"},
+      {"source_name": "JTA", "as_of": "2026-09-24", "url": "https://www.jta.org/2026/09/24/israel/israels-election-committee-disqualifies-arab-parties-but-not-far-right-jewish-ones"}
+     ]
+    }
+   ]
+  }
+ ]
+}
