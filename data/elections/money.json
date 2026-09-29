@@ -98,40 +98,29 @@
  "private_financing": [
   {
    "party": "together",
-   "entity_he": "בנט 2026",
-   "category": "bank",
-   "who": "בנק דיסקונט",
-   "role": "הלוואה בנקאית",
+   "entity_he": "בנט 2026 (ביחד)",
+   "category": "backer",
+   "who": "אסף ונד",
+   "role": "מייסד ויו\"ר Hippo",
    "amount_nis": 2000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
   },
   {
    "party": "together",
-   "entity_he": "בנט 2026",
+   "entity_he": "בנט 2026 (ביחד)",
    "category": "self",
    "who": "נפתלי בנט",
    "role": "ערבות אישית של יו\"ר המפלגה",
    "amount_nis": 1000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
   },
   {
    "party": "together",
-   "entity_he": "בנט 2026",
-   "category": "backer",
-   "who": "אסף ונד",
-   "role": "מנכ\"ל חברת הביטוח Hippo",
-   "amount_nis": 2000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
-  },
-  {
-   "party": "together",
-   "entity_he": "בנט 2026",
+   "entity_he": "בנט 2026 (ביחד)",
    "category": "backer",
    "who": "יואב שוהם",
    "role": "ממייסדי AI21 Labs",
@@ -142,69 +131,91 @@
   },
   {
    "party": "together",
-   "entity_he": "בנט 2026",
+   "entity_he": "בנט 2026 (ביחד)",
    "category": "backer",
    "who": "גיל רובינשטיין",
    "role": "יזם נדל\"ן",
    "amount_nis": 1000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
   },
   {
    "party": "together",
-   "entity_he": "בנט 2026",
+   "entity_he": "בנט 2026 (ביחד)",
    "category": "backer",
    "who": "עומר קפלן",
    "role": "יזם הייטק, ממייסדי איירון סורס",
    "amount_nis": 1000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
   },
   {
    "party": "together",
-   "entity_he": "בנט 2026",
+   "entity_he": "בנט 2026 (ביחד)",
    "category": "backer",
    "who": "דונה רז לוי",
    "role": "לשעבר מנהלת קשרי ממשל בגוגל",
    "amount_nis": 1000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
   },
   {
    "party": "together",
-   "entity_he": "בנט 2026",
+   "entity_he": "בנט 2026 (ביחד)",
    "category": "backer",
    "who": "עומר שווילי",
    "role": "מנכ\"ל Investing.com",
    "amount_nis": 1000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
   },
   {
    "party": "together",
-   "entity_he": "בנט 2026",
+   "entity_he": "בנט 2026 (ביחד)",
    "category": "backer",
    "who": "ניר נובק",
-   "role": "מבעלי אלקטרה טרגט, ראש מטה הקמפיין",
+   "role": "מבעלי אלקטרה טרגט, ראש מטה בנט",
    "amount_nis": 1000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
   },
   {
-   "party": "yashar",
-   "entity_he": "ישר!",
-   "category": "bank",
-   "who": "בנק דיסקונט",
-   "role": "הלוואות (ספטמבר 2025 עד אפריל 2026)",
-   "amount_nis": 5100000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "party": "together",
+   "entity_he": "בנט 2026 (ביחד)",
+   "category": "backer",
+   "who": "מרקו טלמון",
+   "role": "ממייסדי ויבר",
+   "amount_nis": 1000000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026 (ביחד)",
+   "category": "backer",
+   "who": "יוסף ניר",
+   "role": "איש עסקים",
+   "amount_nis": 1000000,
+   "as_of": "2026-09-23",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hj6roybczx"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026 (ביחד)",
+   "category": "backer",
+   "who": "סטיבן לוי",
+   "role": "מפקדו לשעבר של בנט",
+   "amount_nis": 500000,
+   "as_of": "2026-09-23",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hj6roybczx"
   },
   {
    "party": "yashar",
@@ -213,9 +224,87 @@
    "who": "מאיר אדסט",
    "role": "ממייסדי סולאראדג'",
    "amount_nis": 1000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "פרנק לואי",
+   "role": "פילנתרופ יהודי-אוסטרלי (Westfield)",
+   "amount_nis": 1000000,
+   "as_of": "2026-06-07",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/sjfazyq11zg",
+   "origin": "אוסטרליה"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "עמירם לוין",
+   "role": "אלוף (מיל')",
+   "amount_nis": 1000000,
+   "as_of": "2026-08-16",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/sjr8rljdgx"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "גדעון ארגוב",
+   "role": "איש עסקים",
+   "amount_nis": 1000000,
+   "as_of": "2026-08-16",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/sjr8rljdgx"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "אלפרד אקירוב",
+   "role": "איש נדל\"ן",
+   "amount_nis": 1000000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "יונתן קולבר",
+   "role": "יו\"ר פנאקסיה",
+   "amount_nis": 1000000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "שמואל חרל\"פ",
+   "role": "יו\"ר כלמוביל",
+   "amount_nis": 986000,
+   "as_of": "2026-06-07",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/sjfazyq11zg"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "אייל דגן",
+   "role": "יזם הייטק",
+   "amount_nis": 670000,
+   "as_of": "2026-08-16",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/sjr8rljdgx"
   },
   {
    "party": "yashar",
@@ -232,6 +321,50 @@
    "party": "yashar",
    "entity_he": "ישר!",
    "category": "backer",
+   "who": "יהל זילכה",
+   "role": "משקיע הון סיכון",
+   "amount_nis": 500000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "חגי שלום",
+   "role": "בעל השליטה בטיב טעם",
+   "amount_nis": 500000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "רוני קצין",
+   "role": "תעשיין",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "הילה רענני",
+   "role": "ערבה",
+   "amount_nis": 500000,
+   "as_of": "2026-02-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bkmwsoo00wg"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
    "who": "ד\"ר רן גושן",
    "role": "ערב",
    "amount_nis": 500000,
@@ -243,41 +376,8 @@
    "party": "yashar",
    "entity_he": "ישר!",
    "category": "backer",
-   "who": "רוני קצין",
-   "role": "איש עסקים",
-   "amount_nis": 500000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
-  },
-  {
-   "party": "yashar",
-   "entity_he": "ישר!",
-   "category": "backer",
    "who": "שירה דוידי",
    "role": "אוצרת",
-   "amount_nis": 500000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
-  },
-  {
-   "party": "yashar",
-   "entity_he": "ישר!",
-   "category": "backer",
-   "who": "חגי שלום",
-   "role": "אלוף (מיל.)",
-   "amount_nis": 500000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
-  },
-  {
-   "party": "yashar",
-   "entity_he": "ישר!",
-   "category": "backer",
-   "who": "ד\"ר הילה רענני",
-   "role": "ערבה",
    "amount_nis": 500000,
    "as_of": "2026-04-19",
    "source_name": "זמן ישראל",
@@ -306,55 +406,155 @@
    "url": "https://www.zman.co.il/680994/"
   },
   {
-   "party": "reserv_nep",
-   "entity_he": "המילואימניקים (הנדל)",
+   "party": "yashar",
+   "entity_he": "ישר!",
    "category": "backer",
-   "who": "אלדד רפפורט",
-   "role": "ערב",
-   "amount_nis": 300000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
-  },
-  {
-   "party": "reserv_nep",
-   "entity_he": "המילואימניקים (הנדל)",
-   "category": "donation",
-   "who": "רוני דואק",
-   "role": "איש עסקים",
-   "amount_nis": 11000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/"
-  }
- ],
- "private_totals": [
-  {
-   "party": "together",
-   "entity_he": "בנט 2026",
-   "total_nis": 10000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/",
-   "quote": "בסך הכול, המפלגה מתנהלת כיום עם תקציב של כ-10 מיליון שקלים"
+   "who": "רונן מנליס",
+   "role": "לשעבר דובר צה\"ל",
+   "amount_nis": 400000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
   },
   {
    "party": "yashar",
    "entity_he": "ישר!",
-   "total_nis": 11000000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/",
-   "quote": "כ-11 מיליון שקלים באמצעות ערבויות והלוואות"
+   "category": "backer",
+   "who": "דוד מידן",
+   "role": "לשעבר בכיר במוסד",
+   "amount_nis": 200000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  },
+  {
+   "party": "amcha_yisrael",
+   "entity_he": "עמך ישראל (וינטר)",
+   "category": "backer",
+   "who": "ברי קליין",
+   "role": "איש עסקים",
+   "amount_nis": 3000000,
+   "as_of": "2026-09-23",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hj6roybczx"
+  },
+  {
+   "party": "amcha_yisrael",
+   "entity_he": "עמך ישראל (וינטר)",
+   "category": "backer",
+   "who": "ג'יי פורמן",
+   "role": "איש עסקים; כלכליסט ושומרים מזהים אותו אחרת",
+   "amount_nis": 2950000,
+   "as_of": "2026-08-29",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bymoptxoze"
+  },
+  {
+   "party": "amcha_yisrael",
+   "entity_he": "עמך ישראל (וינטר)",
+   "category": "self",
+   "who": "אביב וינטר",
+   "role": "בתו של יו\"ר המפלגה",
+   "amount_nis": 150000,
+   "as_of": "2026-08-29",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bymoptxoze"
+  },
+  {
+   "party": "amcha_yisrael",
+   "entity_he": "עמך ישראל (וינטר)",
+   "category": "backer",
+   "who": "אברהם רחמים",
+   "role": "בעלי חברת לוטוס מירושלים",
+   "amount_nis": 125000,
+   "as_of": "2026-08-29",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bymoptxoze"
   },
   {
    "party": "reserv_nep",
    "entity_he": "המילואימניקים (הנדל)",
-   "total_nis": 570000,
-   "as_of": "2026-04-19",
-   "source_name": "זמן ישראל",
-   "url": "https://www.zman.co.il/680994/",
-   "quote": "הצליחה לגייס כ-570 אלף שקלים מסוף דצמבר 2025 ועד היום"
+   "category": "backer",
+   "who": "יונתן הלף",
+   "role": "מבעלי קרן ION",
+   "amount_nis": 462000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  },
+  {
+   "party": "reserv_nep",
+   "entity_he": "המילואימניקים (הנדל)",
+   "category": "backer",
+   "who": "אלדד רפפורט",
+   "role": "לשעבר סגן נשיא באלביט",
+   "amount_nis": 300000,
+   "as_of": "2026-08-20",
+   "source_name": "רוזה מדיה",
+   "url": "https://www.rosamedia.org/episodes/articles/178"
+  }
+ ],
+ "private_totals": [
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "guarantees_nis": 16500000,
+   "guarantees_n": 27,
+   "self_nis": 0,
+   "donations_nis": 2100000,
+   "donations_n": 326,
+   "loans_text": "הלוואות מבנק דיסקונט כנגד הערבויות",
+   "as_of": "2026-09-23",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hj6roybczx",
+   "quote": "גייסה עד כה 27 ערבויות בסכום כולל של 16.5 מיליון שקל ועוד 326 תרומות בסכום כולל של 2.1 מיליון שקל"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026 (ביחד)",
+   "guarantees_nis": 11500000,
+   "guarantees_n": null,
+   "self_nis": 1000000,
+   "donations_nis": 163000,
+   "donations_n": 19,
+   "loans_text": "הלוואות מבנק דיסקונט כנגד הערבויות; בנוסף, רשימת ביחד מקבלת את מקדמת המדינה של יש עתיד (32 מיליון)",
+   "as_of": "2026-09-23",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hj6roybczx",
+   "quote": "סך הערבויות הכולל שלו עומד על 11.5 מיליון שקל",
+   "donations_source": {
+    "as_of": "2026-08-16",
+    "source_name": "כלכליסט",
+    "url": "https://www.calcalist.co.il/local_news/article/sjr8rljdgx"
+   }
+  },
+  {
+   "party": "amcha_yisrael",
+   "entity_he": "עמך ישראל (וינטר)",
+   "guarantees_nis": 6450000,
+   "guarantees_n": null,
+   "self_nis": 150000,
+   "donations_nis": 43000,
+   "donations_n": 3,
+   "loans_text": "חמש הלוואות מבנק מזרחי טפחות, 3.364 מיליון",
+   "as_of": "2026-09-23",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hj6roybczx",
+   "quote": "העניק לו ערבות של 3 מיליון שקל, כך שהגיע ל-6.45 מיליון שקל בסך הכל"
+  },
+  {
+   "party": "reserv_nep",
+   "entity_he": "המילואימניקים (הנדל)",
+   "guarantees_nis": 2000000,
+   "guarantees_n": 11,
+   "self_nis": 0,
+   "donations_nis": 0,
+   "donations_n": null,
+   "loans_text": "",
+   "as_of": "2026-09-23",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hj6roybczx",
+   "quote": "גייסה 11 ערבויות בסכום כולל של 2 מיליון שקל"
   }
  ],
  "named_donors_capped": [
@@ -372,43 +572,343 @@
    "as_of": "2026-04-19",
    "source_name": "זמן ישראל",
    "url": "https://www.zman.co.il/680994/",
-   "quote": "איזנקוט הצליח לגייס תרומות בגובה של עד 14 אלף שקלים (המקסימום המותר בחוק לפרטיים)"
+   "quote": "איזנקוט הצליח לגייס תרומות בגובה של עד 14 אלף שקלים"
+  },
+  {
+   "party": "yashar",
+   "names": [
+    "קלמן שחם (14 אלף ₪)",
+    "יעקב גלברד (10 אלף ₪)",
+    "אברהם ביגר (5,000 ₪)"
+   ],
+   "cap_nis": 14000,
+   "as_of": "2026-06-07",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/sjfazyq11zg",
+   "quote": "קלמן שחם, מייסד ובעלים של בית ההשקעות אלטשולר שחם, תרם 14 אלף שקל"
   }
  ],
  "debts": [
   {
    "party": "likud",
-   "amount_nis": 72000000,
-   "context": "חוב לכנסת מיד אחרי בחירות 2022",
-   "as_of": "2026-09-23",
-   "source_name": "המכון הישראלי לדמוקרטיה",
-   "url": "https://www.idi.org.il/articles/66310"
+   "label": "הליכוד",
+   "amount_nis": 11000000,
+   "context": "אחרי החזר של 27 מיליון בשנה וחצי (ב-2022: כ-72 מיליון)",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
   },
   {
-   "party": "yesh_atid",
-   "amount_nis": 23000000,
-   "context": "חוב לכנסת מיד אחרי בחירות 2022 (היום חלק מביחד)",
-   "as_of": "2026-09-23",
-   "source_name": "המכון הישראלי לדמוקרטיה",
-   "url": "https://www.idi.org.il/articles/66310"
+   "party": "democrats",
+   "label": "מרצ (היום בדמוקרטים)",
+   "amount_nis": 10000000,
+   "context": "חוב שנותר אחרי שלא נבחרה ב-2022",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "together",
+   "label": "צל\"ש / הימין החדש (בנט ושקד)",
+   "amount_nis": 8900000,
+   "context": "חוב שהותירו במפלגה קודמת",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "together",
+   "label": "יש עתיד",
+   "amount_nis": 3600000,
+   "context": "(ב-2022: כ-23 מיליון)",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "reserv_nep",
+   "label": "דרך ארץ (הנדל)",
+   "amount_nis": 2700000,
+   "context": "חוב שהותיר במפלגה קודמת",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "democrats",
+   "label": "העבודה",
+   "amount_nis": 2600000,
+   "context": "",
+   "as_of": "2026-04-26",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/rkhomb96zx"
+  },
+  {
+   "party": "raam",
+   "label": "רע\"ם",
+   "amount_nis": 2000000,
+   "context": "",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "yisrael_beiteinu",
+   "label": "ישראל ביתנו",
+   "amount_nis": 1930000,
+   "context": "",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "utj",
+   "label": "דגל התורה",
+   "amount_nis": 1600000,
+   "context": "",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "utj",
+   "label": "אגודת ישראל",
+   "amount_nis": 1380000,
+   "context": "",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "party": "noam",
+   "label": "נעם",
+   "amount_nis": 1100000,
+   "context": "",
+   "as_of": "2026-04-26",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/rkhomb96zx"
+  },
+  {
+   "party": "otzma_yehudit",
+   "label": "עוצמה יהודית",
+   "amount_nis": 738000,
+   "context": "",
+   "as_of": "2026-04-26",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/rkhomb96zx"
+  },
+  {
+   "party": "joint_list",
+   "label": "בל\"ד",
+   "amount_nis": 267000,
+   "context": "",
+   "as_of": "2026-04-26",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/rkhomb96zx"
   }
  ],
  "advances": [
   {
    "party": "likud",
-   "amount_nis": 47000000,
-   "text": "כמעט 47 מיליון ₪ (80% מיחידת מימון ל-32 ח\"כים)",
-   "as_of": "2026-09-23",
-   "source_name": "המכון הישראלי לדמוקרטיה",
-   "url": "https://www.idi.org.il/articles/66310"
+   "amount_nis": 42800000,
+   "parts": [
+    [
+     "הליכוד (בניכוי חלק מחובות העבר)",
+     37000000
+    ],
+    [
+     "תקווה חדשה (רצה ברשימת הליכוד)",
+     5800000
+    ]
+   ],
+   "text": "37 מיליון לליכוד ועוד 5.8 מיליון לתקווה חדשה, שרצה ברשימה",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "together",
+   "amount_nis": 32000000,
+   "parts": [
+    [
+     "יש עתיד",
+     32000000
+    ]
+   ],
+   "text": "המקדמה של יש עתיד — ביחד מקבלת מקדמה אחת, לפי מנדטי יש עתיד",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
   },
   {
    "party": "shas",
-   "amount_nis": 16000000,
-   "text": "כ-16 מיליון ₪ (8.8 יחידות מימון)",
-   "as_of": "2026-09-23",
-   "source_name": "המכון הישראלי לדמוקרטיה",
-   "url": "https://www.idi.org.il/articles/66310"
+   "amount_nis": 16140000,
+   "parts": [
+    [
+     "ש\"ס",
+     16140000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "rzp",
+   "amount_nis": 10200000,
+   "parts": [
+    [
+     "הציונות הדתית",
+     8800000
+    ],
+    [
+     "עתיד אחר (סטרוק)",
+     1400000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "blue_white",
+   "amount_nis": 9700000,
+   "parts": [
+    [
+     "כחול לבן",
+     9700000
+    ]
+   ],
+   "text": "מקדמה לסיעה מכהנת גם כשהיא מתחת לאחוז החסימה בסקרים",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "otzma_yehudit",
+   "amount_nis": 8300000,
+   "parts": [
+    [
+     "עוצמה יהודית",
+     6900000
+    ],
+    [
+     "א\"י שלנו (קרויזר)",
+     1400000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "joint_list",
+   "amount_nis": 7300000,
+   "parts": [
+    [
+     "חד\"ש",
+     4400000
+    ],
+    [
+     "תע\"ל",
+     2900000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "yisrael_beiteinu",
+   "amount_nis": 7200000,
+   "parts": [
+    [
+     "ישראל ביתנו",
+     7200000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "utj",
+   "amount_nis": 7000000,
+   "parts": [
+    [
+     "אגודת ישראל",
+     3700000
+    ],
+    [
+     "דגל התורה",
+     3300000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "democrats",
+   "amount_nis": 4300000,
+   "parts": [
+    [
+     "העבודה",
+     4300000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "raam",
+   "amount_nis": 4300000,
+   "parts": [
+    [
+     "רע\"ם",
+     4300000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "yashar",
+   "amount_nis": 3670000,
+   "parts": [
+    [
+     "ישר!",
+     3670000
+    ]
+   ],
+   "text": "מפלגה חדשה — כנגד ערבות בנקאית; עשויה לקבל השלמה עד 18.6 מיליון",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
+  },
+  {
+   "party": "noam",
+   "amount_nis": 1400000,
+   "parts": [
+    [
+     "לזוז (אבי מעוז)",
+     1400000
+    ]
+   ],
+   "text": "",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjk900iiffe"
   }
  ],
  "primaries": [
@@ -552,6 +1052,51 @@
    "source_name": "המכון הישראלי לדמוקרטיה",
    "url": "https://www.idi.org.il/articles/65528",
    "quote": "ללא מבקר המדינה, הגוף שאמור לפקח על חוקיות מימון הקמפיינים"
+  }
+ ],
+ "findings": [
+  {
+   "party": "likud",
+   "title": "דוח לא חיובי וקנס של 150,000 ₪",
+   "text": "בחשבונות 2024 נמצא כשל באימות זהות המתפקדים: ב-41% מכרטיסי האשראי שולם עבור יותר ממתפקד אחד. המבקר: \"מצב המעלה חשש לתשלום דמי חבר בידי אחר\".",
+   "as_of": "2026-06-02",
+   "source_name": "מבקר המדינה",
+   "url": "https://www.mevaker.gov.il/newsroom/2026-06-02-elections-report"
+  },
+  {
+   "party": "democrats",
+   "title": "קנס של 75,000 ₪ לסיעת העבודה",
+   "text": "הלוואה אסורה של 1.6 מיליון ₪ דרך תאגיד מפלגתי (בית ארלוזורוב), ומתוכה 750 אלף הועברו לסיעה.",
+   "as_of": "2026-06-02",
+   "source_name": "מבקר המדינה",
+   "url": "https://www.mevaker.gov.il/newsroom/2026-06-02-elections-report"
+  },
+  {
+   "party": "yisrael_beiteinu",
+   "title": "מימון ציבורי לתביעות לשון הרע של היו\"ר",
+   "text": "ישראל ביתנו ועוצמה יהודית מימנו מכספי המימון הממלכתי תביעות לשון הרע אישיות של יושבי הראש; הוכר הפעם כהוצאת תעמולה, בדרישה לנוהל מסודר.",
+   "as_of": "2026-06-02",
+   "source_name": "מבקר המדינה",
+   "url": "https://www.mevaker.gov.il/newsroom/2026-06-02-elections-report"
+  },
+  {
+   "party": "rzp",
+   "title": "מפלגות-משנה שקיבלו מקדמה נפרדת",
+   "text": "ברשימות הציונות הדתית ועוצמה יהודית רצות מפלגות נוספות (עתיד אחר, א\"י שלנו) שקיבלו מקדמה נפרדת של 1.4 מיליון ₪ כל אחת. TheMarker מבקר זאת כ\"כיסוי הוצאות כפול\".",
+   "as_of": "2026-09-10",
+   "source_name": "TheMarker",
+   "url": "https://www.themarker.com/news/politics/2026-09-10/ty-article/.highlight/000001a0-869d-d865-abbd-d7bd76400000"
+  }
+ ],
+ "third_parties": [
+  {
+   "name": "\"החיילים של וינטר\"",
+   "stance": "קבוצה אנונימית שהשקיעה לפחות 150 אלף ₪ במודעות לקידום עופר וינטר (כ-13 מיליון חשיפות); לפי שומרים לא אותר גוף רשום אצל המבקר",
+   "amount_nis": 150000,
+   "funders": "לא ידוע",
+   "as_of": "2026-08-31",
+   "source_name": "שומרים",
+   "url": "https://www.shomrim.news/hebrew/winter-facebook-campaign"
   }
  ]
 }

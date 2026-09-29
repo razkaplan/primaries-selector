@@ -23,10 +23,11 @@ interface Sourced {
 interface PrivateItem extends Sourced {
   party: string;
   entity_he: string;
-  category: "bank" | "self" | "backer" | "donation";
+  category: "self" | "backer" | "donation";
   who: string;
   role: string;
   amount_nis: number;
+  origin?: string;
 }
 interface PrimaryRecord extends Sourced {
   subject: string;
@@ -45,10 +46,20 @@ interface Money {
   headline: Sourced & { state_share_2022_pct: number; income_2022_nis: number; donations_2022_nis: number };
   rules: (Sourced & { title: string; value: string; detail: string })[];
   private_financing: PrivateItem[];
-  private_totals: (Sourced & { party: string; entity_he: string; total_nis: number })[];
+  private_totals: (Sourced & {
+    party: string;
+    entity_he: string;
+    guarantees_nis: number;
+    guarantees_n: number | null;
+    self_nis: number;
+    donations_nis: number;
+    donations_n: number | null;
+    loans_text: string;
+  })[];
   named_donors_capped: (Sourced & { party: string; names: string[]; cap_nis: number })[];
-  debts: (Sourced & { party: string; amount_nis: number; context: string })[];
-  advances: (Sourced & { party: string; amount_nis: number; text: string })[];
+  debts: (Sourced & { party: string; label: string; amount_nis: number; context: string })[];
+  advances: (Sourced & { party: string; amount_nis: number; text: string; parts: [string, number][] })[];
+  findings: (Sourced & { party: string; title: string; text: string })[];
   primaries: PrimaryRecord[];
   primaries_totals: (Sourced & { party: string; total_nis: number; text: string })[];
   primaries_context: (Sourced & { text: string })[];
@@ -58,9 +69,8 @@ interface Money {
 const money = moneyData as unknown as Money;
 
 const CATEGORY = {
-  bank: { label: "הלוואה בנקאית", color: "#5a31f4" },
-  self: { label: "ערבות של ראש המפלגה", color: "#c98600" },
   backer: { label: "ערבויות של תומכים פרטיים", color: "#e8435f" },
+  self: { label: "ערבות של ראש המפלגה או משפחתו", color: "#c98600" },
   donation: { label: "תרומות", color: "#0e9384" },
 } as const;
 
@@ -124,32 +134,40 @@ export default function KnessetMoney() {
             : `${s.seats} יחידות מימון (מנדט = יחידה), ועוד תוספת קבועה לרשימה`,
           ...money.advances
             .filter((a) => a.party === s.key)
-            .map((a) => `מקדמה לפני הבחירות: ${a.text} (${a.source_name})`),
+            .map((a) => `כבר שולם כמקדמה: ${fmtNis(a.amount_nis)}`),
         ],
       };
     })
     .sort((a, b) => b.segments[0].value - a.segments[0].value);
   const publicTotal = publicRows.reduce((s, r) => s + r.segments[0].value, 0);
 
-  // --- private money of the new lists, by kind
-  const entities = [...new Set(money.private_financing.map((p) => p.party))];
-  const privateRows: MoneyRow[] = entities.map((party) => {
-    const items = money.private_financing.filter((p) => p.party === party);
-    const reported = money.private_totals.find((t) => t.party === party);
-    return {
-      key: party,
-      label: items[0].entity_he,
-      dot: partyColor(party),
-      note: reported ? `סה״כ מדווח: ${fmtNis(reported.total_nis)}` : undefined,
-      segments: (Object.keys(CATEGORY) as (keyof typeof CATEGORY)[]).map((c) => ({
-        key: c,
-        label: CATEGORY[c].label,
-        color: CATEGORY[c].color,
-        value: items.filter((i) => i.category === c).reduce((s, i) => s + i.amount_nis, 0),
-      })),
-      details: [`${items.length} פריטים מפורטים בדיווחים למבקר המדינה, כפי שפורסמו`],
-    };
-  });
+  // --- state advances already paid (Calcalist, 15.9.2026)
+  const advanceRows: MoneyRow[] = money.advances
+    .slice()
+    .sort((a, b) => b.amount_nis - a.amount_nis)
+    .map((a) => ({
+      key: a.party,
+      label: partyName(a.party),
+      dot: partyColor(a.party),
+      note: a.parts.length > 1 ? `${a.parts.length} מפלגות ברשימה` : undefined,
+      segments: [{ key: "adv", label: "מקדמה", value: a.amount_nis, color: partyColor(a.party) }],
+      details: [...a.parts.map(([n, v]) => `${n}: ${fmtNis(v)}`), ...(a.text ? [a.text] : [])],
+    }));
+  const advanceTotal = money.advances.reduce((s, a) => s + a.amount_nis, 0);
+
+  // --- private money of the new lists: guarantees (bank loans are drawn against them) + donations
+  const privateRows: MoneyRow[] = money.private_totals.map((t) => ({
+    key: t.party,
+    label: t.entity_he,
+    dot: partyColor(t.party),
+    note: t.guarantees_n ? `${t.guarantees_n} ערבויות${t.donations_n ? ` · ${t.donations_n} תרומות` : ""}` : undefined,
+    segments: [
+      { key: "backer", label: CATEGORY.backer.label, color: CATEGORY.backer.color, value: t.guarantees_nis - t.self_nis },
+      { key: "self", label: CATEGORY.self.label, color: CATEGORY.self.color, value: t.self_nis },
+      { key: "donation", label: CATEGORY.donation.label, color: CATEGORY.donation.color, value: t.donations_nis },
+    ],
+    details: [t.loans_text, `${t.source_name}, ${fmtDate(t.as_of)}`].filter(Boolean),
+  }));
   const guarantors = money.private_financing
     .filter((p) => p.category === "backer" || p.category === "self")
     .sort((a, b) => b.amount_nis - a.amount_nis);
@@ -183,10 +201,10 @@ export default function KnessetMoney() {
     .slice()
     .sort((a, b) => b.amount_nis - a.amount_nis)
     .map((d) => ({
-      key: d.party + d.context,
-      label: partyName(d.party),
+      key: d.label,
+      label: d.label,
       dot: partyColor(d.party),
-      note: d.context,
+      note: d.context || fmtDate(d.as_of),
       segments: [{ key: "debt", label: "חוב", value: d.amount_nis, color: partyColor(d.party) }],
       details: [`${d.source_name}, ${fmtDate(d.as_of)}`],
     }));
@@ -256,6 +274,24 @@ export default function KnessetMoney() {
         </div>
       </section>
 
+      {/* advances already paid */}
+      <section className="mx-auto max-w-5xl px-4 pb-10">
+        <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 className="font-display text-2xl">כבר שולם: המקדמות מהקופה הציבורית</h2>
+            <span className="text-sm text-ink-faint">סה״כ: {fmtNis(advanceTotal)}</span>
+          </div>
+          <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+            סיעות שמכהנות בכנסת מקבלות לפני הבחירות מקדמה על חשבון המימון,
+            לפי גודלן בכנסת היוצאת. זה הכסף שכבר בקופות הקמפיינים. רשימה
+            משותפת מקבלת מקדמה נפרדת לכל מפלגה שבה. <Src s={money.advances[0]} />
+          </p>
+          <div className="mt-6">
+            <MoneyBars rows={advanceRows} />
+          </div>
+        </div>
+      </section>
+
       {/* private money of new lists */}
       <section className="mx-auto max-w-5xl px-4 pb-10">
         <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
@@ -263,8 +299,9 @@ export default function KnessetMoney() {
           <p className="mt-1 text-sm leading-relaxed text-ink-soft">
             מפלגה שלא מכהנת בכנסת מקבלת את המימון הציבורי רק אחרי הבחירות,
             ומותר לה ללוות רק מבנק. לכן היא נשענת על ערבויות אישיות של תומכים —
-            התחייבות לכסות את החוב אם המפלגה לא תיכנס לכנסת. הנה המפלגות
-            החדשות, לפי סוג הכסף שדווח למבקר המדינה.
+            התחייבות לכסות את ההלוואה אם המפלגה לא תיכנס לכנסת. הערבויות הן
+            הבסיס שעליו הבנק מלווה, ולכן ההלוואות עצמן לא נספרות כאן פעם
+            נוספת. הנה המפלגות החדשות, לפי סוג הכסף שדווח למבקר המדינה.
           </p>
           <div className="mt-6">
             <MoneyBars
@@ -273,8 +310,8 @@ export default function KnessetMoney() {
             />
           </div>
           <p className="mt-4 text-xs leading-relaxed text-ink-faint">
-            הפסים מציגים את הפריטים המפורטים שפורסמו; הסכום הכולל המדווח
-            (מתחת לשם) יכול להיות גבוה יותר. פרסום ב
+            הסכומים לפי הדיווח האחרון שפורסם; ביחד נשענת גם על המקדמה של יש
+            עתיד (למעלה). פרסום ב
             <a href="https://www.mevaker.gov.il/state-audit/elections/donations" target="_blank" rel="noopener noreferrer" className="underline">
               מאגר מבקר המדינה
             </a>{" "}
@@ -296,7 +333,14 @@ export default function KnessetMoney() {
               <tbody>
                 {guarantors.map((g) => (
                   <tr key={g.party + g.who} className="border-b border-line/50">
-                    <td className="py-2 font-bold">{g.who}</td>
+                    <td className="py-2 font-bold">
+                      {g.who}
+                      {g.origin && (
+                        <span className="mr-1.5 rounded-full bg-paper px-2 py-0.5 text-[11px] font-bold text-ink-soft">
+                          {g.origin}
+                        </span>
+                      )}
+                    </td>
                     <td className="py-2 text-ink-soft">{g.role}</td>
                     <td className="py-2">
                       <span className="flex items-center gap-1.5">
@@ -311,8 +355,8 @@ export default function KnessetMoney() {
               </tbody>
             </table>
           </div>
-          {money.named_donors_capped.map((d) => (
-            <p key={d.party} className="mt-4 text-sm leading-relaxed text-ink-soft">
+          {money.named_donors_capped.map((d, i) => (
+            <p key={d.party + i} className="mt-4 text-sm leading-relaxed text-ink-soft">
               <b className="text-ink">תרומות בתקרה ({fmtNis(d.cap_nis)}) ל{partyName(d.party)}:</b>{" "}
               {d.names.join(", ")}. <Src s={d} />
             </p>
@@ -414,6 +458,31 @@ export default function KnessetMoney() {
             <div className="mt-6">
               <MoneyBars rows={debtRows} />
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* comptroller findings */}
+      {money.findings.length > 0 && (
+        <section className="mx-auto max-w-5xl px-4 pb-10">
+          <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
+            <h2 className="font-display text-2xl">מה מצא מבקר המדינה</h2>
+            <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+              ממצאים מביקורת חשבונות המפלגות, וביקורת עיתונאית על אופן חלוקת הכסף.
+            </p>
+            <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+              {money.findings.map((f) => (
+                <li key={f.title} className="rounded-2xl border border-line bg-paper/60 p-4 text-sm">
+                  <div className="flex items-center gap-2 text-xs font-bold text-ink-soft">
+                    <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: partyColor(f.party) }} />
+                    {partyName(f.party)}
+                  </div>
+                  <b className="mt-1 block">{f.title}</b>
+                  <p className="mt-1 leading-relaxed text-ink-soft">{f.text}</p>
+                  <div className="mt-1"><Src s={f} /></div>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
       )}
