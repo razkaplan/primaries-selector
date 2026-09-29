@@ -114,6 +114,13 @@ MONTHS = {m: i + 1 for i, m in enumerate(
      "jul", "aug", "sep", "oct", "nov", "dec"])}
 
 
+def _span(v):
+    """Leading integer of a row/colspan attribute; Wikipedia markup errors
+    like colspan="2data-sort-value=" still yield 2, garbage yields 1."""
+    m = re.match(r"\s*(\d+)", v or "")
+    return max(1, int(m.group(1))) if m else 1
+
+
 class PageParser(HTMLParser):
     """Collect (a) every <table> as a rowspan/colspan-expanded grid and
     (b) every top-level <ol> outside tables, each tagged with the nearest
@@ -151,8 +158,8 @@ class PageParser(HTMLParser):
                 self._row = []
             elif tag in ("td", "th") and self._row is not None:
                 self._cell = {"tag": tag, "text": [], "links": [],
-                              "rowspan": int(a.get("rowspan") or 1),
-                              "colspan": int(a.get("colspan") or 1)}
+                              "rowspan": _span(a.get("rowspan")),
+                              "colspan": _span(a.get("colspan"))}
             elif tag == "a" and self._cell is not None and a.get("href"):
                 self._cell["links"].append(a["href"])
             elif tag == "br" and self._cell is not None:
