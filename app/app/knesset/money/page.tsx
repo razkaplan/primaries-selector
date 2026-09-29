@@ -50,6 +50,8 @@ interface Money {
   debts: (Sourced & { party: string; amount_nis: number; context: string })[];
   advances: (Sourced & { party: string; amount_nis: number; text: string })[];
   primaries: PrimaryRecord[];
+  primaries_totals: (Sourced & { party: string; total_nis: number; text: string })[];
+  primaries_context: (Sourced & { text: string })[];
   third_parties?: (Sourced & { name: string; stance: string; amount_nis: number | null; funders: string })[];
 }
 
@@ -152,30 +154,30 @@ export default function KnessetMoney() {
     .filter((p) => p.category === "backer" || p.category === "self")
     .sort((a, b) => b.amount_nis - a.amount_nis);
 
-  // --- primaries (candidate-level donations)
-  const primaryTotals = money.primaries
-    .filter((p) => p.metric === "total_donations" && p.value_nis)
-    .sort((a, b) => (b.value_nis ?? 0) - (a.value_nis ?? 0));
-  const primaryRows: MoneyRow[] = primaryTotals.map((p) => {
-    const foreign = money.primaries.find(
-      (f) => f.subject === p.subject && f.metric === "foreign_share" && f.value_nis,
-    );
-    const abroad = foreign?.value_nis ?? 0;
-    return {
-      key: p.subject,
-      label: p.subject,
-      dot: partyColor(p.party),
-      note: partyName(p.party),
-      segments: foreign
-        ? [
-            { key: "il", label: "מישראל", value: (p.value_nis ?? 0) - abroad, color: "#5a31f4" },
-            { key: "abroad", label: "מחו״ל", value: abroad, color: "#e8435f" },
-          ]
-        : [{ key: "all", label: "תרומות", value: p.value_nis ?? 0, color: partyColor(p.party) }],
-      details: [`${p.source_name}, ${fmtDate(p.as_of)}`],
-    };
-  });
-  const primaryNotes = money.primaries.filter((p) => p.metric !== "total_donations" && p.metric !== "foreign_share");
+  // --- primaries (candidate-level money, by source)
+  const candidates = [...new Set(
+    money.primaries.filter((p) => p.metric === "total_donations" || p.metric === "self_funding").map((p) => p.subject),
+  )];
+  const primaryRows: MoneyRow[] = candidates
+    .map((subject) => {
+      const recs = money.primaries.filter((p) => p.subject === subject);
+      const self = recs.filter((r) => r.metric === "self_funding").reduce((s, r) => s + (r.value_nis ?? 0), 0);
+      const don = recs.filter((r) => r.metric === "total_donations").reduce((s, r) => s + (r.value_nis ?? 0), 0);
+      const first = recs[0];
+      return {
+        key: subject,
+        label: subject,
+        dot: partyColor(first.party),
+        note: partyName(first.party),
+        segments: [
+          { key: "self", label: "מכספו של המועמד", value: self, color: CATEGORY.self.color },
+          { key: "donation", label: "תרומות", value: don, color: CATEGORY.donation.color },
+        ],
+        details: [`${first.source_name}, ${fmtDate(first.as_of)}`],
+      };
+    })
+    .sort((a, b) => b.segments.reduce((s, x) => s + x.value, 0) - a.segments.reduce((s, x) => s + x.value, 0));
+  const primaryNotes = money.primaries.filter((p) => p.metric === "note");
 
   const debtRows: MoneyRow[] = money.debts
     .slice()
@@ -217,8 +219,8 @@ export default function KnessetMoney() {
             <b className="text-ink">השורה התחתונה:</b> בישראל, הכסף הגדול בבחירות הוא כסף ציבורי.
             ב-2022 הכנסות המפלגות היו {fmtNis(h.income_2022_nis)}, ומתוכן רק כ-
             {fmtNis(h.donations_2022_nis)} מתרומות. ההון הפרטי נכנס בעיקר בשלושה
-            פתחים: ערבויות להלוואות של מפלגות חדשות, תרומות למועמדים בפריימריז
-            (שמותר לקבל גם מחו״ל), וגופים חיצוניים שמפעילים קמפיין בעד או נגד.{" "}
+            פתחים: ערבויות להלוואות של מפלגות חדשות, תרומות ומימון עצמי של מועמדים
+            בפריימריז, וגופים חיצוניים שמפעילים קמפיין בעד או נגד.{" "}
             <Src s={h} />
           </div>
         </div>
@@ -319,40 +321,57 @@ export default function KnessetMoney() {
       </section>
 
       {/* primaries */}
-      {(primaryRows.length > 0 || primaryNotes.length > 0) && (
+      {(primaryRows.length > 0 || money.primaries_totals.length > 0) && (
         <section className="mx-auto max-w-5xl px-4 pb-10">
           <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
             <h2 className="font-display text-2xl">תרומות בפריימריז: שם נכנס ההון הפרטי</h2>
             <p className="mt-1 text-sm leading-relaxed text-ink-soft">
-              מועמדים בבחירות מקדימות רשאים לקבל תרומות גדולות יותר מאשר
-              מפלגות — וגם מתורמים בחו״ל. כל תרומה מדווחת למבקר המדינה ומתפרסמת.
+              מועמד בפריימריז רשאי לקבל מתורם יחיד פי חמישה ויותר ממה שמפלגה
+              מכהנת רשאית לקבל, וכל תרומה מדווחת למבקר המדינה ומתפרסמת. בפועל,
+              הסכומים שדווחו ב-2026 קטנים — והמימון העצמי בולט יותר מהתרומות.
             </p>
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {money.primaries_totals.map((t) => (
+                <div key={t.party} className="rounded-2xl border border-line bg-paper/60 p-4">
+                  <div className="flex items-center gap-2 text-sm font-bold">
+                    <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: partyColor(t.party) }} />
+                    {partyName(t.party)}
+                  </div>
+                  <div className="font-display mt-1 text-3xl">{fmtNis(t.total_nis)}</div>
+                  <p className="mt-1 text-xs leading-relaxed text-ink-soft">{t.text}</p>
+                  <div className="mt-1"><Src s={t} /></div>
+                </div>
+              ))}
+            </div>
             {primaryRows.length > 0 && (
-              <div className="mt-6">
-                <MoneyBars
-                  rows={primaryRows}
-                  legend={
-                    primaryRows.some((r) => r.segments.length > 1)
-                      ? [
-                          { label: "מישראל", color: "#5a31f4" },
-                          { label: "מחו״ל", color: "#e8435f" },
-                        ]
-                      : undefined
-                  }
-                />
-              </div>
+              <>
+                <h3 className="font-display mt-8 text-lg">המועמדים שגייסו הכי הרבה (לפי דיווחים שפורסמו)</h3>
+                <div className="mt-4">
+                  <MoneyBars
+                    rows={primaryRows}
+                    legend={[
+                      { label: "מכספו של המועמד", color: CATEGORY.self.color },
+                      { label: "תרומות", color: CATEGORY.donation.color },
+                    ]}
+                  />
+                </div>
+              </>
             )}
             {primaryNotes.length > 0 && (
-              <ul className="mt-6 space-y-2 text-sm leading-relaxed text-ink-soft">
+              <ul className="mt-6 space-y-2 border-t border-line/60 pt-4 text-sm leading-relaxed text-ink-soft">
                 {primaryNotes.map((p, i) => (
                   <li key={i}>
-                    <b className="text-ink">{p.subject}</b>
-                    {p.donor && <> · {p.donor}{p.donor_country ? ` (${p.donor_country})` : ""}</>}: {p.value_text}{" "}
+                    <b className="text-ink">{p.subject}</b> ({partyName(p.party)}): {p.value_text}{" "}
                     <Src s={p} />
                   </li>
                 ))}
               </ul>
             )}
+            <ul className="mt-4 space-y-1.5 text-xs leading-relaxed text-ink-faint">
+              {money.primaries_context.map((c, i) => (
+                <li key={i}>• {c.text} <Src s={c} /></li>
+              ))}
+            </ul>
           </div>
         </section>
       )}

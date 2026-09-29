@@ -411,5 +411,147 @@
    "url": "https://www.idi.org.il/articles/66310"
   }
  ],
- "primaries": []
+ "primaries": [
+  {
+   "subject": "ניר ברקת",
+   "party": "likud",
+   "metric": "self_funding",
+   "value_nis": 730000,
+   "value_text": "כ-730 אלף ₪, כולם מכיסו הפרטי",
+   "donor": null,
+   "donor_country": null,
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "כלל ה\"תרומות\" שדווחו עד כה, בהיקף של כ-730 אלף שקל, הגיעו מכיסו הפרטי"
+  },
+  {
+   "subject": "דין מילוא",
+   "party": "likud",
+   "metric": "total_donations",
+   "value_nis": 85000,
+   "value_text": "85 אלף ₪",
+   "donor": null,
+   "donor_country": null,
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "דין מילוא, שגייס 85 אלף שקל"
+  },
+  {
+   "subject": "דור חרל\"פ",
+   "party": "likud",
+   "metric": "total_donations",
+   "value_nis": 67000,
+   "value_text": "67 אלף ₪",
+   "donor": null,
+   "donor_country": null,
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "דור חרל\"פ, שגייס 67 אלף שקל"
+  },
+  {
+   "subject": "צביאל רובין",
+   "party": "likud",
+   "metric": "total_donations",
+   "value_nis": 50000,
+   "value_text": "50 אלף ₪",
+   "donor": null,
+   "donor_country": null,
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "צביאל רובין (50 אלף שקל)"
+  },
+  {
+   "subject": "ניר ברקת",
+   "party": "likud",
+   "metric": "note",
+   "value_nis": 380000,
+   "value_text": "הסכום שדיווח גבוה כמעט פי 2 מתקרת ההוצאות וההכנסות (380 אלף ₪). במשרד מבקר המדינה אמרו שהנושא ייבדק; בפריימריז הקודמים נקנס ב-50 אלף ₪. ברקת טוען שאינו משתמש בכספי ציבור למימון הקמפיין.",
+   "donor": null,
+   "donor_country": null,
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "הסכום שדיווח עליו למבקר גבוה בפני עצמו מהתקרה המותרת כמעט פי 2"
+  },
+  {
+   "subject": "אפי נווה",
+   "party": "likud",
+   "metric": "note",
+   "value_nis": 13000,
+   "value_text": "בין התורמים: אחיו צביקה נווה (13 אלף ₪), כידן דהרי (12 אלף ₪) ועמרי מנשה (10 אלף ₪)",
+   "donor": null,
+   "donor_country": null,
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "שקיבל תרומה מאחיו צביקה נווה, החוקר הפרטי, בגובה 13 אלף שקל"
+  },
+  {
+   "subject": "משה רדמן אבוטבול ועשרה מתמודדים נוספים",
+   "party": "democrats",
+   "metric": "note",
+   "value_nis": null,
+   "value_text": "לפי הארץ, השתמשו במשאבי עמותה מימי המחאה (פודקאסטים, סרטונים, משרדים) לחשיפה בפריימריז. רדמן: \"כל פעילותי חוקית\".",
+   "donor": null,
+   "donor_country": null,
+   "as_of": "2026-07-03",
+   "source_name": "הארץ",
+   "url": "https://www.haaretz.co.il/news/elections/2026-07-03/ty-article/.premium/0000019f-12eb-d342-a9ff-53ffded10000",
+   "quote": "השתמשו במשאבי עמותה שהקים בזמן המחאה ושהוא חבר ועד בה כדי להגדיל את החשיפה הציבורית שלהם"
+  }
+ ],
+ "primaries_totals": [
+  {
+   "party": "likud",
+   "total_nis": 1300000,
+   "text": "כ-1.3 מיליון ₪ בכל פריימריז הליכוד (כולל המימון העצמי של ברקת)",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "היקף הגיוסים לתרומות עומד על כ-1.3 מיליון שקל במפלגת הליכוד"
+  },
+  {
+   "party": "democrats",
+   "total_nis": 4200000,
+   "text": "כ-4.2 מיליון ₪ בכל פריימריז הדמוקרטים — רוב המתמודדים אינם ח\"כים ולא זכאים להחזר מהמדינה",
+   "as_of": "2026-09-15",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/bjpm1kwtzx",
+   "quote": "במפלגת הדמוקרטים הנתון עומד על כ-4.2 מיליון שקל"
+  }
+ ],
+ "primaries_context": [
+  {
+   "text": "תקרת תרומה מתורם בודד למועמד שאינו ח\"כ: 13,470 ₪. אסור לקבל מתאגידים, בעילום שם, או במזומן מעל 200 ₪.",
+   "as_of": "2026-08-17",
+   "source_name": "גלובס",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001552473",
+   "quote": "רשאי לקבל תרומה מתורם בודד עד לסכום של 13,470 שקלים"
+  },
+  {
+   "text": "ח\"כים מקבלים החזר מהמדינה ואסורים בתרומות (מלבד מעצמם ובני משפחתם); תקרת ההוצאות 380 אלף ₪ בליכוד ו-275 אלף בדמוקרטים.",
+   "as_of": "2026-08-17",
+   "source_name": "גלובס",
+   "url": "https://www.globes.co.il/news/article.aspx?did=1001552473",
+   "quote": "התקרה להוצאות היא 380 אלף שקל. נציין כי בפריימריז במפלגת הדמוקרטים התקרה עמדה על 275 אלף"
+  },
+  {
+   "text": "הפריימריז בליכוד ובדמוקרטים צפויים לעלות לקופה הציבורית כ-11 מיליון ₪.",
+   "as_of": "2026-06-25",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/hjm4ur9fzg",
+   "quote": "יעלו לקופת המדינה כ־11 מיליון שקל"
+  },
+  {
+   "text": "עונת הפריימריז התקיימה בלי מבקר מדינה מכהן — הגוף שאמור לפקח על חוקיות מימון הקמפיינים.",
+   "as_of": "2026-08-06",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/65528",
+   "quote": "ללא מבקר המדינה, הגוף שאמור לפקח על חוקיות מימון הקמפיינים"
+  }
+ ]
 }
