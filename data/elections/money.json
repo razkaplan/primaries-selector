@@ -43,7 +43,8 @@
   "as_of": "2026-09-23",
   "source_name": "המכון הישראלי לדמוקרטיה",
   "url": "https://www.idi.org.il/articles/66310",
-  "quote": "בבחירות 2022, לפי דוחות מבקר המדינה, כ-99.7%(!) מההכנסות הגיעו מהמדינה: הכנסות המפלגות הסתכמו ב-207 מיליון ₪, מתוכן למעלה מ-206 מיליון ממימון ממלכתי, כ-250 אלף מתרומות"
+  "quote": "בבחירות 2022, לפי דוחות מבקר המדינה, כ-99.7%(!) מההכנסות הגיעו מהמדינה: הכנסות המפלגות הסתכמו ב-207 מיליון ₪, מתוכן למעלה מ-206 מיליון ממימון ממלכתי, כ-250 אלף מתרומות",
+  "scope_note": "הכנסות בחירות בלבד; דמי חבר ומימון שוטף אינם כלולים"
  },
  "rules": [
   {
@@ -1129,6 +1130,117 @@
    "date_precision": "month",
    "source_name": "Israel National News",
    "url": "https://www.israelnationalnews.com/news/432982"
+  }
+ ],
+ "member_income": [
+  {
+   "party": "democrats",
+   "metric": "members",
+   "value": 112376,
+   "as_of": "2026-07-14",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/live/703839/",
+   "text": "112,376 מתפקדים בסגירת פנקס הבוחרים לפריימריז"
+  },
+  {
+   "party": "democrats",
+   "metric": "dues_nis",
+   "value": 98,
+   "value_low": 72,
+   "as_of": "2025-01-15",
+   "source_name": "הדמוקרטים",
+   "url": "https://democrats.org.il/%D7%94%D7%A2%D7%9C%D7%90%D7%AA-%D7%93%D7%9E%D7%99-%D7%94%D7%97%D7%91%D7%A8-1-1-2025/",
+   "text": "דמי חבר שנתיים: 98 ₪ (72 ₪ לצעירים עד 25 ולגמלאים)"
+  },
+  {
+   "party": "democrats",
+   "metric": "primary_candidates",
+   "value": 51,
+   "as_of": "2026-07-14",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/live/703839/",
+   "text": "51 מתמודדים בפריימריז"
+  },
+  {
+   "party": "democrats",
+   "metric": "primary_fee_nis",
+   "value": 10000,
+   "as_of": "2026-06-17",
+   "source_name": "הדמוקרטים",
+   "url": "https://democrats.org.il/%d7%a9%d7%90%d7%9c%d7%95%d7%aa-%d7%95%d7%aa%d7%a9%d7%95%d7%91%d7%95%d7%aa-%d7%9c%d7%9e%d7%95%d7%a2%d7%9e%d7%93%d7%99%d7%9d-%d7%9c%d7%a7%d7%a8%d7%90%d7%aa-%d7%94%d7%a4%d7%a8%d7%99%d7%99%d7%9e%d7%a8/",
+   "text": "דמי השתתפות של 10,000 ₪ לכל מתמודד, לחשבון מפלגת העבודה"
+  },
+  {
+   "party": "likud",
+   "metric": "members",
+   "value": 140000,
+   "approx": true,
+   "as_of": "2026-08-17",
+   "source_name": "ynet",
+   "url": "https://www.ynet.co.il/news/article/hkrjbildml",
+   "text": "כ-140 אלף מתפקדים"
+  },
+  {
+   "party": "likud",
+   "metric": "dues_nis",
+   "value": 78,
+   "value_low": 58.5,
+   "as_of": "2026-02-10",
+   "source_name": "הליכוד",
+   "url": "https://www.likud.org.il/%D7%A2%D7%9C-%D7%94%D7%9C%D7%99%D7%9B%D7%95%D7%93/%D7%94%D7%95%D7%93%D7%A2%D7%95%D7%AA-%D7%94%D7%9C%D7%99%D7%9B%D7%95%D7%93/subscription-fee",
+   "text": "דמי חבר שנתיים מ-1.3.2026: 78 ₪ ליחיד, 117 ₪ לזוג (58.5 ₪ לאדם)"
+  },
+  {
+   "party": "likud",
+   "metric": "primary_candidates",
+   "value": 124,
+   "as_of": "2026-08-01",
+   "date_precision": "month",
+   "source_name": "ynet",
+   "url": "https://www.ynet.co.il/news/article/rywlnujizx",
+   "text": "124 מתמודדים בפריימריז (79 לרשימה הארצית, 45 במחוזות)"
+  },
+  {
+   "party": "likud",
+   "metric": "primary_fee_nis",
+   "value": 10000,
+   "as_of": "2026-07-09",
+   "source_name": "ערוץ 14",
+   "url": "https://www.c14.co.il/article/1614762",
+   "text": "דמי התמודדות של 10,000 ₪, אחרי שהדרישה ל-20,000 ₪ תוקנה לתקרה החוקית"
+  }
+ ],
+ "member_income_context": [
+  {
+   "text": "דמי החבר הם הכנסה שוטפת ושנתית של המפלגה, לא הכנסת בחירות, אבל \"אלה עדיין מיליוני שקלים שיכולים לממן גם את הקמפיין\".",
+   "as_of": "2026-07-21",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/705410/"
+  },
+  {
+   "text": "נתון ה-99.7% מתייחס להכנסות הבחירות בלבד. דמי חבר נספרים בנפרד, כהכנסה שוטפת שאינה קשורה לבחירות.",
+   "as_of": "2026-09-23",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/66310"
+  },
+  {
+   "text": "כל סיעה מכהנת מקבלת גם מימון שוטף: מדי חודש 6% מיחידת מימון לכל מנדט ועוד 6% מיחידה אחת, לאורך כל הקדנציה.",
+   "as_of": "2026-07-19",
+   "source_name": "חוק מימון מפלגות, סעיף 3",
+   "url": "https://www.nevo.co.il/law_html/law00/72482.htm"
+  },
+  {
+   "text": "לפי יחידת המימון הקודמת, המימון השוטף עמד על כ-98 אלף ₪ לחבר כנסת בחודש.",
+   "as_of": "2026-04-26",
+   "source_name": "כלכליסט",
+   "url": "https://www.calcalist.co.il/local_news/article/rkhomb96zx"
+  },
+  {
+   "text": "דמי ההתמודדות בבחירות פנימיות מוגבלים בחוק ל-10,000 ₪; מפלגה שחורגת צפויה לקנס של 513 אלף ₪.",
+   "as_of": "2026-07-01",
+   "date_precision": "month",
+   "source_name": "ynet",
+   "url": "https://www.ynet.co.il/news/article/b1tdwbt7ml"
   }
  ]
 }

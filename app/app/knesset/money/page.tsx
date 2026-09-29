@@ -3,6 +3,7 @@ import KnessetNav from "@/components/KnessetNav";
 import KnessetFooter from "@/components/KnessetFooter";
 import ShareBar from "@/components/ShareBar";
 import MoneyBars, { type MoneyRow } from "@/components/MoneyBars";
+import MoneyFocus from "@/components/MoneyFocus";
 import { fmtNis } from "@/lib/money";
 import { partyColor, partyName, roundSeats, seatAverages, seatPolls } from "@/lib/elections";
 import moneyData from "@/data/elections/money.json";
@@ -46,7 +47,7 @@ interface Money {
   funding_unit: Sourced & { per_seat_nis: number; per_list_nis: number; new_party_advance_nis: number };
   formula: Sourced & { new_list: string; incumbent: string; joint_list: string };
   outgoing_seats: Record<string, Sourced & { seats: number }>;
-  headline: Sourced & { state_share_2022_pct: number; income_2022_nis: number; donations_2022_nis: number };
+  headline: Sourced & { state_share_2022_pct: number; income_2022_nis: number; donations_2022_nis: number; scope_note: string };
   rules: (Sourced & { title: string; value: string; detail: string })[];
   private_financing: PrivateItem[];
   private_totals: (Sourced & {
@@ -66,6 +67,8 @@ interface Money {
   primaries: PrimaryRecord[];
   primaries_totals: (Sourced & { party: string; total_nis: number; text: string })[];
   primaries_context: (Sourced & { text: string })[];
+  member_income: (Sourced & { party: string; metric: string; value: number; value_low?: number; approx?: boolean; text: string })[];
+  member_income_context: (Sourced & { text: string })[];
   spotlights: (Sourced & { party: string; title: string; text: string; amount_nis: number | null })[];
   third_parties?: (Sourced & { name: string; stance: string; amount_nis: number | null; funders: string })[];
 }
@@ -77,6 +80,7 @@ const CATEGORY = {
   backer: { label: "ערבויות של תומכים פרטיים", color: "#e8435f" },
   self: { label: "ערבות של ראש המפלגה או משפחתו", color: "#c98600" },
   donation: { label: "תרומות", color: "#0e9384" },
+  members: { label: "מחברי המפלגה: דמי חבר ודמי התמודדות (הערכה)", color: "#8a6fd1" },
 } as const;
 
 /** Prediction-market outcomes (PM candidates) mapped to the list each one heads. */
@@ -218,6 +222,7 @@ export default function KnessetMoney() {
       const first = recs[0];
       return {
         key: subject,
+        party: first.party,
         label: subject,
         dot: partyColor(first.party),
         note: partyName(first.party),
@@ -236,6 +241,7 @@ export default function KnessetMoney() {
     .sort((a, b) => b.amount_nis - a.amount_nis)
     .map((d) => ({
       key: d.label,
+      party: d.party,
       label: d.label,
       dot: partyColor(d.party),
       note: d.context || fmtDate(d.as_of),
@@ -255,8 +261,26 @@ export default function KnessetMoney() {
       donation: t?.donations_nis ?? 0,
     };
   };
+  /** Annual income from members, as a range: members x (reduced .. full) dues,
+   * plus primary candidates x fee. Our arithmetic on sourced inputs. */
+  const memberIncome = (party: string) => {
+    const f = (m: string) => money.member_income.find((x) => x.party === party && x.metric === m);
+    const members = f("members");
+    const dues = f("dues_nis");
+    if (!members || !dues) return null;
+    const fees = (f("primary_candidates")?.value ?? 0) * (f("primary_fee_nis")?.value ?? 0);
+    return {
+      low: members.value * (dues.value_low ?? dues.value) + fees,
+      high: members.value * dues.value + fees,
+      fees,
+      facts: money.member_income.filter((x) => x.party === party),
+    };
+  };
+  const memberParties = [...new Set(money.member_income.map((x) => x.party))];
   const moneyParties = [...new Set([...money.advances.map((a) => a.party), ...money.private_totals.map((t) => t.party)])];
   const totalOf = (party: string) => Object.values(moneyOf(party)).reduce((a, b) => a + b, 0);
+  /** reported money plus the low end of the member-income estimate */
+  const grandTotal = (party: string) => totalOf(party) + (memberIncome(party)?.low ?? 0);
   const cpsRows: MoneyRow[] = moneyParties
     .filter((party) => (seatOf.get(party) ?? 0) > 0)
     .map((party) => {
@@ -266,14 +290,25 @@ export default function KnessetMoney() {
         key: party,
         label: partyName(party),
         dot: partyColor(party),
-        note: `${fmtNis(totalOf(party))} ל-${n} מנדטים`,
-        segments: (Object.keys(m) as (keyof typeof m)[]).map((k) => ({
-          key: k,
-          label: CATEGORY[k].label,
-          color: CATEGORY[k].color,
-          value: m[k] / n,
-        })),
-        details: [`סה״כ כסף ידוע: ${fmtNis(totalOf(party))}`, `${n} מנדטים בממוצע הסקרים`],
+        note: `${fmtNis(grandTotal(party))} ל-${n} מנדטים`,
+        segments: [
+          ...(Object.keys(m) as (keyof typeof m)[]).map((k) => ({
+            key: k,
+            label: CATEGORY[k].label,
+            color: CATEGORY[k].color,
+            value: m[k] / n,
+          })),
+          ...(memberIncome(party)
+            ? [{ key: "members", label: CATEGORY.members.label, color: CATEGORY.members.color, value: memberIncome(party)!.low / n, pattern: true }]
+            : []),
+        ],
+        details: [
+          `סה״כ כסף ידוע: ${fmtNis(totalOf(party))}`,
+          ...(memberIncome(party)
+            ? [`ועוד מחברי המפלגה: ${fmtNis(memberIncome(party)!.low)} עד ${fmtNis(memberIncome(party)!.high)} בשנה (הערכה)`]
+            : []),
+          `${n} מנדטים בממוצע הסקרים`,
+        ],
       };
     })
     .sort((a, b) => b.segments.reduce((s, x) => s + x.value, 0) - a.segments.reduce((s, x) => s + x.value, 0));
@@ -294,8 +329,8 @@ export default function KnessetMoney() {
         leader: o.name_he,
         prob: o.prob,
         kalshi: kalshi?.outcomes.find((k) => k.name === o.name)?.prob ?? null,
-        total: totalOf(party),
-        perSeat: n > 0 ? totalOf(party) / n : null,
+        total: grandTotal(party),
+        perSeat: n > 0 ? grandTotal(party) / n : null,
         seats: n,
       };
     })
@@ -304,6 +339,22 @@ export default function KnessetMoney() {
   const maxProb = Math.max(...marketRows.map((r) => r.prob), 0.01);
 
   const h = money.headline;
+  const focusParties = [...new Set([...publicRows.map((r) => r.key), ...moneyParties])].map((k) => ({
+    key: k,
+    label: partyName(k),
+    color: partyColor(k),
+  }));
+  const SECTIONS = [
+    { id: "public", label: "הקופה הציבורית" },
+    { id: "advances", label: "מקדמות" },
+    { id: "private", label: "כסף פרטי" },
+    { id: "per-seat", label: "עלות למנדט" },
+    { id: "members", label: "דמי חבר" },
+    { id: "primaries", label: "פריימריז" },
+    { id: "debts", label: "חובות" },
+    { id: "findings", label: "מבקר המדינה" },
+    { id: "rules", label: "כללי המשחק" },
+  ];
 
   return (
     <main className="min-h-screen">
@@ -325,21 +376,25 @@ export default function KnessetMoney() {
         <div className="anim-rise mt-8 grid gap-4 sm:grid-cols-3">
           <div className="rounded-3xl border border-line bg-card p-6 text-center shadow-sm sm:col-span-1">
             <div className="font-display text-5xl text-brand">{h.state_share_2022_pct}%</div>
-            <div className="mt-2 text-sm font-bold text-ink-soft">מהכנסות המפלגות ב-2022 הגיעו מהמדינה</div>
+            <div className="mt-2 text-sm font-bold text-ink-soft">מהכנסות הבחירות של המפלגות ב-2022 הגיעו מהמדינה</div>
+            <div className="mt-1 text-[11px] text-ink-faint">{h.scope_note}</div>
           </div>
           <div className="rounded-3xl border border-line bg-card p-6 text-sm leading-relaxed text-ink-soft shadow-sm sm:col-span-2">
             <b className="text-ink">השורה התחתונה:</b> בישראל, הכסף הגדול בבחירות הוא כסף ציבורי.
-            ב-2022 הכנסות המפלגות היו {fmtNis(h.income_2022_nis)}, ומתוכן רק כ-
+            ב-2022 הכנסות הבחירות של המפלגות היו {fmtNis(h.income_2022_nis)}, ומתוכן רק כ-
             {fmtNis(h.donations_2022_nis)} מתרומות. ההון הפרטי נכנס בעיקר בשלושה
             פתחים: ערבויות להלוואות של מפלגות חדשות, תרומות ומימון עצמי של מועמדים
             בפריימריז, וגופים חיצוניים שמפעילים קמפיין בעד או נגד.{" "}
             <Src s={h} />
           </div>
         </div>
+        <div className="mt-6">
+          <MoneyFocus sections={SECTIONS} parties={focusParties} />
+        </div>
       </section>
 
       {/* public money */}
-      <section className="mx-auto max-w-5xl px-4 pb-10">
+      <section id="public" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
         <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
           <div className="flex flex-wrap items-baseline justify-between gap-2">
             <h2 className="font-display text-2xl">הקופה הציבורית: כמה תקבל כל רשימה</h2>
@@ -369,7 +424,7 @@ export default function KnessetMoney() {
       </section>
 
       {/* advances already paid */}
-      <section className="mx-auto max-w-5xl px-4 pb-10">
+      <section id="advances" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
         <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
           <div className="flex flex-wrap items-baseline justify-between gap-2">
             <h2 className="font-display text-2xl">כבר שולם: המקדמות מהקופה הציבורית</h2>
@@ -391,7 +446,7 @@ export default function KnessetMoney() {
               </div>
               <ul className="mt-2 space-y-2 leading-relaxed text-ink-soft">
                 {money.spotlights.map((sp) => (
-                  <li key={sp.url}>
+                  <li key={sp.url} data-party={sp.party}>
                     {sp.title !== money.spotlights[0].title && <b className="text-ink">{sp.title}: </b>}
                     {sp.text} <Src s={sp} />
                   </li>
@@ -403,7 +458,7 @@ export default function KnessetMoney() {
       </section>
 
       {/* private money of new lists */}
-      <section className="mx-auto max-w-5xl px-4 pb-10">
+      <section id="private" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
         <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
           <h2 className="font-display text-2xl">הכסף הפרטי: איך רצה מפלגה חדשה בלי מימון</h2>
           <p className="mt-1 text-sm leading-relaxed text-ink-soft">
@@ -444,7 +499,7 @@ export default function KnessetMoney() {
               </thead>
               <tbody>
                 {guarantors.map((g) => (
-                  <tr key={g.party + g.who} className="border-b border-line/50">
+                  <tr key={g.party + g.who} data-party={g.party} className="border-b border-line/50">
                     <td className="py-2 font-bold">
                       {g.who}
                       {g.origin && (
@@ -468,7 +523,7 @@ export default function KnessetMoney() {
             </table>
           </div>
           {money.named_donors_capped.map((d, i) => (
-            <p key={d.party + i} className="mt-4 text-sm leading-relaxed text-ink-soft">
+            <p key={d.party + i} data-party={d.party} className="mt-4 text-sm leading-relaxed text-ink-soft">
               <b className="text-ink">תרומות בתקרה ({fmtNis(d.cap_nis)}) ל{partyName(d.party)}:</b>{" "}
               {d.names.join(", ")}. <Src s={d} />
             </p>
@@ -477,19 +532,23 @@ export default function KnessetMoney() {
       </section>
 
       {/* total cost per seat */}
-      <section className="mx-auto max-w-5xl px-4 pb-10">
+      <section id="per-seat" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
         <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
           <h2 className="font-display text-2xl">כמה עולה מנדט?</h2>
           <p className="mt-1 text-sm leading-relaxed text-ink-soft">
             כל הכסף הידוע של כל רשימה לקמפיין (מקדמה מהמדינה, ערבויות ותרומות
             שדווחו) מחולק במספר המנדטים שלה בממוצע הסקרים. זו הערכה: היא לא
             כוללת מימון שוטף, יתרות מהעבר או הוצאות שעוד לא דווחו, והיא משתנה
-            עם כל סקר.
+            עם כל סקר. לליכוד ולדמוקרטים נוספה בפסים הערכה של ההכנסה מחברי
+            המפלגה (<a href="#members" className="underline hover:text-brand">פירוט למטה</a>).
           </p>
           <div className="mt-6">
             <MoneyBars
               rows={cpsRows}
-              legend={[CATEGORY.state, CATEGORY.backer, CATEGORY.self, CATEGORY.donation].map((c) => ({ label: c.label, color: c.color }))}
+              legend={[
+                ...[CATEGORY.state, CATEGORY.backer, CATEGORY.self, CATEGORY.donation].map((c) => ({ label: c.label, color: c.color })),
+                { label: CATEGORY.members.label, color: CATEGORY.members.color, pattern: true },
+              ]}
             />
           </div>
           {noSeatMoney.length > 0 && (
@@ -497,7 +556,7 @@ export default function KnessetMoney() {
               <h3 className="font-bold">כסף בלי מנדטים בסקרים</h3>
               <ul className="mt-2 flex flex-wrap gap-2 text-sm">
                 {noSeatMoney.map((party) => (
-                  <li key={party} className="flex items-center gap-1.5 rounded-full border border-line bg-paper/60 px-3 py-1">
+                  <li key={party} data-party={party} className="flex items-center gap-1.5 rounded-full border border-line bg-paper/60 px-3 py-1">
                     <span className="h-2 w-2 rounded-full" style={{ backgroundColor: partyColor(party) }} />
                     <b>{partyName(party)}</b>
                     <span className="tabular-nums text-ink-soft">{fmtNis(totalOf(party))}</span>
@@ -537,7 +596,7 @@ export default function KnessetMoney() {
               </thead>
               <tbody>
                 {marketRows.map((r) => (
-                  <tr key={r.party} className="border-b border-line/50">
+                  <tr key={r.party} data-party={r.party} className="border-b border-line/50">
                     <td className="py-2.5">
                       <span className="flex items-center gap-1.5 font-bold">
                         <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: partyColor(r.party) }} />
@@ -577,15 +636,61 @@ export default function KnessetMoney() {
             </table>
           </div>
           <p className="mt-3 text-xs leading-relaxed text-ink-faint">
-            ״כסף לכל נקודת אחוז״ = הכסף הידוע של הרשימה חלקי הסיכוי (באחוזים) שנותן Polymarket
+            ״כסף לכל נקודת אחוז״ = הכסף הידוע של הרשימה (כולל הערכת ההכנסה מחברי המפלגה, היכן שפורסמה) חלקי הסיכוי (באחוזים) שנותן Polymarket
             לראש הרשימה. שוק הימורים משקף את ההימורים של משתתפיו, לא תחזית רשמית.
           </p>
         </div>
       </section>
 
+      {/* members: dues and primary fees */}
+      <section id="members" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
+        <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
+          <h2 className="font-display text-2xl">גם מחברי המפלגה: דמי חבר ודמי התמודדות</h2>
+          <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+            מפלגות עם מתפקדים גובות דמי חבר שנתיים, ומתמודדים בפריימריז משלמים
+            דמי התמודדות. זו הכנסה שוטפת של המפלגה ולא כסף שמיועד לבחירות, אבל
+            היא יכולה לממן גם קמפיין. הסכומים כאן הם הערכה שלנו (מספר החברים ×
+            דמי החבר, ועוד המתמודדים × דמי ההתמודדות) על בסיס נתונים שפורסמו;
+            הטווח נובע מהנחות מופחתות שלא ידוע כמה חברים קיבלו. בתרשים העלות
+            למנדט היא מסומנת בפסים, לפי הקצה הנמוך.
+          </p>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            {memberParties.map((party) => {
+              const mi = memberIncome(party);
+              if (!mi) return null;
+              return (
+                <div key={party} data-party={party} className="rounded-2xl border border-line bg-paper/60 p-4">
+                  <div className="flex items-center gap-2 text-sm font-bold">
+                    <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: partyColor(party) }} />
+                    {partyName(party)}
+                  </div>
+                  <div className="font-display mt-1 text-3xl">
+                    {fmtNis(mi.low)} – {fmtNis(mi.high)}
+                  </div>
+                  <div className="text-xs text-ink-faint">בשנה, הערכה · מתוכם דמי התמודדות: {fmtNis(mi.fees)}</div>
+                  <ul className="mt-3 space-y-1.5 text-xs leading-relaxed text-ink-soft">
+                    {mi.facts.map((f) => (
+                      <li key={f.metric}>
+                        • {f.text} <Src s={f} />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+          <ul className="mt-5 space-y-1.5 text-xs leading-relaxed text-ink-faint">
+            {money.member_income_context.map((c, i) => (
+              <li key={i}>• {c.text} <Src s={c} /></li>
+            ))}
+            <li>• נתוני חברות ודמי חבר פורסמו רק לליכוד ולדמוקרטים, ולכן רק הן מופיעות כאן.</li>
+          </ul>
+        </div>
+      </section>
+
       {/* primaries */}
       {(primaryRows.length > 0 || money.primaries_totals.length > 0) && (
-        <section className="mx-auto max-w-5xl px-4 pb-10">
+        <section id="primaries" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
           <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
             <h2 className="font-display text-2xl">תרומות בפריימריז: שם נכנס ההון הפרטי</h2>
             <p className="mt-1 text-sm leading-relaxed text-ink-soft">
@@ -595,7 +700,7 @@ export default function KnessetMoney() {
             </p>
             <div className="mt-5 grid gap-3 sm:grid-cols-2">
               {money.primaries_totals.map((t) => (
-                <div key={t.party} className="rounded-2xl border border-line bg-paper/60 p-4">
+                <div key={t.party} data-party={t.party} className="rounded-2xl border border-line bg-paper/60 p-4">
                   <div className="flex items-center gap-2 text-sm font-bold">
                     <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: partyColor(t.party) }} />
                     {partyName(t.party)}
@@ -623,7 +728,7 @@ export default function KnessetMoney() {
             {primaryNotes.length > 0 && (
               <ul className="mt-6 space-y-2 border-t border-line/60 pt-4 text-sm leading-relaxed text-ink-soft">
                 {primaryNotes.map((p, i) => (
-                  <li key={i}>
+                  <li key={i} data-party={p.party}>
                     <b className="text-ink">{p.subject}</b> ({partyName(p.party)}): {p.value_text}{" "}
                     <Src s={p} />
                   </li>
@@ -641,7 +746,7 @@ export default function KnessetMoney() {
 
       {/* third parties */}
       {money.third_parties && money.third_parties.length > 0 && (
-        <section className="mx-auto max-w-5xl px-4 pb-10">
+        <section id="third-parties" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
           <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
             <h2 className="font-display text-2xl">הגופים שמסביב: קמפיינים שלא של המפלגות</h2>
             <p className="mt-1 text-sm leading-relaxed text-ink-soft">
@@ -666,7 +771,7 @@ export default function KnessetMoney() {
 
       {/* debts */}
       {debtRows.length > 0 && (
-        <section className="mx-auto max-w-5xl px-4 pb-10">
+        <section id="debts" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
           <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
             <h2 className="font-display text-2xl">החובות: מי נכנס לבחירות במינוס</h2>
             <p className="mt-1 text-sm leading-relaxed text-ink-soft">
@@ -683,7 +788,7 @@ export default function KnessetMoney() {
 
       {/* comptroller findings */}
       {money.findings.length > 0 && (
-        <section className="mx-auto max-w-5xl px-4 pb-10">
+        <section id="findings" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
           <div className="rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
             <h2 className="font-display text-2xl">מה מצא מבקר המדינה</h2>
             <p className="mt-1 text-sm leading-relaxed text-ink-soft">
@@ -691,7 +796,7 @@ export default function KnessetMoney() {
             </p>
             <ul className="mt-5 grid gap-3 sm:grid-cols-2">
               {money.findings.map((f) => (
-                <li key={f.title} className="rounded-2xl border border-line bg-paper/60 p-4 text-sm">
+                <li key={f.title} data-party={f.party} className="rounded-2xl border border-line bg-paper/60 p-4 text-sm">
                   <div className="flex items-center gap-2 text-xs font-bold text-ink-soft">
                     <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: partyColor(f.party) }} />
                     {partyName(f.party)}
@@ -707,7 +812,7 @@ export default function KnessetMoney() {
       )}
 
       {/* rules */}
-      <section className="mx-auto max-w-5xl px-4 pb-10">
+      <section id="rules" className="mx-auto max-w-5xl scroll-mt-24 px-4 pb-10">
         <h2 className="font-display mb-4 text-2xl">כללי המשחק</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {money.rules.map((r) => (
