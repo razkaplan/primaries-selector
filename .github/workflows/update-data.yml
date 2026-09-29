@@ -98,8 +98,10 @@ jobs:
             || echo "::warning::PR left open awaiting branch-policy requirements"
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      # A manual run always deploys, so merged code changes can ship
+      # even when the scrapers find no new data.
       - name: Deploy to Vercel
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: team_Dum8ScuX0pc87iqUkTVHKM1z
