@@ -28,7 +28,7 @@ def main():
     n = 0
     for key in ("rules", "private_financing", "private_totals", "named_donors_capped",
                 "debts", "advances", "primaries", "third_parties",
-                "primaries_totals", "primaries_context", "findings", "spotlights"):
+                "primaries_totals", "primaries_context", "findings", "spotlights", "member_income", "member_income_context"):
         for i, rec in enumerate(data.get(key, [])):
             check(rec, f"{key}[{i}]")
             n += 1

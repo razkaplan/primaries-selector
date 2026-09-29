@@ -8,11 +8,15 @@ export interface MoneySegment {
   label: string;
   value: number;
   color: string;
+  /** diagonal stripes: marks an estimate rather than a reported figure */
+  pattern?: boolean;
 }
 
 export interface MoneyRow {
   key: string;
   label: string;
+  /** party key, for the page's focus filter (defaults to key) */
+  party?: string;
   /** identity dot shown beside the label (party color) */
   dot?: string;
   /** stacked segments; a single segment renders a plain bar */
@@ -32,7 +36,7 @@ export default function MoneyBars({
   max,
 }: {
   rows: MoneyRow[];
-  legend?: { label: string; color: string }[];
+  legend?: { label: string; color: string; pattern?: boolean }[];
   max?: number;
 }) {
   const [hover, setHover] = useState<string | null>(null);
@@ -44,7 +48,14 @@ export default function MoneyBars({
         <ul className="mb-4 flex flex-wrap gap-x-5 gap-y-1.5 text-xs font-bold text-ink-soft">
           {legend.map((l) => (
             <li key={l.label} className="flex items-center gap-1.5">
-              <span className="h-2.5 w-2.5 rounded-sm" style={{ backgroundColor: l.color }} />
+              <span
+                className="h-2.5 w-2.5 rounded-sm"
+                style={{
+                  background: l.pattern
+                    ? `repeating-linear-gradient(135deg, ${l.color} 0 2px, color-mix(in srgb, ${l.color} 45%, white) 2px 4px)`
+                    : l.color,
+                }}
+              />
               {l.label}
             </li>
           ))}
@@ -57,6 +68,7 @@ export default function MoneyBars({
           return (
             <div
               key={r.key}
+              data-party={r.party ?? r.key}
               className={`anim-rise relative ${open ? "z-30" : "z-0"}`}
               style={{ "--rise-delay": `${i * 45}ms` } as React.CSSProperties}
               onPointerEnter={() => setHover(r.key)}
@@ -83,7 +95,12 @@ export default function MoneyBars({
                         <div
                           key={s.key}
                           className="anim-grow-x h-full first:rounded-r-full last:rounded-l-full"
-                          style={{ width: `${(s.value / scale) * 100}%`, backgroundColor: s.color }}
+                          style={{
+                            width: `${(s.value / scale) * 100}%`,
+                            background: s.pattern
+                              ? `repeating-linear-gradient(135deg, ${s.color} 0 5px, color-mix(in srgb, ${s.color} 45%, white) 5px 8px)`
+                              : s.color,
+                          }}
                         />
                       ),
                   )}
@@ -102,7 +119,14 @@ export default function MoneyBars({
                     r.segments.map((s) => (
                       <div key={s.key} className="flex items-center justify-between gap-2 py-0.5">
                         <span className="flex items-center gap-1.5 text-ink-soft">
-                          <span className="h-2 w-2 rounded-sm" style={{ backgroundColor: s.color }} />
+                          <span
+                            className="h-2 w-2 rounded-sm"
+                            style={{
+                              background: s.pattern
+                                ? `repeating-linear-gradient(135deg, ${s.color} 0 2px, color-mix(in srgb, ${s.color} 45%, white) 2px 3px)`
+                                : s.color,
+                            }}
+                          />
                           {s.label}
                         </span>
                         <b className="tabular-nums text-ink">{fmtNis(s.value)}</b>
