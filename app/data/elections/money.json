@@ -1098,5 +1098,37 @@
    "source_name": "שומרים",
    "url": "https://www.shomrim.news/hebrew/winter-facebook-campaign"
   }
+ ],
+ "spotlights": [
+  {
+   "party": "blue_white",
+   "title": "כחול לבן: כסף מהכנסת הקודמת",
+   "amount_nis": 17250000,
+   "text": "לפי ישראל היום, עומד לרשות כחול לבן תקציב של 17.25 מיליון ₪ לפי חוק מימון מפלגות, פרי הישגה של הסיעה בבחירות הקודמות, גם כשבסקרים היא מתחת לאחוז החסימה. הכתבה לא מפרטת ממה מורכב הסכום; מקדמת הבחירות לבדה, לפי כלכליסט, היא 9.7 מיליון ₪ (בגרף למעלה).",
+   "as_of": "2026-09-01",
+   "date_precision": "month",
+   "source_name": "ישראל היום",
+   "url": "https://www.israelhayom.co.il/news/politics/article/21385536"
+  },
+  {
+   "party": "blue_white",
+   "title": "הביקורת",
+   "amount_nis": null,
+   "text": "ח״כ יוליה מלינובסקי (ישראל ביתנו) טענה שגנץ מוציא כ-15 מיליון ₪ מכספי הציבור על פרסום, בלי סיכוי לעבור את אחוז החסימה.",
+   "as_of": "2026-09-01",
+   "date_precision": "month",
+   "source_name": "סרוגים",
+   "url": "https://www.srugim.co.il/101010770-%D7%94%D7%97%D7%9B%D7%99%D7%AA-%D7%9E%D7%94%D7%90%D7%95%D7%A4%D7%95%D7%96%D7%99%D7%A6%D7%99%D7%94-%D7%A0%D7%92%D7%93-%D7%92%D7%A0%D7%A5-%D7%9E%D7%91%D7%96%D7%91%D7%96-%D7%90%D7%AA-%D7%9B%D7%A1%D7%A4%D7%9D"
+  },
+  {
+   "party": "blue_white",
+   "title": "תגובת כחול לבן",
+   "amount_nis": null,
+   "text": "כחול לבן השיבה שהיא מתכוונת להקים ממשלה ציונית רחבה ולומר לציבור את האמת, ותקפה את ישראל ביתנו.",
+   "as_of": "2026-09-01",
+   "date_precision": "month",
+   "source_name": "Israel National News",
+   "url": "https://www.israelnationalnews.com/news/432982"
+  }
  ]
 }
