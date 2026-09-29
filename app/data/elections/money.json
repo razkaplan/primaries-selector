@@ -1,0 +1,415 @@
+{
+ "_comment": "Curated money-in-politics dataset for /knesset/money. Every record carries as_of + url (corpus iron rule). Comptroller registry (statements.mevaker.gov.il) is the primary source; where it is unreachable, records cite press reports that quote it. Build: scripts/build_money.py mirrors this file to app/data/elections/.",
+ "updated": "2026-09-29",
+ "funding_unit": {
+  "per_seat_nis": 1835000,
+  "per_list_nis": 2569000,
+  "per_seat_previous_nis": 1638000,
+  "new_party_advance_nis": 18300000,
+  "as_of": "2026-06-29",
+  "source_name": "כלכליסט",
+  "url": "https://www.calcalist.co.il/local_news/article/b1x96mxqze",
+  "quote": "הגדלת יחידת מימון הבחירות לכל ח\"כ מ-1.638 מיליון שקל ל-1.835 מיליון שקל ... הגדלת יחידת המימון הקבועה לכל רשימה ... ל-2.569 מיליון שקל"
+ },
+ "formula": {
+  "new_list": "יחידת מימון לכל מנדט שבו זכתה + 1.4 יחידות מימון",
+  "incumbent": "ממוצע בין מנדטי הסיעה בכנסת היוצאת למנדטים שבהם זכתה + 1.4 יחידות מימון",
+  "joint_list": "מחושב לכל מפלגה ברשימה המשותפת בנפרד; תוספת 1.4 היחידות משולמת פעם אחת",
+  "as_of": "2026-07-19",
+  "source_name": "חוק מימון מפלגות, סעיף 3 (נוסח עדכני, נבו)",
+  "url": "https://www.nevo.co.il/law_html/law00/72482.htm"
+ },
+ "outgoing_seats": {
+  "likud": {
+   "seats": 32,
+   "as_of": "2026-09-23",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/66310",
+   "quote": "הליכוד מיוצגת בכנסת הנוכחית ע\"י 32 ח\"כים"
+  },
+  "shas": {
+   "seats": 11,
+   "as_of": "2026-09-23",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/66310",
+   "quote": "ש\"ס מיוצגת ע\"י 11 ח\"כים"
+  }
+ },
+ "headline": {
+  "state_share_2022_pct": 99.7,
+  "income_2022_nis": 207000000,
+  "state_2022_nis": 206000000,
+  "donations_2022_nis": 250000,
+  "as_of": "2026-09-23",
+  "source_name": "המכון הישראלי לדמוקרטיה",
+  "url": "https://www.idi.org.il/articles/66310",
+  "quote": "בבחירות 2022, לפי דוחות מבקר המדינה, כ-99.7%(!) מההכנסות הגיעו מהמדינה: הכנסות המפלגות הסתכמו ב-207 מיליון ₪, מתוכן למעלה מ-206 מיליון ממימון ממלכתי, כ-250 אלף מתרומות"
+ },
+ "rules": [
+  {
+   "title": "תקרת תרומה למפלגה מכהנת",
+   "value": "2,800 ₪",
+   "detail": "לאדם ובני ביתו, בשנת בחירות; 1,100 ₪ בשנה רגילה.",
+   "url": "https://www.nevo.co.il/law_html/law00/72482.htm",
+   "as_of": "2026-07-19",
+   "source_name": "חוק מימון מפלגות, סעיף 8"
+  },
+  {
+   "title": "תקרת תרומה למפלגה חדשה",
+   "value": "14,000 ₪",
+   "detail": "מפלגה שאינה מיוצגת בכנסת רשאית לקבל פי חמישה.",
+   "url": "https://www.nevo.co.il/law_html/law00/72482.htm",
+   "as_of": "2026-07-19",
+   "source_name": "חוק מימון מפלגות, סעיף 8(ג1)"
+  },
+  {
+   "title": "בלי תאגידים ובלי תורמים זרים",
+   "value": "אסור",
+   "detail": "אסור לקבל תרומה מתאגיד, מתורם אנונימי או במזומן; תרומות רק מבוחרים.",
+   "url": "https://www.nevo.co.il/law_html/law00/72482.htm",
+   "as_of": "2026-07-19",
+   "source_name": "חוק מימון מפלגות, סעיף 8"
+  },
+  {
+   "title": "הלוואות למפלגה חדשה",
+   "value": "רק מבנק",
+   "detail": "מפלגה שאינה מיוצגת בכנסת רשאית לקבל הלוואה רק מתאגיד בנקאי — ולכן היא נשענת על ערבויות פרטיות.",
+   "url": "https://www.nevo.co.il/law_html/law00/72482.htm",
+   "as_of": "2026-07-19",
+   "source_name": "חוק מימון מפלגות, סעיף 7א"
+  },
+  {
+   "title": "תקרת הוצאות בחירות",
+   "value": "70 יחידות",
+   "detail": "כ-128 מיליון ₪ לרשימה, ופחות לסיעות קטנות.",
+   "url": "https://www.nevo.co.il/law_html/law00/72482.htm",
+   "as_of": "2026-07-19",
+   "source_name": "חוק מימון מפלגות, סעיף 7"
+  },
+  {
+   "title": "גוף פעיל בבחירות",
+   "value": "מעל 120,400 ₪",
+   "detail": "ארגון שמוציא יותר על קמפיין בעד או נגד רשימה חייב להירשם אצל מבקר המדינה.",
+   "url": "https://www.nevo.co.il/law_html/law00/72482.htm",
+   "as_of": "2026-07-19",
+   "source_name": "חוק מימון מפלגות, סעיף 10ג"
+  }
+ ],
+ "private_financing": [
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "bank",
+   "who": "בנק דיסקונט",
+   "role": "הלוואה בנקאית",
+   "amount_nis": 2000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "self",
+   "who": "נפתלי בנט",
+   "role": "ערבות אישית של יו\"ר המפלגה",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "backer",
+   "who": "אסף ונד",
+   "role": "מנכ\"ל חברת הביטוח Hippo",
+   "amount_nis": 2000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "backer",
+   "who": "יואב שוהם",
+   "role": "ממייסדי AI21 Labs",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "backer",
+   "who": "גיל רובינשטיין",
+   "role": "יזם נדל\"ן",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "backer",
+   "who": "עומר קפלן",
+   "role": "יזם הייטק, ממייסדי איירון סורס",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "backer",
+   "who": "דונה רז לוי",
+   "role": "לשעבר מנהלת קשרי ממשל בגוגל",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "backer",
+   "who": "עומר שווילי",
+   "role": "מנכ\"ל Investing.com",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "category": "backer",
+   "who": "ניר נובק",
+   "role": "מבעלי אלקטרה טרגט, ראש מטה הקמפיין",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "bank",
+   "who": "בנק דיסקונט",
+   "role": "הלוואות (ספטמבר 2025 עד אפריל 2026)",
+   "amount_nis": 5100000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "מאיר אדסט",
+   "role": "ממייסדי סולאראדג'",
+   "amount_nis": 1000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "מריוס נכט",
+   "role": "ממייסדי צ'ק פוינט",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "ד\"ר רן גושן",
+   "role": "ערב",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "רוני קצין",
+   "role": "איש עסקים",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "שירה דוידי",
+   "role": "אוצרת",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "חגי שלום",
+   "role": "אלוף (מיל.)",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "ד\"ר הילה רענני",
+   "role": "ערבה",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "ירון גזית",
+   "role": "איש עסקים",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "category": "backer",
+   "who": "זוהר גילון",
+   "role": "מהאבות המייסדים של ההייטק הישראלי",
+   "amount_nis": 500000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "reserv_nep",
+   "entity_he": "המילואימניקים (הנדל)",
+   "category": "backer",
+   "who": "אלדד רפפורט",
+   "role": "ערב",
+   "amount_nis": 300000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  },
+  {
+   "party": "reserv_nep",
+   "entity_he": "המילואימניקים (הנדל)",
+   "category": "donation",
+   "who": "רוני דואק",
+   "role": "איש עסקים",
+   "amount_nis": 11000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/"
+  }
+ ],
+ "private_totals": [
+  {
+   "party": "together",
+   "entity_he": "בנט 2026",
+   "total_nis": 10000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/",
+   "quote": "בסך הכול, המפלגה מתנהלת כיום עם תקציב של כ-10 מיליון שקלים"
+  },
+  {
+   "party": "yashar",
+   "entity_he": "ישר!",
+   "total_nis": 11000000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/",
+   "quote": "כ-11 מיליון שקלים באמצעות ערבויות והלוואות"
+  },
+  {
+   "party": "reserv_nep",
+   "entity_he": "המילואימניקים (הנדל)",
+   "total_nis": 570000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/",
+   "quote": "הצליחה לגייס כ-570 אלף שקלים מסוף דצמבר 2025 ועד היום"
+  }
+ ],
+ "named_donors_capped": [
+  {
+   "party": "yashar",
+   "names": [
+    "איל ולדמן",
+    "צבי סטפק",
+    "משה קפלינסקי",
+    "טל ברנוח",
+    "טל רוסו",
+    "רונן מנליס"
+   ],
+   "cap_nis": 14000,
+   "as_of": "2026-04-19",
+   "source_name": "זמן ישראל",
+   "url": "https://www.zman.co.il/680994/",
+   "quote": "איזנקוט הצליח לגייס תרומות בגובה של עד 14 אלף שקלים (המקסימום המותר בחוק לפרטיים)"
+  }
+ ],
+ "debts": [
+  {
+   "party": "likud",
+   "amount_nis": 72000000,
+   "context": "חוב לכנסת מיד אחרי בחירות 2022",
+   "as_of": "2026-09-23",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/66310"
+  },
+  {
+   "party": "yesh_atid",
+   "amount_nis": 23000000,
+   "context": "חוב לכנסת מיד אחרי בחירות 2022 (היום חלק מביחד)",
+   "as_of": "2026-09-23",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/66310"
+  }
+ ],
+ "advances": [
+  {
+   "party": "likud",
+   "amount_nis": 47000000,
+   "text": "כמעט 47 מיליון ₪ (80% מיחידת מימון ל-32 ח\"כים)",
+   "as_of": "2026-09-23",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/66310"
+  },
+  {
+   "party": "shas",
+   "amount_nis": 16000000,
+   "text": "כ-16 מיליון ₪ (8.8 יחידות מימון)",
+   "as_of": "2026-09-23",
+   "source_name": "המכון הישראלי לדמוקרטיה",
+   "url": "https://www.idi.org.il/articles/66310"
+  }
+ ],
+ "primaries": []
+}
