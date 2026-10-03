@@ -1,18 +1,223 @@
 {
  "polls": [
   {
-   "date_raw": "Nov 2026",
-   "date": null,
-   "kind": "other",
+   "date_raw": "1 Oct",
+   "date": "2026-10-01",
+   "kind": "seat_projection",
    "results": {
-    "would_like": 82,
-    "would_dislike": null,
-    "undecided": 7,
-    "two_lists": 9,
-    "three_lists": 2
+    "likud": 28,
+    "together": 9,
+    "rzp": 5,
+    "otzma_yehudit": 8,
+    "blue_white": null,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 8,
+    "democrats": 9,
+    "yashar": 22,
+    "reserv_nep": 0,
+    "amcha_yisrael": 4,
+    "haredi_public": null
    },
-   "firm": "Stat-Net Research Institute",
-   "publisher": "–",
+   "firm": "Direct Polls",
+   "publisher": "i24 News",
+   "sample": 504,
+   "below_threshold_pct": {
+    "reserv_nep": 1.81
+   },
+   "others": null,
+   "gov_bloc": 56,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "30 Sep – 1 Oct",
+   "date": "2026-10-01",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 21,
+    "together": 10,
+    "rzp": 5,
+    "otzma_yehudit": 6,
+    "blue_white": 0,
+    "shas": 9,
+    "utj": 8,
+    "yisrael_beiteinu": 10,
+    "raam": 5,
+    "joint_list": 8,
+    "democrats": 8,
+    "yashar": 21,
+    "reserv_nep": 5,
+    "amcha_yisrael": 4,
+    "haredi_public": null
+   },
+   "firm": "Yossi Tatika",
+   "publisher": "Zman Yisrael",
+   "sample": 500,
+   "below_threshold_pct": {
+    "blue_white": 1.4
+   },
+   "others": null,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "30 Sep – 1 Oct",
+   "date": "2026-10-01",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 19,
+    "together": 13,
+    "rzp": 5,
+    "otzma_yehudit": 9,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 7,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 10,
+    "yashar": 21,
+    "reserv_nep": 4,
+    "amcha_yisrael": 4,
+    "haredi_public": 0
+   },
+   "firm": "LRI+P4A",
+   "publisher": "Maariv",
+   "sample": 602,
+   "below_threshold_pct": {
+    "blue_white": 0.7,
+    "haredi_public": 0.6
+   },
+   "others": 0.7,
+   "gov_bloc": 47,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "30 Sep",
+   "date": "2026-09-30",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 19,
+    "together": 11,
+    "rzp": 7,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 7,
+    "utj": 8,
+    "yisrael_beiteinu": 9,
+    "raam": 5,
+    "joint_list": 9,
+    "democrats": 11,
+    "yashar": 21,
+    "reserv_nep": 0,
+    "amcha_yisrael": 5,
+    "haredi_public": 0
+   },
+   "firm": "MP+TM+SN+A",
+   "publisher": "Channel 13",
+   "sample": 1013,
+   "below_threshold_pct": {
+    "blue_white": 0.9,
+    "reserv_nep": 2.5,
+    "haredi_public": 1.3
+   },
+   "others": null,
+   "gov_bloc": 49,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "29 Sep",
+   "date": "2026-09-29",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 19,
+    "together": 14,
+    "rzp": 6,
+    "otzma_yehudit": 8,
+    "blue_white": 0,
+    "shas": 8,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 21,
+    "reserv_nep": 4,
+    "amcha_yisrael": 5,
+    "haredi_public": 0
+   },
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "sample": 550,
+   "below_threshold_pct": {
+    "blue_white": 0.4,
+    "haredi_public": 0.6
+   },
+   "others": 0.8,
+   "gov_bloc": 48,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "29 Sep",
+   "date": "2026-09-29",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 41,
+    "eisenkot": 46,
+    "neither": 13,
+    "undecided": null
+   },
+   "firm": "Maagar Mochot",
+   "publisher": "Channel 16",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "28 Sep",
+   "date": "2026-09-28",
+   "kind": "seat_projection",
+   "results": {
+    "likud": 31,
+    "together": 9,
+    "rzp": 7,
+    "otzma_yehudit": 7,
+    "blue_white": 0,
+    "shas": 10,
+    "utj": 8,
+    "yisrael_beiteinu": 6,
+    "raam": 5,
+    "joint_list": 7,
+    "democrats": 9,
+    "yashar": 21,
+    "reserv_nep": 0,
+    "amcha_yisrael": 0,
+    "haredi_public": 0
+   },
+   "firm": "SF+ND",
+   "publisher": "Channel 14",
+   "sample": 573,
+   "below_threshold_pct": {
+    "blue_white": 0.6,
+    "reserv_nep": 2.1,
+    "amcha_yisrael": 1.6,
+    "haredi_public": 0.2
+   },
+   "others": 0.2,
+   "gov_bloc": 63,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "28 Sep 26",
+   "date": "2026-09-28",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 54,
+    "eisenkot": 46,
+    "neither": null
+   },
+   "firm": "SF+ND",
+   "publisher": "Channel 14",
    "source_page": "polls_2026"
   },
   {
@@ -45,6 +250,32 @@
    },
    "others": 3.25,
    "gov_bloc": 48,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Sep 26",
+   "date": "2026-09-27",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 39,
+    "eisenkot": 38,
+    "neither": 26
+   },
+   "firm": "Kantar",
+   "publisher": "Kan 11",
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Sep 26",
+   "date": "2026-09-27",
+   "kind": "preferred_pm",
+   "results": {
+    "netanyahu": 42,
+    "bennett": 33,
+    "neither": 25
+   },
+   "firm": "Kantar",
+   "publisher": "Kan 11",
    "source_page": "polls_2026"
   },
   {
@@ -36298,6 +36529,21 @@
    "firm": "2022 election result (estimation)",
    "publisher": "2022 election result (estimation)",
    "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "Nov 2026",
+   "date": null,
+   "kind": "other",
+   "results": {
+    "would_like": 82,
+    "would_dislike": null,
+    "undecided": 7,
+    "two_lists": 9,
+    "three_lists": 2
+   },
+   "firm": "Stat-Net Research Institute",
+   "publisher": "–",
+   "source_page": "polls_2026"
   }
  ],
  "events": [
@@ -36307,9 +36553,14 @@
    "event": "Deadline for submission of surplus-vote agreements to the Central Elections Committee"
   },
   {
-   "date_raw": "4 Oct",
-   "date": "2025-10-04",
-   "event": "Deadline for the Supreme Court's decisions regarding list and candidate disqualification"
+   "date_raw": "2 Oct",
+   "date": "2026-10-02",
+   "event": "The Supreme Court overturns the decision to disqualify Joint List, Ra'am and Ofer Cassif"
+  },
+  {
+   "date_raw": "2 Oct",
+   "date": "2026-10-02",
+   "event": "Sami Abu Shehadeh submits his withdrawal to the Central Elections Committee after being advised to do so by the Supreme Court"
   },
   {
    "date_raw": "24 Sep",
