@@ -1,128 +1,128 @@
 {
- "fetched_at": "2026-09-29T09:00Z",
+ "fetched_at": "2026-10-10T12:40Z",
  "markets": [
   {
    "platform": "polymarket",
    "id": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
    "question_en": "Prime Minister of Israel after the next election?",
    "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-   "volume_usd": 39811529,
-   "end_date": "2026-10-27",
+   "volume_usd": 44776506,
+   "end_date": "2026-10-28",
    "currency": "USD",
    "outcomes": [
     {
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
-     "prob": 0.501,
-     "volume_usd": 2461632
+     "prob": 0.416,
+     "volume_usd": 2803594
     },
     {
      "name": "Benjamin Netanyahu",
      "name_he": "בנימין נתניהו",
-     "prob": 0.295,
-     "volume_usd": 4637330
+     "prob": 0.345,
+     "volume_usd": 6559613
     },
     {
      "name": "Naftali Bennett",
      "name_he": "נפתלי בנט",
-     "prob": 0.125,
-     "volume_usd": 3323295
+     "prob": 0.105,
+     "volume_usd": 3609626
     },
     {
      "name": "Avigdor Lieberman",
      "name_he": "אביגדור ליברמן",
-     "prob": 0.0265,
-     "volume_usd": 2827145
-    },
-    {
-     "name": "Ofer Winter",
-     "name_he": "עופר וינטר",
-     "prob": 0.0145,
-     "volume_usd": 292136
+     "prob": 0.023,
+     "volume_usd": 3180000
     },
     {
      "name": "Itamar Ben Gvir",
      "name_he": "איתמר בן גביר",
-     "prob": 0.0055,
-     "volume_usd": 1593561
+     "prob": 0.009,
+     "volume_usd": 1690115
     },
     {
-     "name": "Yossi Cohen",
-     "name_he": "יוסי כהן",
-     "prob": 0.0025,
-     "volume_usd": 2864938
-    },
-    {
-     "name": "Yair Golan",
-     "name_he": "יאיר גולן",
-     "prob": 0.0025,
-     "volume_usd": 2385735
-    },
-    {
-     "name": "Yoaz Hendel",
-     "name_he": "יועז הנדל",
-     "prob": 0.0025,
-     "volume_usd": 1659442
-    },
-    {
-     "name": "Amir Ohana",
-     "name_he": "אמיר אוחנה",
-     "prob": 0.002,
-     "volume_usd": 2574519
-    },
-    {
-     "name": "Benny Gantz",
-     "name_he": "בני גנץ",
-     "prob": 0.0015,
-     "volume_usd": 2250625
+     "name": "Ofer Winter",
+     "name_he": "עופר וינטר",
+     "prob": 0.0075,
+     "volume_usd": 414532
     },
     {
      "name": "Yair Lapid",
      "name_he": "יאיר לפיד",
-     "prob": 0.0005,
-     "volume_usd": 1613952
+     "prob": 0.0015,
+     "volume_usd": 1902566
+    },
+    {
+     "name": "Yossi Cohen",
+     "name_he": "יוסי כהן",
+     "prob": 0.0015,
+     "volume_usd": 3304032
+    },
+    {
+     "name": "Yair Golan",
+     "name_he": "יאיר גולן",
+     "prob": 0.0015,
+     "volume_usd": 2602175
+    },
+    {
+     "name": "Benny Gantz",
+     "name_he": "בני גנץ",
+     "prob": 0.001,
+     "volume_usd": 2286556
     },
     {
      "name": "Gideon Sa’ar",
      "name_he": "גדעון סער",
-     "prob": 0.0005,
-     "volume_usd": 2301708
+     "prob": 0.001,
+     "volume_usd": 2359414
     },
     {
      "name": "Yariv Levin",
      "name_he": "יריב לוין",
-     "prob": 0.0005,
-     "volume_usd": 1924910
+     "prob": 0.001,
+     "volume_usd": 1969550
     },
     {
      "name": "Moshe Feiglin",
      "name_he": "משה פייגלין",
-     "prob": 0.0005,
-     "volume_usd": 1937286
+     "prob": 0.001,
+     "volume_usd": 2161939
+    },
+    {
+     "name": "Yoaz Hendel",
+     "name_he": "יועז הנדל",
+     "prob": 0.001,
+     "volume_usd": 1699343
+    },
+    {
+     "name": "Israel Katz",
+     "name_he": "ישראל כץ",
+     "prob": 0.001,
+     "volume_usd": 955076
+    },
+    {
+     "name": "Amir Ohana",
+     "name_he": "אמיר אוחנה",
+     "prob": 0.001,
+     "volume_usd": 2616200
     },
     {
      "name": "Ayelet Shaked",
      "name_he": "איילת שקד",
      "prob": 0.0005,
-     "volume_usd": 1989104
-    },
-    {
-     "name": "Israel Katz",
-     "name_he": "ישראל כץ",
-     "prob": 0.0005,
-     "volume_usd": 844482
+     "volume_usd": 2063289
     },
     {
      "name": "Nir Barkat",
      "name_he": "ניר ברקת",
      "prob": 0.0005,
-     "volume_usd": 1581727
+     "volume_usd": 1774864
     },
     {
      "name": "Gilad Erdan",
      "name_he": "Gilad Erdan",
      "prob": 0.0005,
-     "volume_usd": 748003
+     "volume_usd": 824021
     }
    ]
   },
@@ -131,33 +131,27 @@
    "id": "KXISRAELPM-26OCT27",
    "question_en": "Prime Minister of Israel after the 2026 election?",
    "url": "https://kalshi.com/markets/kxisraelpm",
-   "volume_usd": 311420,
+   "volume_usd": 502462,
    "end_date": "2027-10-27",
    "currency": "USD (contracts)",
    "outcomes": [
     {
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
-     "prob": 0.52,
-     "volume_usd": 32153
+     "prob": 0.43,
+     "volume_usd": 58123
     },
     {
      "name": "Benjamin Netanyahu",
      "name_he": "בנימין נתניהו",
-     "prob": 0.31,
-     "volume_usd": 231122
+     "prob": 0.33,
+     "volume_usd": 376773
     },
     {
      "name": "Naftali Bennett",
      "name_he": "נפתלי בנט",
-     "prob": 0.15,
-     "volume_usd": 24269
-    },
-    {
-     "name": "Itamar Ben Gvir",
-     "name_he": "איתמר בן גביר",
-     "prob": 0.05,
-     "volume_usd": 1971
+     "prob": 0.09,
+     "volume_usd": 39895
     },
     {
      "name": "Yossi Cohen",
@@ -172,12 +166,6 @@
      "volume_usd": 1758
     },
     {
-     "name": "Israel Katz",
-     "name_he": "ישראל כץ",
-     "prob": 0.04,
-     "volume_usd": 1022
-    },
-    {
      "name": "Yuli Edelstein",
      "name_he": "יולי אדלשטיין",
      "prob": 0.04,
@@ -187,13 +175,25 @@
      "name": "Avigdor Lieberman",
      "name_he": "אביגדור ליברמן",
      "prob": 0.02,
-     "volume_usd": 14004
+     "volume_usd": 16827
     },
     {
      "name": "Yair Lapid",
      "name_he": "יאיר לפיד",
      "prob": 0.01,
      "volume_usd": 1716
+    },
+    {
+     "name": "Itamar Ben Gvir",
+     "name_he": "איתמר בן גביר",
+     "prob": 0.01,
+     "volume_usd": 2941
+    },
+    {
+     "name": "Israel Katz",
+     "name_he": "ישראל כץ",
+     "prob": 0.01,
+     "volume_usd": 1023
     },
     {
      "name": "Gideon Sa'ar",
