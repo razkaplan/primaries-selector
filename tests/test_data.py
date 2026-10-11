@@ -24,9 +24,15 @@ def load(name, base=DATA):
         return json.load(fh)
 
 
+# Outlets the site does not rely on as a source of facts (they may still be
+# the subject of coverage analysis, e.g. the Arab media review).
+BLOCKED_FACT_SOURCES = re.compile(r"aljazeera\.(com|net)|mubasher\.aljazeera")
+
+
 def sourced(test, rec, where):
     """A record the site presents as fact: link + real, non-future date."""
     test.assertTrue(rec.get("url", "").startswith("http"), f"{where}: missing url")
+    test.assertNotRegex(rec["url"], BLOCKED_FACT_SOURCES, f"{where}: blocked as a source of facts")
     test.assertNotRegex(rec["url"], LISTING, f"{where}: links to a listing page, not the item")
     test.assertRegex(rec.get("as_of", ""), ISO, f"{where}: missing/invalid as_of")
     test.assertLessEqual(rec["as_of"], TODAY, f"{where}: dated in the future")
@@ -81,6 +87,7 @@ class Quotes(unittest.TestCase):
             with self.subTest(who=q["candidate_id"], url=q["url"]):
                 self.assertTrue(q["url"].startswith("http"))
                 self.assertNotRegex(q["url"], LISTING)
+                self.assertNotRegex(q["url"], BLOCKED_FACT_SOURCES)
                 if q.get("date"):
                     self.assertRegex(q["date"], ISO)
                     self.assertLessEqual(q["date"], TODAY)
