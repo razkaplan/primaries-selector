@@ -1,0 +1,2331 @@
+{
+ "outlets": [
+  {
+   "id": "arab48",
+   "name_ar": "عرب 48",
+   "name_he": "ערב 48",
+   "country_he": "ישראל",
+   "country_code": "IL",
+   "city_he": null,
+   "type_he": "אתר חדשות",
+   "ownership_he": null,
+   "ownership_url": null,
+   "site_url": "https://www.arab48.com",
+   "region": "israel"
+  },
+  {
+   "id": "kul_alarab",
+   "name_ar": "كل العرب",
+   "name_he": "כל אל-ערב",
+   "country_he": "ישראל",
+   "country_code": "IL",
+   "city_he": "נצרת",
+   "type_he": "עיתון",
+   "ownership_he": "שבועון ואתר פרטי שנוסד ב-1987 בנצרת; לפי ויקיפדיה הבעלים הם מוסא חסדיה (40%), פאיז א-שתיוי ואחרים.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Kul_al-Arab",
+   "site_url": "https://www.kul-alarab.com",
+   "region": "israel"
+  },
+  {
+   "id": "bokra",
+   "name_ar": "بكرا",
+   "name_he": "בוכרא",
+   "country_he": "ישראל",
+   "country_code": "IL",
+   "city_he": "נצרת",
+   "type_he": "אתר חדשות",
+   "ownership_he": "אתר חדשות פרטי שייסדה העיתונאית ע'דה זועבי מנצרת, המשמשת כמנכ\"לית שלו.",
+   "ownership_url": "https://www.timesofisrael.com/empower-play-ghada-zoabis-news-site-aims-to-uplift-israeli-arabs/",
+   "site_url": "https://bokra.net",
+   "region": "israel"
+  },
+  {
+   "id": "panet",
+   "name_ar": "بانيت",
+   "name_he": "פאנט",
+   "country_he": "ישראל",
+   "country_code": "IL",
+   "city_he": "טייבה",
+   "type_he": "אתר חדשות",
+   "ownership_he": null,
+   "ownership_url": null,
+   "site_url": "https://panet.com",
+   "region": "israel"
+  },
+  {
+   "id": "i24_ar",
+   "name_ar": "i24NEWS بالعربية",
+   "name_he": "i24NEWS בערבית",
+   "country_he": "ישראל",
+   "country_code": "IL",
+   "city_he": "תל אביב-יפו",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ חדשות בינלאומי פרטי שנוסד וממומן בעיקר על ידי איש העסקים פטריק דרהי (קבוצת אלטיס).",
+   "ownership_url": "https://en.wikipedia.org/wiki/I24NEWS_(Israeli_TV_channel)",
+   "site_url": "https://www.i24news.tv/ar",
+   "region": "israel"
+  },
+  {
+   "id": "makan",
+   "name_ar": "مكان",
+   "name_he": "מכאן",
+   "country_he": "ישראל",
+   "country_code": "IL",
+   "city_he": "ירושלים",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ השידור הציבורי בשפה הערבית של תאגיד השידור הישראלי (כאן).",
+   "ownership_url": "https://en.wikipedia.org/wiki/Makan_33",
+   "site_url": "https://www.makan.org.il",
+   "region": "israel"
+  },
+  {
+   "id": "wafa",
+   "name_ar": "وكالة وفا",
+   "name_he": "ופא",
+   "country_he": "פלסטיני",
+   "country_code": "PS",
+   "city_he": "רמאללה",
+   "type_he": "סוכנות ידיעות",
+   "ownership_he": "סוכנות הידיעות הרשמית של הרשות הפלסטינית.",
+   "ownership_url": "https://en.wikipedia.org/wiki/WAFA",
+   "site_url": "https://www.wafa.ps",
+   "region": "palestine"
+  },
+  {
+   "id": "maan",
+   "name_ar": "وكالة معا",
+   "name_he": "מען",
+   "country_he": "פלסטיני",
+   "country_code": "PS",
+   "city_he": "בית לחם",
+   "type_he": "סוכנות ידיעות",
+   "ownership_he": "סוכנות ידיעות פרטית שנוסדה ב-2005 בידי ראאד עות'מאן, חלק מרשת 'מען'; מטה בבית לחם ומשרד בעזה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Ma%27an_News_Agency",
+   "site_url": "https://www.maannews.net",
+   "region": "palestine"
+  },
+  {
+   "id": "alquds",
+   "name_ar": "جريدة القدس",
+   "name_he": "אל-קודס",
+   "country_he": "פלסטיני",
+   "country_code": "PS",
+   "city_he": "ירושלים",
+   "type_he": "עיתון",
+   "ownership_he": "יומון פלסטיני פרטי בבעלות משפחת אבו זלף.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al-Quds_(newspaper)",
+   "site_url": "https://alquds.com/ar",
+   "region": "palestine"
+  },
+  {
+   "id": "qudsn",
+   "name_ar": "شبكة قدس الإخبارية",
+   "name_he": "רשת קודס",
+   "country_he": "פלסטיני",
+   "country_code": "PS",
+   "city_he": null,
+   "type_he": "אתר חדשות",
+   "ownership_he": "רשת חדשות פלסטינית של צעירים שנוסדה ב-2011 ומבוססת על כתבים מתנדבים.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Quds_News_Network",
+   "site_url": "https://qudsn.co",
+   "region": "palestine"
+  },
+  {
+   "id": "palinfo",
+   "name_ar": "المركز الفلسطيني للإعلام",
+   "name_he": "המרכז הפלסטיני למידע",
+   "country_he": "פלסטיני",
+   "country_code": "PS",
+   "city_he": null,
+   "type_he": "אתר חדשות",
+   "ownership_he": "אתר חדשות פלסטיני המזוהה עם חמאס, שנוסד ב-1997.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Palestinian_Information_Center",
+   "site_url": "https://palinfo.com",
+   "region": "palestine"
+  },
+  {
+   "id": "alarabiya",
+   "name_ar": "العربية",
+   "name_he": "אל-ערביה",
+   "country_he": "ערב הסעודית",
+   "country_code": "SA",
+   "city_he": "דובאי",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ חדשות בבעלות קבוצת MBC הסעודית, שמטהו בדובאי (איחוד האמירויות).",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Arabiya",
+   "site_url": "https://www.alarabiya.net",
+   "region": "gulf"
+  },
+  {
+   "id": "aawsat",
+   "name_ar": "الشرق الأوسط",
+   "name_he": "א-שרק אל-אווסט",
+   "country_he": "ערב הסעודית",
+   "country_code": "SA",
+   "city_he": "לונדון",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי בבעלות קבוצת המחקר והתקשורת הסעודית (SRMG), שמערכתו הראשית בלונדון.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Asharq_Al-Awsat",
+   "site_url": "https://aawsat.com",
+   "region": "gulf"
+  },
+  {
+   "id": "okaz",
+   "name_ar": "عكاظ",
+   "name_he": "עוכאט'",
+   "country_he": "ערב הסעודית",
+   "country_code": "SA",
+   "city_he": "ג'דה",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי סעודי מג'דה, בהוצאת ארגון עוכאט' לעיתונות ולהוצאה לאור.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Okaz",
+   "site_url": "https://www.okaz.com.sa",
+   "region": "gulf"
+  },
+  {
+   "id": "asharq_news",
+   "name_ar": "الشرق للأخبار",
+   "name_he": "א-שרק ניוז",
+   "country_he": "ערב הסעודית",
+   "country_code": "SA",
+   "city_he": "ריאד",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ חדשות ופורטל בבעלות קבוצת המחקר והתקשורת הסעודית (SRMG); המטה בריאד, עם משרדים בדובאי ובוושינגטון (לפי ויקיפדיה).",
+   "ownership_url": "https://en.wikipedia.org/wiki/Asharq_News",
+   "site_url": "https://asharq.com",
+   "region": "gulf"
+  },
+  {
+   "id": "majalla",
+   "name_ar": "المجلة",
+   "name_he": "אל-מג'לה",
+   "country_he": "ערב הסעודית",
+   "country_code": "SA",
+   "city_he": "לונדון",
+   "type_he": "אתר חדשות",
+   "ownership_he": "כתב עת (מגזין) בבעלות קבוצת המחקר והתקשורת הסעודית (SRMG), שמערכתו בלונדון.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Majalla",
+   "site_url": "https://www.majalla.com",
+   "region": "gulf"
+  },
+  {
+   "id": "skynewsarabia",
+   "name_ar": "سكاي نيوز عربية",
+   "name_he": "סקיי ניוז בערבית",
+   "country_he": "איחוד האמירויות",
+   "country_code": "AE",
+   "city_he": "אבו דאבי",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "מיזם משותף של תאגיד ההשקעות בתקשורת של אבו דאבי (ADMIC) ושל Sky הבריטית, שמטהו באבו דאבי.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Sky_News_Arabia",
+   "site_url": "https://www.skynewsarabia.com",
+   "region": "gulf"
+  },
+  {
+   "id": "alain",
+   "name_ar": "العين الإخبارية",
+   "name_he": "אל-עין אל-אח'בארייה",
+   "country_he": "איחוד האמירויות",
+   "country_code": "AE",
+   "city_he": "אבו דאבי",
+   "type_he": "אתר חדשות",
+   "ownership_he": "אתר חדשות אמירתי שהושק ב-2015 ומשרדו הראשי באזור twofour54 באבו דאבי; לפי ויקיפדיה בערבית נרכשה החברה המפעילה ב-2019 בידי International Media Investments.",
+   "ownership_url": "https://ar.wikipedia.org/wiki/%D8%A8%D9%88%D8%A7%D8%A8%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D9%86_%D8%A7%D9%84%D8%A5%D8%AE%D8%A8%D8%A7%D8%B1%D9%8A%D8%A9",
+   "site_url": "https://al-ain.com",
+   "region": "gulf"
+  },
+  {
+   "id": "alkhaleej",
+   "name_ar": "الخليج",
+   "name_he": "אל-ח'ליג'",
+   "country_he": "איחוד האמירויות",
+   "country_code": "AE",
+   "city_he": "שארג'ה",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי משארג'ה בהוצאת דאר אל-ח'ליג', שנוסד ב-1970 בידי האחים טרים ועבדאללה עמראן טרים.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Khaleej_(newspaper)",
+   "site_url": "https://www.alkhaleej.ae",
+   "region": "gulf"
+  },
+  {
+   "id": "albayan",
+   "name_ar": "البيان",
+   "name_he": "אל-ביאן",
+   "country_he": "איחוד האמירויות",
+   "country_code": "AE",
+   "city_he": "דובאי",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי מדובאי בבעלות ממשלתית, במסגרת Dubai Media Incorporated.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Bayan_(newspaper)",
+   "site_url": "https://www.albayan.ae",
+   "region": "gulf"
+  },
+  {
+   "id": "aljazeera",
+   "name_ar": "الجزيرة نت",
+   "name_he": "אל-ג'זירה",
+   "country_he": "קטר",
+   "country_code": "QA",
+   "city_he": "דוחה",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "רשת תקשורת במימון ממשלת קטר (Al Jazeera Media Network), שמטהּ בדוחה; כאן נסקר אתר החדשות בערבית aljazeera.net.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Jazeera_Media_Network",
+   "site_url": "https://www.aljazeera.net",
+   "region": "gulf"
+  },
+  {
+   "id": "alaraby",
+   "name_ar": "العربي الجديد",
+   "name_he": "אל-ערבי אל-ג'דיד",
+   "country_he": "קטר",
+   "country_code": "QA",
+   "city_he": "לונדון",
+   "type_he": "אתר חדשות",
+   "ownership_he": "כלי תקשורת שבסיסו בלונדון, בבעלות Fadaat Media – חברת אחזקות פרטית קטרית שמימנה את השקתו ב-2014.",
+   "ownership_url": "https://en.wikipedia.org/wiki/The_New_Arab",
+   "site_url": "https://www.alaraby.co.uk",
+   "region": "gulf"
+  },
+  {
+   "id": "alsharq_qa",
+   "name_ar": "الشرق",
+   "name_he": "א-שרק (קטר)",
+   "country_he": "קטר",
+   "country_code": "QA",
+   "city_he": "דוחה",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי מדוחה בהוצאת קבוצת דאר א-שרק, שבבעלות ובראשות השייח' ח'אלד בן ת'אני אאל ת'אני (בן משפחת השליטים).",
+   "ownership_url": "https://en.wikipedia.org/wiki/Dar_Al-Sharq_Media_Group",
+   "site_url": "https://al-sharq.com",
+   "region": "gulf"
+  },
+  {
+   "id": "youm7",
+   "name_ar": "اليوم السابع",
+   "name_he": "אל-יום א-סאבע (Youm7)",
+   "country_he": "מצרים",
+   "country_code": "EG",
+   "city_he": "קהיר",
+   "type_he": "אתר חדשות",
+   "ownership_he": "לפי ויקיפדיה, בבעלות Egyptian Media Group, חלק מקבוצת United Media Services המשויכת לשירות המודיעין הכללי המצרי.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Youm7",
+   "site_url": "https://www.youm7.com",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "ahram",
+   "name_ar": "الأهرام",
+   "name_he": "אל-אהראם",
+   "country_he": "מצרים",
+   "country_code": "EG",
+   "city_he": "קהיר",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון ממלכתי בבעלות ממשלת מצרים.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al-Ahram",
+   "site_url": "https://gate.ahram.org.eg",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "alqahera",
+   "name_ar": "القاهرة الإخبارية",
+   "name_he": "אל-קאהרה אל-אח'באריה",
+   "country_he": "מצרים",
+   "country_code": "EG",
+   "city_he": "קהיר",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ חדשות בבעלות ובהפעלת United Media Services, הקשור למדינה המצרית.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al-Qahera_News",
+   "site_url": "https://alqaheranews.net",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "alghad",
+   "name_ar": "الغد",
+   "name_he": "אל-ע'ד",
+   "country_he": "ירדן",
+   "country_code": "JO",
+   "city_he": "עמאן",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי פרטי שנוסד ב-2004.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Alghad",
+   "site_url": "https://alghad.com",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "alrai",
+   "name_ar": "الرأي",
+   "name_he": "אל-ראי",
+   "country_he": "ירדן",
+   "country_code": "JO",
+   "city_he": "עמאן",
+   "type_he": "עיתון",
+   "ownership_he": "בבעלות קרן העיתונות הירדנית (Jordan Press Foundation) שבשליטת הממשלה; העורכים הראשיים ממונים על ידי הממשלה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Ra'i_(Jordanian_newspaper)",
+   "site_url": "https://alrai.com",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "ammon",
+   "name_ar": "عمون",
+   "name_he": "עמון",
+   "country_he": "ירדן",
+   "country_code": "JO",
+   "city_he": "עמאן",
+   "type_he": "אתר חדשות",
+   "ownership_he": null,
+   "ownership_url": null,
+   "site_url": "https://www.ammonnews.net",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "mamlaka",
+   "name_ar": "المملكة",
+   "name_he": "אל-ממלכה",
+   "country_he": "ירדן",
+   "country_code": "JO",
+   "city_he": "עמאן",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ חדשות ציבורי ירדני שהושק ב-2018; מועצת המנהלים שלו ממונה בצו מלכותי.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al-Mamlaka",
+   "site_url": "https://www.almamlakatv.com",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "mayadeen",
+   "name_ar": "الميادين",
+   "name_he": "אל-מיאדין",
+   "country_he": "לבנון",
+   "country_code": "LB",
+   "city_he": "ביירות",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ לוויין פאן-ערבי המתואר כמזוהה עם 'ציר ההתנגדות' וכתומך בחזבאללה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Mayadeen",
+   "site_url": "https://www.almayadeen.net",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "akhbar",
+   "name_ar": "الأخبار",
+   "name_he": "אל-אח'באר",
+   "country_he": "לבנון",
+   "country_code": "LB",
+   "city_he": "ביירות",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי לבנוני המתואר כמקורב לחזבאללה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al_Akhbar_(Lebanon)",
+   "site_url": "https://www.al-akhbar.com",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "annahar",
+   "name_ar": "النهار",
+   "name_he": "א-נהאר",
+   "country_he": "לבנון",
+   "country_code": "LB",
+   "city_he": "ביירות",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי פרטי בבעלות משפחת תוויני.",
+   "ownership_url": "https://en.wikipedia.org/wiki/An-Nahar",
+   "site_url": "https://www.annahar.com",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "manar",
+   "name_ar": "المنار",
+   "name_he": "אל-מנאר",
+   "country_he": "לבנון",
+   "country_code": "LB",
+   "city_he": "ביירות",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ הטלוויזיה של חזבאללה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al-Manar",
+   "site_url": "https://www.almanar.com.lb",
+   "region": "levant_egypt"
+  },
+  {
+   "id": "bbc_arabic",
+   "name_ar": "بي بي سي نيوز عربي",
+   "name_he": "BBC ערבית",
+   "country_he": "בריטניה",
+   "country_code": "GB",
+   "city_he": "לונדון",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "שירות בערבית של ה-BBC World Service, השדר הציבורי הבריטי; ממומן מאגרת הרישיון ומתקציב ממשלת בריטניה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/BBC_Arabic",
+   "site_url": "https://www.bbc.com/arabic",
+   "region": "international"
+  },
+  {
+   "id": "france24_ar",
+   "name_ar": "فرانس 24",
+   "name_he": "פראנס 24 בערבית",
+   "country_he": "צרפת",
+   "country_code": "FR",
+   "city_he": "פריז",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "חלק מקבוצת France Médias Monde, תאגיד השידור הבינלאומי בבעלות המדינה הצרפתית.",
+   "ownership_url": "https://en.wikipedia.org/wiki/France_24",
+   "site_url": "https://www.france24.com/ar/",
+   "region": "international"
+  },
+  {
+   "id": "dw_arabic",
+   "name_ar": "دويتشه فيله عربية",
+   "name_he": "DW בערבית (דויטשה ולה)",
+   "country_he": "גרמניה",
+   "country_code": "DE",
+   "city_he": "ברלין",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "שירות בערבית של דויטשה ולה, השדר הבינלאומי הציבורי של גרמניה, הממומן מהתקציב הפדרלי.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Deutsche_Welle",
+   "site_url": "https://www.dw.com/ar/",
+   "region": "international"
+  },
+  {
+   "id": "alhurra",
+   "name_ar": "الحرة",
+   "name_he": "אל-חורה",
+   "country_he": "ארצות הברית",
+   "country_code": "US",
+   "city_he": "ספרינגפילד, וירג'יניה",
+   "type_he": "אתר חדשות",
+   "ownership_he": "מופעלת בידי Middle East Broadcasting Networks (MBN), ארגון ללא מטרות רווח הממומן בידי ממשלת ארה\"ב באמצעות הסוכנות האמריקאית לתקשורת גלובלית (USAGM).",
+   "ownership_url": "https://en.wikipedia.org/wiki/Alhurra",
+   "site_url": "https://alhurra.com/",
+   "region": "international"
+  },
+  {
+   "id": "rt_arabic",
+   "name_ar": "آر تي عربي",
+   "name_he": "RT בערבית",
+   "country_he": "רוסיה",
+   "country_code": "RU",
+   "city_he": "מוסקבה",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "ערוץ בערבית של רשת RT (TV-Novosti), ארגון שידור בינלאומי הממומן בידי ממשלת רוסיה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/RT_Arabic",
+   "site_url": "https://arabic.rt.com/",
+   "region": "international"
+  },
+  {
+   "id": "anadolu_ar",
+   "name_ar": "وكالة الأناضول",
+   "name_he": "סוכנות אנדולו (ערבית)",
+   "country_he": "טורקיה",
+   "country_code": "TR",
+   "city_he": "אנקרה",
+   "type_he": "סוכנות ידיעות",
+   "ownership_he": "סוכנות הידיעות הממלכתית של טורקיה, הפועלת כחברה שהממשלה הטורקית מחזיקה ברובה.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Anadolu_Agency",
+   "site_url": "https://www.aa.com.tr/ar",
+   "region": "international"
+  },
+  {
+   "id": "cnn_arabic",
+   "name_ar": "سي إن إن بالعربية",
+   "name_he": "CNN בערבית",
+   "country_he": "ארצות הברית",
+   "country_code": "US",
+   "city_he": "דובאי",
+   "type_he": "אתר חדשות",
+   "ownership_he": "אתר החדשות בערבית של רשת CNN האמריקאית (Warner Bros. Discovery); הושק ב-2002 מדובאי.",
+   "ownership_url": "https://en.wikipedia.org/wiki/CNN_Arabic",
+   "site_url": "https://arabic.cnn.com/",
+   "region": "international"
+  },
+  {
+   "id": "alquds_alarabi",
+   "name_ar": "القدس العربي",
+   "name_he": "אל-קודס אל-ערבי",
+   "country_he": "בריטניה",
+   "country_code": "GB",
+   "city_he": "לונדון",
+   "type_he": "עיתון",
+   "ownership_he": "עיתון יומי פאן-ערבי היוצא בלונדון מאז 1989; לפי דיווחים מ-2013 נמצא בבעלות גורמי תקשורת קטריים באמצעות מתווכים.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Al-Quds_Al-Arabi",
+   "site_url": "https://www.alquds.co.uk/",
+   "region": "international"
+  },
+  {
+   "id": "independent_arabia",
+   "name_ar": "إندبندنت عربية",
+   "name_he": "אינדיפנדנט ערבית",
+   "country_he": "בריטניה",
+   "country_code": "GB",
+   "city_he": "לונדון",
+   "type_he": "אתר חדשות",
+   "ownership_he": "מהדורה בערבית של \"האינדיפנדנט\" הבריטי שהושקה ב-2018, מתפרסמת ברישיון ובבעלות ובניהול Saudi Research and Media Group (SRMG) הסעודית.",
+   "ownership_url": "https://en.wikipedia.org/wiki/The_Independent#Independent_Arabia",
+   "site_url": "https://www.independentarabia.com/",
+   "region": "international"
+  },
+  {
+   "id": "euronews_ar",
+   "name_ar": "يورونيوز عربي",
+   "name_he": "יורוניוז בערבית",
+   "country_he": "צרפת",
+   "country_code": "FR",
+   "city_he": "ליון",
+   "type_he": "ערוץ טלוויזיה",
+   "ownership_he": "שירות בערבית של רשת יורוניוז האירופית (מטה בליון), שנמצאת ברוב בעלות קרן ההשקעות Alpac Capital.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Euronews",
+   "site_url": "https://arabic.euronews.com/",
+   "region": "international"
+  },
+  {
+   "id": "mcd",
+   "name_ar": "مونت كارلو الدولية",
+   "name_he": "מונטה קרלו דוואליה",
+   "country_he": "צרפת",
+   "country_code": "FR",
+   "city_he": "פריז",
+   "type_he": "אתר חדשות",
+   "ownership_he": "תחנת רדיו ואתר בערבית של קבוצת France Médias Monde, בבעלות המדינה הצרפתית.",
+   "ownership_url": "https://en.wikipedia.org/wiki/Monte_Carlo_Doualiya",
+   "site_url": "https://www.mc-doualiya.com/",
+   "region": "international"
+  }
+ ],
+ "items": [
+  {
+   "outlet_id": "kul_alarab",
+   "date": "2026-10-11",
+   "url": "https://www.kul-alarab.com/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA/%D9%85%D9%86-%D9%83%D9%81%D8%B1-%D9%85%D9%86%D8%AF%D8%A7-%D8%AD%D8%B2%D8%A8-%D9%84%D9%83%D9%84%D9%86%D8%A7-%D9%85%D9%83%D8%A7%D9%86-%D9%8A%D8%A4%D9%83%D8%AF-%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%AA-%D9%88%D9%8A%D8%AF%D8%B9%D9%88-%D8%A5%D9%84%D9%89-%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%88%D8%A7%D8%B3%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8/1130035",
+   "headline_ar": "من كفر مندا: حزب “لكلّنا مكان” يؤكد أهمية التصويت ويدعو إلى مشاركة واسعة في الانتخابات",
+   "headline_he": "מכפר מנדא: מפלגת \"לכולנו מקום\" מדגישה את חשיבות ההצבעה וקוראת להשתתפות רחבה בבחירות",
+   "topics": [
+    "arab_turnout"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "aawsat",
+   "date": "2026-10-11",
+   "url": "https://aawsat.com/%D8%B4%D8%A4%D9%88%D9%86-%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9/5328363-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%B9%D8%B1%D8%B6-%D8%B4%D8%A8%D9%83%D8%A9-%D8%A3%D9%85%D8%A7%D9%86-%D9%84%D8%A3%D9%8A-%D8%A8%D8%AF%D9%8A%D9%84-%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88",
+   "headline_ar": "«القائمة العربية» في إسرائيل تعرض «شبكة أمان» لأي بديل لحكومة نتنياهو",
+   "headline_he": "«הרשימה הערבית» בישראל מציעה «רשת ביטחון» לכל חלופה לממשלת נתניהו",
+   "topics": [
+    "arab_lists",
+    "opposition",
+    "crime"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "annahar",
+   "date": "2026-10-11",
+   "url": "https://www.annahar.com/lebanon/355917/%D9%85%D8%A7-%D9%82%D8%A8%D9%84-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A8%D8%A7%D8%BA%D8%AA%D9%8A%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D8%B6%D8%A7%D8%AD%D9%8A%D8%A9",
+   "headline_ar": "خاص \"النهار\": تهديدات باغتيالات في لبنان واستهداف الضاحية قبل انتخابات الكنيست الإسرائيلي",
+   "headline_he": "בלעדי ל\"א-נהאר\": איומים בחיסולים בלבנון ובתקיפת הדאחייה לפני הבחירות לכנסת הישראלית",
+   "topics": [
+    "war"
+   ],
+   "terms": [
+    "الكنيست",
+    "الإسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "kul_alarab",
+   "date": "2026-10-10",
+   "url": "https://www.kul-alarab.com/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA/%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%84%D9%86-%D9%86%D9%86%D8%AC%D8%B1-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%83%D9%81%D8%A7%D8%AA-%D8%A8%D9%88%D8%B5%D9%84%D8%AA%D9%86%D8%A7-%D8%A5%D8%B3%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D9%88%D9%81%D8%B1%D8%B6-%D9%85%D8%B7%D8%A7%D9%84%D8%A8-%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%86%D8%A7/1130010",
+   "headline_ar": "المشتركة: لن ننجرّ إلى المناكفات.. بوصلتنا إسقاط الحكومة وفرض مطالب مجتمعنا",
+   "headline_he": "המשותפת: לא ניגרר להתנצחויות.. המצפן שלנו הוא הפלת הממשלה וכפיית דרישות החברה שלנו",
+   "topics": [
+    "arab_lists",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "panet",
+   "date": "2026-10-10",
+   "url": "https://panet.com/story/4304295",
+   "headline_ar": "يوسف جبارين: القائمة المشتركة مستعدة لمنح شبكة أمان لأي حكومة بديلة لحكومة نتنياهو",
+   "headline_he": "יוסף ג'בארין: הרשימה המשותפת מוכנה להעניק רשת ביטחון לכל ממשלה חלופית לממשלת נתניהו",
+   "topics": [
+    "arab_lists",
+    "netanyahu",
+    "opposition"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "qudsn",
+   "date": "2026-10-10",
+   "url": "https://qudsn.co/post?id=218138&slug=%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B7%D8%B9%D8%A9-%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D9%82%D9%88%D9%84-%D9%88%D8%AB%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%D8%9F",
+   "headline_ar": "انتخابات الكنيست بين المشاركة والمقاطعة.. ماذا تقول وثائق الحركة الإسلامية؟",
+   "headline_he": "הבחירות לכנסת בין השתתפות לחרם.. מה אומרים מסמכי התנועה האסלאמית?",
+   "topics": [
+    "arab_turnout"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "akhbar",
+   "date": "2026-10-10",
+   "url": "https://www.al-akhbar.com/NewspaperArticles/arab/906764/%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D9%85%D8%B9-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%B9%D9%86%D9%88%D8%A7%D9%86%D8%A7-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A%D8%A7-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%85%D9%86-%D9%81%D9%82%D8%AF%D8%A7%D9%86",
+   "headline_ar": "العلاقة مع أميركا عنواناً انتخابياً: تحذيرات إسرائيلية من فقدان «المظلة»",
+   "headline_he": "היחסים עם אמריקה כנושא בחירות: אזהרות ישראליות מפני אובדן «המטרייה»",
+   "topics": [
+    "other"
+   ],
+   "terms": [
+    "إسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "dw_arabic",
+   "date": "2026-10-10",
+   "url": "https://amp.dw.com/ar/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%82%D8%A8%D9%8A%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA/video-79617157",
+   "headline_ar": "إسرائيل قبيل الانتخابات",
+   "headline_he": "ישראל ערב הבחירות",
+   "topics": [
+    "netanyahu",
+    "war"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "bokra",
+   "date": "2026-10-09",
+   "url": "https://bokra.net/Article-1605345",
+   "headline_ar": "قبل 19 يومًا من انتخابات الكنيست.. نتنياهو يفتح معركة شرسة على أصوات اليمين",
+   "headline_he": "19 ימים לפני הבחירות לכנסת.. נתניהו פותח במערכה עזה על קולות הימין",
+   "topics": [
+    "netanyahu",
+    "far_right"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "palinfo",
+   "date": "2026-10-09",
+   "url": "https://palinfo.com/news/2026/10/09/1120397/",
+   "headline_ar": "نتنياهو بعين العاصفة.. تراجع انتخابي والتحقيق بإخفاقات 7 أكتوبر يطارده",
+   "headline_he": "נתניהו בעין הסערה.. נסיגה בבחירות והחקירה על מחדלי 7 באוקטובר רודפת אותו",
+   "topics": [
+    "netanyahu",
+    "polls",
+    "war"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "alarabiya",
+   "date": "2026-10-09",
+   "url": "https://www.alarabiya.net/arab-and-world/2026/10/09/%D9%85%D8%A4%D8%AB%D8%B1-%D9%8A%D9%85%D9%8A%D9%86%D9%8A-%D9%85%D8%AA%D8%B7%D8%B1%D9%81-%D9%8A%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%B7%D8%A7%D8%A8-%D9%82%D8%A8%D9%84-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84",
+   "headline_ar": "مؤثر يميني متطرف يشعل الاستقطاب قبل انتخابات إسرائيل",
+   "headline_he": "משפיען ימין קיצוני מצית את הקיטוב לפני הבחירות בישראל",
+   "topics": [
+    "far_right"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "alarabiya",
+   "date": "2026-10-09",
+   "url": "https://www.alarabiya.net/arab-and-world/2026/10/09/%D8%B2%D8%A7%D9%85%D9%8A%D8%B1-%D9%8A%D9%84%D9%85%D8%AD-%D9%84%D8%AA%D8%A7%D8%AC%D9%8A%D9%84-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%85%D8%B9-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84-%D8%B6%D8%B1%D8%A8-%D8%A7%D9%8A%D8%B1%D8%A7%D9%86",
+   "headline_ar": "زامير يلمح لتأجيل انتخابات إسرائيل.. مع احتمال ضرب إيران",
+   "headline_he": "זמיר רומז על דחיית הבחירות בישראל.. עם אפשרות לתקוף את איראן",
+   "topics": [
+    "war",
+    "other"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "skynewsarabia",
+   "date": "2026-10-09",
+   "url": "https://www.skynewsarabia.com/world/1897377-%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D9%84%D8%A8-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D8%B9%D8%A7%D8%AF%D9%84-%D8%AE%D8%B5%D9%88%D9%85%D9%87",
+   "headline_ar": "استطلاع إسرائيلي يقلب الحسابات.. نتنياهو يعادل خصومه",
+   "headline_he": "סקר ישראלי הופך את החשבונות.. נתניהו משתווה ליריביו",
+   "topics": [
+    "polls",
+    "netanyahu"
+   ],
+   "terms": [
+    "إسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "mayadeen",
+   "date": "2026-10-09",
+   "url": "https://www.almayadeen.net/news/politics/%D8%A8%D8%B1%D9%83%D8%A9-%D9%84%D9%84%D9%85%D9%8A%D8%A7%D8%AF%D9%8A%D9%86-%D8%AA%D8%B5%D9%88%D9%8A%D8%AA-70-%D9%85%D9%86-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D9%8A%D9%85%D9%86%D8%B9-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%85%D9%86-%D8%AA%D8%B4%D9%83%D9%8A%D9%84",
+   "headline_ar": "بركة للميادين: تصويت 70% من الفلسطينيين يمنع نتنياهو من تشكيل الحكومة",
+   "headline_he": "ברכה לאל-מיאדין: הצבעה של 70% מהפלסטינים תמנע מנתניהו להרכיב את הממשלה",
+   "topics": [
+    "arab_turnout",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "annahar",
+   "date": "2026-10-09",
+   "url": "https://www.annahar.com/international/israeli-issues/355478/%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%A3%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D8%AB%D9%8A%D8%B1-%D9%82%D9%84%D9%82%D8%A7-%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A7-%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D9%82%D9%88%D9%84-%D8%A7%D9%84%D8%A3%D8%B1%D9%82%D8%A7%D9%85",
+   "headline_ar": "استطلاع رأي إسرائيلي يثير قلقاً إقليمياً... ماذا تقول الأرقام؟",
+   "headline_he": "סקר דעת קהל ישראלי מעורר דאגה אזורית... מה אומרים המספרים?",
+   "topics": [
+    "polls",
+    "war"
+   ],
+   "terms": [
+    "إسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "anadolu_ar",
+   "date": "2026-10-09",
+   "url": "https://www.aa.com.tr/ar/%D8%AF%D9%88%D9%84%D9%8A/%D8%AC%D8%A8%D8%A7%D8%B1%D9%8A%D9%86-%D9%87%D8%AF%D9%81%D9%86%D8%A7-%D8%A5%D8%B3%D9%82%D8%A7%D8%B7-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%88%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-70-%D8%A8%D8%A7%D9%84%D9%85%D8%A6%D8%A9-%D9%8A%D9%85%D9%86%D8%B9-%D8%B9%D9%88%D8%AF%D8%AA%D9%87-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D8%A9/4082896",
+   "headline_ar": "جبارين: هدفنا إسقاط نتنياهو وتجاوز التصويت العربي 70 بالمئة يمنع عودته (مقابلة)",
+   "headline_he": "ג'בארין: מטרתנו להפיל את נתניהו, וחציית רף של 70 אחוז הצבעה ערבית תמנע את חזרתו (ראיון)",
+   "topics": [
+    "arab_turnout",
+    "arab_lists",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "alain",
+   "date": "2026-10-08",
+   "url": "https://al-ain.com/article/years-later-netanyahu-faces-oct-israeli-election",
+   "headline_ar": "«7 أكتوبر» يلاحق نتنياهو.. والاستطلاعات تكشف معركة الـ61 مقعدا",
+   "headline_he": "«7 באוקטובר» רודף את נתניהו.. והסקרים חושפים את הקרב על 61 המושבים",
+   "topics": [
+    "netanyahu",
+    "polls",
+    "war"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "mayadeen",
+   "date": "2026-10-08",
+   "url": "https://www.almayadeen.net/news/politics/%D8%A7%D9%84%D8%B7%D9%8A%D8%A8%D9%8A-%D9%84%D9%84%D9%85%D9%8A%D8%A7%D8%AF%D9%8A%D9%86-%D9%85%D8%B9%D9%86%D9%8A%D9%88%D9%86-%D8%A8%D8%A5%D8%B3%D9%82%D8%A7%D8%B7-%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%88%D9%84%D9%86-%D9%86%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD",
+   "headline_ar": "الطيبي للميادين: معنيون بإسقاط حكومة نتنياهو ولن نشارك في الحكومة المقبلة",
+   "headline_he": "טיבי לאל-מיאדין: אנו מעוניינים בהפלת ממשלת נתניהו ולא נשתתף בממשלה הבאה",
+   "topics": [
+    "arab_lists",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "alarabiya",
+   "date": "2026-10-07",
+   "url": "https://www.alarabiya.net/arab-and-world/2026/10/07/%D8%A8%D8%B9%D8%AF-3-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA-7-%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9",
+   "headline_ar": "بعد 3 سنوات.. نتنياهو يواجه حسابات 7 أكتوبر في الانتخابات الإسرائيلية",
+   "headline_he": "אחרי 3 שנים.. נתניהו ניצב מול חשבונות 7 באוקטובר בבחירות הישראליות",
+   "topics": [
+    "netanyahu",
+    "war",
+    "polls",
+    "opposition"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "ammon",
+   "date": "2026-10-07",
+   "url": "https://www.ammonnews.net/article/1035067",
+   "headline_ar": "تحذيرات من \"حرب بأهداف انتخابية\" يحضّرها نتنياهو ضد كل الفلسطينيين",
+   "headline_he": "אזהרות מפני \"מלחמה למטרות בחירות\" שנתניהו מכין נגד כל הפלסטינים",
+   "topics": [
+    "war",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "kul_alarab",
+   "date": "2026-10-05",
+   "url": "https://www.kul-alarab.com/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA/%D8%B3%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D9%8A%D8%AD%D8%AA%D8%AF%D9%85-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D8%AA%D8%AA%D8%B1%D8%A8%D8%B9-%D8%B9%D9%84%D9%89-%D8%B9%D8%B1%D8%B4-%D8%A7%D9%84%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%88%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D8%AD%D8%A7%D8%AF%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF/1129759",
+   "headline_ar": "سباق الكنيست يحتدم: \"القائمة المشتركة\" تتربع على عرش الصدارة ومنافسة حادة مع \"الموحدة\" في أحدث استطلاعات \"كل العرب\"",
+   "headline_he": "המרוץ לכנסת מתלהט: \"הרשימה המשותפת\" יושבת על כס הבכורה ותחרות חריפה עם \"המאוחדת\" בסקר האחרון של \"כל אל-ערב\"",
+   "topics": [
+    "polls",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "qudsn",
+   "date": "2026-10-05",
+   "url": "https://qudsn.co/post?id=218018&slug=%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%B7%D8%A8-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D8%AD%D8%A7%D8%A8-%D9%83%D9%8A%D9%81-%D8%AA%D8%B9%D9%83%D8%B3-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A3%D8%A8%D9%88-%D8%B4%D8%AD%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B6%D9%8A%D9%8A%D9%82-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D8%9F",
+   "headline_ar": "من الشطب إلى الانسحاب.. كيف تعكس قضية أبو شحادة تضييق المجال السياسي أمام العرب؟",
+   "headline_he": "מהפסילה לפרישה.. כיצד משקפת פרשת אבו שחאדה את צמצום המרחב הפוליטי בפני הערבים?",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "alrai",
+   "date": "2026-10-05",
+   "url": "https://alrai.com/article/10979691/%D8%B9%D8%B1%D8%A8%D9%8A-%D9%88%D8%AF%D9%88%D9%84%D9%8A/%D9%82%D8%A8%D9%84-22-%D9%8A%D9%88%D9%85%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%AA%D8%AA%D9%82%D8%AF%D9%85-%D8%B9%D9%84%D9%89-%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A8%D9%81%D8%A7%D8%B1%D9%82-5-%D9%85%D9%82%D8%A7%D8%B9%D8%AF",
+   "headline_ar": "قبل 22 يوما من الانتخابات.. المعارضة تتقدم على ائتلاف نتنياهو بفارق 5 مقاعد",
+   "headline_he": "22 יום לפני הבחירות.. האופוזיציה מקדימה את הקואליציה של נתניהו בפער של 5 מנדטים",
+   "topics": [
+    "polls",
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "mayadeen",
+   "date": "2026-10-05",
+   "url": "https://www.almayadeen.net/press/-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D8%AA%D9%88%D8%B1---%D9%83%D9%8A%D9%81-%D9%8A%D8%B3%D8%AA%D8%AB%D9%85%D8%B1-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%84%D9%82%D8%A7%D8%A1-%D8%A8%D9%86-%D8%B2%D8%A7%D9%8A%D8%AF-%D9%88%D8%B1%D8%AD%D9%84%D8%A9-%D9%81%D9%84%D8%A7%D9%8A-%D8%AF%D8%A8%D9%8A",
+   "headline_ar": "\"المونيتور\": كيف يستثمر نتنياهو لقاء ابن زايد ورحلة \"فلاي دبي\" انتخابياً؟",
+   "headline_he": "\"אל-מוניטור\": כיצד מנצל נתניהו את הפגישה עם בן זאיד ואת טיסת \"פליידובאי\" לצורכי בחירות?",
+   "topics": [
+    "normalization",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "arab48",
+   "date": "2026-10-04",
+   "url": "https://www.arab48.com/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/2026/10/04/%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AA%D8%A3%D9%85%D8%B1-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A8%D8%AD%D8%B0%D9%81-%D9%85%D9%86%D8%B4%D9%88%D8%B1%D8%A7%D8%AA-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D9%85-%D9%81%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%88%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%B9%D8%A7%D9%85%D8%A9",
+   "headline_ar": "لجنة الانتخابات تأمر نتنياهو بحذف منشورات انتخابية استخدم فيها الجيش وموارد عامة",
+   "headline_he": "ועדת הבחירות מורה לנתניהו למחוק פרסומי בחירות שבהם השתמש בצבא ובמשאבים ציבוריים",
+   "topics": [
+    "netanyahu",
+    "other"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "bokra",
+   "date": "2026-10-04",
+   "url": "https://bokra.net/Article-1605039",
+   "headline_ar": "الخريطة الحزبية الإسرائيلية قبل الانتخابات.. سباق متقارب والأحزاب العربية في موقع الحسم",
+   "headline_he": "המפה המפלגתית הישראלית לפני הבחירות.. מרוץ צמוד והמפלגות הערביות בעמדת הכרעה",
+   "topics": [
+    "polls",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alquds",
+   "date": "2026-10-04",
+   "url": "https://alquds.com/ar/posts/260370-knesset-elections-arab-vote-impact-scenarios",
+   "headline_ar": "انتخابات الكنيست: صراع التمثيل العربي في مواجهة قرارات الشطب واليمين الإسرائيلي",
+   "headline_he": "הבחירות לכנסת: מאבק הייצוג הערבי מול החלטות הפסילה והימין הישראלי",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "far_right",
+    "arab_turnout"
+   ],
+   "terms": [
+    "الكنيست",
+    "الإسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "alquds",
+   "date": "2026-10-04",
+   "url": "https://alquds.com/ar/posts/260410-israel-election-polls-eisenkot-netanyahu-deadlock",
+   "headline_ar": "استطلاعات الكنيست: أيزنكوت يتصدر ونتنياهو يقلص الفجوة وسط انسداد سياسي",
+   "headline_he": "סקרי הכנסת: איזנקוט מוביל ונתניהו מצמצם את הפער על רקע מבוי סתום פוליטי",
+   "topics": [
+    "polls",
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "palinfo",
+   "date": "2026-10-04",
+   "url": "https://palinfo.com/news/2026/10/04/1119912/",
+   "headline_ar": "الخريطة الحزبية الإسرائيلية.. انتخابات 27 أكتوبر بين تراجع نتنياهو وصراع محتدم على أصوات العرب",
+   "headline_he": "המפה המפלגתית הישראלית.. בחירות 27 באוקטובר בין נסיגת נתניהו למאבק סוער על קולות הערבים",
+   "topics": [
+    "polls",
+    "netanyahu",
+    "arab_lists",
+    "arab_turnout"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alarabiya",
+   "date": "2026-10-04",
+   "url": "https://www.alarabiya.net/arab-and-world/2026/10/04/%D8%AD%D8%A7%D8%AF%D8%AB-%D9%81%D9%84%D8%A7%D9%8A-%D8%AF%D8%A8%D9%8A-%D9%8A%D8%AF%D8%AE%D9%84-%D8%B3%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D9%85%D9%83%D8%B3%D8%A8-%D8%A7%D9%85%D9%86%D9%8A-%D9%84%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A7%D9%85-%D9%81%D8%AE-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-",
+   "headline_ar": "حادث فلاي دبي يدخل سباق الكنيست.. كيف يؤثر على نتنياهو؟",
+   "headline_he": "תקרית פליי דובאי נכנסת למרוץ לכנסת.. כיצד היא משפיעה על נתניהו?",
+   "topics": [
+    "netanyahu",
+    "other"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "aljazeera",
+   "date": "2026-10-04",
+   "url": "https://www.aljazeera.net/news/2026/10/4/%D9%87%D9%84-%D9%8A%D8%B1%D8%AD%D9%84-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%88%D9%8A%D8%A8%D9%82%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86-%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D9%81%D9%8A",
+   "headline_ar": "هل يرحل نتنياهو ويبقى اليمين؟ قراءة في انتخابات إسرائيل",
+   "headline_he": "האם נתניהו ילך והימין יישאר? קריאה בבחירות בישראל",
+   "topics": [
+    "netanyahu",
+    "polls",
+    "far_right"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "okaz",
+   "date": "2026-10-03",
+   "url": "https://www.okaz.com.sa/politics/na/2269096",
+   "headline_ar": "في أحدث استطلاع للرأي.. نتنياهو في مأزق والمعارضة تتقدم بفارق مقعدين",
+   "headline_he": "בסקר דעת הקהל העדכני ביותר.. נתניהו במצוקה והאופוזיציה מקדימה בפער של שני מושבים",
+   "topics": [
+    "polls",
+    "netanyahu",
+    "opposition"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "maan",
+   "date": "2026-10-02",
+   "url": "https://www.maannews.net/news/2169783.html",
+   "headline_ar": "المحكمة العليا تسمح للقائمة المشتركة والموحدة وكسيف بالترشح لانتخابات الكنيست",
+   "headline_he": "בית המשפט העליון מתיר לרשימה המשותפת, למאוחדת ולכסיף להתמודד בבחירות לכנסת",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alain",
+   "date": "2026-10-02",
+   "url": "https://al-ain.com/article/1790935278",
+   "headline_ar": "اليمين الإسرائيلي يخفق في منع «العرب» من خوض انتخابات الكنيست",
+   "headline_he": "הימין הישראלי נכשל במניעת «הערבים» מלהתמודד בבחירות לכנסת",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "far_right"
+   ],
+   "terms": [
+    "الإسرائيلي",
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alaraby",
+   "date": "2026-10-02",
+   "url": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D9%84%D8%BA%D9%8A-%D8%B4%D8%B7%D8%A8-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%AA%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF%D8%A9",
+   "headline_ar": "المحكمة العليا الإسرائيلية تلغي شطب القائمتين \"المشتركة\" \"والموحدة\" وكسيف",
+   "headline_he": "בית המשפט העליון הישראלי מבטל את פסילת שתי הרשימות \"המשותפת\" \"והמאוחדת\" ואת כסיף",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "france24_ar",
+   "date": "2026-10-02",
+   "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9/20261002-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D8%A8%D8%B7%D9%84-%D9%82%D8%B1%D8%A7%D8%B1-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%D9%86%D8%B9-%D8%AA%D8%B1%D8%B4%D8%AD-%D9%82%D8%A7%D8%A6%D9%85%D8%AA%D9%8A%D9%86-%D8%B9%D8%B1%D8%A8%D9%8A%D8%AA%D9%8A%D9%86",
+   "headline_ar": "القضاء الإسرائيلي يبطل قرار لجنة الانتخابات منع ترشح قائمتين عربيتين",
+   "headline_he": "מערכת המשפט הישראלית מבטלת את החלטת ועדת הבחירות למנוע את התמודדותן של שתי רשימות ערביות",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "anadolu_ar",
+   "date": "2026-10-02",
+   "url": "https://www.aa.com.tr/ar/%D8%AF%D9%88%D9%84%D9%8A/%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9-%D9%81%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-53-%D9%85%D9%82%D8%B9%D8%AF%D8%A7-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D9%8851-%D9%84%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88/4075842",
+   "headline_ar": "استطلاع في إسرائيل: 53 مقعدا للمعارضة و51 لمعسكر نتنياهو",
+   "headline_he": "סקר בישראל: 53 מושבים לאופוזיציה ו-51 למחנה נתניהו",
+   "topics": [
+    "polls",
+    "netanyahu",
+    "opposition"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "cnn_arabic",
+   "date": "2026-10-02",
+   "url": "https://arabic.cnn.com/middle-east/article/2026/10/02/israels-supreme-court-clears-arab-parties-t-october-27-election",
+   "headline_ar": "المحكمة العليا الإسرائيلية تسمح للأحزاب العربية بخوض انتخابات أكتوبر.. وأبو شحادة ينسحب",
+   "headline_he": "בית המשפט העליון הישראלי מתיר למפלגות הערביות להתמודד בבחירות אוקטובר.. ואבו שחאדה פורש",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alquds_alarabi",
+   "date": "2026-10-02",
+   "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D9%84%D8%BA%D9%8A-%D9%82%D8%B1%D8%A7%D8%B1%D8%A7-%D9%8A%D9%85%D9%86%D8%B9-%D9%82%D8%A7/",
+   "headline_ar": "العليا الإسرائيلية تلغي قرارا يمنع قائمتين عربيتين من خوض الانتخابات",
+   "headline_he": "העליון הישראלי מבטל החלטה המונעת משתי רשימות ערביות להתמודד בבחירות",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "i24_ar",
+   "date": "2026-10-01",
+   "url": "https://www.i24news.tv/ar/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/israeli-election-2026/artc-493e5f54",
+   "headline_ar": "استطلاع i24NEWS:تراجع نتنياهو وأيزنكوت.. وبينيت يتقدم| النتائج الكاملة",
+   "headline_he": "סקר i24NEWS: נסיגה לנתניהו ולאיזנקוט.. ובנט מתקדם| התוצאות המלאות",
+   "topics": [
+    "polls",
+    "netanyahu",
+    "opposition"
+   ],
+   "terms": [],
+   "date_precision": "month"
+  },
+  {
+   "outlet_id": "albayan",
+   "date": "2026-10-01",
+   "url": "https://www.albayan.ae/news/middle-east/other-countries/1556405",
+   "headline_ar": "إسرائيل تنتخب على خرائط الجوار.. من لبنان وسوريا إلى غزة وسيناء",
+   "headline_he": "ישראל בוחרת על מפות השכנים.. מלבנון וסוריה ועד עזה וסיני",
+   "topics": [
+    "war",
+    "far_right",
+    "netanyahu",
+    "opposition"
+   ],
+   "terms": [
+    "إسرائيل"
+   ],
+   "date_precision": "month"
+  },
+  {
+   "outlet_id": "euronews_ar",
+   "date": "2026-10-01",
+   "url": "https://arabic.euronews.com/2026/10/01/supreme-court-faces-a-crucial-test-will-arab-electoral-lists-be-barred-from-israels-elec",
+   "headline_ar": "المحكمة العليا أمام اختبار حاسم.. هل تُقصى القوائم العربية من الانتخابات الإسرائيلية؟",
+   "headline_he": "בית המשפט העליון מול מבחן מכריע.. האם יודרו הרשימות הערביות מהבחירות הישראליות?",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "arab48",
+   "date": "2026-09-30",
+   "url": "https://www.arab48.com/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A7%D8%AA/%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA-%D9%88%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1/2026/09/30/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A--%D8%A2%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B7%D8%A8-%D8%AA%D8%AD%D9%88%D9%84%D8%AA-%D9%85%D9%86-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D9%83%D8%A7%D9%87%D8%A7%D9%86%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-",
+   "headline_ar": "قانوني إسرائيلي: آلية الشطب تحولت من مواجهة الكاهانية إلى استهداف التمثيل العربي",
+   "headline_he": "משפטן ישראלי: מנגנון הפסילה עבר מהתמודדות עם הכהניזם לכוונה נגד הייצוג הערבי",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "far_right"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "palinfo",
+   "date": "2026-09-30",
+   "url": "https://palinfo.com/news/2026/09/30/1119567/",
+   "headline_ar": "نتنياهو أمام الصندوق.. هل يوسّع الحرب لينجو من الحساب؟",
+   "headline_he": "נתניהו מול הקלפי.. האם ירחיב את המלחמה כדי להינצל מהדין וחשבון?",
+   "topics": [
+    "netanyahu",
+    "war"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "asharq_news",
+   "date": "2026-09-30",
+   "url": "https://asharq.com/politics/197946/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D8%B7%D9%84%D8%B9-%D8%B2%D8%B9%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D9%85%D8%AD%D8%AA%D9%85%D9%84%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA/",
+   "headline_ar": "نتنياهو يحذر زعيم المعارضة من \"هجمات محتملة قبل الانتخابات\".. ولبيد: ستعقد في موعدها",
+   "headline_he": "נתניהו מזהיר את ראש האופוזיציה מפני \"מתקפות אפשריות לפני הבחירות\".. ולפיד: הן ייערכו במועדן",
+   "topics": [
+    "netanyahu",
+    "opposition",
+    "war"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "independent_arabia",
+   "date": "2026-09-30",
+   "url": "https://www.independentarabia.com/node/659299/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%81%D9%8A-%D9%85%D8%A3%D8%B2%D9%82-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B5%D8%B1%D9%8A%D8%AD%D9%87-%D8%A8%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A3%D9%85%D9%86%D9%8A%D8%A9-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA",
+   "headline_ar": "نتنياهو في مأزق بعد تصريحه بتهديدات أمنية قبل الانتخابات",
+   "headline_he": "נתניהו במבוי סתום לאחר הצהרתו על איומים ביטחוניים לפני הבחירות",
+   "topics": [
+    "netanyahu",
+    "war"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "euronews_ar",
+   "date": "2026-09-29",
+   "url": "https://arabic.euronews.com/2026/09/29/israel-netanyahu-election-security-threat-warning",
+   "headline_ar": "نتنياهو يحذّر من هجوم محتمل على إسرائيل قبل الانتخابات",
+   "headline_he": "נתניהו מזהיר מפני מתקפה אפשרית על ישראל לפני הבחירות",
+   "topics": [
+    "netanyahu",
+    "war"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "wafa",
+   "date": "2026-09-28",
+   "url": "https://www.wafa.ps/news/2026/9/28/%D9%88%D9%81%D8%A7-%D8%AA%D8%B1%D8%B5%D8%AF-%D8%A7%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B6-%D9%88%D8%A7%D9%84%D8%B9%D9%86%D8%B5%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B4%D9%88%D8%B1%D8%A7%D8%AA-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D9%8A%D9%86-%D8%B9%D9%84%D9%89-%D9%85%D9%86%D8%B5%D8%A9-154839",
+   "headline_ar": "\"وفا\" ترصد التحريض والعنصرية في منشورات مسؤولين وأعضاء كنيست إسرائيليين على منصة \"إكس\"",
+   "headline_he": "\"ופא\" מתעדת הסתה וגזענות בפרסומים של בכירים וחברי כנסת ישראלים ברשת \"X\"",
+   "topics": [
+    "far_right",
+    "disqualification"
+   ],
+   "terms": [
+    "كنيست",
+    "إسرائيليين"
+   ]
+  },
+  {
+   "outlet_id": "ahram",
+   "date": "2026-09-28",
+   "url": "https://gate.ahram.org.eg/daily/NewsPrint/1030829.aspx",
+   "headline_ar": "استطلاعات متباينة ومشهد سياسى إسرائيلى مفتوح على تحالفات معقدة",
+   "headline_he": "סקרים סותרים וזירה פוליטית ישראלית הפתוחה לבריתות מורכבות",
+   "topics": [
+    "polls",
+    "netanyahu",
+    "opposition"
+   ],
+   "terms": [
+    "إسرائيلى"
+   ]
+  },
+  {
+   "outlet_id": "alghad",
+   "date": "2026-09-27",
+   "url": "https://alghad.com/Section-170/%D8%AF%D9%88%D9%84%D9%8A/%D9%82%D8%A7%D8%AF%D8%A9-5-%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D9%8A%D9%88%D8%AD%D8%AF%D9%88%D9%86-%D8%AC%D9%87%D9%88%D8%AF%D9%87%D9%85-%D8%A8%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%84%D8%A7%D8%B3%D8%AA%D8%A8%D8%AF%D8%A7%D9%84-%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-2097112",
+   "headline_ar": "قادة 5 أحزاب يوحدون جهودهم بالانتخابات لاستبدال حكومة نتنياهو",
+   "headline_he": "מנהיגי 5 מפלגות מאחדים מאמצים בבחירות כדי להחליף את ממשלת נתניהו",
+   "topics": [
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "alrai",
+   "date": "2026-09-27",
+   "url": "https://alrai.com/article/10978224/%D8%B9%D8%B1%D8%A8%D9%8A-%D9%88%D8%AF%D9%88%D9%84%D9%8A/%D9%82%D8%A7%D8%AF%D8%A9-5-%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D9%8A%D9%88%D8%AD%D8%AF%D9%88%D9%86-%D8%AC%D9%87%D9%88%D8%AF%D9%87%D9%85-%D8%A8%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%84%D8%A7%D8%B3%D8%AA%D8%A8%D8%AF%D8%A7%D9%84-%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88",
+   "headline_ar": "قادة 5 أحزاب يوحدون جهودهم بالانتخابات لاستبدال حكومة نتنياهو",
+   "headline_he": "מנהיגי 5 מפלגות מאחדים מאמצים בבחירות כדי להחליף את ממשלת נתניהו",
+   "topics": [
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "rt_arabic",
+   "date": "2026-09-27",
+   "url": "https://arabic.rt.com/world/1837305-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D9%8A%D8%AA%D8%B9%D9%87%D8%AF-%D8%A8%D8%A5%D9%82%D8%B5%D8%A7%D8%A1-%D8%B1%D8%B9%D8%A7%D9%85-%D9%88%D9%8A%D9%86%D8%AA%D9%82%D8%AF-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%AD%D8%B1%D8%A8%D9%8A-%D8%BA%D8%B2%D8%A9-%D9%88%D9%84%D8%A8%D9%86%D8%A7%D9%86/",
+   "headline_ar": "الانتخابات الإسرائيلية.. آيزنكوت يتعهد بإقصاء قائمة \"رعام\" وينتقد نتنياهو بسبب حربي غزة ولبنان",
+   "headline_he": "הבחירות בישראל.. איזנקוט מתחייב להדיר את רשימת \"רע\"מ\" ומבקר את נתניהו בשל המלחמות בעזה ובלבנון",
+   "topics": [
+    "opposition",
+    "arab_lists",
+    "netanyahu",
+    "war"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "i24_ar",
+   "date": "2026-09-26",
+   "url": "https://www.i24news.tv/ar/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/israeli-election-2026/artc-e8b3587f",
+   "headline_ar": "انتخابات إسرائيل تقترب.. أحزاب \"كتلة التغيير\" تتوحد بهدف استبدال الحكومة",
+   "headline_he": "הבחירות בישראל מתקרבות.. מפלגות \"גוש השינוי\" מתאחדות במטרה להחליף את הממשלה",
+   "topics": [
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "aljazeera",
+   "date": "2026-09-26",
+   "url": "https://www.aljazeera.net/news/2026/9/26/%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%81%D9%8A-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA",
+   "headline_ar": "معركة شطب أمام المحكمة العليا.. التمثيل العربي في انتخابات الكنيست على المحك",
+   "headline_he": "קרב פסילה בפני בית המשפט העליון.. הייצוג הערבי בבחירות לכנסת על כף המאזניים",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "polls"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "akhbar",
+   "date": "2026-09-26",
+   "url": "https://www.al-akhbar.com/NewspaperArticles/arab/905394/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86-%D8%B6%D8%AF--%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7---%D9%84%D8%A7-%D9%84%D8%B9%D8%B1%D8%A8-%D9%81%D9%8A--%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA",
+   "headline_ar": "معركة اليمين ضدّ «المحكمة العليا»: لا لعرب في «الكنيست»",
+   "headline_he": "מאבק הימין נגד «בית המשפט העליון»: לא לערבים ב«כנסת»",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "far_right"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "independent_arabia",
+   "date": "2026-09-26",
+   "url": "https://www.independentarabia.com/node/658930/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A7%D8%AA/%D8%B4%D8%B7%D8%A8-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%AA%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%AA%D9%8A%D9%86-%D9%85%D9%82%D8%B5%D9%84%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86",
+   "headline_ar": "شطب القائمتين العربيتين... مقصلة إسرائيلية ضد الفلسطينيين",
+   "headline_he": "פסילת שתי הרשימות הערביות... גיליוטינה ישראלית נגד הפלסטינים",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "إسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "mcd",
+   "date": "2026-09-26",
+   "url": "https://www.mc-doualiya.com/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20260926-%D8%A3%D8%B3%D8%AA%D8%B7%D9%8A%D8%B9-%D9%87%D8%B2%D9%8A%D9%85%D8%A9-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D9%8A%D9%83%D8%B4%D9%81-%D8%AE%D8%B7%D8%AA%D9%87-%D9%84%D9%85%D8%A7-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84%D8%A9",
+   "headline_ar": "\"أستطيع هزيمة نتنياهو\".. آيزنكوت يكشف خطته لما بعد الانتخابات المقبلة",
+   "headline_he": "\"אני יכול להביס את נתניהו\".. איזנקוט חושף את תוכניתו ליום שאחרי הבחירות הקרובות",
+   "topics": [
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "france24_ar",
+   "date": "2026-09-25",
+   "url": "https://www.france24.com/ar/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC/%D8%B5%D8%AF%D9%89-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%82/20260925-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84%D8%A9-%D9%87%D9%84-%D9%8A%D9%86%D8%AC%D9%88-%D9%86%D8%AA%D8%A7%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A3%D9%85%D8%A7%D9%85-%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A",
+   "headline_ar": "الانتخابات التشريعية الإسرائيلية المقبلة: هل ينجو نتانياهو أمام تحولات المجتمع الإسرائيلي؟",
+   "headline_he": "הבחירות הבאות לפרלמנט הישראלי: האם נתניהו ישרוד מול התמורות בחברה הישראלית?",
+   "topics": [
+    "netanyahu"
+   ],
+   "terms": [
+    "الإسرائيلية",
+    "الإسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "qudsn",
+   "date": "2026-09-24",
+   "url": "https://qudsn.co/post?id=217749&slug=%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B1%D9%81%D8%B6-%D8%B4%D8%B7%D8%A8-%D8%AD%D8%B2%D8%A8-%D8%A8%D9%86-%D8%BA%D9%81%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%B1%D8%BA%D9%85-%D8%A7%D9%84%D8%A3%D8%AF%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D9%82%D9%84%D9%82%D8%A9",
+   "headline_ar": "لجنة الانتخابات ترفض شطب حزب بن غفير من انتخابات الكنيست رغم \"الأدلة المقلقة\"",
+   "headline_he": "ועדת הבחירות דוחה את פסילת מפלגת בן גביר מהבחירות לכנסת למרות \"הראיות המטרידות\"",
+   "topics": [
+    "disqualification",
+    "far_right"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "skynewsarabia",
+   "date": "2026-09-24",
+   "url": "https://www.skynewsarabia.com/world/1894137-%D8%AA%D9%85%D9%86%D8%B9-%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AE%D9%88%D8%B6-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9",
+   "headline_ar": "هل تُمنع الأحزاب العربية من خوض الانتخابات الإسرائيلية؟",
+   "headline_he": "האם ייאסר על המפלגות הערביות להתמודד בבחירות הישראליות?",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alaraby",
+   "date": "2026-09-24",
+   "url": "https://www.alaraby.co.uk/politics/%D8%A5%D9%82%D8%B5%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%85%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-%D8%B3%D8%A7%D9%85%D9%8A-%D8%A3%D8%A8%D9%88-%D8%B4%D8%AD%D8%A7%D8%AF%D8%A9-%D8%B3%D8%A7%D8%A8%D9%82%D8%A9",
+   "headline_ar": "إقصاء العرب من انتخابات الكنيست.. استبعاد سامي أبو شحادة سابقة",
+   "headline_he": "הדרת הערבים מהבחירות לכנסת.. הרחקת סאמי אבו שחאדה – תקדים",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alrai",
+   "date": "2026-09-24",
+   "url": "https://alrai.com/article/10977850/%D8%B9%D8%B1%D8%A8%D9%8A-%D9%88%D8%AF%D9%88%D9%84%D9%8A/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%85%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA",
+   "headline_ar": "استبعاد \"القائمة العربية المشتركة\" من انتخابات الكنيست الإسرائيلي",
+   "headline_he": "הרחקת \"הרשימה הערבית המשותפת\" מהבחירות לכנסת הישראלית",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست",
+    "الإسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "mamlaka",
+   "date": "2026-09-24",
+   "url": "https://almamlakatv.com/news/210845-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D8%B1%D9%81%D8%B6-%D8%B4%D8%B7%D8%A8-%D8%AD%D8%B2%D8%A8-%D8%A8%D9%86-%D8%BA%D9%81%D9%8A%D8%B1",
+   "headline_ar": "لجنة الانتخابات الإسرائيلية ترفض شطب حزب بن غفير",
+   "headline_he": "ועדת הבחירות הישראלית דוחה את פסילת מפלגתו של בן גביר",
+   "topics": [
+    "disqualification",
+    "far_right"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "france24_ar",
+   "date": "2026-09-24",
+   "url": "https://www.france24.com/ar/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC/%D8%B6%D9%8A%D9%81-%D8%A7%D9%84%D9%8A%D9%88%D9%85/20260924-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A8%D8%B9%D8%AF-%D8%B4%D8%B7%D8%A8-%D9%82%D8%A7%D8%A6%D9%85%D8%AA%D9%8A%D9%86-%D8%B9%D8%B1%D8%A8%D9%8A%D8%AA%D9%8A%D9%86-%D9%87%D9%84-%D9%8A%D8%BA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D9%86-%D8%A7%D9%84%D9%85%D8%B4%D9%87%D8%AF-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84",
+   "headline_ar": "إسرائيل: بعد شطب قائمتين عربيتين.. هل يغيب التمثيل العربي عن المشهد السياسي في الكنيست المقبل؟",
+   "headline_he": "ישראל: לאחר פסילת שתי רשימות ערביות.. האם ייעדר הייצוג הערבי מהזירה הפוליטית בכנסת הבאה?",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "إسرائيل",
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "rt_arabic",
+   "date": "2026-09-24",
+   "url": "https://arabic.rt.com/world/1836485-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D8%B1%D9%81%D8%B6-%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-%D8%AD%D8%B2%D8%A8-%D8%A8%D9%86-%D8%BA%D9%81%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA/",
+   "headline_ar": "لجنة الانتخابات الإسرائيلية ترفض استبعاد حزب بن غفير من انتخابات الكنيست",
+   "headline_he": "ועדת הבחירות הישראלית דוחה את הרחקת מפלגתו של בן גביר מהבחירות לכנסת",
+   "topics": [
+    "disqualification",
+    "far_right"
+   ],
+   "terms": [
+    "الإسرائيلية",
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "anadolu_ar",
+   "date": "2026-09-24",
+   "url": "https://www.aa.com.tr/ar/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1/%D8%A7%D8%B3%D8%AA%D8%A8%D8%B9%D8%A7%D8%AF-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D9%86-%D8%B3%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B3%D9%8A%D8%B3%D8%A9-%D9%84%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A5%D8%B6%D8%A7%D8%A1%D8%A9/4067098",
+   "headline_ar": "استبعاد القوائم العربية من سباق الكنيست.. قرارات مسيسة لإنقاذ نتنياهو؟ (إضاءة)",
+   "headline_he": "הרחקת הרשימות הערביות ממרוץ הכנסת.. החלטות פוליטיות להצלת נתניהו? (זרקור)",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "netanyahu"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alquds_alarabi",
+   "date": "2026-09-24",
+   "url": "https://www.alquds.co.uk/%D8%BA%D8%AF%D8%A7%D8%A9-%D8%B4%D8%B7%D8%A8%D9%87%D8%A7-%D8%AC%D9%85%D9%8A%D8%B9-%D8%A7%D9%84%D9%85%D8%B1%D8%B4%D8%AD%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7/",
+   "headline_ar": "غداة شطبها جميع المرشحين العرب… لجنة الانتخابات تبحث طلبات شطب «عظمة يهودية» و«الصهيونية الدينية» وغولان",
+   "headline_he": "יום לאחר שפסלה את כל המועמדים הערבים… ועדת הבחירות דנה בבקשות לפסילת «עוצמה יהודית» ו«הציונות הדתית» וגולן",
+   "topics": [
+    "disqualification",
+    "far_right",
+    "arab_lists"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "alquds_alarabi",
+   "date": "2026-09-24",
+   "url": "https://www.alquds.co.uk/%D8%B9%D9%86%D8%B5%D8%B1%D9%8A%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A5%D8%B2%D8%A7%D8%A1-%D8%A3%D8%A8%D9%88-%D8%B4%D8%AD%D8%A7%D8%AF%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/",
+   "headline_ar": "عنصرية إسرائيل إزاء أبو شحادة والعرب… “رياضة قومية” على أساس الهوية",
+   "headline_he": "הגזענות של ישראל כלפי אבו שחאדה והערבים… \"ספורט לאומי\" על בסיס זהות",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "euronews_ar",
+   "date": "2026-09-24",
+   "url": "https://arabic.euronews.com/2026/09/24/gadi-eisenkot-netanyahu-israel-elections-october-7-iran",
+   "headline_ar": "\"أريد إحداث تغيير\".. آيزنكوت يطرح رؤيته لإسرائيل وأولويات حكومته المحتملة",
+   "headline_he": "\"אני רוצה לחולל שינוי\".. איזנקוט מציג את חזונו לישראל ואת סדרי העדיפויות של ממשלתו האפשרית",
+   "topics": [
+    "opposition"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "arab48",
+   "date": "2026-09-23",
+   "url": "https://www.arab48.com/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/2026/09/23/%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B5%D9%88%D8%AA-%D8%B9%D9%84%D9%89-%D8%B7%D9%84%D8%A8%D8%A7%D8%AA-%D8%B4%D8%B7%D8%A8-%D9%85%D8%B1%D8%B4%D8%AD%D9%8A%D9%86-%D9%81%D9%8A-%D9%85%D9%82%D8%AF%D9%85%D8%AA%D9%87%D9%85-%D8%A3%D8%A8%D9%88-%D8%B4%D8%AD%D8%A7%D8%AF%D8%A9",
+   "headline_ar": "لجنة الانتخابات تقرر شطب ترشح القائمة المشتركة وأبو شحادة وكسيف والموحدة",
+   "headline_he": "ועדת הבחירות מחליטה לפסול את מועמדות הרשימה המשותפת, אבו שחאדה, כסיף והמאוחדת",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "arab48",
+   "date": "2026-09-23",
+   "url": "https://www.arab48.com/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/2026/09/23/%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%A7%D9%84%D8%B5%D9%87%D9%8A%D9%88%D9%86%D9%8A%D8%A9-%D8%AF%D9%88%D9%86-61-%D9%85%D9%82%D8%B9%D8%AF%D8%A7-%D8%AD%D8%AA%D9%89-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D8%AA%D8%AD%D8%B5%D8%AF-8-%D9%85%D9%82%D8%A7%D8%B9%D8%AF",
+   "headline_ar": "استطلاع: المعارضة الصهيونية دون 61 مقعدًا حتى مع الموحدة... المشتركة تحصد 8 مقاعد",
+   "headline_he": "סקר: האופוזיציה הציונית מתחת ל-61 מנדטים גם עם המאוחדת... המשותפת קוצרת 8 מנדטים",
+   "topics": [
+    "polls",
+    "opposition",
+    "arab_lists"
+   ],
+   "terms": [
+    "المعارضة الصهيونية"
+   ]
+  },
+  {
+   "outlet_id": "kul_alarab",
+   "date": "2026-09-23",
+   "url": "https://www.kul-alarab.com/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA/%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9-%D8%AA%D8%B5%D8%A7%D8%AF%D9%82-%D8%B9%D9%84%D9%89-%D8%B4%D8%B7%D8%A8-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%85%D9%86-%D8%AE%D9%88%D8%B6-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA/1129226",
+   "headline_ar": "لجنة الانتخابات المركزية تصادق على شطب \"القائمة المشتركة\" من خوض انتخابات الكنيست",
+   "headline_he": "ועדת הבחירות המרכזית מאשרת את פסילת \"הרשימה המשותפת\" מהתמודדות בבחירות לכנסת",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "i24_ar",
+   "date": "2026-09-23",
+   "url": "https://www.i24news.tv/ar/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/israeli-election-2026/artc-be284e09",
+   "headline_ar": "انتخابات الكنيست الـ26.. لجنة الانتخابات تستبعد أبو شحادة وكاسيف والقائمة الموحدة والمشتركة",
+   "headline_he": "הבחירות לכנסת ה-26.. ועדת הבחירות מרחיקה את אבו שחאדה, כסיף, הרשימה המאוחדת והמשותפת",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست الـ26"
+   ]
+  },
+  {
+   "outlet_id": "makan",
+   "date": "2026-09-23",
+   "url": "https://www.makan.org.il/content/news/makan-news/p-1094252/1102012/",
+   "headline_ar": "حزب \"إسرائيل بيتنا\" يعلن دعمه شطب القائمة الموحدة والمشتركة وكسيف وأبو شحادة",
+   "headline_he": "מפלגת \"ישראל ביתנו\" מודיעה על תמיכתה בפסילת הרשימה המאוחדת, המשותפת, כסיף ואבו שחאדה",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "opposition"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "makan",
+   "date": "2026-09-23",
+   "url": "https://www.makan.org.il/content/news/makan-news/p-1094252/1102134/",
+   "headline_ar": "لجنة الانتخابات المركزية تُقرر شطب ترشُّح رئيس التجمع",
+   "headline_he": "ועדת הבחירות המרכזית מחליטה לפסול את מועמדות יו\"ר בל\"ד (التجمع)",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "wafa",
+   "date": "2026-09-23",
+   "url": "https://www.wafa.ps/news/2026/9/23/%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D8%B5%D8%A7%D8%AF%D9%82-%D8%B9%D9%84%D9%89-%D8%B4%D8%B7%D8%A8-%D8%AA%D8%B1%D8%B4%D8%AD-%D8%A7%D9%84%D9%86%D8%A7%D8%A6%D8%A8-%D8%B9%D9%88%D9%81%D8%B1-%D9%83%D8%B3%D9%8A%D9%81-%D9%84%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%A7%D9%84%D9%8026-154519",
+   "headline_ar": "لجنة الانتخابات الإسرائيلية تصادق على شطب ترشح النائب عوفر كسيف للكنيست الـ26",
+   "headline_he": "ועדת הבחירות הישראלית מאשרת את פסילת מועמדותו של חבר הכנסת עופר כסיף לכנסת ה-26",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية",
+    "الكنيست الـ26"
+   ]
+  },
+  {
+   "outlet_id": "maan",
+   "date": "2026-09-23",
+   "url": "https://www.maannews.net/news/2169248.html",
+   "headline_ar": "لجنة الانتخابات الإسرائيلية تشطب القائمة العربية الموحدة من خوض انتخابات الكنيست",
+   "headline_he": "ועדת הבחירות הישראלית פוסלת את הרשימה הערבית המאוחדת מהתמודדות בבחירות לכנסת",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية",
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alain",
+   "date": "2026-09-23",
+   "url": "https://al-ain.com/article/israel-elections-arab",
+   "headline_ar": "الكنيست بلا قوائم عربية.. قرارات شطب تشعل معركة الانتخابات بإسرائيل",
+   "headline_he": "הכנסת בלי רשימות ערביות.. החלטות פסילה מציתות את קרב הבחירות בישראל",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست",
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "alkhaleej",
+   "date": "2026-09-23",
+   "url": "https://www.alkhaleej.ae/2026-09-23/%D8%B9%D8%B1%D8%A8-%D9%88%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D8%B4%D8%B7%D8%A8-%D8%AA%D8%B1%D8%B4%D8%AD-%D9%82%D8%A7%D8%A6%D9%85%D8%AA%D9%8A%D9%86-%D8%B9%D8%B1%D8%A8%D9%8A%D8%AA%D9%8A%D9%86-%D9%84%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA",
+   "headline_ar": "لجنة الانتخابات الإسرائيلية تشطب ترشح قائمتين عربيتين للكنيست",
+   "headline_he": "ועדת הבחירות הישראלית מוחקת את מועמדותן של שתי רשימות ערביות לכנסת",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية",
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "mamlaka",
+   "date": "2026-09-23",
+   "url": "https://almamlakatv.com/news/210758-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9-%D9%84%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%AA%D8%B5%D8%A7%D8%AF%D9%82-%D8%B9%D9%84%D9%89-%D8%B4%D8%B7%D8%A8-%D8%AA%D8%B1%D8%B4%D8%AD-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+   "headline_ar": "لجنة الانتخابات المركزية للكنيست تصادق على شطب ترشح القائمة العربية",
+   "headline_he": "ועדת הבחירות המרכזית לכנסת מאשרת את פסילת מועמדות הרשימה הערבית",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "mamlaka",
+   "date": "2026-09-23",
+   "url": "https://almamlakatv.com/news/210785-%D8%A3%D8%A8%D9%88-%D8%B4%D8%AD%D8%A7%D8%AF%D8%A9-%D8%B9%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D9%88%D9%86-%D8%A8%D9%85%D8%B9%D8%B1%D9%83%D8%AA%D9%86%D8%A7-%D9%84%D9%84%D8%AD%D9%81%D8%A7%D8%B8-%D8%B9%D9%84%D9%89-%D8%AD%D9%82%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%B1%D8%B4%D8%AD-%D9%88%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8",
+   "headline_ar": "أبو شحادة لـ\"المملكة\" عن انتخابات الكنيست: مستمرون بمعركتنا للحفاظ على حقنا في الترشح والانتخاب",
+   "headline_he": "אבו שחאדה ל\"אל-ממלכה\" על הבחירות לכנסת: נמשיך במאבקנו לשמור על זכותנו להיבחר ולבחור",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "mamlaka",
+   "date": "2026-09-23",
+   "url": "https://almamlakatv.com/news/210794-%D8%A7%D9%84%D8%B7%D9%8A%D8%A8%D9%8A-%D9%82%D8%B1%D8%A7%D8%B1-%D8%B4%D8%B7%D8%A8-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%AA%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF%D8%A9-%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A-%D9%88%D8%B3%D9%86%D8%B3%D8%AA%D8%A3%D9%86%D9%81%D9%87-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7",
+   "headline_ar": "الطيبي: قرار شطب القائمتين \"المشتركة\" و\"الموحدة\" سياسي وسنستأنفه أمام المحكمة العليا",
+   "headline_he": "טיבי: ההחלטה לפסול את שתי הרשימות \"המשותפת\" ו\"המאוחדת\" היא פוליטית ונערער עליה בפני בית המשפט העליון",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "rt_arabic",
+   "date": "2026-09-23",
+   "url": "https://arabic.rt.com/world/1836200-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AA%D8%B4%D8%B7%D8%A8-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF%D8%A9-%D9%85%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%A7%D9%84%D9%8026/",
+   "headline_ar": "إسرائيل.. لجنة الانتخابات تشطب القائمة العربية الموحدة من انتخابات الكنيست الـ26",
+   "headline_he": "ישראל.. ועדת הבחירות פוסלת את הרשימה הערבית המאוחדת מהבחירות לכנסת ה-26",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "إسرائيل",
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alqahera",
+   "date": "2026-09-22",
+   "url": "https://alqaheranews.net/news/179843/%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%8A%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D9%81%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84",
+   "headline_ar": "\"الذكاء الاصطناعي\" يشعل السباق الانتخابي في إسرائيل",
+   "headline_he": "\"הבינה המלאכותית\" מבעירה את מרוץ הבחירות בישראל",
+   "topics": [
+    "other",
+    "netanyahu"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "alghad",
+   "date": "2026-09-21",
+   "url": "https://alghad.com/Section-114/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85/%D9%85%D9%86-%D9%8A%D8%AD%D8%AA%D9%85%D9%84-%D8%A8%D9%82%D8%A7%D8%A1-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-2096378",
+   "headline_ar": "من يحتمل بقاء نتنياهو؟",
+   "headline_he": "מי יכול לשאת את הישארותו של נתניהו?",
+   "topics": [
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "bbc_arabic",
+   "date": "2026-09-21",
+   "url": "https://www.bbc.com/arabic/articles/cm2092yp5qxyo",
+   "headline_ar": "هل يشن نتنياهو هجوماً آخر على إيران قبل الانتخابات الإسرائيلية؟",
+   "headline_he": "האם נתניהו יפתח במתקפה נוספת על איראן לפני הבחירות הישראליות?",
+   "topics": [
+    "war",
+    "netanyahu"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alhurra",
+   "date": "2026-09-20",
+   "url": "https://alhurra.com/40821",
+   "headline_ar": "انتخابات الكنيست .. صراع القوائم في إسرائيل",
+   "headline_he": "הבחירות לכנסת .. מאבק הרשימות בישראל",
+   "topics": [
+    "polls",
+    "netanyahu",
+    "opposition",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست",
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "wafa",
+   "date": "2026-09-19",
+   "url": "https://www.wafa.ps/news/2026/9/19/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D8%B1-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D8%A8%D9%88%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-154256",
+   "headline_ar": "تقرير: الاستعمار يتصدر الدعاية السياسية على ابواب انتخابات الكنيست الإسرائيلية",
+   "headline_he": "דו\"ח: הקולוניאליזם (الاستعمار) עומד בראש התעמולה הפוליטית ערב הבחירות לכנסת הישראלית",
+   "topics": [
+    "far_right",
+    "other"
+   ],
+   "terms": [
+    "الكنيست الإسرائيلية",
+    "الاستعمار"
+   ]
+  },
+  {
+   "outlet_id": "alkhaleej",
+   "date": "2026-09-19",
+   "url": "https://www.alkhaleej.ae/2026-09-19/%D8%B1%D8%A3%D9%8A/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A3%D8%B2%D9%85%D8%A9-%D8%AF%D9%88%D9%84%D8%A9-%D8%A3%D9%85-%D8%A3%D8%B2%D9%85%D8%A9-%D9%86%D8%B8%D8%A7%D9%85",
+   "headline_ar": "الانتخابات الإسرائيلية أزمة دولة أم أزمة نظام؟",
+   "headline_he": "הבחירות הישראליות: משבר של מדינה או משבר של משטר?",
+   "topics": [
+    "other"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "aljazeera",
+   "date": "2026-09-19",
+   "url": "https://www.aljazeera.net/politics/2026/9/19/%D9%85%D9%82%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%BA%D8%A7%D8%B1%D8%AF%D9%8A%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84",
+   "headline_ar": "مقال بالغارديان: انتخابات إسرائيل المقبلة قد تكون الأخيرة",
+   "headline_he": "מאמר בגרדיאן: הבחירות הבאות בישראל עשויות להיות האחרונות",
+   "topics": [
+    "other"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "youm7",
+   "date": "2026-09-19",
+   "url": "https://www.youm7.com/story/2026/9/19/%D9%85%D8%A7-%D9%85%D8%B5%D9%8A%D8%B1-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%AD%D8%A7%D9%84-%D8%AE%D8%B3%D8%A7%D8%B1%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%B1%D8%A6%D9%8A%D8%B3-%D9%88%D8%B2%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%AC%D9%8A%D8%A8/7551267",
+   "headline_ar": "ما مصير نتنياهو حال خسارته الانتخابات؟.. رئيس وزراء الاحتلال يجيب",
+   "headline_he": "מה יעלה בגורלו של נתניהו אם יפסיד בבחירות?.. ראש ממשלת הכיבוש משיב",
+   "topics": [
+    "netanyahu"
+   ],
+   "terms": [
+    "الاحتلال"
+   ]
+  },
+  {
+   "outlet_id": "alghad",
+   "date": "2026-09-19",
+   "url": "https://alghad.com/Section-184/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A/%D9%82%D8%B6%D9%85-%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B5%D9%81%D8%A9-%D8%A7%D9%84%D8%B3%D8%AD%D8%B1%D9%8A%D8%A9-%D9%84%D9%83%D8%B3%D8%A8-%D8%A7%D9%84%D9%86%D8%A7%D8%AE%D8%A8%D9%8A%D9%86-%D9%81%D9%8A-%D9%83%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-2096066",
+   "headline_ar": "قضم المزيد من الأراضي الفلسطينية.. الوصفة السحرية لكسب الناخبين في كيان الاحتلال",
+   "headline_he": "כרסום אדמות פלסטיניות נוספות.. המתכון הקסום לזכייה בבוחרים בישות הכיבוש",
+   "topics": [
+    "far_right",
+    "other"
+   ],
+   "terms": [
+    "كيان الاحتلال"
+   ]
+  },
+  {
+   "outlet_id": "alsharq_qa",
+   "date": "2026-09-18",
+   "url": "https://al-sharq.com/opinion/18/09/2026/%D8%AF%D8%B9%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9",
+   "headline_ar": "دعايات انتخابية إرهابية!",
+   "headline_he": "תעמולות בחירות טרוריסטיות!",
+   "topics": [
+    "far_right",
+    "other"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "alsharq_qa",
+   "date": "2026-09-18",
+   "url": "https://al-sharq.com/article/18/09/2026/%D9%82%D8%B7%D8%B1-%D8%AA%D9%81%D9%86%D8%AF-%D8%A3%D9%83%D8%A7%D8%B0%D9%8A%D8%A8-%D9%88%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AD%D9%88%D9%84-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA%D9%87%D8%A7-%D9%84%D8%A3%D9%87%D9%84-%D8%BA%D8%B2%D8%A9",
+   "headline_ar": "قطر تفند أكاذيب وسائل الإعلام الإسرائيلية حول مساعداتها لأهل غزة",
+   "headline_he": "קטר מפריכה את שקרי כלי התקשורת הישראליים בנוגע לסיועה לתושבי עזה",
+   "topics": [
+    "other",
+    "war"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "manar",
+   "date": "2026-09-18",
+   "url": "https://www.almanar.com.lb/article/1186367/",
+   "headline_ar": "نتنياهو يطلق الحملة الانتخابية لليكود بخطاب يركّز على القضايا الأمنية",
+   "headline_he": "נתניהו משיק את קמפיין הבחירות של הליכוד בנאום המתמקד בסוגיות ביטחוניות",
+   "topics": [
+    "netanyahu",
+    "war"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "akhbar",
+   "date": "2026-09-17",
+   "url": "https://www.al-akhbar.com/NewspaperArticles/arab/904457/%D8%AE%D8%A7%D8%B1%D8%B7%D8%A9-%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9--%D9%84%D8%A7-%D8%A3%D8%BA%D9%84%D8%A8%D9%8A%D8%A9-%D9%84%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA----%D9%88%D9%86",
+   "headline_ar": "خارطة أوّلية للانتخابات الإسرائيلية: لا أغلبية لآيزنكوت... ونتنياهو يتأرجح",
+   "headline_he": "מפה ראשונית של הבחירות הישראליות: אין רוב לאיזנקוט... ונתניהו מתנדנד",
+   "topics": [
+    "polls",
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "rt_arabic",
+   "date": "2026-09-17",
+   "url": "https://arabic.rt.com/world/1834100-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A7%D9%84%D9%84%D9%8A%D9%83%D9%88%D8%AF-%D9%8A%D8%AD%D8%A7%D9%88%D9%84-%D9%85%D9%86%D8%B9-%D8%A7%D9%84%D9%85%D8%BA%D8%AA%D8%B1%D8%A8%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D9%84%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%AA-%D9%81%D9%8A-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1/",
+   "headline_ar": "إسرائيل.. \"الليكود\" يحاول منع المغتربين من العودة للتصويت في انتخابات أكتوبر",
+   "headline_he": "ישראל.. \"הליכוד\" מנסה למנוע מהשוהים בחו\"ל לחזור כדי להצביע בבחירות אוקטובר",
+   "topics": [
+    "netanyahu",
+    "other"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "independent_arabia",
+   "date": "2026-09-17",
+   "url": "https://www.independentarabia.com/node/658123/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1/%D8%A7%D9%84%D8%B5%D9%88%D8%AA-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%AB%D9%82%D9%84-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D9%81%D9%8A-%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9",
+   "headline_ar": "الصوت العربي... ثقل انتخابي في معادلة إسرائيل السياسية",
+   "headline_he": "הקול הערבי... משקל אלקטורלי במשוואה הפוליטית של ישראל",
+   "topics": [
+    "arab_turnout",
+    "arab_lists"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "aljazeera",
+   "date": "2026-09-16",
+   "url": "https://www.aljazeera.net/politics/2026/9/16/%D9%85%D8%A7%D8%B0%D8%A7-%D9%84%D9%88-%D9%85%D9%86%D8%B9%D8%AA-%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D9%86-%D8%AE%D9%88%D8%B6",
+   "headline_ar": "ماذا لو مُنعت الأحزاب العربية من خوض انتخابات الكنيست؟",
+   "headline_he": "מה אם ייאסר על המפלגות הערביות להתמודד בבחירות לכנסת?",
+   "topics": [
+    "disqualification",
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alaraby",
+   "date": "2026-09-16",
+   "url": "https://www.alaraby.co.uk/politics/%D8%B7%D9%84%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%B7%D8%A8-%D8%AA%D9%84%D8%A7%D8%AD%D9%82-%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A-%D8%A7%D9%84%D9%8048-%D9%88%D9%85%D8%B1%D8%B4%D8%AD%D9%8A%D9%87%D8%A7-%D9%84%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA",
+   "headline_ar": "طلبات الشطب تلاحق الأحزاب العربية داخل أراضي الـ48 ومرشحيها للكنيست",
+   "headline_he": "בקשות הפסילה רודפות את המפלגות הערביות בתוך שטחי 48 ואת מועמדיהן לכנסת",
+   "topics": [
+    "disqualification",
+    "arab_lists",
+    "far_right"
+   ],
+   "terms": [
+    "أراضي الـ48",
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "annahar",
+   "date": "2026-09-16",
+   "url": "https://www.annahar.com/international/israeli-issues/347765/%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%87%D9%84-%D9%8A%D8%B7%D9%8A%D8%AD-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A8%D9%85%D9%88%D8%B9%D8%AF%D9%87%D8%A7-%D9%82%D8%A8%D9%84-%D8%A3%D9%86-%D8%AA%D8%B7%D9%8A%D8%AD-%D8%A8%D9%87",
+   "headline_ar": "انتخابات إسرائيل... هل يطيح نتنياهو بموعدها قبل أن تطيح به؟",
+   "headline_he": "בחירות ישראל... האם נתניהו יפיל את מועדן לפני שהן יפילו אותו?",
+   "topics": [
+    "netanyahu",
+    "other"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "france24_ar",
+   "date": "2026-09-16",
+   "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20260916-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%8A%D9%83%D9%88%D8%AF-%D9%86%D8%AA%D8%A7%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%B7%D8%B9%D9%86-%D8%B9%D8%B1%D9%82%D9%84%D8%A9-%D8%AA%D8%B5%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D9%8A%D8%A9",
+   "headline_ar": "حزب الليكود بزعامة نتانياهو يقدم طعنا لعرقلة تصويت إسرائيليي الخارج بالانتخابات التشريعية",
+   "headline_he": "מפלגת הליכוד בראשות נתניהו מגישה ערעור כדי לשבש את הצבעת ישראלי החוץ בבחירות לפרלמנט",
+   "topics": [
+    "netanyahu",
+    "other"
+   ],
+   "terms": [
+    "إسرائيليي"
+   ]
+  },
+  {
+   "outlet_id": "ahram",
+   "date": "2026-09-10",
+   "url": "https://gate.ahram.org.eg/daily/News/205706/115/1028996/%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA-%D9%88-%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-%D8%AE%D8%A7%D8%B1/%D8%B9%D9%84%D9%89-%D9%87%D8%A7%D9%85%D8%B4-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9%D9%87%D9%84-%D9%8A%D9%86%D9%82%D8%B0-%D9%86%D9%8A%D8%AA%D8%A7%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%85.aspx",
+   "headline_ar": "هل ينقذ نيتانياهو معسكر اليمين من التشتت؟",
+   "headline_he": "האם נתניהו יציל את מחנה הימין מהתפצלות?",
+   "topics": [
+    "netanyahu",
+    "far_right"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "aawsat",
+   "date": "2026-09-09",
+   "url": "https://aawsat.com/%D8%B4%D8%A4%D9%88%D9%86-%D8%A5%D9%82%D9%84%D9%8A%D9%85%D9%8A%D8%A9/5316595-38-%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%AA%D8%AA%D9%86%D8%A7%D9%81%D8%B3-%D9%81%D9%8A-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%85%D8%A7-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%88%D9%83%D9%8A%D9%81-%D8%AA%D9%86%D8%B9%D9%83%D8%B3-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84%D8%A9%D8%9F",
+   "headline_ar": "38 قائمة تتنافس في إسرائيل... ما الجديد وكيف تنعكس على الانتخابات المقبلة؟",
+   "headline_he": "38 רשימות מתמודדות בישראל... מה חדש וכיצד הדבר ישתקף בבחירות הקרובות?",
+   "topics": [
+    "other"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "mayadeen",
+   "date": "2026-09-08",
+   "url": "https://www.almayadeen.net/reports/%D8%A8%D9%8A%D9%86-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%88%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA---%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%8A-%D9%82%D8%AF-%D8%AA%D8%B9%D9%8A%D8%AF-%D8%B1%D8%B3%D9%85--%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84",
+   "headline_ar": "انتخابات كنيست الاحتلال 2026.. على ماذا يتنافس نتنياهو وآيزنكوت؟",
+   "headline_he": "בחירות כנסת הכיבוש 2026.. על מה מתחרים נתניהו ואיזנקוט?",
+   "topics": [
+    "netanyahu",
+    "opposition"
+   ],
+   "terms": [
+    "كنيست الاحتلال"
+   ]
+  },
+  {
+   "outlet_id": "alkhaleej",
+   "date": "2026-09-07",
+   "url": "https://www.alkhaleej.ae/2026-09-07/%D8%B1%D8%A3%D9%8A/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD%D9%8A%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC/%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9",
+   "headline_ar": "لبنان في الانتخابات الإسرائيلية",
+   "headline_he": "לבנון בבחירות הישראליות",
+   "topics": [
+    "war"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "youm7",
+   "date": "2026-09-04",
+   "url": "https://www.youm7.com/story/2026/9/4/%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9-%D9%85%D8%B9%D8%A7%D8%B1%D9%8A%D9%81-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%AA%D8%AA%D9%81%D9%88%D9%82-%D8%B9%D9%84%D9%89-%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%AD%D8%A7%D9%84-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA/7535693",
+   "headline_ar": "استطلاع معاريف: المعارضة تتفوق على ائتلاف نتنياهو حال إجراء انتخابات الكنيست",
+   "headline_he": "סקר מעריב: האופוזיציה עדיפה על הקואליציה של נתניהו אם ייערכו בחירות לכנסת",
+   "topics": [
+    "polls",
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "euronews_ar",
+   "date": "2026-09-04",
+   "url": "https://arabic.euronews.com/2026/09/04/israeli-elections-knesset-netanyahu-opinion-poll-opposition-parties-gadi-eisenko",
+   "headline_ar": "مأزق الأغلبية.. استطلاعات إسرائيلية تكشف تقلبات حادة في الخريطة الانتخابية",
+   "headline_he": "מבוי סתום של הרוב.. סקרים ישראליים חושפים תנודות חדות במפה האלקטורלית",
+   "topics": [
+    "polls"
+   ],
+   "terms": [
+    "إسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "skynewsarabia",
+   "date": "2026-08-31",
+   "url": "https://www.skynewsarabia.com/middle-east/1889040-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D8%AD%D8%B4%D8%AF-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85",
+   "headline_ar": "انتخابات إسرائيل.. نتنياهو يحشد اليمين قبل إعلان القوائم",
+   "headline_he": "בחירות ישראל.. נתניהו מגייס את הימין לפני הכרזת הרשימות",
+   "topics": [
+    "netanyahu",
+    "far_right"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "youm7",
+   "date": "2026-08-28",
+   "url": "https://www.youm7.com/story/2026/8/28/%D9%85%D8%B1%D8%A7%D8%B3%D9%84%D8%A9-%C2%AB%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%AE%D8%A8%D8%A7%D8%B1%D9%8A%D8%A9%C2%BB-%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%A3%D9%89-%D8%AA%D8%AB%D9%8A%D8%B1-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D8%A8%D8%B4%D8%A3%D9%86-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D9%87/7528860",
+   "headline_ar": "مراسلة «القاهرة الإخبارية»: استطلاعات الرأى تثير مخاوف نتنياهو بشأن مستقبله السياسى",
+   "headline_he": "כתבת «אל-קאהרה אל-אח'באריה»: סקרי דעת הקהל מעוררים את חששותיו של נתניהו בנוגע לעתידו הפוליטי",
+   "topics": [
+    "polls",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "akhbar",
+   "date": "2026-08-28",
+   "url": "https://www.al-akhbar.com/NewspaperArticles/arab/902798/%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9--%D9%84%D9%8A%D9%83%D9%88%D8%AF%D9%8A--%D8%AB%D8%A7%D8%A8%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA--%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%88%D8%A7%D9%82%D8%B9%D8%A9",
+   "headline_ar": "تراجع «ليكودي» ثابت في الاستطلاعات: خسارة نتنياهو واقعة",
+   "headline_he": "ירידה «ליכודית» יציבה בסקרים: הפסדו של נתניהו ודאי",
+   "topics": [
+    "polls",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "majalla",
+   "date": "2026-08-27",
+   "url": "https://www.majalla.com/node/332745/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/%D8%A3%D8%B5%D9%88%D8%A7%D8%AA-%D9%85%D8%B7%D9%84%D9%88%D8%A8%D8%A9-%D9%88%D8%B4%D8%B1%D8%A7%D9%83%D8%A9-%D9%85%D8%A4%D8%AC%D9%84%D8%A9-%D9%83%D9%8A%D9%81-%D8%AA%D8%AE%D8%A7%D8%B7%D8%A8-%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%AE%D8%A8-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%9F",
+   "headline_ar": "أصوات مطلوبة وشراكة مؤجلة... كيف تخاطب الأحزاب الإسرائيلية الناخب العربي؟",
+   "headline_he": "קולות מבוקשים ושותפות נדחית... כיצד פונות המפלגות הישראליות אל הבוחר הערבי?",
+   "topics": [
+    "arab_lists",
+    "arab_turnout",
+    "opposition",
+    "crime"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alrai",
+   "date": "2026-08-27",
+   "url": "https://alrai.com/article/10973558/%D8%B9%D8%B1%D8%A8%D9%8A-%D9%88%D8%AF%D9%88%D9%84%D9%8A/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%85%D8%BA%D9%84%D9%82%D8%A9-%D8%A7%D9%84%D9%84%D9%8A%D9%83%D9%88%D8%AF-%D8%B3%D9%8A%D8%AE%D8%B3%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%D8%A7-%D9%84%D9%85-%D9%8A%D8%AA%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%88%D8%B6%D8%B9",
+   "headline_ar": "نتنياهو في محادثات مغلقة: الليكود سيخسر الانتخابات ما لم يتغير الوضع",
+   "headline_he": "נתניהו בשיחות סגורות: הליכוד יפסיד בבחירות אלא אם המצב ישתנה",
+   "topics": [
+    "netanyahu",
+    "polls"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "ammon",
+   "date": "2026-08-27",
+   "url": "https://www.ammonnews.net/article/1024362",
+   "headline_ar": "نتنياهو في محادثات مغلقة: الليكود سيخسر الانتخابات ما لم يتغير الوضع",
+   "headline_he": "נתניהו בשיחות סגורות: הליכוד יפסיד בבחירות אלא אם המצב ישתנה",
+   "topics": [
+    "netanyahu",
+    "polls"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "majalla",
+   "date": "2026-08-27",
+   "url": "https://www.majalla.com/node/332732/%D8%A5%D9%86%D9%81%D9%88%D8%BA%D8%B1%D8%A7%D9%81/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-2026-%D9%85%D9%86-%D9%8A%D9%85%D9%84%D9%83-%D9%85%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9%D8%9F",
+   "headline_ar": "الانتخابات الإسرائيلية 2026... من يملك مفتاح الحكومة؟",
+   "headline_he": "הבחירות הישראליות 2026... בידי מי המפתח לממשלה?",
+   "topics": [
+    "polls",
+    "opposition",
+    "netanyahu"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "asharq_news",
+   "date": "2026-08-26",
+   "url": "https://asharq.com/politics/194434/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D9%85%D8%A9-%D9%85%D8%B5%D9%8A%D8%B1%D9%8A%D8%A9-%D9%88%D9%88%D8%AC%D9%88%D8%AF%D9%8A%D8%A9/",
+   "headline_ar": "عضو الكنيست أيمن عودة: الانتخابات الإسرائيلية القادمة مصيرية ووجودية",
+   "headline_he": "חבר הכנסת איימן עודה: הבחירות הישראליות הקרובות גורליות וקיומיות",
+   "topics": [
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست",
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alkhaleej",
+   "date": "2026-08-26",
+   "url": "https://www.alkhaleej.ae/2026-08-26/%D8%B1%D8%A3%D9%8A/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%88%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D9%85%D8%B9%D9%82%D8%AF%D8%A9",
+   "headline_ar": "الانتخابات الإسرائيلية.. وحساباتها المعقدة",
+   "headline_he": "הבחירות הישראליות.. וחשבונותיהן המורכבים",
+   "topics": [
+    "opposition",
+    "other"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "youm7",
+   "date": "2026-08-26",
+   "url": "https://www.youm7.com/story/2026/8/26/%D8%A7%D8%B3%D8%AA%D8%B7%D9%84%D8%A7%D8%B9-%D8%AD%D8%B2%D8%A8-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D9%88%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81%D9%87-%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A-%D8%A8%D8%B9%D9%8A%D8%AF-%D8%AA%D9%85%D8%A7%D9%85%D8%A7-%D8%B9%D9%86/7526958",
+   "headline_ar": "استطلاع: حزب نتنياهو يواصل التراجع وائتلافه الحالي بعيد تماما عن تشكيل الحكومة",
+   "headline_he": "סקר: מפלגתו של נתניהו ממשיכה לרדת והקואליציה הנוכחית שלו רחוקה לגמרי מהרכבת הממשלה",
+   "topics": [
+    "polls",
+    "netanyahu"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "ahram",
+   "date": "2026-08-26",
+   "url": "https://gate.ahram.org.eg/News/5895764.aspx",
+   "headline_ar": "استطلاع إسرائيلي: حزب نتنياهو يواصل التراجع وائتلافه الحالي بعيد تمامًا عن إمكانية تشكيل الحكومة",
+   "headline_he": "סקר ישראלי: מפלגתו של נתניהו ממשיכה לרדת והקואליציה הנוכחית שלו רחוקה לגמרי מהאפשרות להרכיב את הממשלה",
+   "topics": [
+    "polls",
+    "netanyahu"
+   ],
+   "terms": [
+    "إسرائيلي"
+   ]
+  },
+  {
+   "outlet_id": "panet",
+   "date": "2026-08-24",
+   "url": "https://panet.com/story/4294391",
+   "headline_ar": "انتخابات الكنيست 2026..هل ستخلو الأحزاب العربية من مرشح نصراوي في مكان مضمون؟",
+   "headline_he": "הבחירות לכנסת 2026..האם המפלגות הערביות יישארו בלי מועמד נצרתי במקום מובטח?",
+   "topics": [
+    "arab_lists"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alghad",
+   "date": "2026-08-24",
+   "url": "https://alghad.com/Section-184/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A/%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%8A%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-2092533",
+   "headline_ar": "نتنياهو يحذر من دعم الأحزاب اليمينية في الانتخابات",
+   "headline_he": "נתניהו מזהיר מפני תמיכה במפלגות הימין בבחירות",
+   "topics": [
+    "netanyahu",
+    "far_right"
+   ],
+   "terms": []
+  },
+  {
+   "outlet_id": "annahar",
+   "date": "2026-08-22",
+   "url": "https://www.annahar.com/articles/annahar-writers/340593/%D9%87%D9%84-%D9%8A%D9%87%D8%B2%D9%85-%D8%A3%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%88%D9%8A%D9%82%D9%88%D8%AF-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-2026",
+   "headline_ar": "هل يهزم أيزنكوت نتنياهو ويقود إسرائيل بعد انتخابات 2026؟",
+   "headline_he": "האם איזנקוט יביס את נתניהו ויוביל את ישראל אחרי בחירות 2026?",
+   "topics": [
+    "opposition",
+    "netanyahu",
+    "polls"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  },
+  {
+   "outlet_id": "okaz",
+   "date": "2026-08-21",
+   "url": "https://www.okaz.com.sa/politics/na/2262244",
+   "headline_ar": "آيزنكوت يهدد عرش نتنياهو.. والمعارضة الإسرائيلية على بُعد مقعد من الأغلبية",
+   "headline_he": "אייזנקוט מאיים על כס נתניהו.. והאופוזיציה הישראלית במרחק מושב אחד מהרוב",
+   "topics": [
+    "polls",
+    "opposition",
+    "netanyahu",
+    "arab_lists"
+   ],
+   "terms": [
+    "الإسرائيلية"
+   ]
+  },
+  {
+   "outlet_id": "alain",
+   "date": "2026-08-20",
+   "url": "https://al-ain.com/article/unified-arab-list-israel-step-oust-netanyahu",
+   "headline_ar": "3 أحزاب عربية تعلن قائمة مشتركة لـ«الكنيست».. نتنياهو أمام اختبار صعب",
+   "headline_he": "3 מפלגות ערביות מכריזות על רשימה משותפת ל«כנסת».. נתניהו מול מבחן קשה",
+   "topics": [
+    "arab_lists",
+    "netanyahu"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "alarabiya",
+   "date": "2026-08-18",
+   "url": "https://www.alarabiya.net/arab-and-world/2026/08/18/%D9%85%D9%88%D8%A7%D9%84%D9%88%D9%86-%D9%84%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1%D9%88%D9%86-%D8%A7%D9%84%D9%84%D9%8A%D9%83%D9%88%D8%AF-%D9%82%D8%A8%D9%8A%D9%84-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA",
+   "headline_ar": "موالون لنتنياهو يتصدرون الليكود قبيل انتخابات الكنيست",
+   "headline_he": "נאמני נתניהו בראש הליכוד לקראת הבחירות לכנסת",
+   "topics": [
+    "netanyahu"
+   ],
+   "terms": [
+    "الكنيست"
+   ]
+  },
+  {
+   "outlet_id": "skynewsarabia",
+   "date": "2026-08-18",
+   "url": "https://www.skynewsarabia.com/world/1886707-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%B1%D9%87%D8%A7%D9%86-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88",
+   "headline_ar": "انتخابات إسرائيل.. هل تتحول الحرب إلى رهان نتنياهو؟",
+   "headline_he": "בחירות ישראל.. האם המלחמה תהפוך להימור של נתניהו?",
+   "topics": [
+    "war",
+    "netanyahu"
+   ],
+   "terms": [
+    "إسرائيل"
+   ]
+  }
+ ],
+ "updated": "2026-10-11",
+ "_comment": "Sample of Arabic-language coverage of the 2026 Knesset elections (15.8–11.10.2026). Headlines verbatim; headline_he is our literal translation. country_he is the owner's country; city_he the newsroom. Outlets reviewed here are subjects of analysis, not sources of facts for the rest of the site.",
+ "period": {
+  "from": "2026-08-15",
+  "to": "2026-10-11"
+ }
+}

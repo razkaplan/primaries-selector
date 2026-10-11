@@ -8,6 +8,7 @@ const TABS = [
   { href: "/knesset/polls/more", label: "קואליציות" },
   { href: "/knesset/quotes", label: "ציטוטים" },
   { href: "/knesset/money", label: "מי מממן" },
+  { href: "/knesset/arab-media", label: "תקשורת בערבית" },
   { href: "/knesset/markets", label: "שוקי חיזוי" },
   { href: "/about", label: "מתודולוגיה" },
 ];
