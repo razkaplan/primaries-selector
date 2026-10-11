@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-/** Lists the CEC voted to disqualify on 23.9.2026, pending the Supreme Court. */
-const PENDING = new Set(["raam", "joint_list"]);
+/** Lists to mark as disqualified pending appeal (none since 2.10.2026). */
+const PENDING = new Set<string>(); // none since the Supreme Court ruling of 2.10.2026
 const ELECTION_DAY = "2026-10-27";
 
 function shift(iso: string, days: number): string {
