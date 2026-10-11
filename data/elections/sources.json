@@ -41,12 +41,12 @@
    "records": 8
   },
   {
-   "name": "וואלה",
+   "name": "כאן תאגיד השידור",
    "kind": "אתרי חדשות",
    "records": 7
   },
   {
-   "name": "כאן תאגיד השידור",
+   "name": "וואלה",
    "kind": "אתרי חדשות",
    "records": 7
   },
@@ -71,12 +71,12 @@
    "records": 3
   },
   {
-   "name": "רדיו 104.5FM",
+   "name": "JDN",
    "kind": "אתרי חדשות",
    "records": 3
   },
   {
-   "name": "JDN",
+   "name": "רדיו 104.5FM",
    "kind": "אתרי חדשות",
    "records": 3
   },
@@ -101,11 +101,6 @@
    "records": 2
   },
   {
-   "name": "כלכליסט",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
    "name": "כיכר השבת",
    "kind": "אתרי חדשות",
    "records": 1
@@ -121,12 +116,17 @@
    "records": 1
   },
   {
-   "name": "i24NEWS",
+   "name": "אייס",
    "kind": "אתרי חדשות",
    "records": 1
   },
   {
-   "name": "אייס",
+   "name": "כלכליסט",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "i24NEWS",
    "kind": "אתרי חדשות",
    "records": 1
   }
@@ -134,35 +134,35 @@
  "poll_publishers": [
   {
    "name": "Maariv",
-   "polls": 323
+   "polls": 326
   },
   {
    "name": "HaHadashot 12",
-   "polls": 268
+   "polls": 271
   },
   {
    "name": "Channel 13",
-   "polls": 156
+   "polls": 158
   },
   {
    "name": "Channel 14",
-   "polls": 151
+   "polls": 157
   },
   {
    "name": "Kan 11",
-   "polls": 98
+   "polls": 103
   },
   {
    "name": "Zman Yisrael",
-   "polls": 76
+   "polls": 78
   },
   {
    "name": "i24 News",
-   "polls": 51
+   "polls": 53
   },
   {
    "name": "Israel Hayom",
-   "polls": 46
+   "polls": 47
   },
   {
    "name": "Zman Israel",
@@ -170,7 +170,7 @@
   },
   {
    "name": "Channel 16",
-   "polls": 16
+   "polls": 18
   },
   {
    "name": "Israel Democracy Institute",
