@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     page("/knesset/quotes", 0.8),
     page("/knesset/representation", 0.8),
     page("/knesset/money", 0.8),
+    page("/knesset/arab-media", 0.7),
     page("/knesset/markets", 0.8),
     page("/knesset/polls/more", 0.7),
     page("/about", 0.5, "weekly"),

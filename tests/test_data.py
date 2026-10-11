@@ -150,6 +150,18 @@ class Notices(unittest.TestCase):
                 self.assertGreaterEqual(len(outlets), 3, n["id"])
 
 
+class ArabMedia(unittest.TestCase):
+    def test_outlets_and_items(self):
+        sys.argv = ["build_arab_media.py"]
+        import build_arab_media
+        data = load("arab_media.json")
+        build_arab_media.validate(data)  # raises on any iron-rule violation
+        for o in data["outlets"]:
+            with self.subTest(outlet=o["id"]):
+                self.assertTrue(o["country_he"] and o["country_code"], "country of origin is required")
+                self.assertIn(o["region"], {"israel", "palestine", "gulf", "levant_egypt", "international"})
+
+
 class Coalition(unittest.TestCase):
     def test_stances_are_sourced(self):
         for s in load("coalition_stances.json")["stances"]:
