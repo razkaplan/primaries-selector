@@ -106,8 +106,8 @@ const markets = marketsData as {
   markets: { platform: string; url: string; volume_usd: number; outcomes: MarketOutcome[] }[];
 };
 
-/** Lists the CEC voted to disqualify on 23.9.2026, pending Supreme Court review. */
-const PENDING_DISQUALIFICATION = new Set(["raam", "joint_list"]);
+/** Lists marked as disqualified pending appeal (the CEC vote of 23.9.2026 was overturned on 2.10). */
+const PENDING_DISQUALIFICATION = new Set<string>(); // the Supreme Court overturned the CEC on 2.10.2026
 
 function fmtDate(iso: string): string {
   return new Intl.DateTimeFormat("he-IL", {

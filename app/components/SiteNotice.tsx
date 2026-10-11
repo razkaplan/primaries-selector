@@ -60,7 +60,7 @@ export default function SiteNotice() {
                 ))}
               </li>
             ))}
-            <li className="text-xs text-ink-faint">עודכן {fmtDate(n.as_of)}. נעדכן כאן עם הכרעת בית המשפט.</li>
+            <li className="text-xs text-ink-faint">עודכן {fmtDate(n.as_of)}.</li>
           </ul>
         </details>
       ))}
