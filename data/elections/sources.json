@@ -134,27 +134,27 @@
  "poll_publishers": [
   {
    "name": "Maariv",
-   "polls": 326
+   "polls": 327
   },
   {
    "name": "HaHadashot 12",
-   "polls": 271
+   "polls": 272
   },
   {
    "name": "Channel 13",
-   "polls": 158
+   "polls": 159
   },
   {
    "name": "Channel 14",
-   "polls": 157
+   "polls": 158
   },
   {
    "name": "Kan 11",
-   "polls": 103
+   "polls": 104
   },
   {
    "name": "Zman Yisrael",
-   "polls": 78
+   "polls": 79
   },
   {
    "name": "i24 News",
@@ -170,7 +170,7 @@
   },
   {
    "name": "Channel 16",
-   "polls": 18
+   "polls": 19
   },
   {
    "name": "Israel Democracy Institute",
@@ -178,7 +178,7 @@
   },
   {
    "name": "Walla",
-   "polls": 11
+   "polls": 12
   },
   {
    "name": "KAP, Tel Aviv University",
