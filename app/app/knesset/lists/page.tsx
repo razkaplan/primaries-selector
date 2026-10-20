@@ -12,6 +12,10 @@ import {
   seatAverages,
   sourceUrl,
 } from "@/lib/elections";
+import candidatesMeta from "@/data/elections/candidates_meta.json";
+
+const candMeta = (candidatesMeta as { candidates: Record<string, { bio: string | null }> })
+  .candidates;
 
 export const metadata: Metadata = {
   title: "רשימות המועמדים של כל המפלגות",
@@ -37,9 +41,10 @@ export default function KnessetLists() {
       <section className="mx-auto max-w-5xl px-4 py-10">
         <h1 className="font-display text-4xl">רשימות המועמדים</h1>
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-soft">
-          כל הרשימות שפורסמו עד כה, לפי סדר המקומות. את הרשימות הסופיות מגישות
-          המפלגות לוועדת הבחירות המרכזית עד 9.9.2026, ולכן רשימות עשויות עוד
-          להשתנות ומפלגות שטרם פרסמו רשימה אינן מופיעות כאן.
+          הרשימות כפי שהוגשו לוועדת הבחירות המרכזית (הגשת הרשימות: 7–9
+          בספטמבר 2026), לפי סדר המקומות וכולל שריונים שטרם אוישו. לצד מועמדים
+          בולטים מופיעה שורת רקע קצרה. רשימת ש״ס טרם הוגשה — מועצת חכמי התורה
+          צפויה לאשרה עד 8.9.
         </p>
         <div className="mt-5">
           <ShareBar path="/knesset/lists" text="רשימות המועמדים של כל המפלגות לכנסת ה-26, במקום אחד:" />
@@ -58,6 +63,11 @@ export default function KnessetLists() {
                 style={{ backgroundColor: partyColor(list.party) }}
               />
               <h2 className="font-display text-2xl">{partyName(list.party)}</h2>
+              {list.ranked === false && (
+                <span className="rounded-full bg-sun/20 px-2.5 py-0.5 text-xs font-bold text-ink">
+                  סדר סופי טרם פורסם
+                </span>
+              )}
               <span className="text-sm text-ink-faint">
                 {list.candidates.length} מועמדות ומועמדים
                 {avg.get(list.party) !== undefined && (
@@ -76,26 +86,41 @@ export default function KnessetLists() {
                 </a>
               </span>
             </header>
-            <ol className="mt-4 gap-x-8 text-sm leading-7 sm:columns-2 lg:columns-3">
-              {list.candidates.map((c) => (
-                <li key={c.rank} className="flex gap-2 break-inside-avoid">
-                  <span className="w-6 shrink-0 text-left font-bold tabular-nums text-ink-faint">
-                    {c.rank}
-                  </span>
-                  {c.wikipedia ? (
-                    <a
-                      href={c.wikipedia}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="truncate underline decoration-line underline-offset-2 hover:text-brand"
-                    >
-                      {c.name_he ?? c.name}
-                    </a>
-                  ) : (
-                    <span className="truncate">{c.name_he ?? c.name}</span>
-                  )}
-                </li>
-              ))}
+            <ol className="mt-4 gap-x-8 text-sm leading-6 sm:columns-2 lg:columns-3">
+              {list.candidates.map((c) => {
+                const he = c.name_he ?? c.name;
+                const bio = candMeta[he]?.bio;
+                const link = c.wikipedia ?? c.override_source;
+                return (
+                  <li key={c.rank} className="mb-1.5 flex gap-2 break-inside-avoid">
+                    <span className="w-6 shrink-0 text-left font-bold tabular-nums text-ink-faint">
+                      {c.rank}
+                    </span>
+                    <span className="min-w-0">
+                      {link ? (
+                        <a
+                          href={link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline decoration-line underline-offset-2 hover:text-brand"
+                        >
+                          {he}
+                        </a>
+                      ) : (
+                        <span>{he}</span>
+                      )}
+                      {c.note && (
+                        <span className="mr-1.5 text-xs text-ink-faint">({c.note})</span>
+                      )}
+                      {bio && (
+                        <span className="block text-xs leading-snug text-ink-faint">
+                          {bio}
+                        </span>
+                      )}
+                    </span>
+                  </li>
+                );
+              })}
             </ol>
           </article>
         ))}

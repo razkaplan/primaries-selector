@@ -3,6 +3,7 @@ import { Rubik, Secular_One } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import "./globals.css";
+import SiteNotice from "@/components/SiteNotice";
 
 const rubik = Rubik({
   subsets: ["hebrew", "latin"],
@@ -19,7 +20,7 @@ const secularOne = Secular_One({
 const SITE = "https://elections.gtmascode.dev";
 const OG_TITLE = "בחירות2026: כל הדאטה של הבחירות. בלי אג'נדה.";
 const OG_DESCRIPTION =
-  "1,200+ סקרים, רשימות המועמדים של כל המפלגות, ציר הזמן של ההתבטאויות ושוקי החיזוי, עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.";
+  "הרשימות שהוגשו לוועדת הבחירות, הרכב הכנסת הצפויה לפי הסקרים, חשבון הקואליציות, מעל 1,300 סקרים, מי מממן את המפלגות וציר ההתבטאויות, עם תאריך ומקור לכל נתון. הבחירות לכנסת ה-26 · 27.10.2026.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
@@ -46,13 +47,13 @@ export const metadata: Metadata = {
     siteName: "בחירות2026",
     locale: "he_IL",
     type: "website",
-    images: [{ url: "/og-2026.png", width: 1200, height: 630, alt: OG_TITLE }],
+    images: [{ url: "/og-2026-09.png", width: 1200, height: 630, alt: OG_TITLE }],
   },
   twitter: {
     card: "summary_large_image",
     title: OG_TITLE,
     description: OG_DESCRIPTION,
-    images: ["/og-2026.png"],
+    images: ["/og-2026-09.png"],
   },
 };
 
@@ -97,6 +98,7 @@ export default function RootLayout({
         className="min-h-full antialiased text-ink"
         style={{ fontFamily: "var(--font-body), sans-serif" }}
       >
+        <SiteNotice />
         {children}
         <script
           type="application/ld+json"

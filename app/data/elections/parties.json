@@ -6,10 +6,16 @@
   "has_list": false
  },
  {
+  "key": "additional_parties",
+  "name_he": null,
+  "name_en": "Additional Parties",
+  "has_list": true
+ },
+ {
   "key": "amcha_yisrael",
   "name_he": "עמך ישראל",
   "name_en": "Amcha Yisrael",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "balad",
@@ -33,7 +39,7 @@
   "key": "blue_white",
   "name_he": "כחול לבן",
   "name_en": "Blue and White (National Unity)",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "democrats",
@@ -48,10 +54,22 @@
   "has_list": false
  },
  {
+  "key": "haredi_public",
+  "name_he": null,
+  "name_en": "Haredi Public",
+  "has_list": true
+ },
+ {
   "key": "hendel_party",
   "name_he": null,
   "name_en": "Hendel Party",
   "has_list": false
+ },
+ {
+  "key": "israel_first",
+  "name_he": "ישראל תחילה",
+  "name_en": "Israel First",
+  "has_list": true
  },
  {
   "key": "joint_list",
@@ -84,10 +102,16 @@
   "has_list": false
  },
  {
+  "key": "noam",
+  "name_he": "נעם",
+  "name_en": "Noam",
+  "has_list": true
+ },
+ {
   "key": "otzma_yehudit",
   "name_he": "עוצמה יהודית",
   "name_en": "Otzma Yehudit",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "raam",
@@ -96,10 +120,10 @@
   "has_list": true
  },
  {
-  "key": "religious_zionist_party_zehut",
-  "name_he": null,
-  "name_en": "Religious Zionist Party Zehut",
-  "has_list": true
+  "key": "reserv_nep",
+  "name_he": "המילואימניקים–הכלכלית החדשה",
+  "name_en": "Reservists–New Economic Party",
+  "has_list": false
  },
  {
   "key": "reservists",
@@ -111,19 +135,25 @@
   "key": "rzp",
   "name_he": "הציונות הדתית",
   "name_en": "Religious Zionist Party",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "shas",
   "name_he": "ש\"ס",
   "name_en": "Shas",
-  "has_list": false
+  "has_list": true
+ },
+ {
+  "key": "the_reservists_and_the_economic_party",
+  "name_he": null,
+  "name_en": "The Reservists And The Economic Party",
+  "has_list": true
  },
  {
   "key": "together",
   "name_he": "ביחד",
   "name_en": "Together (Bennett–Lapid)",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "unity",
@@ -135,13 +165,19 @@
   "key": "utj",
   "name_he": "יהדות התורה",
   "name_en": "United Torah Judaism",
+  "has_list": true
+ },
+ {
+  "key": "winter",
+  "name_he": null,
+  "name_en": "Winter",
   "has_list": false
  },
  {
   "key": "yashar",
   "name_he": "ישר",
   "name_en": "Yashar",
-  "has_list": false
+  "has_list": true
  },
  {
   "key": "yesh_atid",
@@ -153,6 +189,12 @@
   "key": "yisrael_beiteinu",
   "name_he": "ישראל ביתנו",
   "name_en": "Yisrael Beiteinu",
+  "has_list": true
+ },
+ {
+  "key": "zehut",
+  "name_he": null,
+  "name_en": "Zehut",
   "has_list": false
  },
  {

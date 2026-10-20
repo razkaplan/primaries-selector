@@ -15,12 +15,15 @@ export interface ListCandidate {
   name: string;
   name_he: string | null;
   wikipedia: string | null;
+  note?: string;
+  override_source?: string;
 }
 
 export interface PartyList {
   party: string;
   party_section: string;
   candidates: ListCandidate[];
+  ranked?: boolean;
 }
 
 export type PollKind =
@@ -56,7 +59,32 @@ export interface PollEvent {
 
 export const parties = partiesData as Party[];
 export const partyLists = partyListsData as PartyList[];
-export const polls = (pollsData as { polls: Poll[] }).polls;
+
+/** Poll columns that renamed mid-campaign but denote the same running list
+ * (e.g. RZP absorbed Zehut and some pollsters relabeled the column). */
+const KEY_MERGES: Record<string, string> = { rzp_zehut: "rzp" };
+
+function mergeKeys(p: Poll): Poll {
+  const merged: Poll["results"] = {};
+  let changed = false;
+  for (const [k, v] of Object.entries(p.results)) {
+    const nk = KEY_MERGES[k];
+    if (nk) changed = true;
+    merged[nk ?? k] = merged[nk ?? k] ?? v;
+  }
+  return changed ? { ...p, results: merged } : p;
+}
+
+export const polls = (pollsData as { polls: Poll[] }).polls.map(mergeKeys);
+
+/** The lists actually running after final submission (7-8.9.2026): keys of
+ * the newest-era poll columns. Pre-merger era columns (hadash_taal,
+ * blue_white, unity, zionist_home...) are history, not current standings. */
+export const RUNNING_2026 = new Set([
+  "likud", "yashar", "together", "democrats", "yisrael_beiteinu", "shas",
+  "utj", "otzma_yehudit", "joint_list", "raam", "rzp", "reserv_nep",
+  "amcha_yisrael", "israel_first", "noam",
+]);
 export const pollEvents = (pollsData as { events: PollEvent[] }).events;
 export const meta = metaData as { scraped_at: string; sources: Record<string, string> };
 
@@ -98,12 +126,14 @@ export const PARTY_COLORS: Record<string, string> = {
   new_hope: "#33658a",
   noam: "#3d348b",
   israel_first: "#8d6e63",
+  reserv_nep: "#64748b",
 };
 
 /** Hebrew labels for non-party result columns (question polls, PM polls,
  * hypothetical parties in scenario polls). */
 const RESULT_LABELS_HE: Record<string, string> = {
   israel_first: "ישראל תחילה",
+  reserv_nep: "המילואימניקים–הכלכלית החדשה",
   netanyahu: "נתניהו",
   bennett: "בנט",
   naftali_bennett: "נפתלי בנט",
@@ -190,8 +220,13 @@ export function pollYear(p: Poll): string {
 }
 
 /** Mean seats per party over seat-projection polls since `sinceISO`
- * (party counted only in polls that include it). */
-export function seatAverages(sinceISO: string): { key: string; avg: number; n: number }[] {
+ * (party counted only in polls that include it). With `runningOnly`,
+ * pre-merger era columns are dropped so current-standings widgets don't
+ * double-count a party under its old and new names. */
+export function seatAverages(
+  sinceISO: string,
+  runningOnly = false,
+): { key: string; avg: number; n: number }[] {
   const sums = new Map<string, { total: number; n: number }>();
   let used = 0;
   for (const p of seatPolls) {
@@ -199,6 +234,7 @@ export function seatAverages(sinceISO: string): { key: string; avg: number; n: n
     used++;
     for (const [k, v] of Object.entries(p.results)) {
       if (typeof v !== "number") continue;
+      if (runningOnly && !RUNNING_2026.has(k)) continue;
       const s = sums.get(k) ?? { total: 0, n: 0 };
       s.total += v;
       s.n += 1;

@@ -1,0 +1,36 @@
+# Data-integrity tests (iron rule: every fact dated and linked to its item)
+# and a production build, on every pull request and push to main.
+name: checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Data tests
+        run: python3 -m unittest discover -s tests -v
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Build
+        working-directory: app
+        run: |
+          npm ci
+          npm run build

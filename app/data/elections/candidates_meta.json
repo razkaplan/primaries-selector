@@ -1,0 +1,1417 @@
+{
+ "built_at": "2026-09-07",
+ "window_since": "2026-08-07",
+ "note": "מבוסס על הרשימות שהוגשו ועל ממוצע הסקרים; מגדר לפי שם פרטי עם תיקונים ידניים; דת/קבוצה לפי השתייכות מפלגתית וזהות ציבורית מתועדת בלבד.",
+ "candidates": {
+  "עופר וינטר": {
+   "party": "amcha_yisrael",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "מודיעין",
+   "bio": "תא\"ל במיל', מפקד אוגדה 98 לשעבר, מוביל את עמך ישראל.",
+   "realistic": true
+  },
+  "יוסף חדאד": {
+   "party": "amcha_yisrael",
+   "rank": 2,
+   "gender": "m",
+   "religion": "christian",
+   "haredi": null,
+   "city": null,
+   "bio": "פעיל הסברה ערבי-נוצרי מנצרת, מס' 2 בעמך ישראל.",
+   "realistic": true
+  },
+  "פלר חסן-נחום": {
+   "party": "amcha_yisrael",
+   "rank": 3,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "המשנה לראש עיריית ירושלים לשעבר.",
+   "realistic": true
+  },
+  "נטעלי שם טוב": {
+   "party": "amcha_yisrael",
+   "rank": 4,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "מטולה",
+   "bio": "עיתונאית ומגישת חדשות, תושבת מטולה.",
+   "realistic": true
+  },
+  "סיגל קראוניק-עטיה": {
+   "party": "amcha_yisrael",
+   "rank": 5,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "אלמנתו של רבש\"ץ בארי אריק קראוניק ז\"ל, שנפל ב-7 באוקטובר.",
+   "realistic": true
+  },
+  "יאיר גולן": {
+   "party": "democrats",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "מבשרת ציון",
+   "bio": "סגן הרמטכ\"ל לשעבר, יו\"ר הדמוקרטים.",
+   "realistic": true
+  },
+  "נעמה לזימי": {
+   "party": "democrats",
+   "rank": 2,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ח\"כ, מובילת מאבקים חברתיים.",
+   "realistic": true
+  },
+  "גלעד קריב": {
+   "party": "democrats",
+   "rank": 3,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "רב רפורמי וח\"כ, לשעבר מנכ\"ל התנועה הרפורמית.",
+   "realistic": true
+  },
+  "אפרת רייטן": {
+   "party": "democrats",
+   "rank": 4,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יאיא פינק": {
+   "party": "democrats",
+   "rank": 5,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "מנכ\"ל \"לובי המילואימניקים\", זכה במקום הרביעי בפריימריז.",
+   "realistic": true
+  },
+  "גבי לסקי": {
+   "party": "democrats",
+   "rank": 6,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "עמרי רונן": {
+   "party": "democrats",
+   "rank": 7,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "מיכל רוזין": {
+   "party": "democrats",
+   "rank": 8,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "משה רדמן אבוטבול": {
+   "party": "democrats",
+   "rank": 9,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "סומיה בשיר": {
+   "party": "democrats",
+   "rank": 10,
+   "gender": "f",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "נמרוד שפר": {
+   "party": "democrats",
+   "rank": 11,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "מורן זר קצנשטיין": {
+   "party": "democrats",
+   "rank": 12,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "שרן השכל": {
+   "party": "israel_first",
+   "rank": 1,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "עלמון",
+   "bio": "ח\"כ, הקימה את ישראל תחילה אחרי פרישה מהממשלה.",
+   "realistic": true
+  },
+  "יהונתן פולארד": {
+   "party": "israel_first",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ריצה 30 שנות מאסר בארה\"ב על ריגול למען ישראל.",
+   "realistic": true
+  },
+  "יוסף ג'בארין": {
+   "party": "joint_list",
+   "rank": 1,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": "יו\"ר חד\"ש, מרצה למשפטים, עומד בראש הרשימה המשותפת.",
+   "realistic": true
+  },
+  "אחמד טיבי": {
+   "party": "joint_list",
+   "rank": 2,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": "טייבה",
+   "bio": "יו\"ר תע\"ל, מוותיקי הכנסת.",
+   "realistic": true
+  },
+  "סמי אבו שחאדה": {
+   "party": "joint_list",
+   "rank": 3,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": "יו\"ר בל\"ד, דוקטור להיסטוריה מיפו.",
+   "realistic": true
+  },
+  "סמיר אבו זייד": {
+   "party": "joint_list",
+   "rank": 4,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "בכר עואודה": {
+   "party": "joint_list",
+   "rank": 5,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "עופר כסיף (חד\"ש) – ברוטציה עם תע\"ל": {
+   "party": "joint_list",
+   "rank": 6,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ח\"כ יהודי בחד\"ש, מרצה למדע המדינה.",
+   "realistic": true
+  },
+  "יוסף עטאונה": {
+   "party": "joint_list",
+   "rank": 7,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "מהא כרכבי-סבאח": {
+   "party": "joint_list",
+   "rank": 8,
+   "gender": "f",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "בנימין נתניהו": {
+   "party": "likud",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "קיסריה",
+   "bio": "ראש הממשלה המכהן ויו\"ר הליכוד, ראש הממשלה הוותיק בתולדות ישראל.",
+   "realistic": true
+  },
+  "אלי כהן": {
+   "party": "likud",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שר החוץ לשעבר, זכה במקום הראשון בפריימריז הליכוד.",
+   "realistic": true
+  },
+  "ישראל כץ": {
+   "party": "likud",
+   "rank": 4,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שר הביטחון.",
+   "realistic": true
+  },
+  "גדעון סער": {
+   "party": "likud",
+   "rank": 5,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "תל אביב",
+   "bio": "שר המשפטים לשעבר; תקווה חדשה התמזגה בליכוד.",
+   "realistic": true
+  },
+  "אמיר אוחנה": {
+   "party": "likud",
+   "rank": 6,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "תל אביב",
+   "bio": null,
+   "realistic": true
+  },
+  "יריב לוין": {
+   "party": "likud",
+   "rank": 7,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שר המשפטים, אדריכל המהפכה המשפטית.",
+   "realistic": true
+  },
+  "מירי רגב": {
+   "party": "likud",
+   "rank": 8,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שרת התחבורה.",
+   "realistic": true
+  },
+  "אופיר כץ": {
+   "party": "likud",
+   "rank": 10,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אורן דוברונסקי": {
+   "party": "likud",
+   "rank": 11,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יואב קיש": {
+   "party": "likud",
+   "rank": 12,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "מיקי זוהר": {
+   "party": "likud",
+   "rank": 13,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אלמוג כהן": {
+   "party": "likud",
+   "rank": 14,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "עמיחי שיקלי": {
+   "party": "likud",
+   "rank": 16,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "דודי אמסלם": {
+   "party": "likud",
+   "rank": 17,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "חיים כץ": {
+   "party": "likud",
+   "rank": 18,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "משה סעדה": {
+   "party": "likud",
+   "rank": 19,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אתי עטייה": {
+   "party": "likud",
+   "rank": 20,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "שלמה קרעי": {
+   "party": "likud",
+   "rank": 21,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "דוד ביטן": {
+   "party": "likud",
+   "rank": 22,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "בועז ביסמוט": {
+   "party": "likud",
+   "rank": 23,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ניר ברקת": {
+   "party": "likud",
+   "rank": 24,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "ירושלים",
+   "bio": null,
+   "realistic": true
+  },
+  "גילה גמליאל": {
+   "party": "likud",
+   "rank": 25,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אבי מעוז": {
+   "party": "noam",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "ירושלים",
+   "bio": "יו\"ר נעם.",
+   "realistic": true
+  },
+  "אליהו ליבמן": {
+   "party": "noam",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "איתמר בן גביר": {
+   "party": "otzma_yehudit",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "קריית ארבע",
+   "bio": "השר לביטחון לאומי ויו\"ר עוצמה יהודית.",
+   "realistic": true
+  },
+  "טלי גוטליב": {
+   "party": "otzma_yehudit",
+   "rank": 2,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ח\"כ, עורכת דין פלילית.",
+   "realistic": true
+  },
+  "יצחק וסרלאוף": {
+   "party": "otzma_yehudit",
+   "rank": 3,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "עמיחי אליהו": {
+   "party": "otzma_yehudit",
+   "rank": 4,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שר המורשת.",
+   "realistic": true
+  },
+  "לימור סון הר-מלך": {
+   "party": "otzma_yehudit",
+   "rank": 5,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ח\"כ, אלמנתו של שולי הר-מלך שנרצח בפיגוע.",
+   "realistic": true
+  },
+  "יצחק קרויזר": {
+   "party": "otzma_yehudit",
+   "rank": 6,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "בצלאל סמוטריץ'": {
+   "party": "rzp",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "קדומים",
+   "bio": "שר האוצר ויו\"ר הציונות הדתית (רצה עם זהות).",
+   "realistic": true
+  },
+  "משה פייגלין": {
+   "party": "rzp",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "כרמי צור",
+   "bio": "יו\"ר זהות, ח\"כ לשעבר מהליכוד, מס' 2 ברשימה המשותפת לציונות הדתית.",
+   "realistic": true
+  },
+  "אורית סטרוק": {
+   "party": "rzp",
+   "rank": 3,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שרת ההתיישבות והמשימות הלאומיות.",
+   "realistic": true
+  },
+  "צביקה מור": {
+   "party": "rzp",
+   "rank": 4,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "אביו של שורד השבי איתן מור, ממייסדי פורום תקווה.",
+   "realistic": true
+  },
+  "שמחה רוטמן": {
+   "party": "rzp",
+   "rank": 5,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "יו\"ר ועדת החוקה, ממובילי המהפכה המשפטית.",
+   "realistic": true
+  },
+  "צבי סוכות": {
+   "party": "rzp",
+   "rank": 6,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "נפתלי בנט": {
+   "party": "together",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "רעננה",
+   "bio": "ראש הממשלה לשעבר, חוזר בראשות ביחד (בנט 2026 + יש עתיד).",
+   "realistic": true
+  },
+  "יאיר לפיד": {
+   "party": "together",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "תל אביב",
+   "bio": "ראש הממשלה לשעבר ויו\"ר יש עתיד, מס' 2 בביחד.",
+   "realistic": true
+  },
+  "קרן טרנר אייל": {
+   "party": "together",
+   "rank": 3,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "מנכ\"לית משרדי האוצר והתחבורה לשעבר.",
+   "realistic": true
+  },
+  "מירב בן ארי": {
+   "party": "together",
+   "rank": 4,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "לירן אבישר בן-חורין": {
+   "party": "together",
+   "rank": 5,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "מנכ\"לית משרד התקשורת לשעבר, ממקימות בנט 2026.",
+   "realistic": true
+  },
+  "נעם תיבון": {
+   "party": "together",
+   "rank": 6,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "אלוף במיל'; ב-7 באוקטובר פרץ לנחל עוז וחילץ את משפחתו.",
+   "realistic": true
+  },
+  "מיכל הירש נגרי": {
+   "party": "together",
+   "rank": 7,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "כלכלנית, סגנית הממונה על התקציבים לשעבר.",
+   "realistic": true
+  },
+  "איתן גינזבורג": {
+   "party": "together",
+   "rank": 8,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "מירב כהן": {
+   "party": "together",
+   "rank": 9,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שרת השוויון החברתי לשעבר.",
+   "realistic": true
+  },
+  "יונתן שלו": {
+   "party": "together",
+   "rank": 10,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ברוריה נעים ארמן": {
+   "party": "together",
+   "rank": 11,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "רם בן ברק": {
+   "party": "together",
+   "rank": 12,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "סגן ראש המוסד לשעבר.",
+   "realistic": true
+  },
+  "אמיר סטרוגו": {
+   "party": "together",
+   "rank": 13,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "מנכ\"ל עמותת \"אחריי!\" לשעבר.",
+   "realistic": true
+  },
+  "נאור שירי": {
+   "party": "together",
+   "rank": 14,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ניסן זאבי": {
+   "party": "together",
+   "rank": 15,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ממקימי \"לובי 1701\" לשיקום הצפון.",
+   "realistic": true
+  },
+  "מנסור עבאס": {
+   "party": "raam",
+   "rank": 1,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": "מגאר",
+   "bio": "יו\"ר רע\"מ, הכניס לראשונה מפלגה ערבית עצמאית לקואליציה.",
+   "realistic": true
+  },
+  "יואב סגלוביץ'": {
+   "party": "raam",
+   "rank": 2,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": "תת-ניצב בדימוס, לשעבר ראש אח\"ם במשטרה; שובץ ברע\"מ.",
+   "realistic": true
+  },
+  "וליד טאהא": {
+   "party": "raam",
+   "rank": 3,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ואליד אלהואשלה": {
+   "party": "raam",
+   "rank": 4,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אימאן ח'טיב-יאסין": {
+   "party": "raam",
+   "rank": 5,
+   "gender": "f",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יאסר חוג'יראת": {
+   "party": "raam",
+   "rank": 6,
+   "gender": "m",
+   "religion": "muslim",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יעקב אשר": {
+   "party": "utj",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": true,
+   "city": null,
+   "bio": "יו\"ר דגל התורה ברשימת יהדות התורה, ראש עיריית בני ברק לשעבר.",
+   "realistic": true
+  },
+  "יצחק פינדרוס": {
+   "party": "utj",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": true,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "משה רוזנטל": {
+   "party": "utj",
+   "rank": 3,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": true,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יהודה ויספיש": {
+   "party": "utj",
+   "rank": 4,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": true,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "דודי זלץ": {
+   "party": "utj",
+   "rank": 5,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": true,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "גדי איזנקוט": {
+   "party": "yashar",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "הרצליה",
+   "bio": "הרמטכ\"ל ה-21 של צה\"ל, מוביל את מפלגת ישר! שהקים ב-2026.",
+   "realistic": true
+  },
+  "יורם כהן": {
+   "party": "yashar",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ראש השב\"כ לשעבר (2011–2016), מס' 2 בישר!.",
+   "realistic": true
+  },
+  "אורית פרקש הכהן": {
+   "party": "yashar",
+   "rank": 3,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שרת החדשנות לשעבר ויו\"ר רשות החשמל לשעבר.",
+   "realistic": true
+  },
+  "עדי אלטשולר": {
+   "party": "yashar",
+   "rank": 4,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "יזמת חברתית, מייסדת \"כנפיים של קרמבו\" ו\"זיכרון בסלון\".",
+   "realistic": true
+  },
+  "מתן כהנא": {
+   "party": "yashar",
+   "rank": 5,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שר הדתות לשעבר, טייס קרב במיל'.",
+   "realistic": true
+  },
+  "חילי טרופר": {
+   "party": "yashar",
+   "rank": 6,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "שר התרבות והספורט לשעבר; מפלגתו \"בית ציוני\" התאחדה עם ישר!.",
+   "realistic": true
+  },
+  "שאול מרידור": {
+   "party": "yashar",
+   "rank": 7,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ראש אגף התקציבים באוצר לשעבר.",
+   "realistic": true
+  },
+  "תאיר איפרגן": {
+   "party": "yashar",
+   "rank": 8,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אושרת גני גונן": {
+   "party": "yashar",
+   "rank": 9,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ראשת המועצה האזורית דרום השרון לשעבר.",
+   "realistic": true
+  },
+  "שירה שפירא": {
+   "party": "yashar",
+   "rank": 10,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "אמו של ענר שפירא ז\"ל, גיבור המיגונית ברעים ב-7 באוקטובר.",
+   "realistic": true
+  },
+  "ענבר הרוש גיטי": {
+   "party": "yashar",
+   "rank": 11,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אלעזר שטרן": {
+   "party": "yashar",
+   "rank": 12,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "אלוף במיל' וח\"כ לשעבר מיש עתיד.",
+   "realistic": true
+  },
+  "כמיל אבו רוקן": {
+   "party": "yashar",
+   "rank": 13,
+   "gender": "m",
+   "religion": "druze",
+   "haredi": null,
+   "city": null,
+   "bio": "אלוף במיל', מפקד פיקוד העורף לשעבר, מהעדה הדרוזית.",
+   "realistic": true
+  },
+  "דבורה שריפיאן בכר": {
+   "party": "yashar",
+   "rank": 14,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אלקס ריף": {
+   "party": "yashar",
+   "rank": 15,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ענבר יחזקאלי": {
+   "party": "yashar",
+   "rank": 16,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "רועי פולקמן": {
+   "party": "yashar",
+   "rank": 17,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ישראל זרי": {
+   "party": "yashar",
+   "rank": 18,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "טל אוחנה חכמון": {
+   "party": "yashar",
+   "rank": 19,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "ירוחם",
+   "bio": null,
+   "realistic": true
+  },
+  "אליסף פרץ": {
+   "party": "yashar",
+   "rank": 20,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יפה טבג'ה": {
+   "party": "yashar",
+   "rank": 21,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ניר חג'בי": {
+   "party": "yashar",
+   "rank": 22,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "רון ברקאי": {
+   "party": "yashar",
+   "rank": 23,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "שי פישר": {
+   "party": "yashar",
+   "rank": 24,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "ליאן פולק דוד": {
+   "party": "yashar",
+   "rank": 25,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "רועי כהן": {
+   "party": "yashar",
+   "rank": 26,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אביגדור ליברמן": {
+   "party": "yisrael_beiteinu",
+   "rank": 1,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": "נוקדים",
+   "bio": "יו\"ר ישראל ביתנו, שר האוצר והביטחון לשעבר.",
+   "realistic": true
+  },
+  "רפי בן שטרית": {
+   "party": "yisrael_beiteinu",
+   "rank": 2,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ראש עיריית בית שאן לשעבר.",
+   "realistic": true
+  },
+  "טליה לנקרי": {
+   "party": "yisrael_beiteinu",
+   "rank": 3,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "עודד פורר": {
+   "party": "yisrael_beiteinu",
+   "rank": 4,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יוליה מלינובסקי": {
+   "party": "yisrael_beiteinu",
+   "rank": 5,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "שרון שרעבי": {
+   "party": "yisrael_beiteinu",
+   "rank": 6,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "אחיהם של יוסי שרעבי ז\"ל ושורד השבי אלי שרעבי.",
+   "realistic": true
+  },
+  "חמד עמאר": {
+   "party": "yisrael_beiteinu",
+   "rank": 7,
+   "gender": "m",
+   "religion": "druze",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "יבגני סובה": {
+   "party": "yisrael_beiteinu",
+   "rank": 8,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": null,
+   "realistic": true
+  },
+  "אלווירה קוליחמן": {
+   "party": "yisrael_beiteinu",
+   "rank": 9,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "סגנית ראש עיריית לוד.",
+   "realistic": true
+  },
+  "דן אילוז": {
+   "party": "yisrael_beiteinu",
+   "rank": 10,
+   "gender": "m",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "ח\"כ, עבר מהליכוד לישראל ביתנו.",
+   "realistic": true
+  },
+  "לילי בן עמי": {
+   "party": "yisrael_beiteinu",
+   "rank": 11,
+   "gender": "f",
+   "religion": "jewish",
+   "haredi": null,
+   "city": null,
+   "bio": "מייסדת פורום מיכל סלה למאבק באלימות במשפחה, אחותה של מיכל סלה ז\"ל.",
+   "realistic": true
+  }
+ },
+ "facts": [
+  {
+   "who": "יהונתן פולארד",
+   "party": "israel_first",
+   "fact": "המועמד היחיד שריצה 30 שנות מאסר בכלא אמריקאי - על ריגול למען ישראל.",
+   "source": "https://www.maariv.co.il/news/politics/article-1358772"
+  },
+  {
+   "who": "נעם תיבון",
+   "party": "together",
+   "fact": "האלוף בדימוס שנסע ב-7 באוקטובר מתל אביב לנחל עוז וחילץ את בנו ומשפחתו מהקיבוץ.",
+   "source": "https://www.davar1.co.il/696128/"
+  },
+  {
+   "who": "שירה שפירא",
+   "party": "yashar",
+   "fact": "אמו של ענר שפירא ז\"ל, שהדף רימונים במיגונית ברעים והציל עשרות.",
+   "source": "https://www.inn.co.il/news/705728"
+  },
+  {
+   "who": "שרון שרעבי",
+   "party": "yisrael_beiteinu",
+   "fact": "אחיהם של יוסי שרעבי ז\"ל, שנרצח בשבי, ושל שורד השבי אלי שרעבי.",
+   "source": "https://www.ynet.co.il/news/elections2026/article/bki6ywjdge"
+  },
+  {
+   "who": "לילי בן עמי",
+   "party": "yisrael_beiteinu",
+   "fact": "הקימה את פורום מיכל סלה למאבק ברצח נשים, על שם אחותה שנרצחה ב-2019.",
+   "source": "https://www.kan.org.il/content/kan-news/politic/1085715/"
+  },
+  {
+   "who": "מתי גיל",
+   "party": "together",
+   "fact": "מנכ\"ל חברת ביוטק שנפצע בעבר בפיגוע חמאס בגבול עזה.",
+   "source": "https://www.kikar.co.il/political-news/mati-gil-joins-bennett-yachad-party"
+  },
+  {
+   "who": "כמיל אבו רוקן",
+   "party": "yashar",
+   "fact": "האלוף הדרוזי שפיקד על פיקוד העורף - אחד משני אלופים במיל' ברשימת ישר! בלבד.",
+   "source": "https://www.mako.co.il/news-politics/2026_q3/Article-896792932bb70a1027.htm"
+  },
+  {
+   "who": "סיגל קראוניק-עטיה",
+   "party": "amcha_yisrael",
+   "fact": "אלמנת רבש\"ץ קיבוץ בארי, שנפל בקרב ההגנה על הקיבוץ ב-7 באוקטובר.",
+   "source": "https://www.ynet.co.il/news/elections2026/article/s13ku7jdzg"
+  },
+  {
+   "who": "צביקה מור",
+   "party": "rzp",
+   "fact": "אביו של שורד השבי איתן מור; נכנס לפוליטיקה בעקבות המלחמה.",
+   "source": "https://www.inn.co.il/news/705728"
+  },
+  {
+   "who": "משה הר-ציון",
+   "party": "amcha_yisrael",
+   "fact": "בנו של מאיר הר-ציון, מגיבורי יחידה 101.",
+   "source": "https://www.davar1.co.il/695637/"
+  },
+  {
+   "who": "ג'רמי סלטן",
+   "party": "together",
+   "fact": "עולה מארה\"ב שהתפרסם כאנליסט הסקרים המצוטט ביותר בתקשורת הזרה.",
+   "source": "https://www.zman.co.il/live/721275/"
+  },
+  {
+   "who": "יוסף חדאד",
+   "party": "amcha_yisrael",
+   "fact": "ערבי-נוצרי מנצרת שנפצע בלבנון כלוחם גולני - ממובילי ההסברה הישראלית ברשתות.",
+   "source": "https://www.ynet.co.il/news/elections2026/article/s13ku7jdzg"
+  },
+  {
+   "who": "טל אוחנה חכמון",
+   "party": "yashar",
+   "fact": "ראשת העיר הראשונה של ירוחם.",
+   "source": "https://www.mako.co.il/news-politics/2026_q3/Article-896792932bb70a1027.htm"
+  },
+  {
+   "who": "גלעד קריב",
+   "party": "democrats",
+   "fact": "הרב הרפורמי הראשון שכיהן כחבר כנסת.",
+   "source": "https://he.wikipedia.org/wiki/גלעד_קריב"
+  },
+  {
+   "who": "אולסיה קנטור",
+   "party": "together",
+   "fact": "הקימה אחרי 7 באוקטובר את \"לב אש\" - טיפול חינם לניצולים שהיו בקו האש.",
+   "source": "https://www.kan.org.il/content/kan-news/politic/1085323/"
+  }
+ ],
+ "connections": [
+  {
+   "a": "נפתלי בנט",
+   "b": "יאיר לפיד",
+   "type": "פוליטי",
+   "desc": "הקימו יחד את ממשלת השינוי ב-2021 בהסכם רוטציה; כעת רצים יחד ברשימת ביחד.",
+   "source": "https://www.maariv.co.il/news/politics/article-1363684"
+  },
+  {
+   "a": "גדי איזנקוט",
+   "b": "חילי טרופר",
+   "type": "פוליטי",
+   "desc": "מפלגת בית ציוני של טרופר התמזגה לתוך ישר! של איזנקוט לקראת הגשת הרשימות.",
+   "source": "https://www.inn.co.il/news/705728"
+  },
+  {
+   "a": "בצלאל סמוטריץ'",
+   "b": "משה פייגלין",
+   "type": "פוליטי",
+   "desc": "זהות של פייגלין רצה ברשימה משותפת עם הציונות הדתית, כולל שריוני סיעה.",
+   "source": "https://en.wikipedia.org/wiki/Party_lists_for_the_2026_Israeli_legislative_election"
+  },
+  {
+   "a": "גדי איזנקוט",
+   "b": "יאיר גולן",
+   "type": "צבאי",
+   "desc": "שירתו יחד בצמרת צה\"ל - איזנקוט כרמטכ\"ל וגולן כסגנו.",
+   "source": "https://he.wikipedia.org/wiki/יאיר_גולן"
+  },
+  {
+   "a": "נעם תיבון",
+   "b": "גדי איזנקוט",
+   "type": "צבאי",
+   "desc": "אלופים במיל' שצמחו יחד בצה\"ל - וכעת מתמודדים ברשימות מתחרות באותו גוש.",
+   "source": "https://he.wikipedia.org/wiki/נעם_תיבון"
+  },
+  {
+   "a": "איתמר בן גביר",
+   "b": "בצלאל סמוטריץ'",
+   "type": "פוליטי",
+   "desc": "רצו יחד ב-2022 ברשימה משותפת; הפעם רצים בנפרד אחרי פיצול מתוקשר.",
+   "source": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+  },
+  {
+   "a": "מנסור עבאס",
+   "b": "אחמד טיבי",
+   "type": "פוליטי",
+   "desc": "רע\"מ פרשה מהרשימה המשותפת ב-2021; ב-2026 טיבי ברשימה המשותפת ועבאס רץ לבד.",
+   "source": "https://www.ynet.co.il/news/article/syoll7qdgl"
+  },
+  {
+   "a": "יאיר לפיד",
+   "b": "מירב כהן",
+   "type": "פוליטי",
+   "desc": "כהן כיהנה כשרה מטעם יש עתיד של לפיד; כעת שניהם ברשימת ביחד.",
+   "source": "https://www.maariv.co.il/news/politics/article-1363684"
+  }
+ ]
+}

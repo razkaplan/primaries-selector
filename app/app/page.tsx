@@ -53,9 +53,15 @@ const CARDS = [
   },
   {
     href: "/knesset/polls/more",
-    emoji: "🔮",
-    title: "תרחישי ״מה אם״",
-    blurb: "ריצות משותפות, מפלגות חדשות, ראש ממשלה מועדף והרכבי קואליציה.",
+    emoji: "🧩",
+    title: "מי מרכיב ממשלה?",
+    blurb: "חשבון הקואליציות לפי הסקרים, מול מה שהמנהיגים באמת הצהירו.",
+  },
+  {
+    href: "/knesset/representation",
+    emoji: "🪑",
+    title: "מי תשב בכנסת",
+    blurb: "נשים, דתות, ערים, עובדות וקשרים — הרכב הכנסת הצפויה לפי הסקרים.",
   },
   {
     href: "/knesset/quotes",
@@ -64,16 +70,22 @@ const CARDS = [
     blurb: "מה המועמדים אמרו, מתי, ומה זה עשה להם בסקרים. עם מקור ושיתוף כתמונה.",
   },
   {
+    href: "/knesset/money",
+    emoji: "💰",
+    title: "מי מממן את המפלגות",
+    blurb: "הקופה הציבורית, הערבים הפרטיים של המפלגות החדשות והחובות — עם מקור לכל שקל.",
+  },
+  {
+    href: "/knesset/arab-media",
+    emoji: "📰",
+    title: "הבחירות בעיני התקשורת בערבית",
+    blurb: "מנצרת ועד מוסקבה: על מה כותבים כלי התקשורת בערבית, איך הם קוראים לישראל, ומאיזו מדינה כל אחד.",
+  },
+  {
     href: "/knesset/markets",
     emoji: "💸",
     title: "שוקי חיזוי",
     blurb: "מי יהיה רה״מ הבא לפי Polymarket ו-Kalshi: אנשים שמהמרים על זה בכסף.",
-  },
-  {
-    href: "/primaries",
-    emoji: "🗳️",
-    title: "כלי הפריימריז",
-    blurb: "הכלי שליווה את פריימריז הדמוקרטים: שאלון, דירוג ומודל פתוח.",
   },
   {
     href: "/about",
@@ -86,7 +98,7 @@ const CARDS = [
 export default function KnessetOverview() {
   const latestDate = seatPolls[0]?.date ?? null;
   const since = windowStart(latestDate, 30);
-  const averages = seatAverages(since).filter((a) => a.avg >= 0.5);
+  const averages = seatAverages(since, true).filter((a) => a.avg >= 0.5);
   const maxAvg = Math.max(...averages.map((a) => a.avg), 1);
   const nCandidates = partyLists.reduce((s, p) => s + p.candidates.length, 0);
   const recent = seatPolls.slice(0, 5);

@@ -12,6 +12,7 @@ import {
 } from "@/lib/elections";
 import quotesData from "@/data/elections/quotes.json";
 import marketsData from "@/data/elections/markets.json";
+import moneyData from "@/data/elections/money.json";
 
 interface Quote {
   candidate_id: string;
@@ -84,7 +85,7 @@ const handler = createMcpHandler(
       },
       async () => {
         const latest = seatPolls[0]?.date ?? "2026-08-29";
-        const avg = new Map(seatAverages(shiftISO(latest, -30)).map((a) => [a.key, a]));
+        const avg = new Map(seatAverages(shiftISO(latest, -30), true).map((a) => [a.key, a]));
         const rows = partyLists.map((pl) => ({
           key: pl.party,
           name_he: partyName(pl.party),
@@ -107,7 +108,7 @@ const handler = createMcpHandler(
       },
       async ({ days }) => {
         const latest = seatPolls[0]?.date ?? "2026-08-29";
-        const averages = seatAverages(shiftISO(latest, -days))
+        const averages = seatAverages(shiftISO(latest, -days), true)
           .filter((a) => a.avg >= 0.5)
           .map((a) => ({ key: a.key, name_he: partyName(a.key), seats_avg: +a.avg.toFixed(1) }));
         return json({ window_days: days, latest_poll: latest, majority: 61, averages });
@@ -300,6 +301,34 @@ const handler = createMcpHandler(
         inputSchema: z.object({}),
       },
       async () => json(marketsData),
+    );
+
+    server.registerTool(
+      "get_party_finances",
+      {
+        title: "מי מממן את המפלגות",
+        description:
+          "Money in the 2026 election: the state election-funding formula and unit (NIS per seat + per list), donation caps, the private bank loans and personal guarantees behind the new parties (named guarantors with amounts), reported primaries donations, and party debts to the Knesset. Every record carries a date and a source URL. Optionally filter by party key (e.g. likud, yashar, together).",
+        inputSchema: z.object({
+          party: z.string().optional().describe("Party key to filter records by"),
+        }),
+      },
+      async ({ party }) => {
+        const m = moneyData as Record<string, unknown>;
+        if (!party) return json(m);
+        const keep = (arr: unknown) =>
+          Array.isArray(arr) ? arr.filter((r) => (r as { party?: string }).party === party) : arr;
+        return json({
+          funding_unit: m.funding_unit,
+          formula: m.formula,
+          rules: m.rules,
+          private_financing: keep(m.private_financing),
+          private_totals: keep(m.private_totals),
+          primaries: keep(m.primaries),
+          debts: keep(m.debts),
+          advances: keep(m.advances),
+        });
+      },
     );
   },
   {

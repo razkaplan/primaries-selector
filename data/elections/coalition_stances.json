@@ -1,0 +1,68 @@
+{
+  "_comment": "Documented public statements by list leaders on who they will or won't sit with. Drives the coalition-scenarios page. Every entry carries date + source URL (corpus iron rule).",
+  "stances": [
+    {
+      "who": "יאיר גולן", "party": "democrats", "kind": "refuses",
+      "about": ["likud", "shas", "utj", "otzma_yehudit", "rzp", "noam"],
+      "quote": "לא נשב עם אף מפלגה מהקואליציה הנוכחית",
+      "date": "2026-07-19", "source_name": "כאן חדשות",
+      "url": "https://www.kan.org.il/content/kan-news/politic/1079032/"
+    },
+    {
+      "who": "אביגדור ליברמן", "party": "yisrael_beiteinu", "kind": "refuses",
+      "about": ["likud"],
+      "quote": "יתהפך העולם - לא אשב עם נתניהו. הוא לא יכול להיות ראש ממשלה",
+      "date": "2026-05-06", "source_name": "מעריב",
+      "url": "https://www.maariv.co.il/news/politics/article-1318034"
+    },
+    {
+      "who": "אביגדור ליברמן", "party": "yisrael_beiteinu", "kind": "refuses",
+      "about": ["raam"],
+      "quote": "לא אשב בממשלה אחת עם מנסור עבאס",
+      "date": "2026-08-02", "source_name": "סרוגים",
+      "url": "https://www.srugim.co.il/101007514-%D7%9C%D7%99%D7%91%D7%A8%D7%9E%D7%9F-%D7%91%D7%94%D7%9B%D7%A8%D7%96%D7%94-%D7%A9%D7%AA%D7%9B%D7%A8%D7%99%D7%A2-%D7%90%D7%AA-%D7%94%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA-%D7%94%D7%91%D7%90%D7%95%D7%AA-%D7%9C%D7%90"
+    },
+    {
+      "who": "אביגדור ליברמן", "party": "yisrael_beiteinu", "kind": "refuses",
+      "about": ["rzp"],
+      "quote": "לא אשב עם סמוטריץ' בשום מצב",
+      "date": "2026-08-30", "source_name": "כאן מורשת",
+      "url": "https://www.kan.org.il/content/kan/kan-moreshet/1095645/"
+    },
+    {
+      "who": "נפתלי בנט", "party": "together", "kind": "refuses",
+      "about": ["likud"],
+      "quote": "אני עם לפיד עד הסוף, לא אשב עם נתניהו. לשבת תחת איזנקוט? מה שצריך להצלת המדינה",
+      "date": "2026-07-02", "source_name": "ynet · פודקאסט 120 ואחת",
+      "url": "https://www.ynet.co.il/news/120andone/article/s100tqclqmg"
+    },
+    {
+      "who": "גדי איזנקוט", "party": "yashar", "kind": "open",
+      "about": ["joint_list", "raam"],
+      "quote": "נערך להקים ממשלת מיעוט; לא יבקש דבר מהסיעות הערביות: יתמכו, יימנעו או ייעדרו - זה עניינן",
+      "date": "2026-08-14", "source_name": "הארץ",
+      "url": "https://www.haaretz.co.il/news/elections/2026-08-14/ty-article/.highlight/0000019f-fc51-df09-abff-ff77f2b30000"
+    },
+    {
+      "who": "מנסור עבאס", "party": "raam", "kind": "open",
+      "about": ["yashar", "together", "democrats"],
+      "quote": "המסר לגוש השינוי: לא נדרוש הכרה בפלסטין כתנאי",
+      "date": "2026-08-23", "source_name": "כאן חדשות",
+      "url": "https://www.kan.org.il/content/kan-news/politic/1092112/"
+    },
+    {
+      "who": "עופר וינטר", "party": "amcha_yisrael", "kind": "refuses",
+      "about": ["yisrael_beiteinu", "together"],
+      "quote": "לא אשב תחת ליברמן - אין מצב; נשבע שלא יישב גם תחת בנט",
+      "date": "2026-09-04", "source_name": "בחדרי חרדים",
+      "url": "https://www.bhol.co.il/news/1738177"
+    },
+    {
+      "who": "יועז הנדל", "party": "reserv_nep", "kind": "refuses",
+      "about": ["shas", "utj", "joint_list", "raam"],
+      "quote": "לא נשב עם מפלגות לא ציוניות - חרדיות או ערביות. לא מתעסקים בחרמות אלא בעקרונות",
+      "date": "2026-06-15", "source_name": "פייסבוק · יועז הנדל",
+      "url": "https://www.facebook.com/YoazHendelpage/videos/1285238693560264/"
+    }
+  ]
+}

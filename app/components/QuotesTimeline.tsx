@@ -21,6 +21,7 @@ export interface TimelineQuote {
   date: string | null;
   url: string;
   text: string;
+  tags?: string[];
   impact: QuoteImpact | null;
 }
 
@@ -225,6 +226,7 @@ export default function QuotesTimeline({ quotes }: { quotes: TimelineQuote[] }) 
   const [party, setParty] = useState<string>("all");
   const [who, setWho] = useState<string>("all");
   const [movedOnly, setMovedOnly] = useState(false);
+  const [flaggedOnly, setFlaggedOnly] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
   const previewRef = useRef<HTMLDivElement>(null);
 
@@ -247,7 +249,8 @@ export default function QuotesTimeline({ quotes }: { quotes: TimelineQuote[] }) 
     (q) =>
       (party === "all" || q.party === party) &&
       (who === "all" || q.candidate_id === who) &&
-      (!movedOnly || (q.impact && Math.abs(q.impact.after - q.impact.before) > 0.5)),
+      (!movedOnly || (q.impact && Math.abs(q.impact.after - q.impact.before) > 0.5)) &&
+      (!flaggedOnly || q.tags?.includes("controversial")),
   );
 
   // group by month, newest first; undated at the end
@@ -309,6 +312,14 @@ export default function QuotesTimeline({ quotes }: { quotes: TimelineQuote[] }) 
         >
           🎢 רק ציטוטים שסביבם הסקרים זזו (יותר מ-0.5 מנדט)
         </button>
+        <button
+          onClick={() => setFlaggedOnly((v) => !v)}
+          className={`rounded-full px-3 py-1 text-xs font-bold ${
+            flaggedOnly ? "bg-ink text-sun" : "border border-line bg-card text-ink-soft"
+          }`}
+        >
+          🚩 התבטאויות שעוררו סערה ציבורית
+        </button>
         {party !== "all" && (
           <>
             <button
@@ -363,6 +374,14 @@ export default function QuotesTimeline({ quotes }: { quotes: TimelineQuote[] }) 
                       <span className="font-bold">{q.candidate_he}</span>
                       <span className="text-ink-faint">· {partyName(q.party)}</span>
                       <span className="text-ink-faint">· {fmtHe(q.date)}</span>
+                      {q.tags?.includes("controversial") && (
+                        <span
+                          className="rounded-full bg-coral/15 px-2 py-0.5 text-[11px] font-black text-coral"
+                          title="התבטאות שעוררה ביקורת ציבורית רחבה, כפי שתועדה במקור המקושר"
+                        >
+                          🚩 עוררה סערה
+                        </span>
+                      )}
                     </div>
                     <p className="mt-2.5 leading-relaxed text-ink">{q.text}</p>
                     <ImpactBadge q={q} />

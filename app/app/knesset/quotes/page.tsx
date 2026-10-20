@@ -22,6 +22,7 @@ interface RawQuote {
   date: string | null;
   url: string;
   text: string;
+  tags?: string[];
 }
 
 function shiftISO(iso: string, days: number): string {

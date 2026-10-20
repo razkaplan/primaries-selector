@@ -1,0 +1,109 @@
+{
+ "_comment": "Sitewide notices. Each fact line carries its own sources (as_of + url), per the iron rule in data/media/SCHEMA.md. Set active=false once the matter is resolved, and add the outcome with a source rather than deleting the record.",
+ "notices": [
+  {
+   "id": "cec-disqualifications-2026-09",
+   "active": true,
+   "as_of": "2026-10-11",
+   "headline": "בית המשפט העליון ביטל את פסילת רע״מ והרשימה המשותפת: שתיהן מתמודדות בבחירות.",
+   "summary": "ועדת הבחירות החליטה ב-23.9 לפסול אותן; ב-2.10 קיבל העליון את ערעוריהן, פה אחד.",
+   "facts": [
+    {
+     "text": "ב-2.10 קיבל בית המשפט העליון, פה אחד ובהרכב של תשעה שופטים, את ערעורי רע״מ והרשימה המשותפת, וביטל את פסילתן: הראיות לא עמדו באמות המידה שנקבעו בפסיקה.",
+     "sources": [
+      {
+       "source_name": "ynet",
+       "as_of": "2026-10-02",
+       "url": "https://www.ynet.co.il/news/elections2026/article/hjw00hep9mx"
+      },
+      {
+       "source_name": "Bloomberg",
+       "as_of": "2026-10-03",
+       "url": "https://www.bloomberg.com/news/articles/2026-10-03/israel-s-supreme-court-overturns-election-ban-on-arab-parties"
+      }
+     ]
+    },
+    {
+     "text": "ברוב של 7 מול 2 התיר העליון גם לח״כ עופר כסיף להתמודד.",
+     "sources": [
+      {
+       "source_name": "גלובס",
+       "as_of": "2026-10-02",
+       "url": "https://www.globes.co.il/news/article.aspx?did=1001558307"
+      },
+      {
+       "source_name": "JTA",
+       "as_of": "2026-10-05",
+       "url": "https://www.jta.org/2026/10/05/israel/israels-supreme-court-says-arab-parties-can-run-in-oct-27-election"
+      }
+     ]
+    },
+    {
+     "text": "יו״ר בל״ד סמי אבו שחאדה הסיר את מועמדותו, אחרי שרוב השופטים הביעו נטייה לאשר את פסילתו.",
+     "sources": [
+      {
+       "source_name": "ישראל היום",
+       "as_of": "2026-10-02",
+       "url": "https://www.israelhayom.co.il/news/law/article/21536163"
+      },
+      {
+       "source_name": "JTA",
+       "as_of": "2026-10-05",
+       "url": "https://www.jta.org/2026/10/05/israel/israels-supreme-court-says-arab-parties-can-run-in-oct-27-election"
+      }
+     ]
+    },
+    {
+     "text": "ב-23.9 החליטה ועדת הבחירות המרכזית לפסול את רע״מ ואת הרשימה המשותפת, ברוב של 18 מול 5 (נמנע אחד) בכל אחת מההצבעות.",
+     "sources": [
+      {
+       "source_name": "הארץ",
+       "as_of": "2026-09-23",
+       "url": "https://www.haaretz.co.il/news/elections/2026-09-23/ty-article/000001a0-cc88-d52e-a7f4-fe8d624b0000"
+      },
+      {
+       "source_name": "Times of Israel",
+       "as_of": "2026-09-23",
+       "url": "https://www.timesofisrael.com/election-panel-votes-to-bar-balad-chief-abu-shehadeh-over-alleged-support-for-terror/"
+      }
+     ]
+    },
+    {
+     "text": "ההחלטה התקבלה בניגוד לעמדת היועצת המשפטית לממשלה, שלפיה הראיות נגד שתי הרשימות אינן מספיקות לפסילה.",
+     "sources": [
+      {
+       "source_name": "Times of Israel",
+       "as_of": "2026-09-23",
+       "url": "https://www.timesofisrael.com/election-panel-votes-to-bar-balad-chief-abu-shehadeh-over-alleged-support-for-terror/"
+      }
+     ]
+    },
+    {
+     "text": "הוועדה פסלה גם את מועמדותם של ח״כ עופר כסיף (19 מול 5) ושל יו״ר בל״ד סמי אבו שחאדה (31 מול 4). ב-29.9 ביקשה היועמ״שית מהעליון לאשר את פסילת אבו שחאדה.",
+     "sources": [
+      {
+       "source_name": "Times of Israel",
+       "as_of": "2026-09-23",
+       "url": "https://www.timesofisrael.com/election-panel-votes-to-bar-balad-chief-abu-shehadeh-over-alleged-support-for-terror/"
+      },
+      {
+       "source_name": "הארץ",
+       "as_of": "2026-09-29",
+       "url": "https://www.haaretz.co.il/news/elections/2026-09-29/ty-article/000001a0-ebf1-d272-adf6-fff73fde0000"
+      }
+     ]
+    },
+    {
+     "text": "למחרת דחתה הוועדה את הבקשות לפסול את עוצמה יהודית, את הציונות הדתית-זהות ואת הדמוקרטים.",
+     "sources": [
+      {
+       "source_name": "הארץ",
+       "as_of": "2026-09-24",
+       "url": "https://www.haaretz.co.il/news/elections/2026-09-24/ty-article/.premium/000001a0-d1a3-dcb9-a9a4-f1e794ad0000"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
