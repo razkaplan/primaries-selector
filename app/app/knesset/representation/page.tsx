@@ -173,7 +173,7 @@ export default function KnessetRepresentation() {
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-soft">
           לוקחים את ממוצע הסקרים של 30 הימים האחרונים, מעגלים ל-120 מנדטים,
           ופותחים את הרשימות: אלה {projected.length} האנשים שצפויים להיכנס
-          לכנסת אם הבחירות היו היום — ועוד {unknownSeats} מקומות של רשימות
+          לכנסת אם הבחירות היו היום, ועוד {unknownSeats} מקומות של רשימות
           ושריונים שטרם אוישו (ובהם ש״ס, שרשימתה טרם הוגשה). הדף מתעדכן
           אוטומטית עם כל סקר חדש.
         </p>
@@ -257,7 +257,7 @@ export default function KnessetRepresentation() {
           <h2 className="font-display text-2xl">איפה הם גרים</h2>
           <p className="mt-1 text-sm text-ink-soft">
             מקום מגורים מתועד ידוע לנו עבור {cityKnown} מתוך {projected.length}{" "}
-            חברי הכנסת הצפויים — עוזרים להשלים?{" "}
+            חברי הכנסת הצפויים, עוזרים להשלים?{" "}
             <a
               href="https://github.com/razkaplan/primaries-selector/issues"
               target="_blank"
@@ -284,7 +284,7 @@ export default function KnessetRepresentation() {
         <div className="anim-rise rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
           <h2 className="font-display text-2xl">רגע, זה נכון? 🤯</h2>
           <p className="mt-1 text-sm text-ink-soft">
-            עובדות על המועמדים בצמרת הרשימות — כל עובדה עם מקור.
+            עובדות על המועמדים בצמרת הרשימות, כל עובדה עם מקור.
           </p>
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
             {meta.facts.map((f) => (
@@ -312,7 +312,7 @@ export default function KnessetRepresentation() {
         <div className="anim-rise rounded-3xl border border-line bg-card p-6 shadow-sm sm:p-8">
           <h2 className="font-display text-2xl">מי קשור למי 🔗</h2>
           <p className="mt-1 text-sm text-ink-soft">
-            קשרים מתועדים בין מועמדים — פוליטיים, צבאיים ואישיים. רק מה שפורסם, עם מקור.
+            קשרים מתועדים בין מועמדים, פוליטיים, צבאיים ואישיים. רק מה שפורסם, עם מקור.
           </p>
           <div className="mt-5 space-y-3">
             {meta.connections.map((c) => (
