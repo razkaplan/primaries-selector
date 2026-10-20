@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ---------------------------------------------------------------------------
-   בחירות2026 design tokens — "fun & smart": warm paper, electric violet,
+   בחירות2026 design tokens, "fun & smart": warm paper, electric violet,
    coral + amber sparks. Politically neutral chrome; party colors stay
    entity-anchored in lib/elections.ts.
 --------------------------------------------------------------------------- */
@@ -73,7 +73,7 @@ summary:focus-visible {
 }
 
 /* -------------------------------------------------------------------------
-   Motion — all gated on prefers-reduced-motion
+   Motion: all gated on prefers-reduced-motion
 ------------------------------------------------------------------------- */
 @media (prefers-reduced-motion: no-preference) {
   @keyframes rise {

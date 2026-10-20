@@ -127,7 +127,7 @@ export default function CoalitionScenarios({
             </ul>
             {sc.outside && (
               <p className="mt-2 text-xs text-ink-faint">
-                מבחוץ: {sc.outside.parties.map((k) => partyName(k)).join(", ")} — {sc.outside.note}
+                מבחוץ: {sc.outside.parties.map((k) => partyName(k)).join(", ")}. {sc.outside.note}
               </p>
             )}
 
