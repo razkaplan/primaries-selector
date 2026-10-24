@@ -1,128 +1,128 @@
 {
- "fetched_at": "2026-10-11T13:01Z",
+ "fetched_at": "2026-10-24T16:02Z",
  "markets": [
   {
    "platform": "polymarket",
    "id": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
    "question_en": "Prime Minister of Israel after the next election?",
    "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
-   "volume_usd": 45210508,
+   "volume_usd": 52090710,
    "end_date": "2026-10-28",
    "currency": "USD",
    "outcomes": [
     {
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
-     "prob": 0.403,
-     "volume_usd": 2863351
+     "prob": 0.52,
+     "volume_usd": 3582672
     },
     {
      "name": "Benjamin Netanyahu",
      "name_he": "בנימין נתניהו",
-     "prob": 0.335,
-     "volume_usd": 6775733
+     "prob": 0.275,
+     "volume_usd": 10723819
     },
     {
      "name": "Naftali Bennett",
      "name_he": "נפתלי בנט",
-     "prob": 0.115,
-     "volume_usd": 3629994
+     "prob": 0.145,
+     "volume_usd": 4114330
     },
     {
      "name": "Avigdor Lieberman",
      "name_he": "אביגדור ליברמן",
      "prob": 0.023,
-     "volume_usd": 3184640
+     "volume_usd": 3508835
     },
     {
-     "name": "Ofer Winter",
-     "name_he": "עופר וינטר",
-     "prob": 0.009,
-     "volume_usd": 415871
+     "name": "Moshe Feiglin",
+     "name_he": "משה פייגלין",
+     "prob": 0.0035,
+     "volume_usd": 2284180
     },
     {
-     "name": "Itamar Ben Gvir",
-     "name_he": "איתמר בן גביר",
-     "prob": 0.005,
-     "volume_usd": 1695015
-    },
-    {
-     "name": "Yair Golan",
-     "name_he": "יאיר גולן",
-     "prob": 0.002,
-     "volume_usd": 2617472
-    },
-    {
-     "name": "Yair Lapid",
-     "name_he": "יאיר לפיד",
-     "prob": 0.0015,
-     "volume_usd": 1919789
+     "name": "Israel Katz",
+     "name_he": "ישראל כץ",
+     "prob": 0.0025,
+     "volume_usd": 1083875
     },
     {
      "name": "Yossi Cohen",
      "name_he": "יוסי כהן",
      "prob": 0.0015,
-     "volume_usd": 3396404
+     "volume_usd": 3707333
+    },
+    {
+     "name": "Yair Golan",
+     "name_he": "יאיר גולן",
+     "prob": 0.0015,
+     "volume_usd": 2696309
+    },
+    {
+     "name": "Itamar Ben Gvir",
+     "name_he": "איתמר בן גביר",
+     "prob": 0.0015,
+     "volume_usd": 1925347
+    },
+    {
+     "name": "Amir Ohana",
+     "name_he": "אמיר אוחנה",
+     "prob": 0.0015,
+     "volume_usd": 2751721
+    },
+    {
+     "name": "Ofer Winter",
+     "name_he": "עופר וינטר",
+     "prob": 0.0015,
+     "volume_usd": 516721
+    },
+    {
+     "name": "Yair Lapid",
+     "name_he": "יאיר לפיד",
+     "prob": 0.001,
+     "volume_usd": 1953413
     },
     {
      "name": "Benny Gantz",
      "name_he": "בני גנץ",
      "prob": 0.001,
-     "volume_usd": 2286556
+     "volume_usd": 2324788
     },
     {
      "name": "Gideon Sa’ar",
      "name_he": "גדעון סער",
      "prob": 0.001,
-     "volume_usd": 2359445
+     "volume_usd": 2438658
     },
     {
      "name": "Yariv Levin",
      "name_he": "יריב לוין",
      "prob": 0.001,
-     "volume_usd": 1969572
+     "volume_usd": 1988905
     },
     {
-     "name": "Moshe Feiglin",
-     "name_he": "משה פייגלין",
+     "name": "Ayelet Shaked",
+     "name_he": "איילת שקד",
      "prob": 0.001,
-     "volume_usd": 2161939
+     "volume_usd": 2078793
     },
     {
      "name": "Yoaz Hendel",
      "name_he": "יועז הנדל",
      "prob": 0.001,
-     "volume_usd": 1699353
-    },
-    {
-     "name": "Israel Katz",
-     "name_he": "ישראל כץ",
-     "prob": 0.001,
-     "volume_usd": 955076
+     "volume_usd": 1741965
     },
     {
      "name": "Nir Barkat",
      "name_he": "ניר ברקת",
      "prob": 0.001,
-     "volume_usd": 1776768
-    },
-    {
-     "name": "Amir Ohana",
-     "name_he": "אמיר אוחנה",
-     "prob": 0.001,
-     "volume_usd": 2616208
-    },
-    {
-     "name": "Ayelet Shaked",
-     "name_he": "איילת שקד",
-     "prob": 0.0005,
-     "volume_usd": 2063303
+     "volume_usd": 1835190
     },
     {
      "name": "Gilad Erdan",
      "name_he": "Gilad Erdan",
-     "prob": 0.0005,
-     "volume_usd": 824021
+     "prob": 0.001,
+     "volume_usd": 833856
     }
    ]
   },
@@ -131,27 +131,27 @@
    "id": "KXISRAELPM-26OCT27",
    "question_en": "Prime Minister of Israel after the 2026 election?",
    "url": "https://kalshi.com/markets/kxisraelpm",
-   "volume_usd": 507188,
+   "volume_usd": 1125160,
    "end_date": "2027-10-27",
    "currency": "USD (contracts)",
    "outcomes": [
     {
      "name": "Gadi Eizenkot",
      "name_he": "גדי איזנקוט",
-     "prob": 0.43,
-     "volume_usd": 58350
+     "prob": 0.48,
+     "volume_usd": 149343
     },
     {
      "name": "Benjamin Netanyahu",
      "name_he": "בנימין נתניהו",
-     "prob": 0.35,
-     "volume_usd": 379670
+     "prob": 0.28,
+     "volume_usd": 831221
     },
     {
      "name": "Naftali Bennett",
      "name_he": "נפתלי בנט",
-     "prob": 0.11,
-     "volume_usd": 40914
+     "prob": 0.14,
+     "volume_usd": 67542
     },
     {
      "name": "Yossi Cohen",
@@ -160,22 +160,28 @@
      "volume_usd": 339
     },
     {
+     "name": "Avigdor Lieberman",
+     "name_he": "אביגדור ליברמן",
+     "prob": 0.04,
+     "volume_usd": 51395
+    },
+    {
      "name": "Yuli Edelstein",
      "name_he": "יולי אדלשטיין",
      "prob": 0.04,
      "volume_usd": 169
     },
     {
-     "name": "Avigdor Lieberman",
-     "name_he": "אביגדור ליברמן",
+     "name": "Itamar Ben Gvir",
+     "name_he": "איתמר בן גביר",
      "prob": 0.02,
-     "volume_usd": 16987
+     "volume_usd": 5446
     },
     {
      "name": "Yair Lapid",
      "name_he": "יאיר לפיד",
      "prob": 0.01,
-     "volume_usd": 1716
+     "volume_usd": 1809
     },
     {
      "name": "Benny Gantz",
@@ -184,10 +190,10 @@
      "volume_usd": 2181
     },
     {
-     "name": "Itamar Ben Gvir",
-     "name_he": "איתמר בן גביר",
+     "name": "Yair Golan",
+     "name_he": "יאיר גולן",
      "prob": 0.01,
-     "volume_usd": 2941
+     "volume_usd": 93
     },
     {
      "name": "Israel Katz",
@@ -208,10 +214,16 @@
      "volume_usd": 1486
     },
     {
+     "name": "Amir Ohana",
+     "name_he": "אמיר אוחנה",
+     "prob": 0.01,
+     "volume_usd": 11608
+    },
+    {
      "name": "Moshe Feiglin",
      "name_he": "משה פייגלין",
      "prob": 0.01,
-     "volume_usd": 341
+     "volume_usd": 435
     },
     {
      "name": "Yoaz Hendel",
@@ -222,18 +234,6 @@
     {
      "name": "Yariv Levin",
      "name_he": "יריב לוין",
-     "prob": 0.0,
-     "volume_usd": 0
-    },
-    {
-     "name": "Yair Golan",
-     "name_he": "יאיר גולן",
-     "prob": 0.0,
-     "volume_usd": 0
-    },
-    {
-     "name": "Amir Ohana",
-     "name_he": "אמיר אוחנה",
      "prob": 0.0,
      "volume_usd": 0
     },
