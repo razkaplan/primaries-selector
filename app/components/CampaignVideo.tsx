@@ -328,7 +328,7 @@ export default function CampaignVideo({ data }: { data: CampaignData }) {
                 <div key={o.name}>
                   <div style={{ display: "flex", justifyContent: "space-between", fontSize: 46, fontWeight: 900 }}>
                     <span>{o.name}</span>
-                    <span style={{ fontFamily: "var(--font-display)" }}>{Math.round(o.prob * 100 * p)}%</span>
+                    <span style={{ fontFamily: "var(--font-display)" }}>{he1(o.prob * 100 * p)}%</span>
                   </div>
                   <div style={{ marginTop: 12, height: 56, background: "rgba(28,24,50,.07)", borderRadius: 28, overflow: "hidden" }}>
                     <div style={{ width: `${o.prob * 100 * p}%`, height: "100%", background: i === 0 ? BRAND : i === 1 ? "#7a6fb0" : "#b3abd6", borderRadius: 28 }} />
