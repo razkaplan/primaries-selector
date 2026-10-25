@@ -118,7 +118,7 @@ export default function RootLayout({
           `}
         </Script>
         {/* Microsoft Clarity, shared gtmascode.dev project. Tags AI-assistant referrers. */}
-        <Script id="clarity" strategy="afterInteractive">
+        <Script id="ms-clarity" strategy="afterInteractive">
           {String.raw`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z0mh7paigf");(function(){var r=document.referrer||"";if(/chatgpt\.com|openai\.com|perplexity\.ai|claude\.ai|anthropic\.com|copilot\.microsoft\.com|gemini\.google\.com|you\.com|phind\.com/i.test(r)){clarity("set","traffic","ai-assistant");clarity("set","ai_source",r.replace(/^https?:\/\//,"").split("/")[0]);}})();`}
         </Script>
       </body>

@@ -16,8 +16,15 @@ test("the Clarity inline script is valid JavaScript as rendered", () => {
   // JSX children are a template literal: without String.raw, "\/" collapses
   // to "/" and the referrer regex /^https?:\/\// becomes a syntax error,
   // which kills the whole snippet (Clarity never loads).
-  const m = layout.match(/<Script id="clarity"[^>]*>\s*\{(String\.raw)?`([\s\S]*?)`\}/);
+  const m = layout.match(/<Script id="ms-clarity"[^>]*>\s*\{(String\.raw)?`([\s\S]*?)`\}/);
   assert.ok(m, "clarity <Script> block not found");
   const rendered = m[1] ? m[2] : eval("`" + m[2] + "`");
   assert.doesNotThrow(() => new Function(rendered));
+});
+
+test("the Clarity <Script> id does not shadow window.clarity", () => {
+  // An element with id="clarity" is exposed as window.clarity, so the
+  // snippet's c[a]=c[a]||function(){...} keeps the element and never
+  // installs the queue stub; clarity("set", ...) then throws.
+  assert.doesNotMatch(layout, /<Script id="clarity"/);
 });
