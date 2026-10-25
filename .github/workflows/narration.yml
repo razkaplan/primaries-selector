@@ -1,0 +1,35 @@
+# Synthesize Hebrew narration for the site's videos and push the MP3s to the
+# auto/narration branch, where the local renderer picks them up.
+name: narration
+
+on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Narration spec (JSON) to synthesize"
+        default: "app/data/video/campaign-narration.json"
+
+permissions:
+  contents: write
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts mutagen
+      - name: Synthesize
+        run: |
+          name="$(basename "${{ inputs.spec }}" .json)"
+          python3 scripts/tts_narration.py "${{ inputs.spec }}" "media/narration/$name"
+      - name: Push to auto/narration
+        run: |
+          git config user.name "elections-data-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B auto/narration
+          git add -f media/narration
+          git commit -m "narration: $(basename "${{ inputs.spec }}" .json) $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push -f origin auto/narration
