@@ -1,24 +1,26 @@
 #!/usr/bin/env node
-// Render /video/weekly (the weekly polls summary animation) to an MP4.
+// Render a /video/* page (e.g. the weekly polls summary, the campaign
+// summary) to a silent MP4; narration is muxed in separately with ffmpeg.
 //
 // The page is a pure function of time (window.__seek), so each frame is
 // seeked and screenshotted, then piped to ffmpeg: deterministic, no dropped
 // frames. Needs a running site (next start), playwright-core and ffmpeg.
 //
 //   cd app && npm run build && npx next start -p 3200 &
-//   node scripts/render_weekly_video.mjs http://localhost:3200 out.mp4
+//   node scripts/render_video.mjs http://localhost:3200 out.mp4 [/video/weekly]
+//   node scripts/render_video.mjs http://localhost:3200 out.mp4 "/video/campaign?d=6.1,12.4,..."
 //
 // Env: CHROMIUM (browser path), FFMPEG (ffmpeg binary), FPS (default 30).
 import { spawn } from "node:child_process";
 import { chromium } from "playwright-core";
 
-const [base = "http://localhost:3200", out = "weekly.mp4"] = process.argv.slice(2);
+const [base = "http://localhost:3200", out = "video.mp4", route = "/video/weekly"] = process.argv.slice(2);
 const FPS = Number(process.env.FPS || 30);
 const ffmpegBin = process.env.FFMPEG || "ffmpeg";
 
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM || undefined });
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
-await page.goto(`${base}/video/weekly?render=1`, { waitUntil: "networkidle" });
+await page.goto(`${base}${route}${route.includes("?") ? "&" : "?"}render=1`, { waitUntil: "networkidle" });
 await page.evaluate(() => document.fonts.ready);
 const duration = await page.evaluate(() => window.__duration);
 
