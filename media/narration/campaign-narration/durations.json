@@ -1,0 +1,11 @@
+{
+ "voice": "he-IL-HilaNeural",
+ "durations": {
+  "intro": 8.376,
+  "race": 13.128,
+  "bloc": 6.84,
+  "movers": 10.176,
+  "markets": 6.912,
+  "outro": 8.016
+ }
+}
