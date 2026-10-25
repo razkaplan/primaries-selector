@@ -16,22 +16,22 @@
    "records": 15
   },
   {
-   "name": "ערוץ 7",
-   "kind": "אתרי חדשות",
-   "records": 11
-  },
-  {
    "name": "הארץ",
    "kind": "אתרי חדשות",
    "records": 11
   },
   {
-   "name": "זמן ישראל",
+   "name": "ערוץ 7",
+   "kind": "אתרי חדשות",
+   "records": 11
+  },
+  {
+   "name": "ישראל היום",
    "kind": "אתרי חדשות",
    "records": 9
   },
   {
-   "name": "ישראל היום",
+   "name": "זמן ישראל",
    "kind": "אתרי חדשות",
    "records": 9
   },
@@ -41,12 +41,12 @@
    "records": 8
   },
   {
-   "name": "כאן תאגיד השידור",
+   "name": "וואלה",
    "kind": "אתרי חדשות",
    "records": 7
   },
   {
-   "name": "וואלה",
+   "name": "כאן תאגיד השידור",
    "kind": "אתרי חדשות",
    "records": 7
   },
@@ -66,6 +66,11 @@
    "records": 4
   },
   {
+   "name": "רדיו 104.5FM",
+   "kind": "אתרי חדשות",
+   "records": 3
+  },
+  {
    "name": "סרוגים",
    "kind": "אתרי חדשות",
    "records": 3
@@ -76,13 +81,13 @@
    "records": 3
   },
   {
-   "name": "רדיו 104.5FM",
-   "kind": "אתרי חדשות",
-   "records": 3
-  },
-  {
    "name": "ערוץ 14",
    "kind": "אתרי חדשות",
+   "records": 2
+  },
+  {
+   "name": "TikTok",
+   "kind": "רשתות חברתיות",
    "records": 2
   },
   {
@@ -96,9 +101,14 @@
    "records": 2
   },
   {
-   "name": "TikTok",
-   "kind": "רשתות חברתיות",
-   "records": 2
+   "name": "כלכליסט",
+   "kind": "אתרי חדשות",
+   "records": 1
+  },
+  {
+   "name": "אייס",
+   "kind": "אתרי חדשות",
+   "records": 1
   },
   {
    "name": "כיכר השבת",
@@ -116,16 +126,6 @@
    "records": 1
   },
   {
-   "name": "אייס",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
-   "name": "כלכליסט",
-   "kind": "אתרי חדשות",
-   "records": 1
-  },
-  {
    "name": "i24NEWS",
    "kind": "אתרי חדשות",
    "records": 1
@@ -134,35 +134,35 @@
  "poll_publishers": [
   {
    "name": "Maariv",
-   "polls": 326
+   "polls": 328
   },
   {
    "name": "HaHadashot 12",
-   "polls": 271
-  },
-  {
-   "name": "Channel 13",
-   "polls": 158
+   "polls": 275
   },
   {
    "name": "Channel 14",
-   "polls": 157
+   "polls": 163
+  },
+  {
+   "name": "Channel 13",
+   "polls": 162
   },
   {
    "name": "Kan 11",
-   "polls": 103
+   "polls": 105
   },
   {
    "name": "Zman Yisrael",
-   "polls": 78
+   "polls": 80
   },
   {
    "name": "i24 News",
-   "polls": 53
+   "polls": 56
   },
   {
    "name": "Israel Hayom",
-   "polls": 47
+   "polls": 48
   },
   {
    "name": "Zman Israel",
@@ -170,7 +170,7 @@
   },
   {
    "name": "Channel 16",
-   "polls": 18
+   "polls": 20
   },
   {
    "name": "Israel Democracy Institute",
@@ -178,7 +178,7 @@
   },
   {
    "name": "Walla",
-   "polls": 11
+   "polls": 13
   },
   {
    "name": "KAP, Tel Aviv University",

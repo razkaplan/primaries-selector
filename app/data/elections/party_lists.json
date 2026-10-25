@@ -917,19 +917,19 @@
    },
    {
     "rank": 2,
-    "name": "Freddy Asher",
+    "name": "Asher Fradi",
     "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 3,
-    "name": "Nahumi Yaffa",
+    "name": "Miriam Nechama Yaffe",
     "name_he": null,
     "wikipedia": "https://en.wikipedia.org/wiki/נחומי%20יפה"
    },
    {
     "rank": 4,
-    "name": "Zivva Glantz",
+    "name": "Ziva Glanz",
     "name_he": null,
     "wikipedia": null
    },
@@ -941,13 +941,13 @@
    },
    {
     "rank": 6,
-    "name": "Yitzhak Edelstein",
+    "name": "Yitzchok Adlerstein",
     "name_he": null,
-    "wikipedia": null
+    "wikipedia": "https://en.wikipedia.org/wiki/Yitzchok_Adlerstein"
    },
    {
     "rank": 7,
-    "name": "Aharon Unghar",
+    "name": "Aharon Ungar",
     "name_he": null,
     "wikipedia": null
    },
@@ -959,13 +959,13 @@
    },
    {
     "rank": 9,
-    "name": "Haim Gotliv",
+    "name": "Chaim Yehuda Leib Gottlieb",
     "name_he": null,
     "wikipedia": null
    },
    {
     "rank": 10,
-    "name": "Yona Shlomo Kaufman",
+    "name": "Yonah Shlomo Kaufman",
     "name_he": null,
     "wikipedia": null
    }
@@ -1769,21 +1769,21 @@
    },
    {
     "rank": 2,
-    "name": "Yinon Azoulay",
+    "name": "Yinon Azulai",
     "name_he": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Yinon_Azoulay"
+    "wikipedia": "https://en.wikipedia.org/wiki/Yinon_Azulai"
    },
    {
     "rank": 3,
-    "name": "Michael Malkieli",
+    "name": "Michael Malchieli",
     "name_he": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Malkieli"
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Malchieli"
    },
    {
     "rank": 4,
-    "name": "Yoav Ben Tzur",
+    "name": "Yoav Ben-Tzur",
     "name_he": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Yoav_Ben_Tzur"
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoav_Ben-Tzur"
    },
    {
     "rank": 5,
@@ -2077,7 +2077,7 @@
     "rank": 32,
     "name": "Roni Malkai Y",
     "name_he": null,
-    "wikipedia": null
+    "wikipedia": "https://en.wikipedia.org/wiki/Roni_Malkai"
    },
    {
     "rank": 33,
@@ -2615,9 +2615,9 @@
    },
    {
     "rank": 13,
-    "name": "David Azulai",
-    "name_he": "דוד אזולאי",
-    "wikipedia": "https://en.wikipedia.org/wiki/David_Azulai"
+    "name": "David Azoulay",
+    "name_he": null,
+    "wikipedia": null
    },
    {
     "rank": 14,
