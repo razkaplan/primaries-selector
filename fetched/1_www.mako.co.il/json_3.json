@@ -1,0 +1,14 @@
+{
+  "urls": {
+	"schema" : "https://schema.buballmighty.com/event_schemas.json",
+	"schema_" : "https://biprx.n12.co.il/event_schemas",
+	"init_session" : "https://biprx.n12.co.il/init_session",
+	"init_session_" : "https://biprx.%DOMAIN%.co.il/init_session",
+	"schema_default" : "https://www.mako.co.il/collab/domo/event_schemas.json",
+	"init_session_default" : "https://mass.mako.co.il/ClicksStatistics/isAbroad.jsp?fmt=ip",
+	"ip_service": "https://pro.ip-api.com/json?fields=city,country,proxy,query&key=brIkszpjwrPTF14",
+	"error_default": "https://biprx.n12.co.il/events/error",
+	"error_default_": "https://biprx.%DOMAIN%.co.il/events/error"
+  },
+  "current_schema_version": 4.9997
+}

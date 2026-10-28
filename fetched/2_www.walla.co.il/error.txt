@@ -1,0 +1,3 @@
+TimeoutError: page.goto: Timeout 90000ms exceeded.
+Call log:
+  - navigating to "https://www.walla.co.il/news/israel/383959177", waiting until "networkidle"

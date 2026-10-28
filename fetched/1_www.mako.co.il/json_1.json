@@ -1,0 +1,34 @@
+{
+    "ads": {
+        "live": {
+            "isAds": true,
+            "adsRestrictions": "preroll"
+        },
+        "vod": {
+            "isAds": true,
+             "adsRestrictions": "all"
+        },
+        "volume": 0.7,
+        "adTagURL": "https://pubads.g.doubleclick.net/gampad/ads?slotname=%IU%&sz=4x4&ciu_szs=&url=%URL%&unviewed_position_start=1&output=xml_vast2&env=vp&gdfp_req=1&vid=%VID_ID%&cust_params=%CUST_PARAMS%&cmsid=4099&type=vast"
+    },
+    "domo": true,
+    "source": {
+        "playlistURL": "https://www.mako.co.il/AjaxPage?jspName=playlist12.jsp&vcmid=%VCM_ID%&videoChannelId=%CHANNEL_ID%&galleryChannelId=%GALLERY_ID%&consumer=%CONSUMER%",
+        "consumer": "responsive"
+    },
+    "themes": {
+        "mako": {
+            "mainColor": "#FAFF21"
+        },
+        "n12": {
+            "mainColor": "#DB0000"
+        }
+    },
+    "props": {
+		"isAutoplay": true,
+        "thresholdReturnToLife": 60,
+        "delayLiveStreem": 120,
+        "delayActiveControls" : 6000
+    },
+    "isKwayEnabled": true
+}

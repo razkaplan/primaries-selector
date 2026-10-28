@@ -1,0 +1,254 @@
+{
+  "pikudHaoref": {
+    "enable": true,
+    "url": "https://www.mako.co.il/rss/tilim/alerts.json",
+    "interval": 3000
+  },
+  "ads": {
+    "displayAdsRefreshInSec": 150,
+    "displayAdsRefreshInSecInView": 30,
+    "stickyBannerHP": true,
+    "isShortsAdsEnabled": true,
+    "isMaavaronAdxEnabled": false,
+    "isFloatingVideoAdEnabled": {
+        "mako": {
+          "responsive": true,
+          "mobileApp": true
+      },
+        "news": {
+          "responsive": true,
+          "mobileApp": true
+      }
+    },
+    "commentsMaavaron": {
+    	"isEnabled": true,
+	"noResponseTimeoutMs": 2000
+    },
+    "lazyLoadConfig": {
+      "fetchMarginPercent": 150,
+      "renderMarginPercent": 100,
+      "mobileScaling": 1.0
+    }
+  },
+  "refreshHomepageInSec": 600,
+  "appId": "2Y9A7B8T-mako12-474BC-web2H1C15GE9MA",
+  "multipleImgInterval": 4000,
+  "appPromotionStrip": {
+	"buttonText": "להורדה",
+	"enable": false,
+	"title": "יותר חם באפליקציה",
+	"link": "https://www.mako.co.il/collab/makoapps.html?utm_source=strip&utm_medium=web2app&utm_campaign=new_mako_2024"
+  },
+  "talkToUs": {
+	  "news": "+972504701212",
+      "mako": "+972509595067"
+  },
+  "dualScreen": {
+	  "url": "https://www.mako.co.il/AjaxPage?jspName=promoProcessor.jsp&type=responsive&activity=37",
+      "isEnable": false,
+      "scrollToCollapseDistance": 1500
+  },
+  "statisticonColors": [
+    {
+      "min": 0.01,
+      "max": 0.9,
+      "color": "#273044",
+      "textColor": "#F4F4F4"
+    },
+    {
+      "min": 1,
+      "max": 10.9,
+      "color": "#DD0121",
+      "textColor": "#F4F4F4"
+    },
+    {
+      "min": 11,
+      "max": 30.9,
+      "color": "#B3641B",
+      "textColor": "#F4F4F4"
+    },
+    {
+      "min": 31,
+      "max": 59.9,
+      "color": "#FF9A22",
+      "textColor": "#273044"
+    },
+    {
+      "min": 60,
+      "max": 99.9,
+      "color": "#FFDC22",
+      "textColor": "#273044"
+    },
+    {
+      "min": 100,
+      "max": 199.9,
+      "color": "#6FCA14",
+      "textColor": "#273044"
+    },
+    {
+      "min": 200,
+      "max": 399.9,
+      "color": "#51E6BA",
+      "textColor": "#273044"
+    },
+    {
+      "min": 400,
+      "max": 599.9,
+      "color": "#5066FF",
+      "textColor": "#F4F4F4"
+    },
+    {
+      "min": 600,
+      "max": 799.9,
+      "color": "#920DFB",
+      "textColor": "#F4F4F4"
+    },
+    {
+      "min": 800,
+      "color": "#FC60F6",
+      "textColor": "#F4F4F4"
+    }
+  ],
+  "articleComments": {
+	"commentsConfig": {
+		"mako": {
+			"mobileApp": true,
+			"responsive": true
+		},
+		"news": {
+			"mobileApp": true,
+			"responsive": true
+		}
+	},
+	"commentsScriptUrl": "https://comments.mako.co.il/embed.js?env=prod",
+  	"commentsCountUrl": "https://comments.mako.co.il/api/rest/origin"
+  },
+  "followUsGoogleButton": {
+    "mako": {
+      "mobileApp": false,
+      "responsive": false,
+      "url": "https://news.google.com/publications/CAAqJAgKIh5DQklTRUFnTWFnd0tDbTFoYTI4dVkyOHVhV3dvQUFQAQ?hl=he&gl=IL&ceid=IL%3Ahe",
+	  "logoImgSrc": "https://rcs.mako.co.il/images/mobile/mako_3.0/favicon_mako.png",
+      "googleImgSrc": "https://rcs.mako.co.il/images/mobile/mako_3.0/google_news.png"
+    },
+    "news": {
+      "mobileApp": false,
+      "responsive": false,
+      "url": "",
+	  "logoImgSrc": "",
+      "googleImgSrc": ""
+    }
+ },
+"followUsDiscoverButton": {
+    "mako": {
+      "mobileApp": true,
+      "responsive": true,
+      "url": "https://www.google.com/preferences/source?q=mako.co.il",
+      "logoImgSrc": "https://rcs.mako.co.il/images/mobile/mako_3.0/followUsDiscoverLogo.png",
+      "text": "עקבו אחרינו בגוגל"
+    },
+    "news": {
+       "mobileApp": true,
+      "responsive": true,
+      "url": "https://www.google.com/preferences/source?q=mako.co.il",
+      "logoImgSrc": "https://rcs.mako.co.il/images/mobile/mako_3.0/followUsDiscoverLogo.png",
+      "text": "עקבו אחרינו בגוגל"
+    }
+ },
+ "isPrintEnabled": {
+   "mako": {
+	"responsive": true,
+	"mobileApp": true
+	},
+   "news": {
+	"responsive": true,
+	"mobileApp": false
+	}
+ },
+ "stickyIngredientsConfig": {
+    "mako": {
+        "responsive": false,
+	"responsiveNew": true,
+        "mobileApp": true,
+		"disableInGeneratedRecipe": false,
+	"minAppVersion": {
+	    "ios": "37",
+	    "android": "29"
+	}
+    },
+    "news": {
+	"responsive": false,
+	"responsiveNew": false,
+        "mobileApp": false,
+		"disableInGeneratedRecipe": false,
+	"minAppVersion": {
+	    "ios": "100",
+	    "android": "100"
+	}
+    },
+    "buttonBottomDistance": 1000
+ },
+ "isShortsFeedEnabled": {
+	"mako": {
+		"desktop": true,
+		"mobile": { "ios": true, "android": true }
+	},
+   "news": {
+		"desktop": true,
+		"mobile": { "ios": true, "android": true }
+	}
+ },
+  "shortsFeed": {
+   "enabled": {
+     "mako": { "desktop": true, "mobile": { "ios": true, "android": true } },
+     "news": { "desktop": true, "mobile": { "ios": true, "android": true } }
+   },
+   "allowedChannelIds": [],
+   "staticBanner": {
+	  "enabled": false,
+	  "enabledV2": true,
+	  "adUnit": null,
+	  "width": 320,
+	  "height": 420,
+      "firstPosition": 4,
+      "itemsPerAd": 4,
+      "duration": 9
+   }
+},
+ "allowedShortsFeedChannelIds": [],
+ "mainPlayerOptionsConfig": {
+    "continuePlayInUnmute": true
+  },
+"isSaveRecipeEnabled": false,
+"isShortsMuteEnabled": false,
+"readMoreButton": {
+    "enabled": {
+        "article": {
+            "mako": {
+                "mobileApp": true,
+                "responsive": false
+        },
+            "news": {
+                "mobileApp": false,
+                "responsive": false
+        },
+        "beforeCount": 2,
+        "remainingCount": 2
+      },
+      "liveblog": {
+          "mako": {
+                "mobileApp": true,
+                "responsive": false
+        },
+          "news": {
+                "mobileApp": false,
+                "responsive": false
+        },
+        "beforeCount": 2,
+        "remainingCount": 2
+      }
+    },
+    "allowedMainChannelIds": ["33450a2610f26110VgnVCM1000005201000aRCRD"]
+},
+"shortsSlidingWindowSize": 7
+}

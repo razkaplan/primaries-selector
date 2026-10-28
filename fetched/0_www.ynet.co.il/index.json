@@ -1,0 +1,351 @@
+{
+ "url": "https://www.ynet.co.il/news/elections2026/article/bj5pk302zg",
+ "fetched_at": "2026-10-28T09:58:39.739Z",
+ "responses": [
+  {
+   "name": "json_0.json",
+   "url": "https://butterfly-button.web.app/cdn/butterfly-plugin.js",
+   "status": 200
+  },
+  {
+   "name": "json_1.json",
+   "url": "https://www.ynet.co.il/weather/api/data/ynetapp",
+   "status": 200
+  },
+  {
+   "name": "json_2.json",
+   "url": "https://www.ynet.co.il/iphone/json/api/talkbacks/list/v2/bj5pk302zg/recommended/0",
+   "status": 200
+  },
+  {
+   "name": "json_3.json",
+   "url": "https://www.ynet.co.il/iphone/json/api/talkbacks/list/v2/bj5pk302zg/recommended/0",
+   "status": 200
+  },
+  {
+   "name": "json_4.json",
+   "url": "https://ynet-election-map.yit-labs.com/api/feed/polls.json",
+   "status": 200
+  },
+  {
+   "name": "json_5.json",
+   "url": "https://ynet-election-map.yit-labs.com/api/feed/seats.json",
+   "status": 200
+  },
+  {
+   "name": "json_6.json",
+   "url": "https://o969560.ingest.us.sentry.io/api/5920728/envelope/?sentry_version=7&sentry_key=7871f506431356d58e794c27951994d4&sentry_client=sentry.javascript.react%2F8.55.2",
+   "status": 200
+  },
+  {
+   "name": "json_7.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/manifest.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_8.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/settlement_religion.json?v=20261027-socio-preview-2",
+   "status": 200
+  },
+  {
+   "name": "json_9.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/settlements_lookup.json?v=20261027-socio-preview-2",
+   "status": 200
+  },
+  {
+   "name": "json_10.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/settlements_2022.geojson?v=20261027-socio-preview-2&k=26",
+   "status": 200
+  },
+  {
+   "name": "json_11.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/neighborhood_underlay.json?v=20261027-socio-preview-2&k=26",
+   "status": 200
+  },
+  {
+   "name": "json_12.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/settlements_lookup.json?v=20261027-socio-preview-2&k=26",
+   "status": 200
+  },
+  {
+   "name": "json_13.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/national_kpi.json?v=20261027-socio-preview-2&k=26",
+   "status": 200
+  },
+  {
+   "name": "json_14.json",
+   "url": "https://o969560.ingest.us.sentry.io/api/5920728/envelope/?sentry_version=7&sentry_key=7871f506431356d58e794c27951994d4&sentry_client=sentry.javascript.react%2F8.55.2",
+   "status": 200
+  },
+  {
+   "name": "json_15.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/kalpis_lookup_k26.json?v=20261027-socio-preview-2&k=26",
+   "status": 200
+  },
+  {
+   "name": "json_16.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/stat_areas_lookup.json?v=20261027-socio-preview-2&k=26",
+   "status": 200
+  },
+  {
+   "name": "json_17.json",
+   "url": "https://cdn.api.btloader.com/device?orgid=6244355308257280&fullVersionList=%5B%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22156.0.8078.4%22%7D%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22156.0.8078.4%22%7D%5D&upapi=true",
+   "status": 200
+  },
+  {
+   "name": "json_18.json",
+   "url": "https://storycards.co/ynet/qI_yXrxSU/story.json?ver=3e16aeb0-a7c6-47a7-b2be-cf5123493ad2",
+   "status": 200
+  },
+  {
+   "name": "json_19.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-estimate_donors-002.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_20.json",
+   "url": "https://storycards.co/ynet/EW0T2t6uV/story.json?ver=3e16aeb0-a7c6-47a7-b2be-cf5123493ad2",
+   "status": 200
+  },
+  {
+   "name": "json_21.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-kalpis_lookup-002.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_22.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-settlements_lookup-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_23.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/manifest.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_24.json",
+   "url": "https://dd.insiad.com/currency-rates",
+   "status": 200
+  },
+  {
+   "name": "json_25.json",
+   "url": "https://dd.insiad.com/geodevicedetect?userAgent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F156.0.8078.4%20Safari%2F537.36&url=https%3A%2F%2Fwww.ynet.co.il%2Fnews%2Felections2026%2Farticle%2Fbj5pk302zg",
+   "status": 200
+  },
+  {
+   "name": "json_26.json",
+   "url": "https://www.googleadservices.com/pagead/conversion/661509946/?random=1793181434222&cv=11&fst=1793181434222&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6aq1v9181639607za208zd9181639607xecxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tcfd=10000&tag_exp=115616986~115938466~115938468~118897920~118897930~119863601~120213116~120385422~120469145~120469153~121191153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ynet.co.il%2Fnews%2Felections2026%2Farticle%2Fbj5pk302zg&rcb=15&gtm_ee=1&frm=0&tiba=%D7%A0%D7%AA%D7%95%D7%A0%D7%99%D7%9D%20%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99%D7%99%D7%9D%20%D7%9E%D7%94%D7%A2%D7%A8%D7%99%D7%9D%20%D7%A9%D7%9C%D7%90%20%D7%94%D7%95%D7%96%D7%A0%D7%95%20%D7%A2%D7%93%20%D7%9B%D7%94%3A%20%D7%AA%D7%95%D7%A6%D7%90%D7%95%D7%AA%20&npa=0&us_privacy=1YNN&pscdl=noapi&auid=467473035.1793181433&gpp=DBABL~BVQqAAAAAg&gpp_sid=7&label=j45-COSO2tADELqut7sC&hn=www.googleadservices.com&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&ept=5",
+   "status": 200
+  },
+  {
+   "name": "json_27.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-kalpis_lookup-001.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_28.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-estimate_donors-001.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_29.json",
+   "url": "https://tiles.openfreemap.org/styles/positron",
+   "status": 200
+  },
+  {
+   "name": "json_30.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-kalpis_lookup-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_31.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-stat_areas_lookup-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_32.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/data/statistical_areas_2022_socio_web.geojson?v=20261027-socio-preview-2&k=26",
+   "status": 200
+  },
+  {
+   "name": "json_33.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-estimate_donors-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_34.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-estimate_donors-002.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_35.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-kalpis_lookup-002.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_36.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-settlements_lookup-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_37.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-kalpis_lookup-001.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_38.json",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610230101&st=env&sjk=692867631968046",
+   "status": 200
+  },
+  {
+   "name": "json_39.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-estimate_donors-001.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_40.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-kalpis_lookup-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_41.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-stat_areas_lookup-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_42.json",
+   "url": "https://isr-socio-elections.smilganir.workers.dev/isr-socio-elections/results-snapshot/part-estimate_donors-000.json?v=20261028-results-1056-parts",
+   "status": 200
+  },
+  {
+   "name": "json_43.json",
+   "url": "https://ynet-election-map.yit-labs.com/api/feed/votes-infogram.json?sheet=updated",
+   "status": 200
+  },
+  {
+   "name": "json_44.json",
+   "url": "https://token.rubiconproject.com/khaos.json?gdpr=0&us_privacy=1---",
+   "status": 200
+  },
+  {
+   "name": "json_45.json",
+   "url": "https://token.rubiconproject.com/khaos.json?gdpr=0&us_privacy=1NN-&khaos=MVRXXIKF-23-4W5C",
+   "status": 200
+  },
+  {
+   "name": "json_46.json",
+   "url": "https://infographics.storycards.co/p/ynet/ejcama47zab04a46x3d0/delivery-v3.json",
+   "status": 200
+  },
+  {
+   "name": "json_47.json",
+   "url": "https://vidstat.taboola.com/block-data/block_data.json_202610280301",
+   "status": 200
+  },
+  {
+   "name": "json_48.json",
+   "url": "https://lb.prod.equally.ai/api/v1/widget/config?apiKey=7gcy23wq2h56kv997zvb5rrun8gatcd3&userID=f83905745955cc52bac5bfbf696a3057",
+   "status": 200
+  },
+  {
+   "name": "json_49.json",
+   "url": "https://infographics.storycards.co/p/ynet/ejcama47zab04a46x3d0/delivery-v3.json",
+   "status": 200
+  },
+  {
+   "name": "json_50.json",
+   "url": "https://lb.prod.equally.ai/api/v1/widget/config?apiKey=7gcy23wq2h56kv997zvb5rrun8gatcd3&userID=undefined",
+   "status": 200
+  },
+  {
+   "name": "json_51.json",
+   "url": "https://wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181441066&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=1&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_52.json",
+   "url": "https://widget.prod.equally.ai/locales/en.json",
+   "status": 200
+  },
+  {
+   "name": "json_53.json",
+   "url": "https://infographics.storycards.co/p/ynet/ejcama47zab04a46x3d0/delivery/assets/629e3fada1c0f628d7fb1e1e230f8b94985119c5671f8085b02a864ee4933415.json",
+   "status": 200
+  },
+  {
+   "name": "json_54.json",
+   "url": "https://la-wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181441104&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=2&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_55.json",
+   "url": "https://widget.prod.equally.ai/locales/he.json",
+   "status": 200
+  },
+  {
+   "name": "json_56.json",
+   "url": "https://infographics.storycards.co/p/ynet/ejcama47zab04a46x3d0/delivery/assets/03ded1713c7d5b03ef2092e4f7dce4cfff5e28e2e1795598efafb2cc584ed96f.json",
+   "status": 200
+  },
+  {
+   "name": "json_57.json",
+   "url": "https://targeting.unrulymedia.com/unruly_prebid",
+   "status": 200
+  },
+  {
+   "name": "json_58.json",
+   "url": "https://targeting.unrulymedia.com/unruly_prebid",
+   "status": 200
+  },
+  {
+   "name": "json_59.json",
+   "url": "https://targeting.unrulymedia.com/unruly_prebid",
+   "status": 200
+  },
+  {
+   "name": "json_60.json",
+   "url": "https://api.btloader.com/country?o=6244355308257280",
+   "status": 200
+  },
+  {
+   "name": "json_61.json",
+   "url": "https://la-wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181446140&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=3&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_62.json",
+   "url": "https://la-wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181451146&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=4&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_63.json",
+   "url": "https://la-wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181456147&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=5&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_64.json",
+   "url": "https://la-wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181461149&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=6&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_65.json",
+   "url": "https://la-wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181466150&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=7&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_66.json",
+   "url": "https://ynet-election-map.yit-labs.com/api/feed/votes-infogram.json?sheet=updated",
+   "status": 200
+  },
+  {
+   "name": "json_67.json",
+   "url": "https://la-wf.taboola.com/VideoBidRequestHandlerServlet?oid=15&width=300&height=168&pubid=169497&tagid=953497&crid=-1&noaop=12&sortOrderType=0&cb=1793181471152&mimes=5,10,11,12&isvideo=0&plmd=2&mindur=1&maxdur=210&minbr=1&maxbr=10000&st=0&seq=8&pv=1821&pt=1271899554&tz=0&viewable=true&ddast=V9O2MCABYDAN5Y4e4S4Ki_BADeWOHuEuCovwUAAAAABgYA4gcAJLjYDAcrh2-tGg1Ga9HM43JLbLvNWrFxbiw222Li3OyGAECCi81wsHL41qrRYLQWzTwut8S226wVG-fGYrMtJs7NbgoAM3l3mQ7ig8jl-Zr-hoP4IPEb75KBxG-8awbig8Zhevn8ludBYTcZFJbT02N2uQGAB02nw-e61-t-v7vy7jLdNX670uyXu3yfv8rs8piefrvnMpjM9grL6ekxu_wSq2vw9Qwm058dAAAAAAAeAP7___8hAAAAAAAiAAAAAAAkAAAAAAAoAAIqAP4tAAQuAAAAAAAwAP7___81AADGNwAEhkEOgIZ52A0yy8PucXo-fn8AAAAAAIAAAAAAAJAAABz4NJYAAMRQLp8A_P_________HAAzQZ97IAPz____fACT0AAA8-AAAPAgBAAAAhAwB2Pavdy13pj4TAQAEVAcVATgCmATQCQAVgEUVwP__f78VAMAVAABAQGhgPJJaFoDuoMRbGAAAAACBGIC6FvDABkQk1xjAAj0sfr_ZYdf43S4D-P________83A_g_A_hHAxCyCEdKAxCmD0dSA_gFBABYA_gFBABgA1A3gP__N4AAOICQA-BB0-nwue71ut_vrry7THeN3640--Uu3-evMrs8pqff7rkMJrO9wnJ6eswuv8TqGnw9g8n0ZzsAAAAAgDuA____fzwAdS3ggQ2ISC49AJCyOEcOi8fm2kwWHt_C5TAZFqbVaDfzzTajzWzmPQCUfYcBycKU8z6Amby7TAfxQeTyfE1_w0F8kPiNd8lA4jfeNQPxQeMwvXx-y_OgsJsMCsvp6TG77AdA0ZrdaLgbLWeT5WK4GaxGk9lwfwADsZoNEICiJYvVcrjaTRajzWIxWe6Go8kEAShaNJisRqPJYjJcjSar2XKx220QgKKFs9lusllNNrPBcLkbrQaT5QgBJmgyWgxnm91kuVsuJ7PZaDQaIkDMbWwT58K0cKscxtlatFrM3MrdcLGWmGbGkXO1mjh8w7Xo9TE9FiOLaePbbRFAMKBoL5KnRToRTVbOmXOw8MyWG-dmOVoNRqbBxGRbLhyOlXMzmIglmpNFOpFd9i2Lc-SweGyuzWTh8S1cDpNhYVqNdjPfbDPazGb-3sY2cS5MC7fKYZytRavFzK3cDRdriWlmHDlXq4nDN1yLXh_TYzGymDa-3b6xW24Ww8Vos9o3dsvNYrgYbVb7DpPpmfqcjdrgseTRuYzis62scxgULoPNOy1apK3D0Wc0Wb8T12q9zHkmVpfj4zUoPAeP6iLtCRW739crW1i7B7NBYTB5FgaVQWFQeRYGgyKWCC7SifLuMr0VltPTY3Z5LmKJ0nSRTvRyl-_zV5ldHtPTb_dcBpPZXmE5PT1ml19idQ2-nsFk-rOIJYLTRToRvYyni_qVAAAAAAAAAAAAlgA2AQAAAAA4AQxoN9rNVusEOJjJaLlZrZYLACDhoK4L8BPqyeJ9xBawC7AJpAa0uSkmfQzQkHeX6a2wnJ4es8tzZQCACMY3ZoDNAJ8BCGJOZ8saAAAAYAAbAAAAIIAbYDcAbwCBYXAc4P__358eAAAAQHwfAKjqxJVCLxzpHwBAgELM6Wx1uzGnsxUQMBCr3QQCAAAGTgwCAAAAAAAAjMgRAgS23YQACgEPQ7T83S6DkOUwmV2ezxcCOgQ8RQ96JmS6rD4EAAAEhAbGI0lNBBTkaLGYjCLg____vyKgIBkUxmQWAU_Rg54JrPBKFwEAAAGhgfFEeBgBDrGbzBXD1VyzmSsmk2kEAARwBBAQi9OlRwA!&proto=2,3,5,6&encoded=1&pstn=vforce2&callback=&wfv=1&amp=0&qsz=15&ft=1&pb=0&pagg=1&sd=undefined&ctsldr=0&ioovp=false&distance=1248&dtagid=3249355&dpubid=474765&abtst=agqp4c_vC!lotc_vC!ufm_vA&mPre=0.033&cirf=https%3A%2F%2Fwww.ynet.co.il&en=1",
+   "status": 200
+  },
+  {
+   "name": "json_68.json",
+   "url": "https://ynet-election-map.yit-labs.com/api/feed/votes-infogram.json?sheet=updated",
+   "status": 200
+  }
+ ]
+}

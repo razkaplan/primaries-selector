@@ -1,0 +1,190 @@
+{
+  "lang": "EN",
+  "main_header": "Accessibility assistant",
+  "additional_sub_header": "Let's personalize your experience.",
+  "btn_close": "Close",
+  "move_interface": "Move Interface",
+  "hide_interface": "Hide interface",
+  "btn_access_declaration": "Certification",
+  "reset_all_settings": "Reset",
+  "rate_our_solution": {
+    "feedback_modal_trigger": "Rate our Solution"
+  },
+  "search_block": {
+    "link_learn_more": "Learn more in Wikipedia",
+    "input_placeholder": "Search dictionary"
+  },
+  "skip_links": {
+    "label": "Skip links",
+    "main": "Skip to main content",
+    "menu": "Skip to menu",
+    "footer": "Skip to footer",
+    "accessibility_menu": "Open Accessibility Menu",
+    "shortcut": "Press 'Ctrl Alt q' to turn on/off blind experience",
+    "action": "Enter"
+  },
+  "accessibility_block": {
+    "accessibility_statement": "Accessibility Certification",
+    "sub_heading": " trusts Equally AI to ensure that everyone, regardless of ability, can access our content with ease and confidence.",
+    "introduction": "Introduction",
+    "introduction_text": {
+      "p1": "We are dedicated to providing an exceptional experience for every user. We believe in breaking down barriers and ensuring that our website is accessible to everyone, including people with disabilities. We recognize that the internet should be available to all, and we are committed to maintaining standards that enable accessibility for everyone, regardless of their circumstances or abilities.",
+      "p2": "As part of our commitment to making the web accessible to everyone, we strive to exceed industry standards for web accessibility compliance, using the Web Content Accessibility Guidelines (WCAG) 2.1 AA as our benchmark. These guidelines were established by the World Wide Web Consortium's (W3C) Web Accessibility Initiative to ensure that web content is accessible to a broad range of people with disabilities.",
+      "p3": "Our website's accessibility is continuously optimized by an AI-based application that runs in the background. This application remediates the HTML of the website and adapts its functionality and behavior so that blind and visually impaired individuals can use screen readers to access the website's content, and individuals with physical disabilities can use the keyboard to navigate the website without the need to activate any prompts.",
+      "p4": "We are committed to providing the best possible experience for all users, and we will continue to make accessibility a top priority as we work to improve our website's functionality and design."
+    },
+    "disclaimer": "Disclaimer",
+    "disclaimer_text": {
+      "p1": "We aim to provide the highest standards of accessibility on our website, because we understand the moral and practical importance of being compliant with the WCAG 2.1 AA standards. We perform regular scans to identify and fix any accessibility issues that may arise. Despite our best efforts to uphold the highest possible accessibility standards on our website, you may find that there may be some pages or components of our website that may fall short of accessibility standards. This may be because we have not yet identified, or are currently in the process of identifying the best possible solution for such a problem."
+    },
+    "accessibility_assistant": "Accessibility features",
+    "accessibility_assistant_text": {
+      "p1": "We utilize a web accessibility interface that enables people with disabilities to adjust the website's user interface and design to meet their specific needs.",
+      "p2": "To enable the accessibility assistant on our website, click on the accessibility interface , the menu will appear. You can then interact with the features and options to suit your specific needs:",
+      "blind": "Vision: ",
+      "blind_text": "this profile allows users with visual impairments (such as low vision and color blindness) to adjust our website’s text size, color contrast, and saturation to suit their preferences.",
+      "impaired": "Cognitive: ",
+      "impaired_text": "this profile provides assistive features that improves concentration of users with cognitive impairments and helps them focus on essential elements of the website.",
+      "seizure": "Seizure safe: ",
+      "seizure_text": "this profile reduces the risk of epileptic seizures by disabling animations and pausing flashing content and triggering color combinations.",
+      "motor": "",
+      "motor_text": "",
+      "focus": "ADHD: ",
+      "focus_text": "this profile provides a less destructive web experience for users with ADHD (Attention Deficit Hyperactivity Disorder) and other neurodevelopmental impairments to improve browsing, reading and concentration.",
+      "dyslexia": "Dyslexia: ",
+      "dyslexia_text": "this profile makes it easier for people with learning difficulties such as dyslexia to read and understand contents on the website.",
+      "other": "The Accessibility features also provides Adjustment settings for:",
+      "color": "Content: ",
+      "color_text": "users can underline links and headers, adjust text size and spacing, and improve content readability with readable fonts, reading guide, read mode, reading mask and other available options.",
+      "text": "Color: ",
+      "text_text": "users can adjust color contrast and saturation levels on the website with options to reverse contrast, brighten contrast, and enable high saturation. We also provide settings to adjust text color, pointer color, background color and header color.",
+      "highlight": "Navigation: ",
+      "highlight_text": "this allows users to adjust navigation settings to enable big cursor/mouse pointer, page structure and keyboard focus, as well as to resize the screen.",
+      "zoom": "",
+      "zoom_text": ""
+    },
+    "support": "Support for assistive technology",
+    "support_sub_header": "",
+    "support_text": {
+      "p1": "We use modern methods such as semantic HTML and ARIA (Accessible Rich Internet Applications) attributes that our website is accessible to user agents(browsers, assistive technology, etc) so that our customers can choose suitable tools, with little or no limitations. We have support for the major user agents in the market.",
+      "p2": "",
+      "p3": ""
+    },
+    "support_list": {
+      "blind": "",
+      "impaired": "",
+      "seizure": "",
+      "dyslexia": "",
+      "motor": "",
+      "cognitive": ""
+    },
+    "closing": "",
+    "closing_text": {
+      "p1": "",
+      "p2": ""
+    }
+  },
+  "language_block": {
+    "choose_language": "Choose accessibility assistant language"
+  },
+  "toggle_switch": {
+    "on": "On",
+    "off": "Off"
+  },
+  "profile": {
+    "vision": "Vision",
+    "cognitive": "Cognitive",
+    "blind": "Blind",
+    "seizure": "Seizure Safe",
+    "adhd": "ADHD",
+    "dyslexia": "Dyslexia",
+    "motor": "Motor"
+  },
+  "settings": {
+    "content": "Content",
+    "color": "Color",
+    "navigation": "Navigation"
+  },
+  "adjustments": {
+    "underlineHeaders": "Underline Headers",
+    "underlineLinks": "Underline Links",
+    "readableFont": "Readable Fonts",
+    "readingGuide": "Reading Guide",
+    "readMode": "Read Mode",
+    "readingMask": "Reading Mask",
+    "reverseContrast": "Reverse Contrast",
+    "brightContrast": "Brighten Contrast",
+    "highSaturation": "High Saturation",
+    "darkContrast": "Dark Contrast",
+    "bigCursor": "Big Cursor",
+    "uncoloredDisplay": "Uncolored Display",
+    "navigationMenu": "Navigation Menu",
+    "zoomScreen": "Zoom Screen",
+    "textSize": "Text Size",
+    "textSpacing": "Spacing",
+    "textColor": "Text Color",
+    "pointerColor": "Pointer Color",
+    "bgColor": "Background Color",
+    "headerColor": "Header Color",
+    "easyReading": "Easy Reading",
+    "disableAnimations": "Disable Animations",
+    "dyslexia": "Dyslexia Fonts",
+    "titleColor": "Adjust Title Color",
+    "underlineColor": "Adjust Underline Color",
+    "offscreenFocus": "Off Screen Focus",
+    "keyboardNavigation": "Keyboard Focus",
+    "pageStructure": "Page Structure"
+  },
+  "page_structure": {
+    "links": "Links",
+    "landmarks": "Landmarks",
+    "headings": "Headings"
+  },
+  "tabs": {
+    "profile": "Profiles",
+    "adjustment": "Settings"
+  },
+  "profile_description": {
+    "vision": "The vision profile provides users with visual impairments pre-selected profile adjustments. Users can further adjust their preferred settings within the profile.",
+    "cognitive": "Use this profile for assistive features that enhance concentration on essential elements of the website. Pick the options that help you best experience websites.",
+    "motor": "Experience easy navigation options by using only keyboard Tab, Shift+Tab, and Enter keys.",
+    "seizure": "Select this profile for reducing the risk of seizures due to the removal of flashing or blinking images and color combinations within this profile.",
+    "adhd": "Use this profile to enable a less distractive web experience for browsing, reading, and concentrating.",
+    "dyslexia": "Enjoy a better reading experience by adjusting the content for easier comprehension by activating this profile.",
+    "blind": "An automically enabled profile by screen-readers, this profile is compatible with JAWS, NVDA, VoiceOver, and TalkBack. This profile assists with keyboard traps and capturing all types of messages."
+  },
+  "hide_interface_modal": {
+    "accept": "Accept",
+    "close": "No, thank you",
+    "hide_interface": "Hide accessibility interface?",
+    "text": "You will no longer be able to see the accessibility interface if you choose to hide it, unless you clear your browsing history and data.",
+    "question": "Are you certain you wish to hide the accessibility interface?"
+  },
+  "rate_solution_modal": {
+    "title": "How would you rate your experience?",
+    "dislike_title": "Dislike",
+    "neutral_title": "Neutral",
+    "like_title": "Like",
+    "feedback_message_title": "Your feedback",
+    "btn_send_feedback": "Send feedback",
+    "success_response": "Thanks! We've received your feedback",
+    "failure_response": "Something went wrong and we were unable to receive your feedback"
+  },
+  "powered_by": "Powered by",
+  "enhanced_navigaton_tooltip": "Use ←/→ to navigate",
+  "color": {
+    "blue": "dark blue",
+    "red": "red",
+    "copper": "copper",
+    "yellow": "yellow",
+    "sky_blue": "light blue",
+    "green": "green",
+    "black": "black"
+  },
+  "range_slider": {
+    "increase_textSize": "Increase Text Size",
+    "decrease_textSize": "Reduce Text Size",
+    "increase_textSpacing": "Increase Text Spacing",
+    "decrease_textSpacing": "Reduce Text Spacing"
+  }
+}

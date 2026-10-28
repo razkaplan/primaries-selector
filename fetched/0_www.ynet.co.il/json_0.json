@@ -1,0 +1,727 @@
+// BB:UTILS-START — generated from functions/utils/betty-type-utils.js by scripts/build-plugin-utils.js. DO NOT EDIT BY HAND.
+// Betty Type Utilities - Shared between client and server
+// Can be used in Node.js (server) or browser (client)
+
+(function () {
+  'use strict';
+
+  // For Node.js environment
+  let bettyTypeMapping = null;
+  if (typeof require !== 'undefined') {
+    try {
+      bettyTypeMapping = require('../config/betty-type-mapping.json');
+    } catch (error) {
+      console.warn('Could not load betty-type-mapping.json, using fallback data');
+    }
+  }
+
+  // Fallback data if config file is not available (useful for client-side)
+  const fallbackMapping = {
+    "paramSuffixes": [
+      "a1",
+      "your",
+      "bsafezone",
+      "gaslighter_female",
+      "gaslighter_male"
+    ],
+    "genderMapping": {
+      "0": -1,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1,
+      "25": 1,
+      "26": 1,
+      "27": 1,
+      "28": 1,
+      "29": 1,
+      "30": -1,
+      "31": -1,
+      "32": -1,
+      "33": -1,
+      "34": 1,
+      "35": 0
+    },
+    "automationRanges": [
+      {
+        "min": 4,
+        "max": 15
+      },
+      {
+        "min": 19,
+        "max": 32
+      },
+      {
+        "min": 34,
+        "max": 35
+      }
+    ],
+    "defaultGender": 3,
+    "metadata": {
+      "genderValues": {
+        "0": "female",
+        "1": "male",
+        "2": "unknown",
+        "3": "default",
+        "-1": "special"
+      },
+      "description": "Betty type to gender mapping for QR code campaigns"
+    }
+  };
+
+  // Use loaded config or fallback
+  const config = bettyTypeMapping || fallbackMapping;
+
+  /// Safely and gracefully returns null / undefined if no key found.
+  function findSecretParam(params, suffix) {
+    return ["bf_" + suffix, suffix].find(k => {
+      if (params[k]) {
+        return params[k];
+      }
+
+      if (params.get !== undefined) {
+        return params.get(k);
+      }
+
+      return undefined;
+    });
+
+    // Same as:
+    // const secretQueryStringParamSuffix = suffix;
+    // const prefixed = "bf_" + secretQueryStringParamSuffix;
+    // return params.get(prefixed) ? prefixed :
+    //   params.get(secretQueryStringParamSuffix) ? secretQueryStringParamSuffix :
+    //     "";
+  }
+
+  /**
+   * Convert URL parameters to SafeZone parameters for Butterfly plugin
+   * @param {Object} urlParams - URL query parameters from client
+   * @returns {Object} SafeZone parameters with betty_type, gender, campaign_id, etc.
+   */
+  function convertUrlParams(urlParams) {
+    let safeZoneParams = {};
+    if (!urlParams) return safeZoneParams;
+    if (!Object.keys(urlParams).length) return safeZoneParams;
+
+    var cleanKey = "~";
+    for (let suffix of config.paramSuffixes) {
+      let foundParamKey = findSecretParam(urlParams, suffix);
+      if (foundParamKey) {
+        cleanKey = foundParamKey.replaceAll("bf_", "");
+        urlParams[cleanKey] = urlParams[foundParamKey];
+      }
+    }
+
+    let bettyCampaign = urlParams["a1"];
+    let parsedBettyTypeInt = -1;
+
+    if (bettyCampaign) {
+      parsedBettyTypeInt = parseBettyCampaign(bettyCampaign);
+    }
+
+    var genderValue = getGenderFromBettyType(parsedBettyTypeInt);
+    var campaignId = "";
+
+    if (urlParams["your"] == "safezone") {
+      campaignId = "your-SafeZone";
+      parsedBettyTypeInt = 0;
+    } else if (urlParams["bsafezone"] == "hotline") {
+      campaignId = "hotline-deep-link";
+      safeZoneParams["open_hotlines"] = "1";
+      parsedBettyTypeInt = 0;
+    } else if (urlParams["bsafezone"]) {
+      campaignId = `${urlParams["bsafezone"]}-deep-link`;
+      parsedBettyTypeInt = 0;
+    } else if (urlParams["gaslighter_female"] || urlParams["gaslighter_male"]) {
+      var gaslighterValue = urlParams["gaslighter_female"] || urlParams["gaslighter_male"];
+      campaignId = "gaslighter-deep-link";
+      if (gaslighterValue.length == 2) {
+        safeZoneParams["language"] = gaslighterValue;
+      }
+      genderValue = urlParams["gaslighter_male"] ? "1" : "0";
+      safeZoneParams["open_betty"] = "2";
+      safeZoneParams["betty_type"] = "35";
+      parsedBettyTypeInt = 0;
+    } else if (urlParams["bf_article"]) {
+      // Prefixed-only on purpose: a bare ?article= is a common param on host
+      // sites, so we never read/strip it — only the namespaced bf_article acts.
+      campaignId = `article-${urlParams["bf_article"]}`;
+      parsedBettyTypeInt = 0;
+    }
+
+    if (genderValue > -1 && genderValue < 3) {
+      // 0 - female, 1 - male, 2 - unknown
+      safeZoneParams["gender"] = genderValue;
+    }
+
+    if (deepLinkWithBettyType(parsedBettyTypeInt)) {
+      // automaticNavigation
+      safeZoneParams["open_betty"] = "2";
+    }
+
+    if (parsedBettyTypeInt >= 0) {
+      if (parsedBettyTypeInt > 0) {
+        safeZoneParams["betty_type"] = `${parsedBettyTypeInt}`;
+      }
+
+      if (campaignId.length == 0) {
+        safeZoneParams["language"] = "he";
+        campaignId = `b${parsedBettyTypeInt}`;
+      }
+    }
+
+    if (campaignId.length > 0) {
+      safeZoneParams["campaign_id"] = campaignId;
+    }
+
+    return safeZoneParams;
+  }
+
+  /**
+   * Get gender value from betty type
+   * @param {number|string} bettyType - The betty type from QR code
+   * @returns {number} Gender value: 0=female, 1=male, 2=unknown, 3=default, -1=special
+   */
+  function getGenderFromBettyType(bettyType) {
+    if (!bettyType) return config.defaultGender;
+
+    const bettyTypeStr = String(bettyType);
+    const gender = config.genderMapping[bettyTypeStr];
+
+    return gender !== undefined ? gender : config.defaultGender;
+  }
+
+  /**
+   * Check if betty type should trigger automatic navigation
+   *
+   * @param {number} bettyType - The betty type from QR code
+   * @returns {boolean} True if should auto-navigate
+   */
+  function deepLinkWithBettyType(bettyType) {
+    if (!bettyType || bettyType < 0) return false;
+
+    return config.automationRanges.some(range =>
+      bettyType >= range.min && bettyType <= range.max
+    );
+  }
+
+  /**
+   * Parse betty campaign string (format: "b{number}")
+   * @param {string} campaignString - Campaign string like "b15"
+   * @returns {number} Parsed betty type number, or -1 if invalid
+   */
+  function parseBettyCampaign(campaignString) {
+    if (!campaignString || typeof campaignString !== 'string') return -1;
+
+    try {
+      const parts = campaignString.split('b');
+      if (parts.length !== 2) return -1;
+
+      const bettyType = parseInt(parts[1], 10);
+      return isNaN(bettyType) ? -1 : bettyType;
+    } catch (error) {
+      console.error(`parseBettyCampaign | error: ${error}`);
+    }
+
+    return -1;
+  }
+
+  /**
+   * Check if a betty type is valid
+   * @param {number} bettyType - The betty type to validate
+   * @returns {boolean} True if valid
+   */
+  function isValidBettyType(bettyType) {
+    const bettyTypeStr = String(bettyType);
+    return config.genderMapping.hasOwnProperty(bettyTypeStr);
+  }
+
+  /**
+   * Get all valid betty types
+   * @returns {number[]} Array of valid betty type numbers
+   */
+  function getValidBettyTypes() {
+    return Object.keys(config.genderMapping).map(Number);
+  }
+
+  // API object to export
+  const BettyTypeUtils = {
+    findSecretParam,
+    convertUrlParams,
+    getGenderFromBettyType,
+    deepLinkWithBettyType,
+    parseBettyCampaign,
+    isValidBettyType,
+    getValidBettyTypes,
+    config
+  };
+
+  // Export for Node.js
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = BettyTypeUtils;
+  }
+
+  // Export for browser (global)
+  if (typeof window !== 'undefined') {
+    window.BettyTypeUtils = BettyTypeUtils;
+  }
+})();
+// BB:UTILS-END
+
+function TheButterflyReporterPlugin() {
+  const currentVersion = "2.1.2";
+  // that's a constructor in JS
+  this.isOpened = false;
+  this.isListeningToEscapeKeyPress = false;
+  this.isEmbeddedInWix = false;
+  this.isEmbeddedInWordpress = false;
+  this.extraParams = "";
+  this.specificVersion;
+  this.resetScale;
+  this.stubbedLanguageCode;
+
+  this.toggleButterflyReporter = function (
+    apiKey,
+    forcedCountryCode,
+    forcedLanguageCode,
+    shouldCloseOnFocusOut
+  ) {
+    if (this.isOpened) {
+      this.closeButterflyReporter();
+    } else {
+      if (this.stubbedLanguageCode && this.stubbedLanguageCode.length == 2) {
+        forcedLanguageCode = this.stubbedLanguageCode;
+      }
+
+      this.openButterflyReporter(
+        apiKey,
+        forcedCountryCode,
+        forcedLanguageCode,
+        shouldCloseOnFocusOut
+      );
+    }
+  };
+
+  this.isMobilePortrait = function () {
+    return window.innerHeight / window.innerWidth > 1;
+  };
+
+  this.openButterflyReporter = async function (
+    apiKey,
+    overrideCountryCode,
+    overrideLanguageCode,
+    shouldCloseOnFocusOut
+  ) {
+    let config = await this.loadConfig(apiKey);
+
+    var userLanguage = window.navigator.userLanguage || window.navigator.language;
+
+    var components = userLanguage.split("-");
+    var languageCode = "en"; // default
+    if (
+      components.length > 0 &&
+      components[0].length &&
+      components[0].length == 2
+    ) {
+      languageCode = components[0];
+    }
+
+    if (overrideLanguageCode) {
+      languageCode = overrideLanguageCode;
+    }
+
+    var iframe = document.createElement("iframe");
+    iframe.id = "the-butterfly-safezone-element";
+    let loaderUrl = `https://butterfly-button.web.app/safezone-loader/loader.html`;
+    let baseUrl = config.baseUrl || `https://butterfly-button.web.app/${this.specificVersion || "reporter"}`;
+
+    let iframeSource =
+      baseUrl + "/?language=" +
+      languageCode +
+      "&is-embedded-via-website=1" +
+      (this.specificVersion ? `&specificVersion=${this.specificVersion}` : "") +
+      "&is-embedded-via-wix=" +
+      (this.isEmbeddedInWix ? "1" : "0") +
+      (this.isEmbeddedInWordpress ? "&is-embedded-via-wordpress=1" : "") +
+      `&web-plugin-version=${currentVersion}` +
+      (this.extraParams || "") +
+      "&api_key=" +
+      apiKey +
+      "&override_country=" +
+      overrideCountryCode || "-";
+
+    this.extraParams = "";
+    this.stubbedLanguageCode = "invalid";
+    var defaultIndex = Number.MAX_SAFE_INTEGER;
+    iframe.id = "the-butterfly-safezone-element";
+
+    iframe.style["border-style"] = "outset";
+    iframe.style.position = "relative";
+    iframe.style.display = "inline-block";
+    iframe.style.width = "97%";
+    iframe.style["max-width"] = "600px";
+    iframe.style.height = "97%";
+    iframe.style.margin = "0px";
+    iframe.style.top = "10px";
+    iframe.style.background = "#fff";
+
+    var bfBackground = document.createElement("div");
+    bfBackground.style.position = "relative";
+    bfBackground.style.display = "inline-block";
+    bfBackground.style["border-style"] = "outset";
+    bfBackground.style.width = "95%";
+    bfBackground.style.height = "95%";
+    bfBackground.style.margin = "0px";
+    bfBackground.style.top = "10px";
+    bfBackground.style.background = "#fff";
+
+    var dismissingBarrier = document.createElement("div");
+    dismissingBarrier.style.position = "fixed";
+    dismissingBarrier.style.display = "block";
+    dismissingBarrier.style.width = "100%";
+    dismissingBarrier.style.height = "100%";
+    dismissingBarrier.style.top = "0px";
+    dismissingBarrier.style.left = "0px";
+    dismissingBarrier.style.bottom = "0px";
+    //dismissingBarrier.style.cursor = "pointer";
+    dismissingBarrier.style["background-color"] = "rgba(0.7, 0.7, 0.7, 0.9)";
+    dismissingBarrier.style["z-index"] = defaultIndex;
+    dismissingBarrier.style["text-align"] = "center";
+    dismissingBarrier.style.direction = "ltr";
+
+    if (this.resetScale) {
+      iframe.style.transform = "scale(1, 1)";
+    }
+
+    dismissingBarrier.id = "butterfly-reporter-overlay";
+    dismissingBarrier.onclick = function () {
+      //bf_ReporterPlugin.closeButterflyReporter();
+    };
+
+    document.body.appendChild(dismissingBarrier);
+
+    var closeButton = document.createElement("img");
+    closeButton.id = "the-butterfly-close-button";
+    closeButton.style.width = "40px";
+    closeButton.style.height = "40px";
+    closeButton.style.display = "block";
+    closeButton.style.top = "0px";
+    closeButton.style.cursor = "pointer";
+    closeButton.style.position = "relative";
+    closeButton.style.right = "25px";
+    closeButton.alt = "Close Butterfly popup";
+
+    var closeButtonContainer = document.createElement("div");
+    closeButtonContainer.style.width = "50px";
+    closeButtonContainer.style.height = "50px";
+    // closeButtonContainer.style.display = "block";
+    closeButtonContainer.style.top = "0px";
+    closeButtonContainer.style.position = "relative";
+    //    closeButtonContainer.style.right = "30px";
+    closeButtonContainer.onclick = function () {
+      bf_ReporterPlugin.closeButterflyReporter();
+    };
+
+    closeButton.src = "https://butterfly-button.web.app/img/close-button.png";
+    closeButton.alt = "close Butterfly Popup";
+    closeButton.onclick = function () {
+      bf_ReporterPlugin.closeButterflyReporter();
+    };
+
+    if (!this.isListeningToEscapeKeyPress) {
+      this.isListeningToEscapeKeyPress = true;
+      document.addEventListener("keyup", (e) => {
+        if (
+          e.key === "Escape" &&
+          bf_ReporterPlugin &&
+          bf_ReporterPlugin.isOpened &&
+          document.visibilityState == "visible"
+        ) {
+          bf_ReporterPlugin.closeButterflyReporter();
+        }
+      });
+    }
+
+    closeButtonContainer.appendChild(closeButton);
+
+    var closeButtonPlacement = document.createElement("div");
+    closeButtonPlacement.style = iframe.style;
+    closeButtonPlacement.id = "placement";
+    closeButtonPlacement.style.top = "0px";
+    closeButtonPlacement.style.display = "inline-block";
+    closeButtonPlacement.style["max-width"] = "600px";
+    closeButtonPlacement.style.position = "fixed";
+    closeButtonPlacement.appendChild(closeButtonContainer);
+    //document.body.addEventListener("keypress", (e) => {}, { once: true });
+    dismissingBarrier.appendChild(iframe);
+    dismissingBarrier.appendChild(closeButtonPlacement);
+
+    if (shouldCloseOnFocusOut === 1 || shouldCloseOnFocusOut === true) {
+      document.addEventListener(
+        "visibilitychange",
+        (event) => {
+          if (
+            bf_ReporterPlugin &&
+            bf_ReporterPlugin.isOpened &&
+            document.visibilityState != "visible"
+          ) {
+            bf_ReporterPlugin.closeButterflyReporter();
+          }
+        },
+        { once: true }
+      );
+    }
+
+    this.isOpened = true;
+
+    (async () => {
+      async function loadContent(url) {
+        try {
+          const res = await fetch(url, {
+            credentials: 'omit',
+          });
+
+          const html = await res.text();
+          let domain = url.replace(new URL(url).search, "");
+          var updatedData = html.replaceAll("<head>", "<head>\n" +
+            `<base href="${domain}"></base>`);
+          updatedData = updatedData.replace("</body>",
+            '<textarea style="display: none;" id="bfParamsContainer" data="' +
+            url +
+            '"></textarea>\n</body>'
+          );
+
+          const encodedHtmlSource = btoa(updatedData);
+          updatedData = updatedData.replace("</body>",
+            '<textarea style="display: none;" id="bf_reporterState" data="' +
+            encodedHtmlSource +
+            '"></textarea>\n</body>'
+          );
+
+          bf_reporterState.originalContent = updatedData;
+          const doc = iframe.contentDocument || iframe.contentWindow.document;
+
+          if (doc == null) {
+            bf_ReporterPlugin.closeButterflyReporter();
+          } else {
+            doc.open();
+            doc.write(updatedData);
+            doc.close();
+          }
+        } catch (error) {
+          iframe.setAttribute("src", iframeSource);
+        }
+      }
+
+      if (config.shouldRequestSource === false) {
+        iframe.src = iframeSource.replace(baseUrl, loaderUrl).replace("/?", "?");
+      } else if (config.shouldRequestSource === true) {
+        loadContent(iframeSource);
+      } else {
+        // all others....
+        iframe.src = iframeSource.replace(baseUrl, loaderUrl).replace("/?", "?");
+      }
+    })();
+  };
+
+  this.closeButterflyReporter = function () {
+    var iframe = document.querySelector("#the-butterfly-safezone-element");
+    if (iframe) {
+      iframe.parentNode.removeChild(iframe);
+    }
+
+    var overlay = document.querySelector("#butterfly-reporter-overlay");
+    if (overlay) {
+      overlay.parentNode.removeChild(overlay);
+    }
+
+    var closeButton = document.querySelector("#the-butterfly-close-button");
+    if (closeButton) {
+      closeButton.parentNode.removeChild(closeButton);
+    }
+
+    this.isOpened = false;
+  };
+
+  function removeURLParameter(url, key) {
+    var theAnchor = null;
+    var newQueryString = "";
+    var urlComponents = url.split("?");
+    var baseURL = urlComponents[0];
+    var existingQueryString = urlComponents[1];
+    var ampersandOrEmpty = "";
+
+    if (existingQueryString) {
+      var tmpAnchor = existingQueryString.split("#");
+      var params = tmpAnchor[0];
+      theAnchor = tmpAnchor[1];
+      if (theAnchor) existingQueryString = params;
+
+      urlComponents = existingQueryString.split("&");
+
+      for (var i = 0; i < urlComponents.length; i++) {
+        if (urlComponents[i].split("=")[0] != key) {
+          newQueryString += ampersandOrEmpty + urlComponents[i];
+          ampersandOrEmpty = "&";
+        }
+      }
+    } else {
+      var tmpAnchor = baseURL.split("#");
+      var params = tmpAnchor[0];
+      theAnchor = tmpAnchor[1];
+
+      if (params) {
+        baseURL = params;
+      }
+    }
+
+    return baseURL + (newQueryString.length ? "?" + newQueryString : "");
+  }
+
+  this.loadConfig = async function (apiKey) {
+    var configJson = {};
+    try {
+      const response = await fetch(`https://butterfly-button.web.app/cdn/safezone-config/${apiKey || "?"}/config.json`);
+      const text = await response.text(); //await response.json();
+      configJson = JSON.parse(text);
+    } catch (error) {
+      // No worries...
+    }
+
+    return configJson;
+  }
+
+  this.handleAutomaticOpening = function () {
+    const tempKey = "bf_temp_url_params";
+    let params = new URL(document.location).searchParams;
+
+    // Convert URLSearchParams to plain object for BettyTypeUtils
+    let urlParams = {};
+    for (let [key, value] of params) {
+      urlParams[key] = value;
+    }
+
+    // Check if we have stored params from previous page load (after URL cleanup)
+    let storedParamsJson = sessionStorage.getItem(tempKey);
+    if (storedParamsJson) {
+      try {
+        let storedParams = JSON.parse(storedParamsJson);
+        // Merge stored params with current URL params (URL params take precedence)
+        urlParams = { ...storedParams, ...urlParams };
+      } catch (error) {
+        console.error("Failed to parse stored params:", error);
+      }
+    }
+
+    // Use BettyTypeUtils to convert URL params to SafeZone params
+    let safeZoneParams = BettyTypeUtils.convertUrlParams(urlParams);
+    let isAutoOpenEnabled = Object.keys(safeZoneParams).length > 0;
+
+    if (isAutoOpenEnabled) {
+      if (storedParamsJson) {
+        // We already reloaded, clear the storage and proceed
+        sessionStorage.removeItem(tempKey);
+
+        setTimeout(() => {
+          var hostApiKey = "";
+          try {
+            hostApiKey = bf_apiKey || "";
+          } catch (error) {
+            //
+          }
+
+          if (!hostApiKey.length) {
+            try {
+              let wrappedHostApiKey = document
+                .getElementsByTagName("html")[0]
+                .innerHTML.split("bf_ReporterPlugin.toggle")[1]
+                .split(")")[0]
+                .split("(")[1];
+
+              var quotationMarks = "&quot;";
+              if (wrappedHostApiKey.indexOf("'") >= 0) {
+                quotationMarks = "'";
+              }
+              if (wrappedHostApiKey.indexOf('"') >= 0) {
+                quotationMarks = '"';
+              }
+
+              hostApiKey = wrappedHostApiKey.split(quotationMarks)[1];
+            } catch (error) {
+              //console.log(error);
+            }
+          }
+
+          if (hostApiKey && hostApiKey.length) {
+            this.toggleButterflyReporter(hostApiKey);
+          }
+        }, 1000);
+
+        // Set language from safeZoneParams (always "he" for campaigns)
+        this.stubbedLanguageCode = safeZoneParams["language"] || "he";
+
+        // Build extraParams from all safeZoneParams
+        let paramsArray = [];
+        for (let key in safeZoneParams) {
+          if (safeZoneParams.hasOwnProperty(key)) {
+            paramsArray.push(`${key}=${safeZoneParams[key]}`);
+          }
+        }
+
+        this.extraParams = paramsArray.length > 0 ? `&${paramsArray.join('&')}` : "";
+      } else {
+        // First time seeing these params - store them and reload with clean URL
+        // Store the entire urlParams object as JSON
+        sessionStorage.setItem(tempKey, JSON.stringify(urlParams));
+
+        // Remove all butterfly-related params from URL using findSecretParam
+        let cleanUrl = window.location.href;
+        let paramSuffixes = BettyTypeUtils.config.paramSuffixes;
+
+        for (let suffix of paramSuffixes) {
+          let foundParamKey = BettyTypeUtils.findSecretParam(params, suffix);
+          if (foundParamKey) {
+            cleanUrl = removeURLParameter(cleanUrl, foundParamKey);
+          }
+        }
+
+        // `article` is a common host-page parameter, so only the namespaced
+        // Butterfly trigger is consumed and removed.
+        if (params.get("bf_article")) {
+          cleanUrl = removeURLParameter(cleanUrl, "bf_article");
+        }
+
+        // Only reload if URL actually changed
+        if (cleanUrl !== window.location.href) {
+          window.location.replace(cleanUrl);
+        }
+      }
+    }
+  }
+
+  this.handleAutomaticOpening();
+}
+
+var bf_ReporterPlugin = new TheButterflyReporterPlugin();
+var bf_reporterState = {};

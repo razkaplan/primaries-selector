@@ -1,0 +1,3 @@
+TimeoutError: page.goto: Timeout 90000ms exceeded.
+Call log:
+  - navigating to "https://www.mako.co.il/special-mako-news/Article-187a6654fbe71a1026.htm", waiting until "networkidle"

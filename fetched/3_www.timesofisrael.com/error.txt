@@ -1,0 +1,3 @@
+TimeoutError: page.goto: Timeout 90000ms exceeded.
+Call log:
+  - navigating to "https://www.timesofisrael.com/liveblog-october-28-2026/", waiting until "networkidle"

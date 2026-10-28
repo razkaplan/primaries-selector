@@ -1,0 +1,36 @@
+{
+ "url": "https://votes26.com/?lang=en",
+ "fetched_at": "2026-10-28T10:03:16.253Z",
+ "responses": [
+  {
+   "name": "json_0.json",
+   "url": "https://votes26.com/api/v1/elections/26/exit-polls",
+   "status": 200
+  },
+  {
+   "name": "json_1.json",
+   "url": "https://votes26.com/api/v1/elections/26/live",
+   "status": 200
+  },
+  {
+   "name": "json_2.json",
+   "url": "https://votes26.com/api/v1/elections/26/turnout",
+   "status": 200
+  },
+  {
+   "name": "json_3.json",
+   "url": "https://votes26.com/api/v1/elections/26/live",
+   "status": 200
+  },
+  {
+   "name": "json_4.json",
+   "url": "https://votes26.com/api/v1/elections/26/live",
+   "status": 200
+  },
+  {
+   "name": "json_5.json",
+   "url": "https://votes26.com/api/v1/elections/26/exit-polls",
+   "status": 200
+  }
+ ]
+}

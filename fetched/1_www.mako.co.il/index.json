@@ -1,0 +1,96 @@
+{
+ "url": "https://www.mako.co.il/special-mako-news/Article-187a6654fbe71a1026.htm",
+ "fetched_at": "2026-10-28T10:00:09.838Z",
+ "responses": [
+  {
+   "name": "json_0.json",
+   "url": "https://www.mako.co.il/4359d65e-dd82-3237-8c34-3c0c315503df/eudaapi/version",
+   "status": 200
+  },
+  {
+   "name": "json_1.json",
+   "url": "https://rcs.mako.co.il/player-responsive/playerConfig/playerConfig.json",
+   "status": 200
+  },
+  {
+   "name": "json_2.json",
+   "url": "https://rcs.mako.co.il/appConfig/makoResponsiveConfig.json",
+   "status": 200
+  },
+  {
+   "name": "json_3.json",
+   "url": "https://rcs.mako.co.il/js/domo/config.json",
+   "status": 200
+  },
+  {
+   "name": "json_4.json",
+   "url": "https://hb-1055303619817.us-east4.run.app/init",
+   "status": 200
+  },
+  {
+   "name": "json_5.json",
+   "url": "https://comments.mako.co.il/api/rest/origin/187a6654fbe71a10VgnVCM200000650a10acRCRD/comments/count",
+   "status": 200
+  },
+  {
+   "name": "json_6.json",
+   "url": "https://www.mako.co.il/ChronoApi/api/dates",
+   "status": 200
+  },
+  {
+   "name": "json_7.json",
+   "url": "https://www.mako.co.il/rss/tilim/alerts.json?t=1793181521",
+   "status": 200
+  },
+  {
+   "name": "json_8.json",
+   "url": "https://ads.kway.co.il/data/getUser?userid=",
+   "status": 200
+  },
+  {
+   "name": "json_9.json",
+   "url": "https://schema.buballmighty.com/event_schemas.json",
+   "status": 200
+  },
+  {
+   "name": "json_10.json",
+   "url": "https://mass.mako.co.il/ClicksStatistics/getVoteAndOptions.jsp?itemId=187a6654fbe71a10VgnVCM200000650a10acRCRD&channelId=0c3abed8f4a40310VgnVCM2000002a0c10acRCRD",
+   "status": 200
+  },
+  {
+   "name": "json_11.json",
+   "url": "https://www.googleadservices.com/pagead/conversion/942301214/?random=1793181521598&cv=11&fst=1793181521598&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6aq1v887112826za20ozb71974087zd71974087xecxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tcfd=10000&tag_exp=115938466~115938469~118131809~118897920~118897930~119860442~120213116~120385422~120420415~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mako.co.il%2Fspecial-mako-news%2FArticle-187a6654fbe71a1026.htm&rcb=18&frm=0&tiba=%D7%AA%D7%95%D7%A6%D7%90%D7%95%D7%AA%20%D7%94%D7%90%D7%9E%D7%AA%20%D7%91%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA%202026%3A%20%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99%D7%9D%20%D7%A9%D7%95%D7%98%D7%A4%D7%99%D7%9D%20%7C%20mako&npa=0&us_privacy=1---&pscdl=noapi&auid=2145575091.1793181521&label=oZm6CL35zL8DEJ7AqcED&hn=www.googleadservices.com&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&gcl_ctr=2~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&ept=5",
+   "status": 200
+  },
+  {
+   "name": "json_12.json",
+   "url": "https://www.googleadservices.com/pagead/conversion/942301214/?random=1793181521593&cv=11&fst=1793181521593&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6aq1v887112826za20ozb71974087zd71974087xecxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tcfd=10000&tag_exp=115938466~115938469~118131809~118897920~118897930~119860442~120213116~120385422~120420415~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mako.co.il%2Fspecial-mako-news%2FArticle-187a6654fbe71a1026.htm&rcb=18&frm=0&tiba=%D7%AA%D7%95%D7%A6%D7%90%D7%95%D7%AA%20%D7%94%D7%90%D7%9E%D7%AA%20%D7%91%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA%202026%3A%20%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99%D7%9D%20%D7%A9%D7%95%D7%98%D7%A4%D7%99%D7%9D%20%7C%20mako&npa=0&us_privacy=1---&pscdl=noapi&auid=2145575091.1793181521&label=oZm6CL35zL8DEJ7AqcED&hn=www.googleadservices.com&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&gcl_ctr=1~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&ept=5",
+   "status": 200
+  },
+  {
+   "name": "json_13.json",
+   "url": "https://www.googleadservices.com/pagead/conversion/942301214/?random=1793181521634&cv=11&fst=1793181521634&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6aq1v887112826za20ozb71974087zd71974087xecxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tcfd=10000&tag_exp=115938466~115938469~118131809~118897920~118897930~119860442~120213116~120385422~120420415~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.mako.co.il%2Fspecial-mako-news%2FArticle-187a6654fbe71a1026.htm&rcb=18&gtm_ee=1&frm=0&tiba=%D7%AA%D7%95%D7%A6%D7%90%D7%95%D7%AA%20%D7%94%D7%90%D7%9E%D7%AA%20%D7%91%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA%202026%3A%20%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99%D7%9D%20%D7%A9%D7%95%D7%98%D7%A4%D7%99%D7%9D%20%7C%20mako&npa=0&us_privacy=1---&pscdl=noapi&auid=2145575091.1793181521&label=oZm6CL35zL8DEJ7AqcED&hn=www.googleadservices.com&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&gcl_ctr=3~0~0~0&data=event%3Dgtag.config&category=acrcp_v1_512&ept=5",
+   "status": 200
+  },
+  {
+   "name": "json_14.json",
+   "url": "https://pro.ip-api.com/json?fields=city,country,proxy,query&key=brIkszpjwrPTF14",
+   "status": 200
+  },
+  {
+   "name": "json_15.json",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610220101&st=env&sjk=1505776466745724",
+   "status": 200
+  },
+  {
+   "name": "json_16.json",
+   "url": "https://newassets.hcaptcha.com/captcha/v1/b4ffb616128b326eb735c84bb136bbbbddd55d08/static/i18n/he.json",
+   "status": 200
+  },
+  {
+   "name": "json_17.json",
+   "url": "https://api.hcaptcha.com/checksiteconfig?v=b4ffb616128b326eb735c84bb136bbbbddd55d08&host=validate.perfdrive.com&sitekey=ae73173b-7003-44e0-bc87-654d0dab8b75&sc=1&swa=1&spst=1",
+   "status": 200
+  }
+ ]
+}
