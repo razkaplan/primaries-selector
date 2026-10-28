@@ -16,12 +16,12 @@
    "records": 15
   },
   {
-   "name": "הארץ",
+   "name": "ערוץ 7",
    "kind": "אתרי חדשות",
    "records": 11
   },
   {
-   "name": "ערוץ 7",
+   "name": "הארץ",
    "kind": "אתרי חדשות",
    "records": 11
   },
@@ -66,6 +66,11 @@
    "records": 4
   },
   {
+   "name": "JDN",
+   "kind": "אתרי חדשות",
+   "records": 3
+  },
+  {
    "name": "רדיו 104.5FM",
    "kind": "אתרי חדשות",
    "records": 3
@@ -74,16 +79,6 @@
    "name": "סרוגים",
    "kind": "אתרי חדשות",
    "records": 3
-  },
-  {
-   "name": "JDN",
-   "kind": "אתרי חדשות",
-   "records": 3
-  },
-  {
-   "name": "ערוץ 14",
-   "kind": "אתרי חדשות",
-   "records": 2
   },
   {
    "name": "TikTok",
@@ -96,14 +91,14 @@
    "records": 2
   },
   {
-   "name": "ynet",
+   "name": "ערוץ 14",
    "kind": "אתרי חדשות",
    "records": 2
   },
   {
-   "name": "כלכליסט",
+   "name": "ynet",
    "kind": "אתרי חדשות",
-   "records": 1
+   "records": 2
   },
   {
    "name": "אייס",
@@ -111,7 +106,7 @@
    "records": 1
   },
   {
-   "name": "כיכר השבת",
+   "name": "כלכליסט",
    "kind": "אתרי חדשות",
    "records": 1
   },
@@ -129,6 +124,11 @@
    "name": "i24NEWS",
    "kind": "אתרי חדשות",
    "records": 1
+  },
+  {
+   "name": "כיכר השבת",
+   "kind": "אתרי חדשות",
+   "records": 1
   }
  ],
  "poll_publishers": [
@@ -138,19 +138,19 @@
   },
   {
    "name": "HaHadashot 12",
-   "polls": 275
+   "polls": 276
   },
   {
    "name": "Channel 14",
-   "polls": 163
+   "polls": 164
   },
   {
    "name": "Channel 13",
-   "polls": 162
+   "polls": 163
   },
   {
    "name": "Kan 11",
-   "polls": 105
+   "polls": 106
   },
   {
    "name": "Zman Yisrael",
@@ -158,7 +158,7 @@
   },
   {
    "name": "i24 News",
-   "polls": 56
+   "polls": 57
   },
   {
    "name": "Israel Hayom",
