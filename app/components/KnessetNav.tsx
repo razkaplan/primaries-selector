@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const TABS = [
   { href: "/", label: "סקירה" },
+  { href: "/knesset/results", label: "תוצאות" },
   { href: "/knesset/lists", label: "רשימות" },
   { href: "/knesset/representation", label: "הרכב הכנסת" },
   { href: "/knesset/polls", label: "סקרים" },

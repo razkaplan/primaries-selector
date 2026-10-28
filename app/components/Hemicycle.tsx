@@ -5,8 +5,14 @@ import { OUTGOING_COALITION, partyColor, partyName } from "@/lib/elections";
  * a title and the legend carries name + seats. */
 export default function Hemicycle({
   seats,
+  caption = "מנדטים · לפי ממוצע 30 הימים",
+  label = "הרכב הכנסת לפי ממוצע הסקרים",
+  showBlocLine = true,
 }: {
   seats: { key: string; seats: number }[];
+  caption?: string;
+  label?: string;
+  showBlocLine?: boolean;
 }) {
   // seating order: coalition (largest first) from the right, then the rest
   const coalition = seats.filter((s) => OUTGOING_COALITION.has(s.key));
@@ -58,7 +64,7 @@ export default function Hemicycle({
 
   return (
     <div>
-      <svg viewBox="0 0 420 210" className="mx-auto w-full max-w-xl" role="img" aria-label="הרכב הכנסת לפי ממוצע הסקרים">
+      <svg viewBox="0 0 420 210" className="mx-auto w-full max-w-xl" role="img" aria-label={label}>
         {dots.map((d, idx) => (
           <circle
             key={idx}
@@ -78,13 +84,15 @@ export default function Hemicycle({
           120
         </text>
         <text x="210" y="208" textAnchor="middle" fontSize="11" fill="#8d88a3" fontWeight="700">
-          מנדטים · לפי ממוצע 30 הימים
+          {caption}
         </text>
       </svg>
-      <p className="mt-2 text-center text-sm font-bold text-ink-soft">
-        גוש הקואליציה היוצאת: <span className="text-brand-deep">{coalitionTotal}</span> · שאר
-        המפלגות: <span className="text-brand-deep">{120 - coalitionTotal}</span>
-      </p>
+      {showBlocLine && (
+        <p className="mt-2 text-center text-sm font-bold text-ink-soft">
+          גוש הקואליציה היוצאת: <span className="text-brand-deep">{coalitionTotal}</span> · שאר
+          המפלגות: <span className="text-brand-deep">{120 - coalitionTotal}</span>
+        </p>
+      )}
       <ul className="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-1.5 text-xs">
         {order.map((s) => (
           <li key={s.key} className="flex items-center gap-1.5 font-bold text-ink-soft">

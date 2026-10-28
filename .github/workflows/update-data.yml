@@ -12,7 +12,7 @@ name: update-data
 
 on:
   schedule:
-    - cron: "23 */6 * * *" # every 6 hours
+    - cron: "23 * * * *" # hourly while the vote count is in progress (was every 6 hours)
   workflow_dispatch: {}
 
 permissions:
@@ -38,6 +38,11 @@ jobs:
           python3 scripts/scrape_elections.py
           python3 scripts/scrape_markets.py
           python3 scripts/build_sources.py
+          # Live count (CEC data via ynet's results feed; the CEC site is
+          # geo-restricted). Keep the last good results if the feed fails.
+          curl -sf --max-time 30 https://ynet-election-map.yit-labs.com/api/feed/seats.json -o /tmp/seats.json \
+            && python3 scripts/build_results.py /tmp/seats.json \
+            || echo "::warning::results feed unavailable or inconsistent - kept previous results.json"
 
       - name: Data tests
         # Same suite as checks.yml: never publish unsourced or future-dated data.

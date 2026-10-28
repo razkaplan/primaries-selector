@@ -33,6 +33,7 @@ const POLL_KINDS = [
   "coalition",
   "arab_voters",
   "voting_intention_pct",
+  "exit_poll",
   "other",
 ] as const;
 

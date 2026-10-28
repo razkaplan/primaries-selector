@@ -21,6 +21,9 @@ import datetime, json, os, re, sys, urllib.request
 from html.parser import HTMLParser
 
 TODAY = datetime.date.today().isoformat()
+# Election day. No poll may be published from the end of the Friday before
+# until the polls close, so a seat poll dated election day is an exit poll.
+ELECTION_DAY = "2026-10-27"
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = f"{ROOT}/data/elections/raw"
@@ -559,6 +562,9 @@ def main():
     if unattributed:
         print(f"dropped {len(unattributed)} poll rows with no pollster", file=sys.stderr)
     polls = [r for r in polls if r.get("firm")]
+    for r in polls:
+        if r["kind"] == "seat_projection" and r.get("date") == ELECTION_DAY:
+            r["kind"] = "exit_poll"
     polls.sort(key=lambda r: r["date"] or "", reverse=True)
     json.dump({"polls": polls, "events": events},
               open(f"{OUT}/polls.json", "w", encoding="utf-8"),

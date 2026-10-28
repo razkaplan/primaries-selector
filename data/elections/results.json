@@ -1,0 +1,413 @@
+{
+ "_comment": "Live count of the 26th Knesset election, from the CEC data as published in ynet's results feed. Partial until the CEC publishes final results; double-envelope ballots are counted separately and can move seats.",
+ "status": "partial",
+ "updated_at": "2026-10-28T09:01:09.409Z",
+ "counting": {
+  "boxesCounted": 9224,
+  "boxesTotal": 13389,
+  "boxesPct": 68.89,
+  "eligibleCounted": 5615541,
+  "eligibleTotal": 7331981,
+  "eligiblePct": 76.59
+ },
+ "valid_votes": 4008086,
+ "threshold": {
+  "pct": 3.25,
+  "votes": 130263
+ },
+ "lists": [
+  {
+   "key": "likud",
+   "letter": "מחל",
+   "name_he": "הליכוד",
+   "votes": 828972,
+   "pct": 20.68,
+   "seats": 27,
+   "passes": true,
+   "partner": "ט"
+  },
+  {
+   "key": "yashar",
+   "letter": "דרך",
+   "name_he": "ישר!",
+   "votes": 640241,
+   "pct": 15.97,
+   "seats": 20,
+   "passes": true,
+   "partner": "אמת"
+  },
+  {
+   "key": "joint_list",
+   "letter": "ודם",
+   "name_he": "הרשימה המשותפת",
+   "votes": 396534,
+   "pct": 9.89,
+   "seats": 13,
+   "passes": true,
+   "partner": "עם"
+  },
+  {
+   "key": "together",
+   "letter": "רק",
+   "name_he": "ביחד",
+   "votes": 353717,
+   "pct": 8.83,
+   "seats": 11,
+   "passes": true,
+   "partner": "ל"
+  },
+  {
+   "key": "democrats",
+   "letter": "אמת",
+   "name_he": "הדמוקרטים",
+   "votes": 254429,
+   "pct": 6.35,
+   "seats": 8,
+   "passes": true,
+   "partner": "דרך"
+  },
+  {
+   "key": "yisrael_beiteinu",
+   "letter": "ל",
+   "name_he": "ישראל ביתנו",
+   "votes": 239040,
+   "pct": 5.96,
+   "seats": 8,
+   "passes": true,
+   "partner": "רק"
+  },
+  {
+   "key": "utj",
+   "letter": "ג",
+   "name_he": "יהדות התורה",
+   "votes": 240648,
+   "pct": 6,
+   "seats": 7,
+   "passes": true,
+   "partner": "שס"
+  },
+  {
+   "key": "otzma_yehudit",
+   "letter": "ב",
+   "name_he": "עוצמה יהודית",
+   "votes": 220798,
+   "pct": 5.51,
+   "seats": 7,
+   "passes": true,
+   "partner": null
+  },
+  {
+   "key": "shas",
+   "letter": "שס",
+   "name_he": "ש\"ס",
+   "votes": 217202,
+   "pct": 5.42,
+   "seats": 7,
+   "passes": true,
+   "partner": "ג"
+  },
+  {
+   "key": "raam",
+   "letter": "עם",
+   "name_he": "רע\"ם",
+   "votes": 207230,
+   "pct": 5.17,
+   "seats": 6,
+   "passes": true,
+   "partner": "ודם"
+  },
+  {
+   "key": "rzp",
+   "letter": "ט",
+   "name_he": "הציונות הדתית וזהות",
+   "votes": 196346,
+   "pct": 4.9,
+   "seats": 6,
+   "passes": true,
+   "partner": "מחל"
+  },
+  {
+   "key": "reserv_nep",
+   "letter": "די",
+   "name_he": "המילואימניקים והכלכלית",
+   "votes": 105851,
+   "pct": 2.64,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": "amcha_yisrael",
+   "letter": "ך",
+   "name_he": "עמך ישראל",
+   "votes": 66037,
+   "pct": 1.65,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "זך",
+   "name_he": "הציבור החרדי",
+   "votes": 8350,
+   "pct": 0.21,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "נר",
+   "name_he": "נר",
+   "votes": 8199,
+   "pct": 0.2,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "ני",
+   "name_he": "ני",
+   "votes": 6219,
+   "pct": 0.16,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "בי",
+   "name_he": "בי",
+   "votes": 4230,
+   "pct": 0.11,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "ד",
+   "name_he": "ד",
+   "votes": 3087,
+   "pct": 0.08,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "צדק",
+   "name_he": "צדק",
+   "votes": 1456,
+   "pct": 0.04,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "בד",
+   "name_he": "בד",
+   "votes": 1035,
+   "pct": 0.03,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "ה",
+   "name_he": "ה",
+   "votes": 797,
+   "pct": 0.02,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "י",
+   "name_he": "י",
+   "votes": 740,
+   "pct": 0.02,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "נקי",
+   "name_he": "נקי",
+   "votes": 699,
+   "pct": 0.02,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "רץ",
+   "name_he": "רץ",
+   "votes": 696,
+   "pct": 0.02,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "קך",
+   "name_he": "קך",
+   "votes": 650,
+   "pct": 0.02,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "צף",
+   "name_he": "צף",
+   "votes": 650,
+   "pct": 0.02,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "נף",
+   "name_he": "נף",
+   "votes": 619,
+   "pct": 0.02,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "פה",
+   "name_he": "פה",
+   "votes": 560,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "בקר",
+   "name_he": "בקר",
+   "votes": 521,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "קץ",
+   "name_he": "קץ",
+   "votes": 513,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "קה",
+   "name_he": "קה",
+   "votes": 485,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "ק",
+   "name_he": "ק",
+   "votes": 398,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "ז",
+   "name_he": "ז",
+   "votes": 326,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "נץ",
+   "name_he": "נץ",
+   "votes": 315,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "יק",
+   "name_he": "יק",
+   "votes": 269,
+   "pct": 0.01,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "זץ",
+   "name_he": "זץ",
+   "votes": 184,
+   "pct": 0,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "צבי",
+   "name_he": "צבי",
+   "votes": 39,
+   "pct": 0,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  },
+  {
+   "key": null,
+   "letter": "כן",
+   "name_he": "כחול לבן",
+   "votes": 4,
+   "pct": 0,
+   "seats": 0,
+   "passes": false,
+   "partner": null
+  }
+ ],
+ "sources": [
+  {
+   "source_name": "ynet, לפי נתוני ועדת הבחירות המרכזית",
+   "as_of": "2026-10-28",
+   "url": "https://www.ynet.co.il/news/elections2026/article/bj5pk302zg",
+   "feed": "https://ynet-election-map.yit-labs.com/api/feed/seats.json"
+  },
+  {
+   "source_name": "ועדת הבחירות המרכזית (האתר הרשמי)",
+   "as_of": "2026-10-28",
+   "url": "https://votes26.bechirot.gov.il/"
+  }
+ ]
+}

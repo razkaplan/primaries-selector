@@ -162,6 +162,32 @@ class ArabMedia(unittest.TestCase):
                 self.assertIn(o["region"], {"israel", "palestine", "gulf", "levant_egypt", "international"})
 
 
+class Results(unittest.TestCase):
+    def setUp(self):
+        self.r = load("results.json")
+
+    def test_seats_and_votes_add_up(self):
+        self.assertEqual(sum(l["seats"] for l in self.r["lists"]), 120)
+        self.assertEqual(sum(l["votes"] for l in self.r["lists"]), self.r["valid_votes"])
+
+    def test_lists_in_the_knesset_pass_the_threshold(self):
+        for l in self.r["lists"]:
+            with self.subTest(list=l["name_he"]):
+                if l["seats"] > 0:
+                    self.assertTrue(l["passes"] and l["key"])
+
+    def test_status_and_sources(self):
+        self.assertIn(self.r["status"], {"partial", "final"})
+        for s in self.r["sources"]:
+            sourced(self, s, "results source")
+
+
+class ExitPolls(unittest.TestCase):
+    def test_election_day_polls_are_exit_polls(self):
+        polls = load("polls.json")["polls"]
+        self.assertFalse([p for p in polls if p.get("date") == "2026-10-27" and p["kind"] == "seat_projection"])
+
+
 class Coalition(unittest.TestCase):
     def test_stances_are_sourced(self):
         for s in load("coalition_stances.json")["stances"]:

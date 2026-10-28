@@ -33,6 +33,7 @@ export type PollKind =
   | "arab_voters"
   | "preferred_pm"
   | "coalition"
+  | "exit_poll"
   | "other";
 
 export interface Poll {

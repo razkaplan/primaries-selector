@@ -8,6 +8,7 @@ import PollTrends from "@/components/PollTrends";
 import BlocBar from "@/components/BlocBar";
 import CountUp from "@/components/CountUp";
 import ShareBar from "@/components/ShareBar";
+import ResultsStrip from "@/components/ResultsStrip";
 import {
   fmtDate,
   meta,
@@ -115,6 +116,7 @@ export default function KnessetOverview() {
   return (
     <main className="min-h-screen">
       <KnessetNav active="/" />
+      <ResultsStrip />
 
       {/* hero */}
       <section className="mx-auto max-w-6xl px-4 pb-8 pt-12">
