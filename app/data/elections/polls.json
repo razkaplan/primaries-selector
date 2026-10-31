@@ -8,6 +8,38 @@
     "likud": 27,
     "together": 12,
     "rzp": 6,
+    "otzma_yehudit": 7,
+    "shas": 6,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "raam": 8,
+    "joint_list": 11,
+    "democrats": 8,
+    "yashar": 21,
+    "reserv_nep": 0,
+    "amcha_yisrael": 0,
+    "haredi_public": 0
+   },
+   "firm": "Preliminary Election results",
+   "publisher": "Preliminary Election results",
+   "sample": "5716673 77.97",
+   "below_threshold_pct": {
+    "reserv_nep": 2.72,
+    "amcha_yisrael": 1.68,
+    "haredi_public": 0.19
+   },
+   "others": 0,
+   "gov_bloc": 53,
+   "source_page": "polls_2026"
+  },
+  {
+   "date_raw": "27 Oct",
+   "date": "2026-10-27",
+   "kind": "exit_poll",
+   "results": {
+    "likud": 27,
+    "together": 12,
+    "rzp": 6,
     "otzma_yehudit": 6,
     "shas": 7,
     "utj": 6,
@@ -24,7 +56,6 @@
    "publisher": "HaHadashot 12",
    "sample": null,
    "others": null,
-   "lead": 6,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -52,7 +83,6 @@
    "publisher": "Kan 11",
    "sample": null,
    "others": null,
-   "lead": 6,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -80,7 +110,6 @@
    "publisher": "Channel 13",
    "sample": null,
    "others": null,
-   "lead": 5,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -108,7 +137,6 @@
    "publisher": "i24 News",
    "sample": null,
    "others": null,
-   "lead": 7,
    "gov_bloc": 55,
    "source_page": "polls_2026"
   },
@@ -136,7 +164,6 @@
    "publisher": "Channel 14",
    "sample": null,
    "others": null,
-   "lead": 9,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -169,7 +196,6 @@
     "haredi_public": 1.3
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -202,7 +228,6 @@
     "haredi_public": 0.5
    },
    "others": 0.5,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -230,7 +255,6 @@
    "publisher": "Israel Hayom",
    "sample": null,
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -263,7 +287,6 @@
     "haredi_public": 0.3
    },
    "others": 0.8,
-   "lead": 10,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -294,7 +317,6 @@
     "amcha_yisrael": 3.0
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -326,7 +348,6 @@
     "haredi_public": 0.9
    },
    "others": 1.0,
-   "lead": 2,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -358,7 +379,6 @@
     "haredi_public": 1.2
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -390,7 +410,6 @@
     "haredi_public": 0.3
    },
    "others": 0.3,
-   "lead": 4,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -423,7 +442,6 @@
     "haredi_public": 0.3
    },
    "others": 0.8,
-   "lead": 10,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -456,7 +474,6 @@
     "haredi_public": 1.0
    },
    "others": 4,
-   "lead": 6,
    "gov_bloc": 58,
    "source_page": "polls_2026"
   },
@@ -489,7 +506,6 @@
     "haredi_public": 0.9
    },
    "others": 1.3,
-   "lead": 10,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -520,7 +536,6 @@
     "haredi_public": 0.6
    },
    "others": 0.2,
-   "lead": 3,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -551,7 +566,6 @@
     "amcha_yisrael": 2.9
    },
    "others": 0.2,
-   "lead": 4,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -579,7 +593,6 @@
    "publisher": "Channel 13",
    "sample": 1016,
    "others": null,
-   "lead": 2,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -612,7 +625,6 @@
     "haredi_public": 0.3
    },
    "others": 2.0,
-   "lead": 11,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -647,7 +659,6 @@
     "haredi_public": 0.2
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -682,7 +693,6 @@
     "haredi_public": 1.0
    },
    "others": 4,
-   "lead": 4,
    "gov_bloc": 57,
    "source_page": "polls_2026"
   },
@@ -717,7 +727,6 @@
     "haredi_public": 0.5
    },
    "others": 1.0,
-   "lead": 7,
    "gov_bloc": 61,
    "source_page": "polls_2026"
   },
@@ -749,7 +758,6 @@
     "amcha_yisrael": 3.1
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -782,7 +790,6 @@
     "haredi_public": 0.5
    },
    "others": 0.7,
-   "lead": 3,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -815,7 +822,6 @@
     "amcha_yisrael": 2.8
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -848,7 +854,6 @@
     "haredi_public": 1.1
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -883,7 +888,6 @@
     "haredi_public": 1.0
    },
    "others": 4,
-   "lead": 6,
    "gov_bloc": 57,
    "source_page": "polls_2026"
   },
@@ -916,7 +920,6 @@
     "haredi_public": 1.1
    },
    "others": 0.7,
-   "lead": 3,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -949,7 +952,6 @@
     "haredi_public": 1.0
    },
    "others": 0.2,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -983,7 +985,6 @@
     "haredi_public": 0.6
    },
    "others": null,
-   "lead": 9,
    "gov_bloc": 61,
    "source_page": "polls_2026"
   },
@@ -1017,7 +1018,6 @@
     "haredi_public": 0.1
    },
    "others": 0.5,
-   "lead": 3,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -1046,7 +1046,6 @@
    "publisher": "Kan 11",
    "sample": 553,
    "others": null,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -1079,7 +1078,6 @@
     "haredi_public": 0.8
    },
    "others": 0.9,
-   "lead": 1,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -1112,7 +1110,6 @@
     "reserv_nep": 3.2
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -1145,7 +1142,6 @@
     "amcha_yisrael": 2.9
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -1179,7 +1175,6 @@
     "haredi_public": 1.0
    },
    "others": 4,
-   "lead": 6,
    "gov_bloc": 56,
    "source_page": "polls_2026"
   },
@@ -1214,7 +1209,6 @@
     "haredi_public": 0.4
    },
    "others": 1.0,
-   "lead": 8,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -1248,7 +1242,6 @@
     "haredi_public": 1.1
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -1295,7 +1288,6 @@
     "haredi_public": 0.6
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -1357,7 +1349,6 @@
     "haredi_public": 0.9
    },
    "others": 0,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -1415,7 +1406,6 @@
     "reserv_nep": 1.81
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 56,
    "source_page": "polls_2026"
   },
@@ -1450,7 +1440,6 @@
     "haredi_public": 0.2
    },
    "others": 0.2,
-   "lead": 11,
    "gov_bloc": 64,
    "source_page": "polls_2026"
   },
@@ -1482,7 +1471,6 @@
     "blue_white": 1.4
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -1515,7 +1503,6 @@
     "haredi_public": 0.6
    },
    "others": 0.7,
-   "lead": 2,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -1575,7 +1562,6 @@
     "haredi_public": 1.3
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -1608,7 +1594,6 @@
     "haredi_public": 0.6
    },
    "others": 0.8,
-   "lead": 2,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -1656,7 +1641,6 @@
     "haredi_public": 0.2
    },
    "others": 0.2,
-   "lead": 10,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -1698,7 +1682,6 @@
    "publisher": "Kan 11",
    "sample": 552,
    "others": null,
-   "lead": 2,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -1757,7 +1740,6 @@
     "haredi_public": 0.4
    },
    "others": 0.3,
-   "lead": 4,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -1791,7 +1773,6 @@
     "haredi_public": 1.0
    },
    "others": 3,
-   "lead": 5,
    "gov_bloc": 56,
    "source_page": "polls_2026"
   },
@@ -1820,7 +1801,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -1853,7 +1833,6 @@
     "haredi_public": 0.9
    },
    "others": 0.7,
-   "lead": 4,
    "gov_bloc": 45,
    "source_page": "polls_2026"
   },
@@ -1888,7 +1867,6 @@
     "haredi_public": 0.5
    },
    "others": 0.1,
-   "lead": 10,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -1920,7 +1898,6 @@
     "blue_white": 1.0
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -1966,7 +1943,6 @@
     "haredi_public": 0.3
    },
    "others": 0.1,
-   "lead": 3,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -2001,7 +1977,6 @@
     "haredi_public": 0.3
    },
    "others": 0.1,
-   "lead": 11,
    "gov_bloc": 64,
    "source_page": "polls_2026"
   },
@@ -2035,7 +2010,6 @@
     "haredi_public": 1.0
    },
    "others": 1,
-   "lead": 6,
    "gov_bloc": 55,
    "source_page": "polls_2026"
   },
@@ -2068,7 +2042,6 @@
     "haredi_public": 0.6
    },
    "others": 1.8,
-   "lead": 5,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -2101,7 +2074,6 @@
     "haredi_public": 0.8
    },
    "others": 0.9,
-   "lead": 2,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -2135,7 +2107,6 @@
     "amcha_yisrael": 3.0
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -2177,7 +2148,6 @@
    "publisher": "Channel 16",
    "sample": 500,
    "others": null,
-   "lead": 3,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -2211,7 +2181,6 @@
     "haredi_public": 1.8
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -2246,7 +2215,6 @@
     "haredi_public": 0.2
    },
    "others": 0.3,
-   "lead": 9,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -2278,7 +2246,6 @@
     "blue_white": 0.5
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -2307,7 +2274,6 @@
    "publisher": "Kan 11",
    "sample": null,
    "others": null,
-   "lead": 4,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -2367,7 +2333,6 @@
     "haredi_public": 0.4
    },
    "others": 0.7,
-   "lead": 6,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -2401,7 +2366,6 @@
     "amcha_yisrael": 2.8
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -2463,7 +2427,6 @@
     "haredi_public": 0.7
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -2497,7 +2460,6 @@
     "haredi_public": 1.1
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -2531,7 +2493,6 @@
     "haredi_public": 1.0
    },
    "others": 6,
-   "lead": 5,
    "gov_bloc": 56,
    "source_page": "polls_2026"
   },
@@ -2566,7 +2527,6 @@
     "haredi_public": 0.1
    },
    "others": 0.1,
-   "lead": 9,
    "gov_bloc": 64,
    "source_page": "polls_2026"
   },
@@ -2600,7 +2560,6 @@
     "haredi_public": 0.2
    },
    "others": 1.3,
-   "lead": 4,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -2633,7 +2592,6 @@
     "haredi_public": 0.9
    },
    "others": 0.5,
-   "lead": 3,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -2667,7 +2625,6 @@
     "haredi_public": 1.0
    },
    "others": 0.5,
-   "lead": 4,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -2770,7 +2727,6 @@
     "haredi_public": 0.4
    },
    "others": 0.6,
-   "lead": 5,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -2804,7 +2760,6 @@
     "haredi_public": 0.24
    },
    "others": 1.0,
-   "lead": 5,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -2839,7 +2794,6 @@
     "haredi_public": 0.3
    },
    "others": 0.2,
-   "lead": 8,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -2873,7 +2827,6 @@
     "haredi_public": 1.2
    },
    "others": 0.4,
-   "lead": 4,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -2972,7 +2925,6 @@
    "publisher": "Kan 11",
    "sample": 551,
    "others": null,
-   "lead": 3,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -3032,7 +2984,6 @@
     "unity": 1.1
    },
    "others": 1.9,
-   "lead": 3,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -3095,7 +3046,6 @@
     "amcha_yisrael": 2.7
    },
    "others": 0.3,
-   "lead": 9,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -3129,7 +3079,6 @@
     "unity": 0.7
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -3163,7 +3112,6 @@
     "amcha_yisrael": 2.4
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -3305,7 +3253,6 @@
     "unity": 1.0
    },
    "others": 3,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -3339,7 +3286,6 @@
     "unity": 0.6
    },
    "others": 0.8,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -3373,7 +3319,6 @@
     "unity": 1.0
    },
    "others": 8,
-   "lead": 4,
    "gov_bloc": 55,
    "source_page": "polls_2026"
   },
@@ -3408,7 +3353,6 @@
     "amcha_yisrael": 2.3
    },
    "others": 3.1,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -3800,7 +3744,6 @@
     "unity": 0.5
    },
    "others": 2.2,
-   "lead": 1,
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -4065,7 +4008,6 @@
     "unity": 0.6
    },
    "others": 2.3,
-   "lead": 7,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -4100,7 +4042,6 @@
     "unity": 0.7
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -4132,7 +4073,6 @@
     "amcha_yisrael": 3.0
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -4322,7 +4262,6 @@
     "unity": 0.3
    },
    "others": 0.3,
-   "lead": 8,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -4358,7 +4297,6 @@
     "unity": 0.8
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 45,
    "source_page": "polls_2026"
   },
@@ -4394,7 +4332,6 @@
     "unity": 0.6
    },
    "others": 1.9,
-   "lead": 5,
    "gov_bloc": 43,
    "source_page": "polls_2026"
   },
@@ -4472,7 +4409,6 @@
     "unity": 2.0
    },
    "others": 0,
-   "lead": "Tie",
    "gov_bloc": 46,
    "source_page": "polls_2026"
   },
@@ -4509,7 +4445,6 @@
     "amcha_yisrael": 2.2
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -4545,7 +4480,6 @@
     "unity": 1.0
    },
    "others": 1.1,
-   "lead": 3,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -4581,7 +4515,6 @@
     "unity": 0.3
    },
    "others": 1.5,
-   "lead": 4,
    "gov_bloc": 43,
    "source_page": "polls_2026"
   },
@@ -4737,7 +4670,6 @@
     "unity": 0.8
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -4772,7 +4704,6 @@
     "unity": 0.8
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 45,
    "source_page": "polls_2026"
   },
@@ -4807,7 +4738,6 @@
     "amcha_yisrael": 2.1
    },
    "others": 1.7,
-   "lead": 8,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -4993,7 +4923,6 @@
     "amcha_yisrael": 2.5
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -5219,7 +5148,6 @@
     "unity": 1.7
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -5253,7 +5181,6 @@
     "unity": 1.2
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 47,
    "source_page": "polls_2026"
   },
@@ -5287,7 +5214,6 @@
     "unity": 0.8
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -5324,7 +5250,6 @@
     "amcha_yisrael": 1.5
    },
    "others": 1.7,
-   "lead": 6,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -5388,7 +5313,6 @@
     "unity": 1.2
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -5418,7 +5342,6 @@
    "publisher": "Channel 16",
    "sample": 551,
    "others": null,
-   "lead": 3,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -5454,7 +5377,6 @@
     "unity": 1.6
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -5533,7 +5455,6 @@
     "amcha_yisrael": 0.9
    },
    "others": 1.2,
-   "lead": 8,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -5569,7 +5490,6 @@
     "unity": 1.0
    },
    "others": 3.3,
-   "lead": 7,
    "gov_bloc": 58,
    "source_page": "polls_2026"
   },
@@ -5618,7 +5538,6 @@
     "unity": 1.7
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -5656,7 +5575,6 @@
     "amcha_yisrael": 2.5
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -5780,7 +5698,6 @@
     "unity": 1.3
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -5842,7 +5759,6 @@
     "unity": 1.1
    },
    "others": 3.4,
-   "lead": 7,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -5877,7 +5793,6 @@
     "unity": 1.9
    },
    "others": 3.1,
-   "lead": 2,
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -5911,7 +5826,6 @@
     "unity": 1.0
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -6071,7 +5985,6 @@
     "unity": 1.0
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -6230,7 +6143,6 @@
     "unity": 2.7
    },
    "others": 1.5,
-   "lead": "Tie",
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -6266,7 +6178,6 @@
     "unity": 1.3
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -6530,7 +6441,6 @@
     "amcha_yisrael": 0.6
    },
    "others": 1.3,
-   "lead": 10,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -6566,7 +6476,6 @@
     "unity": 1.9
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -6603,7 +6512,6 @@
     "amcha_yisrael": 3.0
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -6723,7 +6631,6 @@
     "unity": 1.6
    },
    "others": 1.5,
-   "lead": 5,
    "gov_bloc": 58,
    "source_page": "polls_2026"
   },
@@ -6755,7 +6662,6 @@
     "balad": 1.6
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -6787,7 +6693,6 @@
     "balad": 1.4
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -6814,7 +6719,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -7017,7 +6921,6 @@
     "zionist_home": 3.0
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -7232,7 +7135,6 @@
     "zionist_home": 1.9
    },
    "others": 3.2,
-   "lead": 9,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -7260,7 +7162,6 @@
    "publisher": "Channel 16",
    "sample": null,
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -7341,7 +7242,6 @@
     "balad": 1.0
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -7507,7 +7407,6 @@
     "balad": 2.2
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -7766,7 +7665,6 @@
     "balad": 1.8
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -7793,7 +7691,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -7989,7 +7886,6 @@
     "balad": 1.8
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -8022,7 +7918,6 @@
     "zionist_home": 2.1
    },
    "others": 1.3,
-   "lead": 10,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -8095,7 +7990,6 @@
     "balad": 1.2
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -8122,7 +8016,6 @@
    "publisher": "HaHadashot 12",
    "sample": 509,
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -8149,7 +8042,6 @@
    "publisher": "i24 News",
    "sample": 525,
    "others": null,
-   "lead": 8,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -8281,7 +8173,6 @@
     "balad": 2.1
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -8314,7 +8205,6 @@
     "zionist_home": 2.1
    },
    "others": 1.9,
-   "lead": 9,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -8389,7 +8279,6 @@
     "zionist_home": 3.0
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -8422,7 +8311,6 @@
     "zionist_home": 2.9
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -8453,7 +8341,6 @@
     "zionist_home": 2.6
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -8601,7 +8488,6 @@
     "balad": 1.9
    },
    "others": 0.5,
-   "lead": "Tie",
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -8634,7 +8520,6 @@
     "zionist_home": 2.7
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -8814,7 +8699,6 @@
     "balad": 1.9
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -8872,7 +8756,6 @@
     "balad": 2.0
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 48,
    "source_page": "polls_2026"
   },
@@ -8947,7 +8830,6 @@
     "zionist_home": 2.5
    },
    "others": 1.5,
-   "lead": 11,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -8978,7 +8860,6 @@
     "zionist_home": 2.1
    },
    "others": 2.8,
-   "lead": 6,
    "gov_bloc": 58,
    "source_page": "polls_2026"
   },
@@ -9008,7 +8889,6 @@
     "zionist_home": 2.4
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -9069,7 +8949,6 @@
     "balad": 2.0
    },
    "others": 0.8,
-   "lead": 1,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -9102,7 +8981,6 @@
     "zionist_home": 2.9
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -9293,7 +9171,6 @@
     "zionist_home": 3.1
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -9447,7 +9324,6 @@
     "balad": 2.2
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -9478,7 +9354,6 @@
     "zionist_home": 1.6
    },
    "others": 1.8,
-   "lead": 12,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -9505,7 +9380,6 @@
    "publisher": "i24 News",
    "sample": 527,
    "others": null,
-   "lead": 8,
    "gov_bloc": 59,
    "source_page": "polls_2026"
   },
@@ -9538,7 +9412,6 @@
     "zionist_home": 2.9
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -9715,7 +9588,6 @@
     "zionist_home": 2.2
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -9770,7 +9642,6 @@
     "reservists": 1.0
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -9928,7 +9799,6 @@
     "reservists": 2.3
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -9984,7 +9854,6 @@
     "blue_white": 1.9
    },
    "others": null,
-   "lead": 13,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -10017,7 +9886,6 @@
     "reservists": 1.4
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -10045,7 +9913,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 1,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -10178,7 +10045,6 @@
     "reservists": 1.4
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -10328,7 +10194,6 @@
    "publisher": "i24 News",
    "sample": null,
    "others": null,
-   "lead": 10,
    "gov_bloc": 58,
    "source_page": "polls_2026"
   },
@@ -10383,7 +10248,6 @@
     "reservists": 2.2
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -10416,7 +10280,6 @@
     "reservists": 2.7
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -10449,7 +10312,6 @@
     "reservists": 1.6
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -10479,7 +10341,6 @@
     "blue_white": 1.8
    },
    "others": null,
-   "lead": 13,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -10510,7 +10371,6 @@
     "reservists": 1.7
    },
    "others": 3.8,
-   "lead": 7,
    "gov_bloc": 57,
    "source_page": "polls_2026"
   },
@@ -10543,7 +10403,6 @@
     "reservists": 1.2
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -10571,7 +10430,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -10864,7 +10722,6 @@
     "reservists": 1.3
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -10897,7 +10754,6 @@
     "reservists": 2.4
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -10930,7 +10786,6 @@
     "reservists": 1.9
    },
    "others": 0.2,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -10960,7 +10815,6 @@
     "blue_white": 1.8
    },
    "others": null,
-   "lead": 13,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -10993,7 +10847,6 @@
     "reservists": 1.2
    },
    "others": 2.1,
-   "lead": "Tie",
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -11021,7 +10874,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -11145,7 +10997,6 @@
     "reservists": 3.0
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -11178,7 +11029,6 @@
     "reservists": 2.6
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -11205,7 +11055,6 @@
    "publisher": "i24 News",
    "sample": null,
    "others": null,
-   "lead": 10,
    "gov_bloc": 58,
    "source_page": "polls_2026"
   },
@@ -11238,7 +11087,6 @@
     "reservists": 1.6
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -11271,7 +11119,6 @@
     "reservists": 2.5
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -11304,7 +11151,6 @@
     "reservists": 2.3
    },
    "others": 4.6,
-   "lead": 4,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -11334,7 +11180,6 @@
     "blue_white": 0.8
    },
    "others": null,
-   "lead": 17,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -11362,7 +11207,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 3,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -11395,7 +11239,6 @@
     "reservists": 1.7
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -11641,7 +11484,6 @@
     "balad": 2.0
    },
    "others": null,
-   "lead": 16,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -11674,7 +11516,6 @@
     "reservists": 2.1
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -11707,7 +11548,6 @@
     "reservists": 1.3
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -11735,7 +11575,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -11769,7 +11608,6 @@
     "reservists": 1.7
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -11927,7 +11765,6 @@
     "reservists": 0.8
    },
    "others": null,
-   "lead": 14,
    "gov_bloc": 60,
    "source_page": "polls_2026"
   },
@@ -12028,7 +11865,6 @@
     "reservists": 0.7
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -12056,7 +11892,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 2,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -12082,7 +11917,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -12114,7 +11948,6 @@
     "balad": 2.1
    },
    "others": null,
-   "lead": 18,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -12191,7 +12024,6 @@
     "reservists": 2.5
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -12286,7 +12118,6 @@
    "publisher": "Channel 13",
    "sample": null,
    "others": null,
-   "lead": 2,
    "gov_bloc": 56,
    "source_page": "polls_2026"
   },
@@ -12312,7 +12143,6 @@
    "publisher": "Channel 13",
    "sample": null,
    "others": null,
-   "lead": 2,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -12406,7 +12236,6 @@
    "publisher": "Maariv",
    "sample": null,
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -12439,7 +12268,6 @@
     "reservists": 2.4
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -12467,7 +12295,6 @@
    "publisher": "Kan 11",
    "sample": 551,
    "others": null,
-   "lead": 4,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -12493,7 +12320,6 @@
    "publisher": "Kan 11",
    "sample": 551,
    "others": null,
-   "lead": 5,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -12521,7 +12347,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -12554,7 +12379,6 @@
     "reservists": 1.4
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -12749,7 +12573,6 @@
     "reservists": 1.0
    },
    "others": null,
-   "lead": 13,
    "gov_bloc": 60,
    "source_page": "polls_2026"
   },
@@ -12783,7 +12606,6 @@
     "reservists": 1.0
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -12811,7 +12633,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -12843,7 +12664,6 @@
     "balad": 2.1
    },
    "others": null,
-   "lead": 17,
    "gov_bloc": 63,
    "source_page": "polls_2026"
   },
@@ -13065,7 +12885,6 @@
    "publisher": "Channel 13",
    "sample": null,
    "others": null,
-   "lead": 1,
    "gov_bloc": 56,
    "source_page": "polls_2026"
   },
@@ -13099,7 +12918,6 @@
     "reservists": 3.0
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -13133,7 +12951,6 @@
     "reservists": 2.6
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -13503,7 +13320,6 @@
    "publisher": "Kan 11",
    "sample": 557,
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -13537,7 +13353,6 @@
     "reservists": 1.0
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -13569,7 +13384,6 @@
     "balad": 2.1
    },
    "others": null,
-   "lead": 18,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -13597,7 +13411,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -13631,7 +13444,6 @@
     "reservists": 2.6
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -13911,7 +13723,6 @@
     "reservists": 2.6
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -13939,7 +13750,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -13973,7 +13783,6 @@
     "reservists": 2.8
    },
    "others": 1.2,
-   "lead": 2,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -14373,7 +14182,6 @@
     "reservists": 2.5
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 57,
    "source_page": "polls_2026"
   },
@@ -14407,7 +14215,6 @@
     "reservists": 2.3
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -14441,7 +14248,6 @@
     "reservists": 1.9
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -14469,7 +14275,6 @@
    "publisher": "Walla",
    "sample": 500,
    "others": null,
-   "lead": 1,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -14497,7 +14302,6 @@
    "publisher": "i24 News",
    "sample": 578,
    "others": null,
-   "lead": 9,
    "gov_bloc": 62,
    "source_page": "polls_2026"
   },
@@ -14692,7 +14496,6 @@
     "blue_white": 0.7
    },
    "others": null,
-   "lead": 14,
    "gov_bloc": 64,
    "source_page": "polls_2026"
   },
@@ -14756,7 +14559,6 @@
     "reservists": 2.0
    },
    "others": null,
-   "lead": "Tie",
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -14791,7 +14593,6 @@
     "reservists": 1.3
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -14818,7 +14619,6 @@
    "publisher": "HaHadashot 12",
    "sample": null,
    "others": null,
-   "lead": 3,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -14848,7 +14648,6 @@
     "blue_white": 1.2
    },
    "others": null,
-   "lead": 23,
    "gov_bloc": 66,
    "source_page": "polls_2026"
   },
@@ -14942,7 +14741,6 @@
     "reservists": 2.3
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -15002,7 +14800,6 @@
     "rzp": 2.5
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -15031,7 +14828,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 12,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -15066,7 +14862,6 @@
     "reservists": 2.8
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -15097,7 +14892,6 @@
     "blue_white": 1.2
    },
    "others": null,
-   "lead": 22,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -15132,7 +14926,6 @@
     "reservists": 1.6
    },
    "others": null,
-   "lead": 1,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -15162,7 +14955,6 @@
     "blue_white": 1.8
    },
    "others": null,
-   "lead": 23,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -15197,7 +14989,6 @@
     "reservists": 2.7
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -15226,7 +15017,6 @@
    "publisher": "Channel 13",
    "sample": null,
    "others": null,
-   "lead": 1,
    "gov_bloc": 54,
    "source_page": "polls_2026"
   },
@@ -15261,7 +15051,6 @@
     "reservists": 0.9
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -15390,7 +15179,6 @@
     "reservists": 1.4
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -15419,7 +15207,6 @@
    "publisher": "Kan 11",
    "sample": 553,
    "others": null,
-   "lead": 9,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -15448,7 +15235,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 12,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -15478,7 +15264,6 @@
     "blue_white": 1.2
    },
    "others": null,
-   "lead": 23,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -15513,7 +15298,6 @@
     "reservists": 1.6
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -15542,7 +15326,6 @@
    "publisher": "Maariv",
    "sample": null,
    "others": null,
-   "lead": 7,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -15571,7 +15354,6 @@
    "publisher": "HaHadashot 12",
    "sample": 503,
    "others": null,
-   "lead": 8,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -15600,7 +15382,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 12,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -15663,7 +15444,6 @@
     "reservists": 2.8
    },
    "others": 2.4,
-   "lead": 5,
    "gov_bloc": 57,
    "source_page": "polls_2026"
   },
@@ -15692,7 +15472,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 12,
    "gov_bloc": 54,
    "source_page": "polls_2026"
   },
@@ -15721,7 +15500,6 @@
    "publisher": "HaHadashot 12",
    "sample": null,
    "others": null,
-   "lead": 5,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -15751,7 +15529,6 @@
     "blue_white": 1.3
    },
    "others": null,
-   "lead": 21,
    "gov_bloc": 66,
    "source_page": "polls_2026"
   },
@@ -15786,7 +15563,6 @@
     "reservists": 2.8
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -15815,7 +15591,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 16,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -15872,7 +15647,6 @@
     "reservists": 1.9
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -15899,7 +15673,6 @@
    "publisher": "Channel 14",
    "sample": 579,
    "others": null,
-   "lead": 20,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -15931,7 +15704,6 @@
     "reservists": 1.9
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -15966,7 +15738,6 @@
     "reservists": 1.9
    },
    "others": null,
-   "lead": 7,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -15995,7 +15766,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 9,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -16217,7 +15987,6 @@
    "publisher": "Channel 14",
    "sample": 1024,
    "others": null,
-   "lead": 21,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -16252,7 +16021,6 @@
     "reservists": 1.3
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -16281,7 +16049,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 9,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -16362,7 +16129,6 @@
     "reservists": 2.4
    },
    "others": null,
-   "lead": 20,
    "gov_bloc": 64,
    "source_page": "polls_2026"
   },
@@ -16459,7 +16225,6 @@
     "reservists": 1.3
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -16545,7 +16310,6 @@
     "reservists": 2.0
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -16580,7 +16344,6 @@
     "reservists": 2.3
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -16607,7 +16370,6 @@
    "publisher": "Channel 14",
    "sample": 532,
    "others": null,
-   "lead": 22,
    "gov_bloc": 66,
    "source_page": "polls_2026"
   },
@@ -16634,7 +16396,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 8,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -16663,7 +16424,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 8,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -16698,7 +16458,6 @@
     "reservists": 2.3
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -16894,7 +16653,6 @@
     "reservists": 1.9
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -16929,7 +16687,6 @@
     "reservists": 1.9
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -17005,7 +16762,6 @@
    "publisher": "–",
    "sample": null,
    "others": null,
-   "lead": 13,
    "gov_bloc": 55,
    "source_page": "polls_2026"
   },
@@ -17032,7 +16788,6 @@
    "publisher": "Channel 14",
    "sample": 952,
    "others": null,
-   "lead": 21,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -17059,7 +16814,6 @@
    "publisher": "The Times of Israel",
    "sample": 500,
    "others": null,
-   "lead": 9,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -17086,7 +16840,6 @@
    "publisher": "Channel 13",
    "sample": null,
    "others": null,
-   "lead": 4,
    "gov_bloc": 54,
    "source_page": "polls_2026"
   },
@@ -17164,7 +16917,6 @@
     "reservists": 1.0
    },
    "others": null,
-   "lead": 6,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -17194,7 +16946,6 @@
     "blue_white": 3.0
    },
    "others": null,
-   "lead": 21,
    "gov_bloc": 64,
    "source_page": "polls_2026"
   },
@@ -17226,7 +16977,6 @@
     "reservists": 1.8
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 50,
    "source_page": "polls_2026"
   },
@@ -17253,7 +17003,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 8,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -17282,7 +17031,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 9,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -17506,7 +17254,6 @@
     "reservists": 2.7
    },
    "others": null,
-   "lead": 3,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -17538,7 +17285,6 @@
     "balad": 2.4
    },
    "others": null,
-   "lead": 24,
    "gov_bloc": 65,
    "source_page": "polls_2026"
   },
@@ -17573,7 +17319,6 @@
     "reservists": 2.8
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 49,
    "source_page": "polls_2026"
   },
@@ -17602,7 +17347,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 7,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -17688,7 +17432,6 @@
     "reservists": 2.0
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -17723,7 +17466,6 @@
     "reservists": 1.4
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -17755,7 +17497,6 @@
     "blue_white": 1.8
    },
    "others": null,
-   "lead": 13,
    "gov_bloc": 56,
    "source_page": "polls_2026"
   },
@@ -17788,7 +17529,6 @@
     "balad": 2.1
    },
    "others": null,
-   "lead": 24,
    "gov_bloc": 66,
    "source_page": "polls_2026"
   },
@@ -17823,7 +17563,6 @@
     "reservists": 2.6
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -17852,7 +17591,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 8,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -17887,7 +17625,6 @@
     "reservists": 2.7
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -17921,7 +17658,6 @@
     "reservists": 2.5
    },
    "others": null,
-   "lead": 4,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -17954,7 +17690,6 @@
     "balad": 2.1
    },
    "others": null,
-   "lead": 22,
    "gov_bloc": 66,
    "source_page": "polls_2026"
   },
@@ -17989,7 +17724,6 @@
     "reservists": 2.7
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -18018,7 +17752,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 7,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -18053,7 +17786,6 @@
     "reservists": 1.6
    },
    "others": null,
-   "lead": 2,
    "gov_bloc": 53,
    "source_page": "polls_2026"
   },
@@ -18153,7 +17885,6 @@
     "reservists": 2.7
    },
    "others": null,
-   "lead": 5,
    "gov_bloc": 51,
    "source_page": "polls_2026"
   },
@@ -18186,7 +17917,6 @@
     "balad": 2.1
    },
    "others": null,
-   "lead": 24,
    "gov_bloc": 66,
    "source_page": "polls_2026"
   },
@@ -18221,7 +17951,6 @@
     "reservists": 3.0
    },
    "others": null,
-   "lead": 8,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
@@ -18250,7 +17979,6 @@
    "publisher": "Zman Yisrael",
    "sample": 500,
    "others": null,
-   "lead": 6,
    "gov_bloc": 52,
    "source_page": "polls_2026"
   },
