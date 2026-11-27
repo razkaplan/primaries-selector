@@ -26,7 +26,7 @@ def fail(msg):
     raise SystemExit(f"results.json: {msg}")
 
 
-def main(path):
+def main(path, outs=OUTS):
     feed = json.load(open(path, encoding="utf-8"))
     lists = []
     for l in feed["lists"]:
@@ -57,7 +57,14 @@ def main(path):
              "url": "https://votes26.bechirot.gov.il/"},
         ],
     }
-    for o in OUTS:
+    # The feed never reported a final count. Once the committee's official
+    # final results are on file (scripts/build_results_cec.py), a partial
+    # feed must not replace them.
+    if out["status"] != "final" and os.path.exists(outs[0]):
+        if json.load(open(outs[0], encoding="utf-8")).get("status") == "final":
+            print("results.json: final official results on file; ignoring the partial feed")
+            return
+    for o in outs:
         json.dump(out, open(o, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"results.json: {c['boxesPct']}% of boxes, {sum(1 for l in lists if l['seats'])} lists in, updated {feed['updatedAt']}")
 
