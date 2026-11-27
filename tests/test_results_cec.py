@@ -131,5 +131,15 @@ class FeedCannotDowngradeAFinalCount(unittest.TestCase):
         self.assertEqual(self.run_feed(None)["status"], "partial")
 
 
+class PublishedResultsAreFinal(unittest.TestCase):
+    def test_the_published_file_is_the_official_final_count(self):
+        r = json.load(open(os.path.join(ROOT, "data", "elections", "results.json"), encoding="utf-8"))
+        self.assertEqual(r["status"], "final")
+        self.assertEqual(r["valid_votes"], 5691426)
+        self.assertEqual({l["key"]: l["seats"] for l in r["lists"] if l["seats"]},
+                         {"likud": 27, "yashar": 21, "together": 12, "joint_list": 11, "democrats": 8, "raam": 8,
+                          "yisrael_beiteinu": 7, "otzma_yehudit": 7, "utj": 7, "shas": 6, "rzp": 6})
+
+
 if __name__ == "__main__":
     unittest.main()
