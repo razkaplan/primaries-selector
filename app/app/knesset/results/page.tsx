@@ -7,13 +7,6 @@ import { OUTGOING_COALITION, partyColor, partyName, polls, seatPolls } from "@/l
 import { publisherHe } from "@/lib/electionsHe";
 import resultsData from "@/data/elections/results.json";
 
-export const metadata: Metadata = {
-  title: "תוצאות הבחירות",
-  alternates: { canonical: "/knesset/results" },
-  description:
-    "תוצאות הבחירות לכנסת ה-26 לפי ספירת ועדת הבחירות המרכזית, מתעדכנות עד התוצאות הסופיות: מנדטים, קולות, גושים, ומי צדק יותר: הסקרים או המדגמים.",
-};
-
 interface ResultList {
   key: string | null;
   letter: string;
@@ -27,10 +20,28 @@ const results = resultsData as unknown as {
   status: "partial" | "final";
   updated_at: string;
   counting: { boxesCounted: number; boxesTotal: number; boxesPct: number; eligiblePct: number };
+  /** Only on a final count: the committee's turnout figures. */
+  turnout?: { eligible: number; voters: number; pct: number; invalid_votes: number };
   valid_votes: number;
   threshold: { pct: number; votes: number };
   lists: ResultList[];
   sources: { source_name: string; as_of: string; url: string }[];
+};
+
+/** The search-result description, built from the data so it states the seat
+ * counts themselves: "כמה מנדטים יש לליכוד" is answered before the click. */
+function resultsDescription(r: typeof results): string {
+  const seated = r.lists.filter((l) => l.seats > 0).map((l) => `${l.name_he} ${l.seats}`).join(", ");
+  // Short lead on purpose: the title already names the election, and a search
+  // result shows about 155 characters. The whole seat list should fit.
+  const lead = r.status === "final" ? "התוצאות הסופיות" : `תוצאות חלקיות (${r.counting.boxesPct}% מהקלפיות)`;
+  return `${lead}: ${seated}. קולות לכל רשימה, גושים, ומי דייק יותר: הסקרים או המדגמים.`;
+}
+
+export const metadata: Metadata = {
+  title: "תוצאות הבחירות לכנסת ה-26: מנדטים וקולות לכל מפלגה",
+  alternates: { canonical: "/knesset/results" },
+  description: resultsDescription(results),
 };
 
 /** The three main broadcasters' exit polls (published at 22:00, some revised overnight). */
@@ -118,7 +129,12 @@ export default function ResultsPage() {
             {partial ? "תוצאות חלקיות" : "תוצאות סופיות"}
           </span>
           <span className="text-xs font-bold text-ink-soft">
-            {n1(results.counting.boxesPct)}% מהקלפיות · {n1(results.counting.eligiblePct)}% מבעלי זכות הבחירה · עודכן {fmtTime(results.updated_at)}
+            {partial || !results.turnout ? (
+              <>{n1(results.counting.boxesPct)}% מהקלפיות · {n1(results.counting.eligiblePct)}% מבעלי זכות הבחירה</>
+            ) : (
+              <>אחוז הצבעה {results.turnout.pct}% · {n0(results.turnout.voters)} מצביעים</>
+            )}{" "}
+            · עודכן {fmtTime(results.updated_at)}
           </span>
         </div>
         <h1 className="font-display mt-3 text-4xl">תוצאות הבחירות לכנסת ה-26 🗳️</h1>
